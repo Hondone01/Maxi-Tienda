@@ -141,7 +141,7 @@
         width: 300px;
         display: grid;
         justify-content: center;
-        grid-template-columns: 150px 150px;
+        grid-template-columns: repeat(2, 0.5fr);
         grid-template-rows: repeat(3, auto);
         grid-template-areas:
             " item-1 item-1"
@@ -160,8 +160,8 @@
     }
 
     .grid-container2 .div-2 img {
-        width: 130px;
-        height: 80px;
+        max-width: 100%;
+        height: 100px;
         display: block;
         border-radius: 5px;
     }
@@ -181,8 +181,8 @@
     }
 
     .grid-container2 .div-3 img {
-        width: 130px;
-        height: 80px;
+        max-width: 100%;
+        height: 100px;
         display: block;
         border-radius: 5px;
     }
@@ -202,8 +202,8 @@
     }
 
     .grid-container2 .div-4 img {
-        width: 130px;
-        height: 80px;
+        max-width: 100%;
+        height: 100px;
         display: block;
         border-radius: 5px;
     }
@@ -223,8 +223,8 @@
     }
 
     .grid-container2 .div-5 img {
-        width: 130px;
-        height: 80px;
+        max-width: 100%;
+        height: 100px;
         display: block;
         border-radius: 5px;
     }
@@ -258,7 +258,6 @@
         text-align: center;
         font-size: 2rem;
         line-height: 1.2;
-        margin: 0;
         max-width: 100%;
         overflow-wrap: break-word;
         color: black;
