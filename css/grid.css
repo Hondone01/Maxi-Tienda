@@ -1,5 +1,3 @@
-
-
 @media (min-width:320px) and (max-width:374px) {
 
     * {
@@ -262,7 +260,7 @@
         overflow-wrap: break-word;
         color: black;
     }
-    
+
     .caja-productos {
         width: 300px;
         display: grid;
@@ -582,7 +580,7 @@
         border-radius: 5px;
         display: flex;
         justify-content: center;
-        
+
     }
 
     .grid-container6 .div-1 h2 {
@@ -593,14 +591,14 @@
         overflow-wrap: break-word;
         color: black;
     }
-    
-    .caja-calificacion{
+
+    .caja-calificacion {
         display: flex;
         justify-content: center;
         justify-content: space-around;
     }
-    
-    .caja-calificacion .cali-1{
+
+    .caja-calificacion .cali-1 {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -632,7 +630,7 @@
         max-width: 100%;
         overflow-wrap: break-word;
     }
-    
+
     .grid-container6 .div-4 {
         width: 140px;
         grid-area: item-4;
@@ -659,13 +657,13 @@
         max-width: 100%;
         overflow-wrap: break-word;
     }
-    
-    .caja-calificacion .cali-2{
+
+    .caja-calificacion .cali-2 {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    
+
     .grid-container6 .div-3 {
         width: 140px;
         grid-area: item-3;
@@ -1021,7 +1019,7 @@
             " item-5 item-5 item-6 item-6 "
         ;
         column-gap: 1px;
-        
+
     }
 
     .grid-container3 .div-2 {
@@ -1360,7 +1358,7 @@
         overflow-wrap: break-word;
     }
 
-    .caja-calificacion{
+    .caja-calificacion {
         width: 355px;
         display: grid;
         justify-content: center;
@@ -1752,7 +1750,7 @@
             " item-5 item-5 item-6 item-6 "
         ;
         column-gap: 1px;
-        
+
     }
 
     .grid-container3 .div-2 {
@@ -2091,7 +2089,7 @@
         overflow-wrap: break-word;
     }
 
-    .caja-calificacion{
+    .caja-calificacion {
         width: 355px;
         display: grid;
         justify-content: center;
@@ -2279,8 +2277,8 @@
     *******************************************************************************************************************/
 
     /* Estilo de los links del footer */
-    
-    
+
+
 
     .footer1 {
         list-style: none;
@@ -2304,7 +2302,7 @@
     .footer1 div {
         margin-inline: 50px;
     }
-    
+
 
     .color-footer {
 
@@ -2316,16 +2314,16 @@
     .div-footer1 label {
         justify-content: center;
     }
-    
-    ul .caja-1{
+
+    ul .caja-1 {
         margin-left: 150px;
     }
-    
-    ul .caja-2{
+
+    ul .caja-2 {
         margin-left: 200px;
     }
-    
-    ul .caja-3{
+
+    ul .caja-3 {
         margin-left: 50px;
     }
 
@@ -2344,8 +2342,8 @@
         align-items: center;
 
     }
-    
-    .imagen-footer img{
+
+    .imagen-footer img {
         margin-right: 10px;
     }
 
@@ -2478,8 +2476,8 @@
         overflow-wrap: break-word;
         color: black;
     }
-    
-     .caja-galeria{
+
+    .caja-galeria {
         display: flex;
         justify-content: center;
         justify-content: space-around;
@@ -2574,7 +2572,7 @@
         display: grid;
         display: flex;
         flex-direction: column;
-        
+
         grid-template-columns: repeat(5, 1.2fr);
         grid-template-rows: repeat(2, auto);
         grid-template-areas:
@@ -2601,8 +2599,8 @@
         overflow-wrap: break-word;
         color: black;
     }
-    
-    .caja-productos{
+
+    .caja-productos {
         display: flex;
         justify-content: center;
         justify-content: space-around;
@@ -2729,7 +2727,7 @@
         grid-area: item-1;
         display: flex;
         justify-content: center;
-       
+
     }
 
     .grid-container4 .div-1 h2 {
@@ -2740,8 +2738,8 @@
         overflow-wrap: break-word;
         color: black;
     }
-    
-    .caja-promos{
+
+    .caja-promos {
         margin-top: 40px;
         display: flex;
         justify-content: center;
@@ -2768,7 +2766,7 @@
     }
 
     .grid-container4 .div-3 img {
-        padding-right:60px;
+        padding-right: 60px;
         max-width: 100%;
         height: auto;
         display: block;
@@ -2920,8 +2918,8 @@
         font-size: 1.5rem;
         color: #323232;
     }
-    
-    .caja-calificacion{
+
+    .caja-calificacion {
         display: flex;
         justify-content: center;
         justify-content: space-around;
@@ -2967,7 +2965,7 @@
         font-size: 1.5rem;
         color: #323232;
     }
-    
+
     .grid-container6 .div-5 {
         grid-area: item-5;
         border-radius: 5px;
@@ -3011,7 +3009,7 @@
     .grid-container7 .div-1 {
         margin-top: 20px;
         grid-area: item-1;
-       /* background-color: #9cb850;*/
+        /* background-color: #9cb850;*/
         border-radius: 5px;
         display: flex;
         justify-content: center;
@@ -3030,7 +3028,7 @@
         /* margin-left: 15px;*/
         padding-bottom: 15px;
         grid-area: item-2;
-       /* background-color: #dd9595;*/
+        /* background-color: #dd9595;*/
         border-radius: 5px;
         display: flex;
         justify-content: center;
@@ -3056,7 +3054,7 @@
 
     .grid-container7 .div-3 {
         grid-area: item-3;
-       /* background-color: #e722cd;*/
+        /* background-color: #e722cd;*/
         border-radius: 5px;
         display: flex;
         flex-direction: column;
@@ -3075,7 +3073,7 @@
     .grid-container7 .div-4 {
         margin-right: 20px;
         grid-area: item-4;
-       /* background-color: rgb(4, 248, 77);*/
+        /* background-color: rgb(4, 248, 77);*/
         border-radius: 5px;
         display: flex;
         flex-direction: column;
@@ -3090,8 +3088,8 @@
         color: #323232;
         font-size: 1rem;
     }
-    
-    .grid-container7 .div-4 button{
+
+    .grid-container7 .div-4 button {
         margin-top: 25px;
         padding: 5px;
         color: black;
@@ -3101,8 +3099,8 @@
         border-radius: 25px;
         text-transform: capitalize;
     }
-    
-    .grid-container7 .div-4 button:hover{
+
+    .grid-container7 .div-4 button:hover {
         background-color: aliceblue;
         transition: 1s;
     }
@@ -3115,20 +3113,20 @@
     .grid-container7 .div-5 {
         margin-right: 20px;
         grid-area: item-5;
-       /* background-color: rgb(119, 122, 120);*/
+        /* background-color: rgb(119, 122, 120);*/
         border-radius: 5px;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    
-    .grid-container7 .div-5 img{
+
+    .grid-container7 .div-5 img {
         margin-top: 10px;
         width: 150px;
         height: auto;
     }
-    
-    .grid-container7 .div-5 label{
+
+    .grid-container7 .div-5 label {
         padding-top: 60px;
         display: flex;
         flex-direction: column;
@@ -3137,11 +3135,8 @@
     }
 
     .grid-container7 .div-6 {
-        /*  margin-left: 15px;*/
         padding-bottom: 15px;
         grid-area: item-6;
-      /*  background-color: #f585b4;*/
-        /*#f1ddd6  equivalente en canva*/
         border-radius: 5px;
         display: flex;
         justify-content: center;
@@ -3193,7 +3188,7 @@
     .grid-container8 .div-1 {
         margin-top: 20px;
         grid-area: item-1;
-       /* background-color: #9cb850;*/
+        /* background-color: #9cb850;*/
         border-radius: 5px;
         display: flex;
         justify-content: center;
@@ -3215,8 +3210,8 @@
         margin-right: 5px;
         border: 1px solid black;
         grid-area: item-2;
-       /* background-color: #506cb8;*/
-       /* border-radius: 5px;*/
+        /* background-color: #506cb8;*/
+        /* border-radius: 5px;*/
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -3241,52 +3236,52 @@
     .grid-container8 .div-3 {
         margin-top: 25px;
         grid-area: item-3;
-      /*  background-color: #a750b8;*/
+        /*  background-color: #a750b8;*/
         border-radius: 5px;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
-    
-    .grid-container8 .div-3 img{
+
+    .grid-container8 .div-3 img {
         grid-area: item-3;
         /*  background-color: #a750b8;*/
-          border-radius: 5px;
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          justify-content: center;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     .grid-container8 .div-4 {
         margin-top: 25px;
         grid-area: item-4;
-      /*  background-color: #b85050;*/
+        /*  background-color: #b85050;*/
         border-radius: 5px;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
-    
-    .grid-container8 .div-4 img{
+
+    .grid-container8 .div-4 img {
         grid-area: item-3;
         /*  background-color: #a750b8;*/
-          border-radius: 5px;
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          justify-content: center;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     .grid-container8 .div-5 {
         margin-top: 25px;
         margin-right: 15px;
         grid-area: item-5;
-       /* background-color: #f10505;*/
-       /* border-radius: 5px;*/
-       border:  1px solid black;
+        /* background-color: #f10505;*/
+        /* border-radius: 5px;*/
+        border: 1px solid black;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -3321,7 +3316,7 @@
         border-radius: 25px;
         text-transform: capitalize;
     }
-  
+
     .div-5 button:hover {
         background-color: aliceblue;
         transition: 1s;
@@ -3332,7 +3327,7 @@
         margin-left: 125px;
         margin-bottom: 20px;
         grid-area: item-7;
-     /* background-color: #500dec;*/
+        /* background-color: #500dec;*/
         border-radius: 5px;
         display: flex;
         flex-direction: column;
@@ -3356,9 +3351,6 @@
         display: grid;
         grid-template-columns: repeat(5, 1fr);
         grid-template-rows: repeat(2, auto);
-        /*SEPARAR ELEMENTOS DE LA GRILLA*/
-        /* column-gap: 15px;*/
-        /*row-gap: 25px;*/
         grid-template-areas:
             ". item-1 item-1 item-1 ."
             "item-2 item-3 item-4 item-5 item-6"
@@ -3370,7 +3362,6 @@
     .grid-container9 .div-1 {
         margin-top: 20px;
         grid-area: item-1;
-       /* background-color: #9cb850;*/
         border-radius: 5px;
         display: flex;
         justify-content: center;
@@ -3388,7 +3379,6 @@
 
     .grid-container9 .div-2 {
         grid-area: item-2;
-       /* background-color: #dd9595;*/
         border-radius: 5px;
         display: flex;
         flex-direction: column;
@@ -3411,7 +3401,6 @@
 
     .grid-container9 .div-3 {
         grid-area: item-3;
-     /*   background-color: #e722cd;*/
         border-radius: 5px;
         display: flex;
         flex-direction: column;
@@ -3434,7 +3423,6 @@
 
     .grid-container9 .div-4 {
         grid-area: item-4;
-       /* background-color: rgb(247, 46, 72);*/
         border-radius: 5px;
         display: flex;
         flex-direction: column;
@@ -3457,7 +3445,6 @@
 
     .grid-container9 .div-5 {
         grid-area: item-5;
-      /* background-color: brown;*/
         border-radius: 5px;
         display: flex;
         flex-direction: column;
@@ -3480,7 +3467,6 @@
 
     .grid-container9 .div-6 {
         grid-area: item-6;
-       /* background-color: rgb(102, 69, 190);*/
         border-radius: 5px;
         display: flex;
         flex-direction: column;
@@ -3506,7 +3492,7 @@
 
     .grid-container10 {
         margin: 35px;
-        border: 2px solid chartreuse;
+        border: 1px solid black;
         display: grid;
         grid-template-columns: minmax(0, 0.5fr) minmax(0, 1fr);
         grid-template-rows: repeat(5, auto);
@@ -3524,7 +3510,6 @@
 
     .grid-container10 .div-1 {
         grid-area: item-1;
-        background-color: #9cb850;
         border-radius: 5px;
         display: flex;
         justify-content: center;
@@ -3537,12 +3522,11 @@
         margin: 0;
         max-width: 100%;
         overflow-wrap: break-word;
-        color: #a750b8;
+        color: black !important;
     }
 
     .grid-container10 .div-2 {
         grid-area: item-2;
-        background-color: #50a9b8;
         border-radius: 5px;
         display: flex;
         flex-direction: column;
@@ -3556,7 +3540,7 @@
         margin: 0;
         max-width: 100%;
         overflow-wrap: break-word;
-        color: #e376f7;
+        color: black;
     }
 
     .grid-container10 .div-2 p {
@@ -3566,12 +3550,12 @@
         line-height: 1.2;
         max-width: 100%;
         overflow-wrap: break-word;
-        color: #768ef7;
+        color: black;
     }
 
     .grid-container10 .div-2 label {
         font-size: 1rem;
-        color: #eaf0f1;
+        color: black;
     }
 
 
@@ -3579,11 +3563,11 @@
         margin-top: -48px;
         margin-left: 150px;
         padding: 10px;
-        color: #e722cd;
+        color: black;
         font-size: 1rem;
-        background-color: rgb(3, 3, 3);
-        border: 3.2px solid white;
-        border-radius: 25px;
+        background-color: #DDD0C8;
+        border: 1px solid black;
+        border-radius: 5px;
         text-transform: capitalize;
         display: flex;
         flex-direction: row;
@@ -3632,7 +3616,6 @@
 
     .grid-container10 .div-3 {
         grid-area: item-3;
-        background-color: #b8509e;
         border-radius: 5px;
         display: flex;
         flex-direction: column;
@@ -3642,11 +3625,11 @@
     .grid-container10 .div-3 .botones button {
         margin-right: 5px;
         padding: 10px;
-        color: #e722cd;
+        color: black;
         font-size: 1rem;
-        background-color: rgb(3, 3, 3);
-        border: 3.2px solid white;
-        border-radius: 25px;
+        background-color: #DDD0C8;
+        border: 1px solid black;
+        border-radius: 5px;
         text-transform: capitalize;
         display: flex;
         max-width: 100%;
@@ -3665,11 +3648,11 @@
     .grid-container10 .div-3 .borrarcuenta button {
         margin-left: 450px;
         padding: 10px;
-        color: #e722cd;
+        color: black;
         font-size: 1rem;
-        background-color: rgb(3, 3, 3);
-        border: 3.2px solid white;
-        border-radius: 25px;
+        background-color: #DDD0C8;
+        border: 1px solid black;
+        border-radius: 5px;
         text-transform: capitalize;
         display: flex;
         max-width: 100%;
@@ -3681,7 +3664,6 @@
 
     .grid-container10 .div-4 {
         grid-area: item-4;
-        background-color: #b88b50;
         border-radius: 5px;
         display: flex;
         justify-content: center;
@@ -3689,8 +3671,8 @@
     }
 
     .grid-container10 .div-5 {
+        padding-left: 10px;
         grid-area: item-5;
-        background-color: #f10d0d;
         border-radius: 5px;
         display: flex;
         flex-direction: column;
@@ -3703,13 +3685,13 @@
         line-height: 1.2;
         max-width: 100%;
         overflow-wrap: break-word;
-        color: #e376f7;
+        color: black;
     }
 
     .grid-container10 .div-5 label {
         margin-bottom: 10px;
         font-size: 1rem;
-        color: #eaf0f1;
+        color: black;
     }
 
     /*******************************************FINALIZA CUENTA.HTML GRID-CONTAINER10****************************************/
