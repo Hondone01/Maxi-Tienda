@@ -2239,28 +2239,22 @@
 
     /*********************************************************** FOOTER ************************************************
     *******************************************************************************************************************/
-
     /* Estilo de los links del footer */
-
-
 
     .footer1 {
         list-style: none;
         padding-bottom: 5px;
-        /*  margin-top: 20px;*/
         margin-bottom: -10px;
         display: flex;
         justify-items: center;
         padding-left: 30px;
         background-color: #c3c3c4;
-        /*  border-bottom: 1px solid #323232;*/
         border-top: 1px solid #323232;
         justify-content: space-around;
     }
 
     .footer1 label {
         display: flex;
-        /* padding-bottom: 10px;*/
     }
 
     .footer1 div {
@@ -2579,7 +2573,7 @@
 
     .grid-container3 .div-2 img {
         width: 200px;
-        height: auto;
+        height: 133px;
         display: block;
         border-radius: 5px;
     }
