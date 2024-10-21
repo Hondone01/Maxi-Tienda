@@ -3700,7 +3700,9 @@
 
     .grid-container11 {
         margin: 35px;
-        border: 2px solid chartreuse;
+        padding-left: 20px;
+        padding-bottom: 20px;
+        border: 1px solid black;
         display: grid;
         grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
         grid-template-rows: repeat(3, auto);
@@ -3716,25 +3718,23 @@
 
     .grid-container11 .div-1 {
         grid-area: item-1;
-        background-color: #9cb850;
         border-radius: 5px;
         display: flex;
         justify-content: center;
         max-width: 100%;
     }
 
-    .grid-container10 .div-1 h2 {
+    .grid-container11 .div-1 h2 {
         font-size: 3rem;
         line-height: 1.2;
         margin: 0;
         max-width: 100%;
         overflow-wrap: break-word;
-        color: #a750b8;
+        color: black;
     }
 
     .grid-container11 .div-2 {
         grid-area: item-2;
-        background-color: #5074b8;
         border-radius: 5px;
         display: flex;
         flex-direction: column;
@@ -3748,13 +3748,13 @@
         line-height: 1.2;
         max-width: 100%;
         overflow-wrap: break-word;
-        color: #768ef7;
+        color: black;
     }
 
     .grid-container11 .div-2 label {
         margin-bottom: 10px;
         font-size: 1rem;
-        color: #eaf0f1;
+        color: black;
     }
 
     .grid-container11 .div-2 div {
@@ -3767,7 +3767,6 @@
 
     .grid-container11 .div-2 .area {
         display: flex;
-        /* margin-top: 30px;*/
     }
 
     .grid-container11 .div-2 .area textarea {
@@ -3777,7 +3776,6 @@
 
     .grid-container11 .div-3 {
         grid-area: item-3;
-        background-color: #b8509e;
         border-radius: 5px;
         display: flex;
         justify-content: center;
