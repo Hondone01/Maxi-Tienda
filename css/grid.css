@@ -438,12 +438,11 @@
     }
 
     .grid-container4 .div-2 p {
-        width: 60px;
+        width: 65px;
         text-align: center;
         color: black;
         font-size: 1rem;
         line-height: 1.5;
-        margin: 0;
         max-width: 100%;
         /* overflow-wrap: break-word;*/
     }
@@ -470,12 +469,11 @@
     }
 
     .grid-container4 .div-4 p {
-        width: 60px;
+        width: 50px;
         text-align: center;
         color: black;
         font-size: 1rem;
         line-height: 1.5;
-        margin: 0;
         max-width: 100%;
         /*  overflow-wrap: break-word;*/
     }
