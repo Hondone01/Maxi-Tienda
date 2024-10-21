@@ -2281,7 +2281,7 @@
         color: black;
         font-size: 1rem;
         background-color: #DDD0C8;
-        border: 1.5px solid black;
+        border: 3.2px solid black;
         border-radius: 25px;
         text-transform: capitalize;
     }
@@ -2873,11 +2873,11 @@
     }
 
     .grid-container7 .div-2 {
-        margin-bottom: 10px;
+        /* margin-left: 15px;*/
         padding-bottom: 15px;
         grid-area: item-2;
-     /*   background-color: #dd9595;*/
-        border: 1px solid grey;
+       /* background-color: #dd9595;*/
+        border-radius: 5px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -2902,7 +2902,7 @@
 
     .grid-container7 .div-3 {
         grid-area: item-3;
-      /*  background-color: #e722cd;*/
+       /* background-color: #e722cd;*/
         border-radius: 5px;
         display: flex;
         flex-direction: column;
@@ -2919,12 +2919,10 @@
     }
 
     .grid-container7 .div-4 {
-        margin-left: 10px;
         margin-right: 20px;
-        padding-bottom: 10px;
         grid-area: item-4;
-      /* background-color: rgb(4, 248, 77);*/
-        border: 1px solid gray;
+       /* background-color: rgb(4, 248, 77);*/
+        border-radius: 5px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -2940,7 +2938,7 @@
     }
     
     .grid-container7 .div-4 button{
-        margin-top: 5px;
+        margin-top: 25px;
         padding: 5px;
         color: black;
         font-size: 1rem;
@@ -2963,7 +2961,7 @@
     .grid-container7 .div-5 {
         margin-right: 20px;
         grid-area: item-5;
-      /*  background-color: rgb(119, 122, 120);*/
+       /* background-color: rgb(119, 122, 120);*/
         border-radius: 5px;
         display: flex;
         flex-direction: column;
@@ -2988,9 +2986,9 @@
         /*  margin-left: 15px;*/
         padding-bottom: 15px;
         grid-area: item-6;
-      /* background-color: #f585b4;*/
+      /*  background-color: #f585b4;*/
         /*#f1ddd6  equivalente en canva*/
-        border: 1px solid grey;
+        border-radius: 5px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -3061,7 +3059,7 @@
         margin-top: 25px;
         margin-left: 15px;
         margin-right: 5px;
-        border: 1px solid gray;
+        border: 1px solid black;
         grid-area: item-2;
        /* background-color: #506cb8;*/
        /* border-radius: 5px;*/
@@ -3134,7 +3132,7 @@
         grid-area: item-5;
        /* background-color: #f10505;*/
        /* border-radius: 5px;*/
-       border:  1px solid gray;
+       border:  1px solid black;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -3354,7 +3352,7 @@
 
     .grid-container10 {
         margin: 35px;
-        border: 1px solid black;
+        border: 2px solid chartreuse;
         display: grid;
         grid-template-columns: minmax(0, 0.5fr) minmax(0, 1fr);
         grid-template-rows: repeat(5, auto);
@@ -3372,7 +3370,7 @@
 
     .grid-container10 .div-1 {
         grid-area: item-1;
-       /* background-color: #9cb850;*/
+        background-color: #9cb850;
         border-radius: 5px;
         display: flex;
         justify-content: center;
@@ -3380,83 +3378,70 @@
     }
 
     .grid-container10 .div-1 h2 {
-        display: flex;
-        justify-content: center;
         font-size: 3rem;
         line-height: 1.2;
+        margin: 0;
         max-width: 100%;
         overflow-wrap: break-word;
-        color: black !important;
+        color: #a750b8;
     }
 
     .grid-container10 .div-2 {
-        margin-right: 10px;
         grid-area: item-2;
-        border: 1px solid gray  ;
-        background-color: rgb(241, 221, 214);
+        background-color: #50a9b8;
+        border-radius: 5px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         max-width: 100%;
     }
 
-    #idioma{
-        margin-left: 3px;
-    }
-
-    .grid-container10 .div-2 img{
-        margin-left: 10px;
-        border-radius: 5px;
-    }
-
-    .grid-container10 .div-2 h2 {
-        display: flex;
-        justify-content: center;
-        font-size: 2rem;
+    .grid-container10 .div-2 h3 {
+        font-size: 1.5rem;
         line-height: 1.2;
+        margin: 0;
         max-width: 100%;
         overflow-wrap: break-word;
-        color: black;
+        color: #e376f7;
     }
 
     .grid-container10 .div-2 p {
-        margin-left: 10px;
         margin-top: 15px;
         margin-bottom: 15px;
         font-size: 1.2rem;
         line-height: 1.2;
         max-width: 100%;
         overflow-wrap: break-word;
-        color: black;
+        color: #768ef7;
     }
 
     .grid-container10 .div-2 label {
-        margin-left: 10px;
-        padding-bottom: 10px;
-        color: #323232;
         font-size: 1rem;
+        color: #eaf0f1;
     }
 
 
     .grid-container10 .div-2 .foto button {
-        margin-top: 25px;
-        padding: 5px;
-        color: black;
+        margin-top: -48px;
+        margin-left: 150px;
+        padding: 10px;
+        color: #e722cd;
         font-size: 1rem;
-        background-color: #DDD0C8;
-        border: 1px solid black;
+        background-color: rgb(3, 3, 3);
+        border: 3.2px solid white;
         border-radius: 25px;
         text-transform: capitalize;
+        display: flex;
+        flex-direction: row;
+        max-width: 100%;
     }
 
     .grid-container10 .div-2 .foto button:hover {
         background-color: aliceblue;
-        transition: 1s;
     }
 
     .grid-container10 .div-2 form {
         width: 250px;
-        margin-left: 10px;
         margin-top: 25px;
         display: flex;
         flex-direction: column;
@@ -3492,31 +3477,29 @@
     }
 
     .grid-container10 .div-3 {
-        margin-right: 10px;
-        border: 1px solid gray;
         grid-area: item-3;
-       /* background-color: #b8509e;*/
+        background-color: #b8509e;
+        border-radius: 5px;
         display: flex;
         flex-direction: column;
         max-width: 100%;
     }
 
     .grid-container10 .div-3 .botones button {
-        margin-left: 10px;
-        margin-inline-end: 10px;
-        margin-top: 25px;
-        padding: 5px;
-        color: black;
+        margin-right: 5px;
+        padding: 10px;
+        color: #e722cd;
         font-size: 1rem;
-        background-color: #DDD0C8;
-        border: 1px solid black;
+        background-color: rgb(3, 3, 3);
+        border: 3.2px solid white;
         border-radius: 25px;
         text-transform: capitalize;
+        display: flex;
+        max-width: 100%;
     }
 
     .grid-container10 .div-3 .botones button:hover {
         background-color: aliceblue;
-        transition: 1s;
     }
 
     .grid-container10 .div-3 .botones {
@@ -3527,59 +3510,52 @@
 
     .grid-container10 .div-3 .borrarcuenta button {
         margin-left: 450px;
-        margin-bottom: 10px;
-        padding: 5px;
-        color: black;
+        padding: 10px;
+        color: #e722cd;
         font-size: 1rem;
-        background-color: #DDD0C8;
-        border: 1px solid black;
+        background-color: rgb(3, 3, 3);
+        border: 3.2px solid white;
         border-radius: 25px;
         text-transform: capitalize;
+        display: flex;
+        max-width: 100%;
     }
 
     .grid-container10 .div-3 .borrarcuenta button:hover {
         background-color: aliceblue;
-        transition: 1s;
     }
 
     .grid-container10 .div-4 {
         grid-area: item-4;
+        background-color: #b88b50;
         border-radius: 5px;
         display: flex;
         justify-content: center;
         max-width: 100%;
     }
 
-    .grid-container10 .div-4 p{
-        margin: 10px;
-        text-align: justify;
-    }
-
     .grid-container10 .div-5 {
-        margin-left: 10px;
         grid-area: item-5;
-        background-color: rgb(241, 221, 214);
-        border: 1px solid gray;
+        background-color: #f10d0d;
+        border-radius: 5px;
         display: flex;
         flex-direction: column;
         max-width: 100%;
     }
 
-    .grid-container10 .div-5 h2 {
-        display: flex;
-        justify-content: center;
-        font-size: 2rem;
+    .grid-container10 .div-5 h3 {
+        margin-bottom: 15px;
+        font-size: 1.5rem;
         line-height: 1.2;
         max-width: 100%;
         overflow-wrap: break-word;
-        color: black;
+        color: #e376f7;
     }
 
     .grid-container10 .div-5 label {
         margin-bottom: 10px;
-        margin-left: 20px;
-        color: #323232;
         font-size: 1rem;
+        color: #eaf0f1;
     }
 
     /*******************************************FINALIZA CUENTA.HTML GRID-CONTAINER10****************************************/
@@ -3588,7 +3564,7 @@
 
     .grid-container11 {
         margin: 35px;
-        border: 1px solid black;
+        border: 2px solid chartreuse;
         display: grid;
         grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
         grid-template-rows: repeat(3, auto);
@@ -3604,48 +3580,30 @@
 
     .grid-container11 .div-1 {
         grid-area: item-1;
-        /*background-color: #9cb850;*/
+        background-color: #9cb850;
         border-radius: 5px;
         display: flex;
         justify-content: center;
         max-width: 100%;
     }
 
-    .grid-container11 .div-1 h2 {
-        display: flex;
-        justify-content: center;
+    .grid-container10 .div-1 h2 {
         font-size: 3rem;
         line-height: 1.2;
+        margin: 0;
         max-width: 100%;
         overflow-wrap: break-word;
-        color: black;
+        color: #a750b8;
     }
 
     .grid-container11 .div-2 {
-        margin-left: 10px;
         grid-area: item-2;
-        /*background-color: #5074b8;*/
+        background-color: #5074b8;
         border-radius: 5px;
         display: flex;
         flex-direction: column;
         /* justify-content: center;*/
         max-width: 100%;
-    }
-
-    .grid-container11 .div-2 button{
-        margin-bottom: 10px;
-        padding: 5px;
-        color: black;
-        font-size: 1rem;
-        background-color: #DDD0C8;
-        border: 1.5px solid black;
-        border-radius: 25px;
-        text-transform: capitalize;
-    }
-
-    .grid-container11 .div-2 button:hover{
-        background-color: aliceblue;
-        transition: 1s;
     }
 
     .grid-container11 .div-2 p {
@@ -3654,13 +3612,13 @@
         line-height: 1.2;
         max-width: 100%;
         overflow-wrap: break-word;
-        color: black;
+        color: #768ef7;
     }
 
     .grid-container11 .div-2 label {
         margin-bottom: 10px;
         font-size: 1rem;
-        color: #323232;
+        color: #eaf0f1;
     }
 
     .grid-container11 .div-2 div {
@@ -3683,10 +3641,10 @@
 
     .grid-container11 .div-3 {
         grid-area: item-3;
+        background-color: #b8509e;
         border-radius: 5px;
         display: flex;
         justify-content: center;
         max-width: 100%;
     }
-
 }
