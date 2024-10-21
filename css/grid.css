@@ -160,8 +160,8 @@
     }
 
     .grid-container2 .div-2 img {
-        max-width: 100%;
-        height: 100px;
+        width: 130px;
+        height: 80px;
         display: block;
         border-radius: 5px;
     }
@@ -181,8 +181,8 @@
     }
 
     .grid-container2 .div-3 img {
-        max-width: 100%;
-        height: 100px;
+        width: 130px;
+        height: 80px;
         display: block;
         border-radius: 5px;
     }
@@ -202,8 +202,8 @@
     }
 
     .grid-container2 .div-4 img {
-        max-width: 100%;
-        height: 100px;
+        width: 130px;
+        height: 80px;
         display: block;
         border-radius: 5px;
     }
@@ -223,8 +223,8 @@
     }
 
     .grid-container2 .div-5 img {
-        max-width: 100%;
-        height: 100px;
+        width: 130px;
+        height: 80px;
         display: block;
         border-radius: 5px;
     }
@@ -394,7 +394,7 @@
 
     .grid-container4 {
         margin-top: 60px;
-        width: 320px;
+        width: 300px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -417,12 +417,12 @@
     }
 
     .caja-promos {
-        width: 1fr;
+        width: 300px;
         display: grid;
         display: flex;
         justify-content: space-around;
         align-items: center;
-        grid-template-columns: repeat(4, .25fr);
+        grid-template-columns: 75px 75px 75px 75px;
         grid-template-rows: repeat(2, auto);
         grid-template-areas:
             " . item-1 item-1 . "
@@ -438,16 +438,18 @@
     }
 
     .grid-container4 .div-2 p {
-        width: 65px;
+        width: 60px;
         text-align: center;
         color: black;
         font-size: 1rem;
         line-height: 1.5;
+        margin: 0;
         max-width: 100%;
         /* overflow-wrap: break-word;*/
     }
 
     .grid-container4 .div-3 {
+        width: 130px;
         grid-area: item-3;
         border-radius: 5px;
         display: flex;
@@ -468,11 +470,12 @@
     }
 
     .grid-container4 .div-4 p {
-        width: 50px;
+        width: 60px;
         text-align: center;
         color: black;
         font-size: 1rem;
         line-height: 1.5;
+        margin: 0;
         max-width: 100%;
         /*  overflow-wrap: break-word;*/
     }
