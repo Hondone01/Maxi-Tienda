@@ -2353,7 +2353,7 @@
     /***************************************************  INDEX.HTML GRID-CONTAINER1**********************************/
 
     .grid-container1 {
-        margin: 35px;
+        margin-top: 30px;
         display: grid;
         grid-template-columns: 1fr 2fr 1fr;
         grid-template-rows: repeat(4, auto);
@@ -2448,8 +2448,10 @@
     /***********************************************INDEX.HTML GRID-CONTAINER2*******************************************/
 
     .grid-container2 {
-        margin: 35px;
+        margin-top: 60px;
         display: grid;
+        display: flex;
+        flex-direction: column;
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(2, auto);
         grid-template-areas:
@@ -2476,6 +2478,12 @@
         overflow-wrap: break-word;
         color: black;
     }
+    
+     .caja-galeria{
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+    }
 
     .grid-container2 .div-2 {
         grid-area: item-2;
@@ -2486,7 +2494,7 @@
     }
 
     .grid-container2 .div-2 img {
-        max-width: 100%;
+        width: 200px;
         height: auto;
         display: block;
         border-radius: 5px;
@@ -2506,7 +2514,7 @@
     }
 
     .grid-container2 .div-3 img {
-        max-width: 100%;
+        width: 200px;
         height: auto;
         display: block;
         border-radius: 5px;
@@ -2526,8 +2534,8 @@
     }
 
     .grid-container2 .div-4 img {
-        max-width: 100%;
-        height: auto;
+        width: 200px;
+        height: 132px;
         display: block;
         border-radius: 5px;
     }
@@ -2546,7 +2554,7 @@
     }
 
     .grid-container2 .div-5 img {
-        max-width: 100%;
+        width: 200px;
         height: auto;
         display: block;
         border-radius: 5px;
@@ -2562,8 +2570,11 @@
     /***********************************************INDEX.HTML GRID-CONTAINER3*******************************************/
 
     .grid-container3 {
-        margin: 10px;
+        margin-top: 80px;
         display: grid;
+        display: flex;
+        flex-direction: column;
+        
         grid-template-columns: repeat(5, 1.2fr);
         grid-template-rows: repeat(2, auto);
         grid-template-areas:
@@ -2590,6 +2601,12 @@
         overflow-wrap: break-word;
         color: black;
     }
+    
+    .caja-productos{
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+    }
 
     .grid-container3 .div-2 {
         grid-area: item-2;
@@ -2599,7 +2616,7 @@
     }
 
     .grid-container3 .div-2 img {
-        max-width: 100%;
+        width: 200px;
         height: auto;
         display: block;
         border-radius: 5px;
@@ -2619,7 +2636,7 @@
     }
 
     .grid-container3 .div-3 img {
-        max-width: 100%;
+        width: 200px;
         height: auto;
         display: block;
         border-radius: 5px;
@@ -2639,7 +2656,7 @@
     }
 
     .grid-container3 .div-4 img {
-        max-width: 100%;
+        width: 200px;
         height: auto;
         display: block;
         border-radius: 5px;
@@ -2659,7 +2676,7 @@
     }
 
     .grid-container3 .div-5 img {
-        max-width: 100%;
+        width: 200px;
         height: auto;
         display: block;
         border-radius: 5px;
@@ -2679,7 +2696,7 @@
     }
 
     .grid-container3 .div-6 img {
-        max-width: 100%;
+        width: 200px;
         height: auto;
         display: block;
         border-radius: 5px;
@@ -2695,23 +2712,24 @@
     /***********************************************INDEX.HTML GRID-CONTAINER4*******************************************/
 
     .grid-container4 {
-        margin: 10px;
+        margin-top: 80px;
         display: grid;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(2, auto);
         grid-template-areas:
             ". item-1 ."
             "item-2 item-3 item-4"
         ;
-        gap: 10px;
-        justify-content: center;
     }
 
     .grid-container4 .div-1 {
         grid-area: item-1;
         display: flex;
-        flex-direction: column;
-        align-items: center;
+        justify-content: center;
+       
     }
 
     .grid-container4 .div-1 h2 {
@@ -2721,6 +2739,13 @@
         max-width: 100%;
         overflow-wrap: break-word;
         color: black;
+    }
+    
+    .caja-promos{
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
     }
 
     .grid-container4 .div-2 {
@@ -2739,11 +2764,11 @@
     .grid-container4 .div-3 {
         grid-area: item-3;
         display: flex;
-        flex-direction: column;
-        align-items: center;
+        justify-content: center;
     }
 
     .grid-container4 .div-3 img {
+        padding-right:60px;
         max-width: 100%;
         height: auto;
         display: block;
@@ -2775,7 +2800,7 @@
     /***********************************************INDEX.HTML GRID-CONTAINER5*******************************************/
 
     .grid-container5 {
-        margin: 10px;
+        margin-top: 60px;
         display: grid;
         grid-template-columns: .5fr 1fr 1fr .5fr;
         grid-template-rows: repeat(3, auto);
@@ -2831,6 +2856,7 @@
     }
 
     .grid-container5 .div-3 p {
+        padding: 20px;
         font-size: 1rem;
         color: #323232;
         line-height: 1.5;
@@ -2845,8 +2871,10 @@
     /***********************************************INDEX.HTML GRID-CONTAINER6*******************************************/
 
     .grid-container6 {
-        margin: 35px;
-        display: grid;
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(2, auto);
         grid-template-areas:
@@ -2891,6 +2919,12 @@
     .grid-container6 .div-2 label {
         font-size: 1.5rem;
         color: #323232;
+    }
+    
+    .caja-calificacion{
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
     }
 
 
