@@ -32,7 +32,7 @@
       .grid-container1 {
         background-color: rgb(241, 221, 214);
         /*margin-top: 40px;*/
-        width: 300px;
+        width: 320px;
         display: grid;
         justify-content: center;
         grid-template-columns: 1fr;
@@ -107,7 +107,7 @@
       .grid-container2 {
         background-color: rgb(241, 221, 214);
         /* margin-top: 60px;*/
-        width: 300px;
+        width: 320px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -240,7 +240,7 @@
       .grid-container3 {
         background-color: rgb(241, 221, 214);
         /*margin-top: 60px;*/
-        width: 300px;
+        width: 320px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -404,7 +404,7 @@
       .grid-container4 {
         background-color: rgb(241, 221, 214);
         /* margin-top: 60px;*/
-        width: 300px;
+        width: 320px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -487,6 +487,193 @@
               /*  overflow-wrap: break-word;*/
             }
           }
+        }
+      }
+
+      .grid-container5 {
+        background-color: rgb(241, 221, 214);
+        width: 320px;
+        display: grid;
+        display: flex;
+        flex-direction: column;
+        grid-template-columns: .5fr 1fr 1fr .5fr;
+        grid-template-rows: repeat(3, auto);
+        grid-template-areas:
+          ". item-1 item-1 ."
+          ". item-2 item-2 ."
+          "item-3 item-3 item-3 item-3"
+        ;
+        gap: 10px;
+        justify-content: center;
+
+        .div-1 {
+          margin-top: 15px;
+          grid-area: item-1;
+          /*  background-color: #9cb850;*/
+          border-radius: 5px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+        }
+
+        h2 {
+          margin-top: 15px;
+          margin-bottom: 15px;
+          text-align: center;
+          font-size: 2rem;
+          line-height: 1.2;
+          margin: 0;
+          max-width: 100%;
+          overflow-wrap: break-word;
+          color: black;
+        }
+
+        .div-2 {
+          grid-area: item-2;
+          /*  background-color: #1c976e;*/
+          border-radius: 5px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+
+          img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 5px;
+          }
+        }
+
+        .div-3 {
+          /* padding-left: 10px;
+          padding-right: 10px;*/
+          margin-top: 15px;
+          margin-bottom: 15px;
+          grid-area: item-3;
+          /*  background-color: #295394;*/
+          border-radius: 5px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+
+          p {
+            padding: 10px;
+            text-align: justify;
+            color: black;
+            font-size: 1rem;
+            line-height: 1.5;
+            margin: 0;
+            max-width: 100%;
+            overflow-wrap: break-word;
+          }
+
+
+        }
+      }
+
+      .grid-container6 {
+        background-color: rgb(241, 221, 214);
+        width: 320px;
+        display: grid;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        grid-template-columns: 150px 150px;
+        grid-template-rows: repeat(2, auto);
+        grid-template-areas:
+          " item-1 item-1"
+          " item-4 item-3"
+        ;
+
+        .div-1 {
+          margin-top: 15px;
+          grid-area: item-1;
+          border-radius: 5px;
+          display: flex;
+          justify-content: center;
+
+          h2 {
+            text-align: center;
+            font-size: 2rem;
+            line-height: 1.2;
+            max-width: 100%;
+            overflow-wrap: break-word;
+            color: black;
+          }
+        }
+
+        .caja-calificacion {
+          display: flex;
+          justify-content: center;
+          justify-content: space-around;
+
+          .div-2 {
+            display: none;
+          }
+
+          .div-4 {
+            width: 140px;
+            grid-area: item-4;
+            border-radius: 5px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            img {
+              width: 100px;
+              height: 80px;
+              display: block;
+              border-radius: 5px;
+            }
+
+            p {
+              width: 120px;
+              text-align: justify;
+              color: black;
+              font-size: 1rem;
+              line-height: 1.5;
+              margin: 0;
+              max-width: 100%;
+              overflow-wrap: break-word;
+            }
+
+          }
+
+          .div-3 {
+            width: 140px;
+            grid-area: item-3;
+            border-radius: 5px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            img {
+              width: 100px;
+              height: 80px;
+              display: block;
+              border-radius: 5px;
+            }
+
+            p {
+              width: 120px;
+              text-align: justify;
+              color: black;
+              font-size: 1rem;
+              line-height: 1.5;
+              margin: 0;
+              max-width: 100%;
+              overflow-wrap: break-word;
+            }
+
+          }
+
+          .div-5 {
+            display: none;
+          }
+
         }
       }
 
