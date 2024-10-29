@@ -1,0 +1,568 @@
+@media (min-width: 320px) and (max-width: 374px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .desktop {
+    display: none;
+  }
+  .logo-header {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+  }
+  body {
+    background-color: rgb(241, 221, 214);
+  }
+  body .color-body {
+    background-color: rgb(241, 221, 214);
+  }
+  body main .inicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container1 {
+    background-color: rgb(241, 221, 214);
+    /*margin-top: 40px;*/
+    width: 320px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas: "item-4" "item-2";
+    gap: 5px;
+  }
+  body main .grid-container1 .div-1 {
+    display: none;
+  }
+  body main .grid-container1 .div-2 {
+    width: 300px;
+    grid-area: item-2;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container1 .div-2 img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container1 .div-2 button {
+    margin-top: 10px;
+    padding: 2px;
+    color: black;
+    font-size: 0.6rem;
+    background-color: #DDD0C8;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-transform: capitalize;
+  }
+  body main .grid-container1 .div-3 {
+    display: none;
+  }
+  body main .grid-container1 .div-4 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    grid-area: item-4;
+    border-radius: 5px;
+    align-content: center;
+  }
+  body main .grid-container1 .div-4 h2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 1.2;
+    margin: 0;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    color: black;
+  }
+  body main .grid-container1 .div-5 {
+    display: none;
+  }
+  body main .grid-container2 {
+    background-color: rgb(241, 221, 214);
+    /* margin-top: 60px;*/
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  body main .grid-container2 .div-1 {
+    width: 300px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    grid-area: item-1;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container2 .div-1 h2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 1.2;
+    margin: 0;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    color: black;
+  }
+  body main .grid-container2 .caja-galeria {
+    width: 300px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 0.5fr);
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: " item-1 item-1" " item-2 item-3" " item-4 item-5";
+  }
+  body main .grid-container2 .caja-galeria .div-2 {
+    width: 140px;
+    grid-area: item-2;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container2 .caja-galeria .div-2 img {
+    width: 130px;
+    height: 80px;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container2 .caja-galeria .div-2 label {
+    font-size: 1rem;
+    color: black;
+  }
+  body main .grid-container2 .caja-galeria .div-3 {
+    width: 140px;
+    grid-area: item-3;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container2 .caja-galeria .div-3 img {
+    width: 130px;
+    height: 80px;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container2 .caja-galeria .div-3 label {
+    font-size: 1rem;
+    color: black;
+  }
+  body main .grid-container2 .caja-galeria .div-4 {
+    width: 140px;
+    grid-area: item-4;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container2 .caja-galeria .div-4 img {
+    width: 130px;
+    height: 80px;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container2 .caja-galeria .div-4 label {
+    font-size: 1rem;
+    color: black;
+  }
+  body main .grid-container2 .caja-galeria .div-5 {
+    width: 140px;
+    grid-area: item-5;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container2 .caja-galeria .div-5 img {
+    width: 130px;
+    height: 80px;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container2 .caja-galeria .div-5 label {
+    font-size: 1rem;
+    color: black;
+  }
+  body main .grid-container3 {
+    background-color: rgb(241, 221, 214);
+    /*margin-top: 60px;*/
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  body main .grid-container3 .div-1 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    grid-area: item-1;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container3 .div-1 h2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 1.2;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    color: black;
+  }
+  body main .grid-container3 .caja-productos {
+    background-color: rgb(241, 221, 214);
+    width: 300px;
+    display: grid;
+    grid-template-columns: repeat(4, 0.25fr);
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas: " . item-1 item-1 . " " . item-2 item-2 . " " item-3 item-3 item-4 item-4 " " item-5 item-5 item-6 item-6 ";
+    column-gap: 1px;
+    justify-content: center;
+  }
+  body main .grid-container3 .caja-productos .div-2 {
+    width: 140px;
+    height: 100px;
+    grid-area: item-2;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container3 .caja-productos .div-2 img {
+    max-width: 100%;
+    height: 100px;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container3 .caja-productos .div-2 label {
+    font-size: 1rem;
+    color: black;
+  }
+  body main .grid-container3 .caja-productos .div-3 {
+    margin-top: 30px;
+    width: 140px;
+    height: 100px;
+    grid-area: item-3;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container3 .caja-productos .div-3 img {
+    max-width: 100%;
+    height: 100px;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container3 .caja-productos .div-3 label {
+    font-size: 1rem;
+    color: black;
+  }
+  body main .grid-container3 .caja-productos .div-4 {
+    margin-top: 30px;
+    width: 140px;
+    height: 100px;
+    grid-area: item-4;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container3 .caja-productos .div-4 img {
+    max-width: 100%;
+    height: 100px;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container3 .caja-productos .div-4 label {
+    font-size: 1rem;
+    color: black;
+  }
+  body main .grid-container3 .caja-productos .div-5 {
+    margin-top: 30px;
+    width: 140px;
+    height: 100px;
+    grid-area: item-5;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container3 .caja-productos .div-5 img {
+    max-width: 100%;
+    height: 100px;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container3 .caja-productos .div-5 label {
+    font-size: 1rem;
+    color: black;
+  }
+  body main .grid-container3 .caja-productos .div-6 {
+    margin-top: 30px;
+    width: 140px;
+    height: 100px;
+    grid-area: item-6;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container3 .caja-productos .div-6 img {
+    max-width: 100%;
+    height: 100px;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container3 .caja-productos .div-6 label {
+    font-size: 1rem;
+    color: black;
+  }
+  body main .grid-container4 {
+    background-color: rgb(241, 221, 214);
+    /* margin-top: 60px;*/
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container4 .div-1 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    grid-area: item-1;
+    border-radius: 5px;
+    display: flex;
+    align-content: center;
+  }
+  body main .grid-container4 .div-1 h2 {
+    text-align: center;
+    font-size: 2rem;
+    line-height: 1.2;
+    color: black;
+  }
+  body main .grid-container4 .caja-promos {
+    width: 300px;
+    display: grid;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    grid-template-columns: 75px 75px 75px 75px;
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas: " . item-1 item-1 . " " item-2 item-3 item-3 item-4 ";
+  }
+  body main .grid-container4 .caja-promos .div-2 {
+    margin-top: 10px;
+    grid-area: item-2;
+    border-radius: 5px;
+    display: flex;
+  }
+  body main .grid-container4 .caja-promos .div-2 p {
+    width: 60px;
+    text-align: center;
+    color: black;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 0;
+    max-width: 100%;
+    /* overflow-wrap: break-word;*/
+  }
+  body main .grid-container4 .caja-promos .div-3 {
+    width: 130px;
+    grid-area: item-3;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+  }
+  body main .grid-container4 .caja-promos .div-3 img {
+    max-width: 100%;
+    height: 100px;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container4 .caja-promos .div-4 {
+    grid-area: item-4;
+    border-radius: 5px;
+    display: flex;
+  }
+  body main .grid-container4 .caja-promos .div-4 p {
+    width: 60px;
+    text-align: center;
+    color: black;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 0;
+    max-width: 100%;
+    /*  overflow-wrap: break-word;*/
+  }
+  body main .grid-container5 {
+    background-color: rgb(241, 221, 214);
+    width: 320px;
+    display: grid;
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: 0.5fr 1fr 1fr 0.5fr;
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: ". item-1 item-1 ." ". item-2 item-2 ." "item-3 item-3 item-3 item-3";
+    gap: 10px;
+    justify-content: center;
+  }
+  body main .grid-container5 .div-1 {
+    margin-top: 15px;
+    grid-area: item-1;
+    /*  background-color: #9cb850;*/
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  body main .grid-container5 h2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 1.2;
+    margin: 0;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    color: black;
+  }
+  body main .grid-container5 .div-2 {
+    grid-area: item-2;
+    /*  background-color: #1c976e;*/
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  body main .grid-container5 .div-2 img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container5 .div-3 {
+    /* padding-left: 10px;
+    padding-right: 10px;*/
+    margin-top: 15px;
+    margin-bottom: 15px;
+    grid-area: item-3;
+    /*  background-color: #295394;*/
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  body main .grid-container5 .div-3 p {
+    padding: 10px;
+    text-align: justify;
+    color: black;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 0;
+    max-width: 100%;
+    overflow-wrap: break-word;
+  }
+  body main .grid-container6 {
+    background-color: rgb(241, 221, 214);
+    width: 320px;
+    display: grid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-template-columns: 150px 150px;
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas: " item-1 item-1" " item-4 item-3";
+  }
+  body main .grid-container6 .div-1 {
+    margin-top: 15px;
+    grid-area: item-1;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+  }
+  body main .grid-container6 .div-1 h2 {
+    text-align: center;
+    font-size: 2rem;
+    line-height: 1.2;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    color: black;
+  }
+  body main .grid-container6 .caja-calificacion {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+  }
+  body main .grid-container6 .caja-calificacion .div-2 {
+    display: none;
+  }
+  body main .grid-container6 .caja-calificacion .div-4 {
+    width: 140px;
+    grid-area: item-4;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container6 .caja-calificacion .div-4 img {
+    width: 100px;
+    height: 80px;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container6 .caja-calificacion .div-4 p {
+    width: 120px;
+    text-align: justify;
+    color: black;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 0;
+    max-width: 100%;
+    overflow-wrap: break-word;
+  }
+  body main .grid-container6 .caja-calificacion .div-3 {
+    width: 140px;
+    grid-area: item-3;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container6 .caja-calificacion .div-3 img {
+    width: 100px;
+    height: 80px;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container6 .caja-calificacion .div-3 p {
+    width: 120px;
+    text-align: justify;
+    color: black;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 0;
+    max-width: 100%;
+    overflow-wrap: break-word;
+  }
+  body main .grid-container6 .caja-calificacion .div-5 {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
