@@ -48,7 +48,8 @@
         }
 
         .div-2 {
-          width: 300px;
+          padding-left: 10px;
+          width: 310px;
           grid-area: item-2;
           border-radius: 5px;
           display: flex;
@@ -138,7 +139,8 @@
         }
 
         .caja-galeria {
-          width: 300px;
+          padding-left: 10px;
+          width: 310px;
           display: grid;
           justify-content: center;
           grid-template-columns: repeat(2, 0.5fr);
@@ -148,9 +150,11 @@
             " item-2 item-3"
             " item-4 item-5"
           ;
+          column-gap: 10px;
 
           .div-2 {
-            width: 140px;
+            width: 145px;
+            height: 100px;
             grid-area: item-2;
             border-radius: 5px;
             display: flex;
@@ -158,8 +162,8 @@
             align-items: center;
 
             img {
-              width: 130px;
-              height: 80px;
+              max-width: 100%;
+              height: 100px;
               display: block;
               border-radius: 5px;
             }
@@ -171,7 +175,8 @@
           }
 
           .div-3 {
-            width: 140px;
+            width: 145px;
+            height: 100px;
             grid-area: item-3;
             border-radius: 5px;
             display: flex;
@@ -179,8 +184,8 @@
             align-items: center;
 
             img {
-              width: 130px;
-              height: 80px;
+              max-width: 100%;
+              height: 100px;
               display: block;
               border-radius: 5px;
             }
@@ -192,7 +197,9 @@
           }
 
           .div-4 {
-            width: 140px;
+            padding-top: 25px;
+            width: 145px;
+            height: 100px;
             grid-area: item-4;
             border-radius: 5px;
             display: flex;
@@ -200,8 +207,8 @@
             align-items: center;
 
             img {
-              width: 130px;
-              height: 80px;
+              max-width: 100%;
+              height: 100px;
               display: block;
               border-radius: 5px;
             }
@@ -213,7 +220,9 @@
           }
 
           .div-5 {
-            width: 140px;
+            padding-top: 25px;
+            width: 145px;
+            height: 100px;
             grid-area: item-5;
             border-radius: 5px;
             display: flex;
@@ -221,8 +230,8 @@
             align-items: center;
 
             img {
-              width: 130px;
-              height: 80px;
+              max-width: 100%;
+              height: 100px;
               display: block;
               border-radius: 5px;
             }
@@ -246,6 +255,7 @@
         justify-content: center;
 
         .div-1 {
+          padding-top: 25px;
           margin-top: 15px;
           margin-bottom: 15px;
           grid-area: item-1;
@@ -268,7 +278,8 @@
 
         .caja-productos {
           background-color: rgb(241, 221, 214);
-          width: 300px;
+          width: 310px;
+          padding-left: 10px;
           display: grid;
           grid-template-columns: repeat(4, .25fr);
           grid-template-rows: repeat(4, auto);
@@ -278,7 +289,7 @@
             " item-3 item-3 item-4 item-4 "
             " item-5 item-5 item-6 item-6 "
           ;
-          column-gap: 1px;
+          column-gap: 10px;
           justify-content: center;
 
           .div-2 {
@@ -305,7 +316,7 @@
 
           .div-3 {
             margin-top: 30px;
-            width: 140px;
+            width: 145px;
             height: 100px;
             grid-area: item-3;
             border-radius: 5px;
@@ -328,7 +339,7 @@
 
           .div-4 {
             margin-top: 30px;
-            width: 140px;
+            width: 145px;
             height: 100px;
             grid-area: item-4;
             border-radius: 5px;
@@ -351,7 +362,7 @@
 
           .div-5 {
             margin-top: 30px;
-            width: 140px;
+            width: 145px;
             height: 100px;
             grid-area: item-5;
             border-radius: 5px;
@@ -374,7 +385,7 @@
 
           .div-6 {
             margin-top: 30px;
-            width: 140px;
+            width: 145px;
             height: 100px;
             grid-area: item-6;
             border-radius: 5px;
@@ -530,13 +541,15 @@
         }
 
         .div-2 {
+          padding-left: 10px;
+          width: 310px;
           grid-area: item-2;
-          /*  background-color: #1c976e;*/
           border-radius: 5px;
           display: flex;
           flex-direction: column;
           align-items: center;
           justify-content: center;
+          
 
           img {
             max-width: 100%;
@@ -547,12 +560,9 @@
         }
 
         .div-3 {
-          /* padding-left: 10px;
-          padding-right: 10px;*/
           margin-top: 15px;
           margin-bottom: 15px;
           grid-area: item-3;
-          /*  background-color: #295394;*/
           border-radius: 5px;
           display: flex;
           flex-direction: column;
@@ -615,6 +625,7 @@
           }
 
           .div-4 {
+            padding-bottom: 25px;
             width: 140px;
             grid-area: item-4;
             border-radius: 5px;
@@ -643,6 +654,7 @@
           }
 
           .div-3 {
+            padding-bottom: 25px;
             width: 140px;
             grid-area: item-3;
             border-radius: 5px;
@@ -677,6 +689,19 @@
         }
       }
 
+    }
+    .footer1 {
+      display: none;
+    }
+
+    .footer-2 {
+      border-top: 1px solid black;
+      padding-left: 10px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      background-color: grey;
+      display: flex;
+      justify-content: center;
     }
 
   }
