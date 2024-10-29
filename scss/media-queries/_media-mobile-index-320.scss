@@ -1,3 +1,5 @@
+@import "../utilities/mixin";
+
 @media (min-width: 320px) and (max-width: 374px) {
     * {
       margin: 0;
@@ -169,8 +171,7 @@
               }
   
               label {
-                font-size: 1rem;
-                color: black;
+                @include label-index;
               }
             }
   
@@ -191,8 +192,7 @@
               }
   
               label {
-                font-size: 1rem;
-                color: black;
+                @include label-index;
               }
             }
   
@@ -214,8 +214,7 @@
               }
   
               label {
-                font-size: 1rem;
-                color: black;
+                @include label-index;
               }
             }
   
@@ -237,8 +236,7 @@
               }
   
               label {
-                font-size: 1rem;
-                color: black;
+                @include label-index;
               }
             }
           }
@@ -309,8 +307,7 @@
               }
   
               label {
-                font-size: 1rem;
-                color: black;
+                @include label-index;
               }
             }
   
@@ -332,8 +329,7 @@
               }
   
               label {
-                font-size: 1rem;
-                color: black;
+                @include label-index;
               }
             }
   
@@ -355,8 +351,7 @@
               }
   
               label {
-                font-size: 1rem;
-                color: black;
+                @include label-index;
               }
             }
   
@@ -378,8 +373,7 @@
               }
   
               label {
-                font-size: 1rem;
-                color: black;
+                @include label-index;
               }
             }
   
@@ -401,8 +395,7 @@
               }
   
               label {
-                font-size: 1rem;
-                color: black;
+                @include label-index;
               }
             }
   

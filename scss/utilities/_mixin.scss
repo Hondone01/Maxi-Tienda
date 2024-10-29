@@ -1,0 +1,24 @@
+@mixin label-tienda {
+    color: black;
+    font-size: 1rem;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+@mixin label-index {
+    font-size: 1rem;
+    color: black;
+}
+
+@mixin foto-button {
+    padding: 4px;
+    color: black;
+    font-size: 1rem;
+    background-color: #DDD0C8;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+}

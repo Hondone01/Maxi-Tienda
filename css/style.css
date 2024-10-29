@@ -646,9 +646,10 @@
     align-items: center;
   }
   body main .grid-container8 .div-2 label {
-    padding-left: 10px;
-    color: #323232;
+    color: black;
     font-size: 1rem;
+    padding-left: 10px;
+    padding-bottom: 10px;
   }
   body main .grid-container8 .div-2 img {
     margin-top: 20px;
@@ -709,8 +710,10 @@
     font-size: 1rem;
   }
   body main .grid-container8 .div-5 label {
-    color: #323232;
+    color: black;
     font-size: 1rem;
+    padding-left: 10px;
+    padding-bottom: 10px;
   }
   body main .grid-container8 .div-5 button {
     margin-top: 25px;
@@ -735,9 +738,10 @@
     justify-content: center;
   }
   body main .grid-container8 .div-7 label {
-    padding-left: 10px;
-    color: #323232;
+    color: black;
     font-size: 1rem;
+    padding-left: 10px;
+    padding-bottom: 10px;
   }
   body main .grid-container9 {
     display: grid;
@@ -775,8 +779,9 @@
     align-items: center;
   }
   body main .grid-container9 .div-2 label {
-    color: #323232;
+    color: black;
     font-size: 1rem;
+    padding-left: 10px;
     padding-bottom: 10px;
   }
   body main .grid-container9 .div-2 img {
@@ -800,8 +805,9 @@
     border-radius: 5px;
   }
   body main .grid-container9 .div-3 label {
-    color: #323232;
+    color: black;
     font-size: 1rem;
+    padding-left: 10px;
     padding-bottom: 10px;
   }
   body main .grid-container9 .div-4 {
@@ -819,8 +825,9 @@
     border-radius: 5px;
   }
   body main .grid-container9 .div-4 label {
-    color: #323232;
+    color: black;
     font-size: 1rem;
+    padding-left: 10px;
     padding-bottom: 10px;
   }
   body main .grid-container9 .div-5 {
@@ -838,8 +845,9 @@
     border-radius: 5px;
   }
   body main .grid-container9 .div-5 label {
-    color: #323232;
+    color: black;
     font-size: 1rem;
+    padding-left: 10px;
     padding-bottom: 10px;
   }
   body main .grid-container9 .div-6 {
@@ -857,9 +865,220 @@
     border-radius: 5px;
   }
   body main .grid-container9 .div-6 label {
-    color: #323232;
+    color: black;
     font-size: 1rem;
+    padding-left: 10px;
     padding-bottom: 10px;
+  }
+  body .footer1 {
+    display: none;
+  }
+  body .footer-2 {
+    border-top: 1px solid black;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (min-width: 320px) and (max-width: 374px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .desktop {
+    display: none;
+  }
+  .logo-header {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+  }
+  body {
+    background-color: rgb(241, 221, 214);
+  }
+  body .color-body {
+    background-color: rgb(241, 221, 214);
+  }
+  body main .inicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container10 {
+    display: grid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    grid-template-columns: minmax(0, 0.5fr) minmax(0, 1fr);
+    grid-template-rows: repeat(5, auto);
+    grid-template-areas: "item-1 item-1" "item-5 item-2" "item-5 item-3" "item-5 item-3" "item-4 item-4";
+    max-width: 100%;
+  }
+  body main .grid-container10 .div-1 {
+    background-color: rgb(241, 221, 214);
+    grid-area: item-1;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+  }
+  body main .grid-container10 .div-1 h2 {
+    font-size: 3rem;
+    line-height: 1.2;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    color: black !important;
+  }
+  body main .grid-container10 .div-2 {
+    background-color: rgb(241, 221, 214);
+    grid-area: item-2;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100%;
+  }
+  body main .grid-container10 .div-2 h3 {
+    font-size: 1.5rem;
+    line-height: 1.2;
+    margin: 0;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    color: black;
+  }
+  body main .grid-container10 .div-2 p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+    line-height: 1.2;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    color: black;
+  }
+  body main .grid-container10 .div-2 label {
+    font-size: 1rem;
+    color: black;
+  }
+  body main .grid-container10 .div-2 .foto button {
+    margin-top: 20px;
+    padding: 4px;
+    color: black;
+    font-size: 1rem;
+    background-color: #DDD0C8;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+  }
+  body main .grid-container10 .div-2 form {
+    width: 250px;
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+  }
+  body main .grid-container10 .div-2 input {
+    margin-bottom: 15px;
+  }
+  body main .grid-container10 .div-2 .genero {
+    width: 320px;
+    display: flex;
+  }
+  body main .grid-container10 .div-2 .genero form {
+    margin-left: -40px;
+  }
+  body main .grid-container10 .div-2 .idioma {
+    width: 320px;
+    display: flex;
+  }
+  body main .grid-container10 .div-2 .idioma form {
+    margin-left: -40px;
+  }
+  body main .grid-container10 .div-3 {
+    background-color: rgb(241, 221, 214);
+    grid-area: item-3;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+  }
+  body main .grid-container10 .div-3 .botones button {
+    padding: 4px;
+    color: black;
+    font-size: 1rem;
+    background-color: #DDD0C8;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+  }
+  body main .grid-container10 .div-3 .botones {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+  }
+  body main .grid-container10 .div-3 .borrarcuenta button {
+    margin-top: 20px;
+    padding: 4px;
+    color: black;
+    font-size: 1rem;
+    background-color: #DDD0C8;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+  }
+  body main .grid-container10 .div-4 {
+    background-color: rgb(241, 221, 214);
+    grid-area: item-4;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+  }
+  body main .grid-container10 .div-5 {
+    background-color: rgb(241, 221, 214);
+    padding-left: 10px;
+    grid-area: item-5;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+  }
+  body main .grid-container10 .div-5 h3 {
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    color: black;
+  }
+  body main .grid-container10 .div-5 label {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color: black;
+  }
+  body .footer1 {
+    display: none;
+  }
+  body .footer-2 {
+    border-top: 1px solid black;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
   }
 }
 
