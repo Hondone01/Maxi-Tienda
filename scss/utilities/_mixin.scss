@@ -15,6 +15,19 @@
     font-size: 1rem;
 }
 
+@mixin img-tienda-425 {
+    width: 180px;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+}
+
+@mixin img-tienda-425-caja-productos {
+    height: 120px;
+    display: block;
+    border-radius: 5px;
+}
+
 @mixin foto-button {
     padding: 4px;
     color: black;
