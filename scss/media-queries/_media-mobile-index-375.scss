@@ -1,0 +1,679 @@
+@import "../utilities/mixin";
+@import "../utilities/variables";
+
+@media (min-width: 375px) and (max-width: 424px) {
+    @import "../base/reset";
+    @import "../base/encabezado";
+
+    body {
+        main {
+            .grid-container1 {
+                background-color: $color-fondo;
+                width: 375px;
+                display: grid;
+                justify-content: center;
+                grid-template-columns: 1fr;
+                grid-template-rows: repeat(2, auto);
+                grid-template-areas:
+                    "item-4"
+                    "item-2"
+                ;
+
+                .div-1 {
+                    display: none;
+                }
+
+                .div-2 {
+                    /* padding-left: 10px;*/
+                    width: 375px;
+                    grid-area: item-2;
+                    border-radius: 5px;
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                    align-items: center;
+
+                    img {
+                        width: 355px;
+                        height: auto;
+                        display: block;
+                        border-radius: 5px;
+                    }
+
+                    button {
+                        margin-top: 10px;
+                        padding: 2px;
+                        color: black;
+                        font-size: .8rem;
+                        background-color: #DDD0C8;
+                        border: 1px solid black;
+                        border-radius: 5px;
+                        text-transform: capitalize;
+                    }
+                }
+
+                .div-3 {
+                    display: none;
+                }
+
+                .div-4 {
+                    margin-top: 15px;
+                    margin-bottom: 15px;
+                    grid-area: item-4;
+                    border-radius: 5px;
+                    align-content: center;
+
+                    h2 {
+                        margin-top: 15px;
+                        margin-bottom: 15px;
+                        text-align: center;
+                        font-size: 2rem;
+                        line-height: 1.2;
+                        margin: 0;
+                        max-width: 100%;
+                        overflow-wrap: break-word;
+                        color: black;
+                    }
+                }
+
+                .div-5 {
+                    display: none;
+                }
+
+            }
+
+            .grid-container2 {
+                background-color: rgb(241, 221, 214);
+                /* margin-top: 60px;*/
+                width: 375px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                .div-1 {
+                    width: 355px;
+                    /* margin-top: 15px;*/
+                    margin-bottom: 15px;
+                    grid-area: item-1;
+                    border-radius: 5px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    h2 {
+                        margin-top: 15px;
+                        margin-bottom: 15px;
+                        text-align: center;
+                        font-size: 2rem;
+                        line-height: 1.2;
+                        margin: 0;
+                        max-width: 100%;
+                        overflow-wrap: break-word;
+                        color: black;
+                    }
+
+
+                }
+
+                .caja-galeria {
+                    /*padding-left: 10px;*/
+                    width: 375px;
+                    display: grid;
+                    column-gap: 30px;
+                    justify-content: center;
+                    grid-template-columns: repeat(2, 0.5fr);
+                    grid-template-rows: repeat(3, auto);
+                    grid-template-areas:
+                        " item-1 item-1"
+                        " item-2 item-3"
+                        " item-4 item-5"
+                    ;
+                    /*  column-gap: 10px;*/
+
+                    .div-2 {
+                        max-width: 100%;
+                        height: auto;
+                        grid-area: item-2;
+                        border-radius: 5px;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+
+                        img {
+                            max-width: 100%;
+                            height: 100px;
+                            display: block;
+                            border-radius: 5px;
+                        }
+
+                        label {
+                            @include label-index;
+                        }
+                    }
+
+                    .div-3 {
+                        max-width: 100%;
+                        height: auto;
+                        grid-area: item-3;
+                        border-radius: 5px;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+
+                        img {
+                            max-width: 100%;
+                            height: 100px;
+                            display: block;
+                            border-radius: 5px;
+                        }
+
+                        label {
+                            @include label-index;
+                        }
+                    }
+
+                    .div-4 {
+                        padding-top: 15px;
+                        max-width: 100%;
+                        height: auto;
+                        grid-area: item-4;
+                        border-radius: 5px;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+
+                        img {
+                            max-width: 100%;
+                            height: 100px;
+                            display: block;
+                            border-radius: 5px;
+                        }
+
+                        label {
+                            @include label-index;
+                        }
+                    }
+
+                    .div-5 {
+                        padding-top: 15px;
+                        max-width: 100%;
+                        height: auto;
+                        grid-area: item-5;
+                        border-radius: 5px;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+
+                        img {
+                            max-width: 100%;
+                            height: 100px;
+                            display: block;
+                            border-radius: 5px;
+                        }
+
+                        label {
+                            @include label-index;
+                        }
+                    }
+                }
+
+            }
+
+            .grid-container3 {
+                background-color: rgb(241, 221, 214);
+                /* margin-top: 60px;*/
+                width: 375px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                .div-1 {
+                    padding-top: 25px;
+                    margin-top: 15px;
+                    margin-bottom: 15px;
+                    grid-area: item-1;
+                    border-radius: 5px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    h2 {
+                        margin-top: 15px;
+                        margin-bottom: 15px;
+                        text-align: center;
+                        font-size: 2rem;
+                        line-height: 1.2;
+                        max-width: 100%;
+                        overflow-wrap: break-word;
+                        color: black;
+                    }
+                }
+
+                .caja-productos {
+                    background-color: rgb(241, 221, 214);
+                    width: 365px;
+                    padding-left: 10px;
+                    display: grid;
+                    grid-template-columns: repeat(4, .25fr);
+                    grid-template-rows: repeat(4, auto);
+                    grid-template-areas:
+                        " . item-1 item-1 . "
+                        " . item-2 item-2 . "
+                        " item-3 item-3 item-4 item-4 "
+                        " item-5 item-5 item-6 item-6 "
+                    ;
+                    column-gap: 35px;
+                    justify-content: center;
+
+                    .div-2 {
+                        margin-bottom: 25px;
+                        width: 170px;
+                        height: 100px;
+                        grid-area: item-2;
+                        border-radius: 5px;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+
+                        img {
+
+                            max-width: 100%;
+                            height: 100px;
+                            display: block;
+                            border-radius: 5px;
+                        }
+
+                        label {
+                            @include label-index;
+                        }
+                    }
+
+                    .div-3 {
+                        /* margin-top: 30px;*/
+                        margin-bottom: 25px;
+                        width: 170px;
+                        height: 100px;
+                        grid-area: item-3;
+                        border-radius: 5px;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+
+                        img {
+                            max-width: 100%;
+                            height: 100px;
+                            display: block;
+                            border-radius: 5px;
+                        }
+
+                        label {
+                            @include label-index;
+                        }
+                    }
+
+                    .div-4 {
+                        /*  margin-top: 30px;*/
+                        width: 170px;
+                        height: 100px;
+                        grid-area: item-4;
+                        border-radius: 5px;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+
+                        img {
+                            max-width: 100%;
+                            height: 100px;
+                            display: block;
+                            border-radius: 5px;
+                        }
+
+                        label {
+                            @include label-index;
+                        }
+                    }
+
+                    .div-5 {
+                        margin-bottom: 25px;
+                        width: 170px;
+                        height: 100px;
+                        grid-area: item-5;
+                        border-radius: 5px;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+
+                        img {
+                            max-width: 100%;
+                            height: 100px;
+                            display: block;
+                            border-radius: 5px;
+                        }
+
+                        label {
+                            @include label-index;
+                        }
+                    }
+
+                    .div-6 {
+                        width: 170px;
+                        height: 100px;
+                        grid-area: item-6;
+                        border-radius: 5px;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+
+                        img {
+                            max-width: 100%;
+                            height: 100px;
+                            display: block;
+                            border-radius: 5px;
+                        }
+
+                        label {
+                            @include label-index;
+                        }
+                    }
+
+
+                }
+
+
+            }
+
+            .grid-container4 {
+                background-color: rgb(241, 221, 214);
+
+                width: 375px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                .div-1 {
+                    margin-top: 15px;
+                    margin-bottom: 15px;
+                    grid-area: item-1;
+                    border-radius: 5px;
+                    display: flex;
+                    align-content: center;
+
+                    h2 {
+                        text-align: center;
+                        font-size: 2rem;
+                        line-height: 1.2;
+                        color: black;
+                    }
+                }
+
+                .caja-promos {
+                    width: 355px;
+                    display: grid;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    grid-template-columns: 88.75px 88.75px 88.75px 88.75px;
+                    grid-template-rows: repeat(2, auto);
+                    grid-template-areas:
+                        " . item-1 item-1 . "
+                        " item-2 item-3 item-3 item-4 "
+                    ;
+
+                    .div-2 {
+                        margin-top: 10px;
+                        grid-area: item-2;
+                        border-radius: 5px;
+                        display: flex;
+
+                        p {
+                            width: 60px;
+                            text-align: center;
+                            color: black;
+                            font-size: 1rem;
+                            line-height: 1.5;
+                          /*  margin: 0;*/
+                            max-width: 100%;
+                            overflow-wrap: break-word;
+                        }
+                    }
+
+                    .div-3 {
+                        width: 177.5px;
+                        grid-area: item-3;
+                        border-radius: 5px;
+                        display: flex;
+                        justify-content: center;
+
+                        img {
+                            width: 180px;
+                            height: auto;
+                            display: block;
+                            border-radius: 5px;
+                        }
+                    }
+
+                    .div-4 {
+                        grid-area: item-4;
+                        border-radius: 5px;
+                        display: flex;
+
+                        p {
+                            width: 60px;
+                            text-align: center;
+                            color: black;
+                            font-size: 1rem;
+                            line-height: 1.5;
+                          /*  margin: 0;*/
+                            max-width: 100%;
+                            overflow-wrap: break-word;
+                        }
+                    }
+                }
+            }
+
+            .grid-container5 {
+                background-color: rgb(241, 221, 214);
+                width: 375px;
+                display: grid;
+                display: flex;
+                flex-direction: column;
+                grid-template-columns: .5fr 1fr 1fr .5fr;
+                grid-template-rows: repeat(3, auto);
+                grid-template-areas:
+                    ". item-1 item-1 ."
+                    ". item-2 item-2 ."
+                    "item-3 item-3 item-3 item-3"
+                ;
+                /* gap: 10px;*/
+                justify-content: center;
+
+                .div-1 {
+                    margin-top: 15px;
+                    grid-area: item-1;
+                    background-color: rgb(241, 221, 214);
+                    border-radius: 5px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                }
+
+                h2 {
+                    margin-top: 15px;
+                    margin-bottom: 15px;
+                    text-align: center;
+                    font-size: 2rem;
+                    line-height: 1.2;
+                  /*  margin: 0;*/
+                    max-width: 100%;
+                    overflow-wrap: break-word;
+                    color: black;
+                }
+
+                .div-2 {
+                    padding-left: 10px;
+                    width: 365px;
+                    grid-area: item-2;
+                    border-radius: 5px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+
+
+                    img {
+                        max-width: 100%;
+                        height: auto;
+                        display: block;
+                        border-radius: 5px;
+                    }
+                }
+
+                .div-3 {
+                    margin-top: 15px;
+                    margin-bottom: 15px;
+                    grid-area: item-3;
+                    border-radius: 5px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+
+                    p {
+                        padding: 10px;
+                        text-align: justify;
+                        color: black;
+                        font-size: 1rem;
+                        line-height: 1.5;
+                      /*  margin: 0;*/
+                        max-width: 100%;
+                        overflow-wrap: break-word;
+                    }
+
+
+                }
+            }
+
+            .grid-container6 {
+                background-color: rgb(241, 221, 214);
+                width: 375px;
+                display: grid;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                grid-template-columns: 187.5px 187.5px;
+                grid-template-rows: repeat(2, auto);
+                grid-template-areas:
+                    " item-1 item-1"
+                    " item-4 item-3"
+                ;
+
+                .div-1 {
+                    margin-top: 15px;
+                    grid-area: item-1;
+                    border-radius: 5px;
+                    display: flex;
+                    justify-content: center;
+
+                    h2 {
+                        text-align: center;
+                        font-size: 2rem;
+                        line-height: 1.2;
+                        max-width: 100%;
+                        overflow-wrap: break-word;
+                        color: black;
+                    }
+                }
+
+                .caja-calificacion {
+                    display: flex;
+                    justify-content: center;
+                    justify-content: space-around;
+
+                    .div-2 {
+                        display: none;
+                    }
+
+                    .div-4 {
+                        padding-bottom: 25px;
+                        width: 170px;
+                        grid-area: item-4;
+                        border-radius: 5px;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+
+                        img {
+                            width: 100px;
+                            height: 80px;
+                            display: block;
+                            border-radius: 5px;
+                        }
+
+                        p {
+                            width: 120px;
+                            text-align: justify;
+                            color: black;
+                            font-size: 1rem;
+                            line-height: 1.5;
+                           /* margin: 0;*/
+                            max-width: 100%;
+                            overflow-wrap: break-word;
+                        }
+
+                    }
+
+                    .div-3 {
+                        padding-bottom: 25px;
+                        width: 170px;
+                        grid-area: item-3;
+                        border-radius: 5px;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+
+                        img {
+                            width: 100px;
+                            height: 80px;
+                            display: block;
+                            border-radius: 5px;
+                        }
+
+                        p {
+                            width: 120px;
+                            text-align: justify;
+                            color: black;
+                            font-size: 1rem;
+                            line-height: 1.5;
+                           /* margin: 0;*/
+                            max-width: 100%;
+                            overflow-wrap: break-word;
+                        }
+
+                    }
+
+                    .div-5 {
+                        display: none;
+                    }
+
+                }
+            }
+            
+        }
+        
+        .footer1 {
+            display: none;
+          }
+      
+          .footer-2 {
+            border-top: 1px solid black;
+            padding-left: 10px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            background-color: grey;
+            display: flex;
+            justify-content: center;
+          }
+        
+    }
+}

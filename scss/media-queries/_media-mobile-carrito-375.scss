@@ -1,0 +1,173 @@
+@import "../utilities/mixin";
+@import "../utilities/variables";
+
+@media (min-width: 375px) and (max-width: 424px) {
+    @import "../base/reset";
+    @import "../base/encabezado";
+
+    body {
+
+        main {
+
+            .grid-container7 {
+                display: grid;
+                display: flex;
+                flex-direction: column;
+                grid-template-columns: .25fr 1fr .625fr .25fr;
+                grid-template-rows: repeat(5, auto);
+                grid-template-areas:
+                    ". item-1 item-1 ."
+                    ". item-2 item-6 ."
+                    ". item-4 item-5 ."
+                    ". item-3 item-5 ."
+                    ". item-3 item-5 ."
+                ;
+                justify-content: center;
+
+                .div-1 {
+                    background-color: $color-fondo;
+                    grid-area: item-1;
+                    display: flex;
+                    justify-content: center;
+
+                    h2 {
+                        margin-top: 25px;
+                        margin-bottom: 25px;
+                        justify-content: center;
+                        font-size: 2rem;
+                        line-height: 1.2;
+                        max-width: 100%;
+                        overflow-wrap: break-word;
+                        color: black;
+                    }
+                }
+
+                .div-2 {
+                    background-color: $color-fondo;
+                    padding-bottom: 15px;
+                    grid-area: item-2;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+
+                    img {
+                        margin-bottom: 15px;
+                        width: 150px;
+                        height: auto;
+                        max-width: 100%;
+                        height: auto;
+                        display: block;
+                        border-radius: 5px;
+                    }
+
+                    label {
+                        @include label-carrito;
+                    }
+                }
+
+                .div-3 {
+                    grid-area: item-3;
+                    background-color: $color-fondo;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+
+                    label {
+                        @include label-carrito;
+                        margin-bottom: 20px;
+                        display: flex;
+                        flex-direction: column;
+                    }
+                }
+
+                .div-4 {
+                    grid-area: item-4;
+                    background-color: $color-fondo;
+                    border-radius: 5px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+
+                    label {
+                        display: flex;
+                        flex-direction: column;
+                        @include label-carrito;
+                    }
+
+                    button {
+                        margin-top: 20px;
+                        @include foto-button;
+                    }
+
+                }
+
+                .div-5 {
+                    grid-area: item-5;
+                    background-color: $color-fondo;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    img {
+                        margin-bottom: 20px;
+                        border-radius: 5px;
+                        margin-top: 10px;
+                        width: 150px;
+                        height: auto;
+                    }
+
+                    label {
+                        padding-top: 60px;
+                        @include label-carrito;
+                        font-weight: bolder;
+                    }
+                }
+
+                .div-6 {
+                    background-color: $color-fondo;
+                    padding-bottom: 15px;
+                    grid-area: item-6;
+                    border-radius: 5px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    justify-content: space-around;
+
+                    label {
+                        @include label-carrito;
+                    }
+
+                    img {
+                        margin-bottom: 20px;
+                        border-radius: 5px;
+                        margin-top: 10px;
+                        width: 150px;
+                        height: auto;
+                    }
+                }
+
+            }
+        }
+
+        .footer1 {
+            display: none;
+        }
+
+        .footer-2 {
+            border-top: 1px solid black;
+            padding-left: 10px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            background-color: grey;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            justify-content: space-around;
+        }
+
+    }
+}
