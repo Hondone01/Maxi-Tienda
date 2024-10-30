@@ -10,6 +10,11 @@
     color: black;
 }
 
+@mixin label-carrito {
+    color: #323232;
+    font-size: 1rem;
+}
+
 @mixin foto-button {
     padding: 4px;
     color: black;
