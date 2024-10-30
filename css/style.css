@@ -13,10 +13,11 @@
     border-radius: 10px;
   }
   body {
-    background-color: rgb(241, 221, 214);
-  }
-  body .color-body {
-    background-color: rgb(241, 221, 214);
+    /* background-color: rgb(241, 221, 214);
+
+     .color-body {
+       background-color: rgb(241, 221, 214);
+     }*/
   }
   body main .inicio {
     display: flex;
@@ -97,7 +98,7 @@
   }
   body main .grid-container2 .div-1 {
     width: 300px;
-    margin-top: 15px;
+    /* margin-top: 15px;*/
     margin-bottom: 15px;
     grid-area: item-1;
     border-radius: 5px;
@@ -206,7 +207,7 @@
   }
   body main .grid-container3 {
     background-color: rgb(241, 221, 214);
-    /*margin-top: 60px;*/
+    /* margin-top: 60px;*/
     width: 320px;
     display: flex;
     flex-direction: column;
@@ -263,7 +264,7 @@
     color: black;
   }
   body main .grid-container3 .caja-productos .div-3 {
-    margin-top: 30px;
+    /* margin-top: 30px;*/
     width: 145px;
     height: 100px;
     grid-area: item-3;
@@ -283,7 +284,7 @@
     color: black;
   }
   body main .grid-container3 .caja-productos .div-4 {
-    margin-top: 30px;
+    /*  margin-top: 30px;*/
     width: 145px;
     height: 100px;
     grid-area: item-4;
@@ -303,7 +304,7 @@
     color: black;
   }
   body main .grid-container3 .caja-productos .div-5 {
-    margin-top: 30px;
+    /*  margin-top: 30px;*/
     width: 145px;
     height: 100px;
     grid-area: item-5;
@@ -323,7 +324,7 @@
     color: black;
   }
   body main .grid-container3 .caja-productos .div-6 {
-    margin-top: 30px;
+    /*   margin-top: 30px;*/
     width: 145px;
     height: 100px;
     grid-area: item-6;
@@ -344,7 +345,6 @@
   }
   body main .grid-container4 {
     background-color: rgb(241, 221, 214);
-    /* margin-top: 60px;*/
     width: 320px;
     display: flex;
     flex-direction: column;
@@ -388,7 +388,7 @@
     line-height: 1.5;
     margin: 0;
     max-width: 100%;
-    /* overflow-wrap: break-word;*/
+    overflow-wrap: break-word;
   }
   body main .grid-container4 .caja-promos .div-3 {
     width: 130px;
@@ -416,7 +416,7 @@
     line-height: 1.5;
     margin: 0;
     max-width: 100%;
-    /*  overflow-wrap: break-word;*/
+    overflow-wrap: break-word;
   }
   body main .grid-container5 {
     background-color: rgb(241, 221, 214);
@@ -433,7 +433,7 @@
   body main .grid-container5 .div-1 {
     margin-top: 15px;
     grid-area: item-1;
-    /*  background-color: #9cb850;*/
+    background-color: rgb(241, 221, 214);
     border-radius: 5px;
     display: flex;
     flex-direction: column;
@@ -1359,6 +1359,585 @@
     margin-top: 10px;
     width: 150px;
     height: auto;
+  }
+}
+@media (min-width: 375px) and (max-width: 424px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background-color: rgb(241, 221, 214);
+  }
+  .desktop {
+    display: none;
+  }
+  .logo-header {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+  }
+  body main .grid-container1 {
+    background-color: rgb(241, 221, 214);
+    width: 375px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas: "item-4" "item-2";
+  }
+  body main .grid-container1 .div-1 {
+    display: none;
+  }
+  body main .grid-container1 .div-2 {
+    /* padding-left: 10px;*/
+    width: 375px;
+    grid-area: item-2;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container1 .div-2 img {
+    width: 355px;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container1 .div-2 button {
+    margin-top: 10px;
+    padding: 2px;
+    color: black;
+    font-size: 0.8rem;
+    background-color: #DDD0C8;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-transform: capitalize;
+  }
+  body main .grid-container1 .div-3 {
+    display: none;
+  }
+  body main .grid-container1 .div-4 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    grid-area: item-4;
+    border-radius: 5px;
+    align-content: center;
+  }
+  body main .grid-container1 .div-4 h2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 1.2;
+    margin: 0;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    color: black;
+  }
+  body main .grid-container1 .div-5 {
+    display: none;
+  }
+  body main .grid-container2 {
+    background-color: rgb(241, 221, 214);
+    /* margin-top: 60px;*/
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  body main .grid-container2 .div-1 {
+    width: 355px;
+    /* margin-top: 15px;*/
+    margin-bottom: 15px;
+    grid-area: item-1;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container2 .div-1 h2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 1.2;
+    margin: 0;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    color: black;
+  }
+  body main .grid-container2 .caja-galeria {
+    /*padding-left: 10px;*/
+    width: 375px;
+    display: grid;
+    column-gap: 30px;
+    justify-content: center;
+    grid-template-columns: repeat(2, 0.5fr);
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: " item-1 item-1" " item-2 item-3" " item-4 item-5";
+    /*  column-gap: 10px;*/
+  }
+  body main .grid-container2 .caja-galeria .div-2 {
+    max-width: 100%;
+    height: auto;
+    grid-area: item-2;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container2 .caja-galeria .div-2 img {
+    max-width: 100%;
+    height: 100px;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container2 .caja-galeria .div-2 label {
+    font-size: 1rem;
+    color: black;
+  }
+  body main .grid-container2 .caja-galeria .div-3 {
+    max-width: 100%;
+    height: auto;
+    grid-area: item-3;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container2 .caja-galeria .div-3 img {
+    max-width: 100%;
+    height: 100px;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container2 .caja-galeria .div-3 label {
+    font-size: 1rem;
+    color: black;
+  }
+  body main .grid-container2 .caja-galeria .div-4 {
+    padding-top: 15px;
+    max-width: 100%;
+    height: auto;
+    grid-area: item-4;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container2 .caja-galeria .div-4 img {
+    max-width: 100%;
+    height: 100px;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container2 .caja-galeria .div-4 label {
+    font-size: 1rem;
+    color: black;
+  }
+  body main .grid-container2 .caja-galeria .div-5 {
+    padding-top: 15px;
+    max-width: 100%;
+    height: auto;
+    grid-area: item-5;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container2 .caja-galeria .div-5 img {
+    max-width: 100%;
+    height: 100px;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container2 .caja-galeria .div-5 label {
+    font-size: 1rem;
+    color: black;
+  }
+  body main .grid-container3 {
+    background-color: rgb(241, 221, 214);
+    /* margin-top: 60px;*/
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  body main .grid-container3 .div-1 {
+    padding-top: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    grid-area: item-1;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container3 .div-1 h2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 1.2;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    color: black;
+  }
+  body main .grid-container3 .caja-productos {
+    background-color: rgb(241, 221, 214);
+    width: 365px;
+    padding-left: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 0.25fr);
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas: " . item-1 item-1 . " " . item-2 item-2 . " " item-3 item-3 item-4 item-4 " " item-5 item-5 item-6 item-6 ";
+    column-gap: 35px;
+    justify-content: center;
+  }
+  body main .grid-container3 .caja-productos .div-2 {
+    margin-bottom: 25px;
+    width: 170px;
+    height: 100px;
+    grid-area: item-2;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container3 .caja-productos .div-2 img {
+    max-width: 100%;
+    height: 100px;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container3 .caja-productos .div-2 label {
+    font-size: 1rem;
+    color: black;
+  }
+  body main .grid-container3 .caja-productos .div-3 {
+    /* margin-top: 30px;*/
+    margin-bottom: 25px;
+    width: 170px;
+    height: 100px;
+    grid-area: item-3;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container3 .caja-productos .div-3 img {
+    max-width: 100%;
+    height: 100px;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container3 .caja-productos .div-3 label {
+    font-size: 1rem;
+    color: black;
+  }
+  body main .grid-container3 .caja-productos .div-4 {
+    /*  margin-top: 30px;*/
+    width: 170px;
+    height: 100px;
+    grid-area: item-4;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container3 .caja-productos .div-4 img {
+    max-width: 100%;
+    height: 100px;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container3 .caja-productos .div-4 label {
+    font-size: 1rem;
+    color: black;
+  }
+  body main .grid-container3 .caja-productos .div-5 {
+    margin-bottom: 25px;
+    width: 170px;
+    height: 100px;
+    grid-area: item-5;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container3 .caja-productos .div-5 img {
+    max-width: 100%;
+    height: 100px;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container3 .caja-productos .div-5 label {
+    font-size: 1rem;
+    color: black;
+  }
+  body main .grid-container3 .caja-productos .div-6 {
+    width: 170px;
+    height: 100px;
+    grid-area: item-6;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container3 .caja-productos .div-6 img {
+    max-width: 100%;
+    height: 100px;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container3 .caja-productos .div-6 label {
+    font-size: 1rem;
+    color: black;
+  }
+  body main .grid-container4 {
+    background-color: rgb(241, 221, 214);
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container4 .div-1 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    grid-area: item-1;
+    border-radius: 5px;
+    display: flex;
+    align-content: center;
+  }
+  body main .grid-container4 .div-1 h2 {
+    text-align: center;
+    font-size: 2rem;
+    line-height: 1.2;
+    color: black;
+  }
+  body main .grid-container4 .caja-promos {
+    width: 355px;
+    display: grid;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    grid-template-columns: 88.75px 88.75px 88.75px 88.75px;
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas: " . item-1 item-1 . " " item-2 item-3 item-3 item-4 ";
+  }
+  body main .grid-container4 .caja-promos .div-2 {
+    margin-top: 10px;
+    grid-area: item-2;
+    border-radius: 5px;
+    display: flex;
+  }
+  body main .grid-container4 .caja-promos .div-2 p {
+    width: 60px;
+    text-align: center;
+    color: black;
+    font-size: 1rem;
+    line-height: 1.5;
+    /*  margin: 0;*/
+    max-width: 100%;
+    overflow-wrap: break-word;
+  }
+  body main .grid-container4 .caja-promos .div-3 {
+    width: 177.5px;
+    grid-area: item-3;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+  }
+  body main .grid-container4 .caja-promos .div-3 img {
+    width: 180px;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container4 .caja-promos .div-4 {
+    grid-area: item-4;
+    border-radius: 5px;
+    display: flex;
+  }
+  body main .grid-container4 .caja-promos .div-4 p {
+    width: 60px;
+    text-align: center;
+    color: black;
+    font-size: 1rem;
+    line-height: 1.5;
+    /*  margin: 0;*/
+    max-width: 100%;
+    overflow-wrap: break-word;
+  }
+  body main .grid-container5 {
+    background-color: rgb(241, 221, 214);
+    width: 375px;
+    display: grid;
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: 0.5fr 1fr 1fr 0.5fr;
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: ". item-1 item-1 ." ". item-2 item-2 ." "item-3 item-3 item-3 item-3";
+    /* gap: 10px;*/
+    justify-content: center;
+  }
+  body main .grid-container5 .div-1 {
+    margin-top: 15px;
+    grid-area: item-1;
+    background-color: rgb(241, 221, 214);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  body main .grid-container5 h2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 1.2;
+    /*  margin: 0;*/
+    max-width: 100%;
+    overflow-wrap: break-word;
+    color: black;
+  }
+  body main .grid-container5 .div-2 {
+    padding-left: 10px;
+    width: 365px;
+    grid-area: item-2;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  body main .grid-container5 .div-2 img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container5 .div-3 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    grid-area: item-3;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  body main .grid-container5 .div-3 p {
+    padding: 10px;
+    text-align: justify;
+    color: black;
+    font-size: 1rem;
+    line-height: 1.5;
+    /*  margin: 0;*/
+    max-width: 100%;
+    overflow-wrap: break-word;
+  }
+  body main .grid-container6 {
+    background-color: rgb(241, 221, 214);
+    width: 375px;
+    display: grid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-template-columns: 187.5px 187.5px;
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas: " item-1 item-1" " item-4 item-3";
+  }
+  body main .grid-container6 .div-1 {
+    margin-top: 15px;
+    grid-area: item-1;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+  }
+  body main .grid-container6 .div-1 h2 {
+    text-align: center;
+    font-size: 2rem;
+    line-height: 1.2;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    color: black;
+  }
+  body main .grid-container6 .caja-calificacion {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+  }
+  body main .grid-container6 .caja-calificacion .div-2 {
+    display: none;
+  }
+  body main .grid-container6 .caja-calificacion .div-4 {
+    padding-bottom: 25px;
+    width: 170px;
+    grid-area: item-4;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container6 .caja-calificacion .div-4 img {
+    width: 100px;
+    height: 80px;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container6 .caja-calificacion .div-4 p {
+    width: 120px;
+    text-align: justify;
+    color: black;
+    font-size: 1rem;
+    line-height: 1.5;
+    /* margin: 0;*/
+    max-width: 100%;
+    overflow-wrap: break-word;
+  }
+  body main .grid-container6 .caja-calificacion .div-3 {
+    padding-bottom: 25px;
+    width: 170px;
+    grid-area: item-3;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container6 .caja-calificacion .div-3 img {
+    width: 100px;
+    height: 80px;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container6 .caja-calificacion .div-3 p {
+    width: 120px;
+    text-align: justify;
+    color: black;
+    font-size: 1rem;
+    line-height: 1.5;
+    /* margin: 0;*/
+    max-width: 100%;
+    overflow-wrap: break-word;
+  }
+  body main .grid-container6 .caja-calificacion .div-5 {
+    display: none;
+  }
+  body .footer1 {
+    display: none;
+  }
+  body .footer-2 {
+    border-top: 1px solid black;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
   }
 }
 * {
