@@ -1,0 +1,110 @@
+@import "../utilities/mixin";
+@import "../utilities/variables";
+
+@media (min-width: 425px) and (max-width: 767px) {
+    @import "../base/reset";
+    @import "../base/encabezado";
+
+    body {
+
+        main {
+            .grid-container11 {
+                display: grid;
+                display: flex;
+                flex-direction: column;
+                grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+                grid-template-rows: repeat(3, auto);
+                grid-template-areas:
+                    "item-1 item-1"
+                    "item-2 item-3"
+                    "item-2 item-3"
+                ;
+                /*gap: 20px;*/
+                justify-content: center;
+                max-width: 100%;
+
+                .div-1 {
+                    background-color: rgb(241, 221, 214);
+                    grid-area: item-1;
+                    border-radius: 5px;
+                    display: flex;
+                    justify-content: center;
+                    max-width: 100%;
+
+                    h2 {
+                        font-size: 3rem;
+                        line-height: 1.2;
+                        max-width: 100%;
+                        overflow-wrap: break-word;
+                        color: black;
+                    }
+                }
+
+                .div-2 {
+                    background-color: rgb(241, 221, 214);
+                    grid-area: item-2;
+                    border-radius: 5px;
+                    display: flex;
+                    flex-direction: column;
+                    max-width: 100%;
+
+                    p {
+                        text-align: justify;
+                        padding: 10px;
+                        margin-top: 30px;
+                        margin-bottom: 20px;
+                        font-size: 1.2rem;
+                        line-height: 1.2;
+                        max-width: 100%;
+                        overflow-wrap: break-word;
+                        color: black;
+                    }
+
+                    label {
+                        @include label-tienda;
+                    }
+
+                    form {
+                        button {
+                            margin-left: 10px;
+                            @include foto-button;
+                        }
+                    }
+
+                }
+
+                .div-3 {
+                    background-color: rgb(241, 221, 214);
+                    grid-area: item-3;
+                    border-radius: 5px;
+                    display: flex;
+                    justify-content: center;
+                    max-width: 100%;
+
+                    video {
+                        margin-top: 25px;
+                        margin-bottom: 25px;
+                        width: 405px;
+                        height: auto;
+                        border-radius: 5px;
+                    }
+                }
+            }
+        }
+        .footer1 {
+            display: none;
+          }
+      
+          .footer-2 {
+            border-top: 1px solid black;
+            padding-left: 10px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            background-color: grey;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            justify-content: space-around;
+          }
+    }
+}
