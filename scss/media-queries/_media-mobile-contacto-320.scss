@@ -1,4 +1,4 @@
-@import "../utilities/mixin";
+@use "../utilities/mixin" as *;
 
 @media (min-width: 320px) and (max-width: 374px) {
     * {

@@ -1,8 +1,8 @@
-@import "../utilities/mixin";
-@import "../utilities/variables";
+@use "../utilities/mixin" as *;
+@use "../utilities/variables" as *;
 
 @media (min-width: 375px) and (max-width: 424px) {
-    @import "../base/reset";
+    @import "../base/reset"; // O usa un espacio de nombres, si prefieres
     @import "../base/encabezado";
 
     body {

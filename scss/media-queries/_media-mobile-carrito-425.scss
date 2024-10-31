@@ -1,5 +1,5 @@
-@import "../utilities/mixin";
-@import "../utilities/variables";
+@use "../utilities/mixin"as *;
+@use "../utilities/variables"as *;
 
 @media (min-width: 425px) and (max-width: 767px) {
     @import "../base/reset";

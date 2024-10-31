@@ -1,0 +1,16 @@
+@use "../utilities/mixin"as *;
+@use "../utilities/variables"as *;
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    @import "../base/reset";
+   
+
+    body {
+        
+        @import "../layout/header";
+
+        main {
+            
+        }
+    }
+}
