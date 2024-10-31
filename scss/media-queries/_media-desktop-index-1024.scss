@@ -2,10 +2,12 @@
 @use "../utilities/variables" as *;
 @use "../base/reset" as *;
 @use "../layout/header" as *;
-
+@use "../layout/footer" as *;
 
 @media (min-width: 1024px) and (max-width: 1439px) {
     body {
+        @include header;
+
         .grid-container1 {
             width: 100%;
             max-width: 1024px;
@@ -576,21 +578,21 @@
                     }
 
                 }
-                
+
                 .div-5 {
                     grid-area: item-5;
                     border-radius: 5px;
                     display: flex;
                     flex-direction: column;
                     align-items: center;
-                    
+
                     img {
                         width: 100px;
                         height: auto;
                         display: block;
                         border-radius: 5px;
                     }
-                    
+
                     label {
                         font-size: 1rem;
                         color: #7450b8;
@@ -598,6 +600,18 @@
                 }
             }
         }
+
+        
+            @include footer;
+            
+            .footer-2{
+                display: none;
+            }
+        
+
+
+
+
 
 
     }
