@@ -1,25 +1,25 @@
-@use "media-queries/_media-mobile-index-320";
-@use "media-queries/_media-mobile-tienda-320";
-@use "media-queries/_media-mobile-cuenta-320";
-@use "media-queries/_media-mobile-contacto-320";
-@use "media-queries/_media-mobile-carrito-320";
+@use "media-queries/_media-mobile-index-320" as *;
+@use "media-queries/_media-mobile-tienda-320" as *;
+@use "media-queries/_media-mobile-cuenta-320" as *;
+@use "media-queries/_media-mobile-contacto-320" as *;
+@use "media-queries/_media-mobile-carrito-320" as *;
 
-@use "media-queries/_media-mobile-index-375";
-@use "media-queries/_media-mobile-tienda-375";
-@use "media-queries/_media-mobile-cuenta-375";
-@use "media-queries/_media-mobile-contacto-375";
-@use "media-queries/_media-mobile-carrito-375";
+@use "media-queries/_media-mobile-index-375" as *;
+@use "media-queries/_media-mobile-tienda-375" as *;
+@use "media-queries/_media-mobile-cuenta-375" as *;
+@use "media-queries/_media-mobile-contacto-375" as *;
+@use "media-queries/_media-mobile-carrito-375" as *;
 
-@use "media-queries/_media-mobile-index-425";
-@use "media-queries/_media-mobile-tienda-425";
-@use "media-queries/_media-mobile-cuenta-425";
-@use "media-queries/_media-mobile-contacto-425";
-@use "media-queries/_media-mobile-carrito-425";
+@use "media-queries/_media-mobile-index-425" as *;
+@use "media-queries/_media-mobile-tienda-425" as *;
+@use "media-queries/_media-mobile-cuenta-425" as *;
+@use "media-queries/_media-mobile-contacto-425" as *;
+@use "media-queries/_media-mobile-carrito-425" as *;
 
-@use "media-queries/_media-desktop-index-1024";
+@use "media-queries/_media-desktop-index-1024" as *;
 
-@use "layout/header";
-@use "utilities/_variables";
-@use "utilities/_mixin";
-@use "base/_reset";
-@use "base/_encabezado";
+@use "layout/header" as *;
+@use "utilities/_variables" as *;
+@use "utilities/_mixin" as *;
+@use "base/_reset" as *;
+@use "base/_encabezado" as *;
