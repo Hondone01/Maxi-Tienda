@@ -4021,7 +4021,9 @@ nav.navbar {
 
 @media (min-width: 1024px) and (max-width: 1439px) {
   body .grid-container1 {
-    margin-top: 30px;
+    width: 100%;
+    max-width: 1024px;
+    background-color: rgb(241, 221, 214);
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     grid-template-rows: repeat(4, auto);
@@ -4035,7 +4037,7 @@ nav.navbar {
   }
   body .grid-container1 .div-1 video {
     border-radius: 5px;
-    width: 400px;
+    max-width: 100%;
     height: auto;
   }
   body .grid-container1 .div-2 {
@@ -4046,7 +4048,7 @@ nav.navbar {
     align-items: center;
   }
   body .grid-container1 .div-2 img {
-    width: 500px;
+    max-width: 100%;
     height: auto;
     display: block;
     border-radius: 5px;
@@ -4073,7 +4075,7 @@ nav.navbar {
   }
   body .grid-container1 .div-3 video {
     border-radius: 5px;
-    width: 400px;
+    max-width: 100%;
     height: auto;
   }
   body .grid-container1 .div-4 {
@@ -4088,6 +4090,224 @@ nav.navbar {
     max-width: 100%;
     overflow-wrap: break-word;
     color: black;
+  }
+  body .grid-container2 {
+    width: 100%;
+    max-width: 1024px;
+    background-color: rgb(241, 221, 214);
+    display: grid;
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas: ". item-1 item-1 ." "item-2 item-3 item-4 item-5";
+    gap: 20px;
+    justify-content: center;
+  }
+  body .grid-container2 .div-1 {
+    grid-area: item-1;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .grid-container2 .div-1 h2 {
+    font-size: 3rem;
+    line-height: 1.2;
+    margin: 0;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    color: black;
+  }
+  body .grid-container2 .caja-galeria {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+  }
+  body .grid-container2 .caja-galeria .div-2 {
+    grid-area: item-2;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .grid-container2 .caja-galeria .div-2 img {
+    width: 200px;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+  }
+  body .grid-container2 .caja-galeria .div-2 label {
+    font-size: 1.5rem;
+    color: #323232;
+  }
+  body .grid-container2 .caja-galeria .div-3 {
+    grid-area: item-3;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .grid-container2 .caja-galeria .div-3 img {
+    width: 200px;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+  }
+  body .grid-container2 .caja-galeria .div-3 label {
+    font-size: 1.5rem;
+    color: #323232;
+  }
+  body .grid-container2 .caja-galeria .div-4 {
+    grid-area: item-4;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .grid-container2 .caja-galeria .div-4 img {
+    width: 200px;
+    height: 132px;
+    display: block;
+    border-radius: 5px;
+  }
+  body .grid-container2 .caja-galeria .div-4 label {
+    font-size: 1.5rem;
+    color: #323232;
+  }
+  body .grid-container2 .caja-galeria .div-5 {
+    grid-area: item-5;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .grid-container2 .caja-galeria .div-5 img {
+    width: 200px;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+  }
+  body .grid-container2 .caja-galeria .div-5 label {
+    font-size: 1.5rem;
+    color: #323232;
+  }
+  body .grid-container3 {
+    width: 100%;
+    max-width: 1024px;
+    background-color: rgb(241, 221, 214);
+    display: grid;
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: repeat(5, 1.2fr);
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas: ". item-1 item-1 item-1 ." "item-2 item-3 item-4 item-5 item-6";
+    gap: 10px;
+    justify-content: center;
+  }
+  body .grid-container3 .div-1 {
+    grid-area: item-1;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .grid-container3 .div-1 h2 {
+    font-size: 3rem;
+    line-height: 1.2;
+    margin: 0;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    color: black;
+  }
+  body .grid-container3 .caja-productos {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+  }
+  body .grid-container3 .caja-productos .div-2 {
+    grid-area: item-2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .grid-container3 .caja-productos .div-2 img {
+    width: 200px;
+    height: 133px !important;
+    display: block;
+    border-radius: 5px;
+  }
+  body .grid-container3 .caja-productos .div-2 label {
+    font-size: 1.5rem;
+    color: #323232;
+  }
+  body .grid-container3 .caja-productos .div-3 {
+    grid-area: item-3;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .grid-container3 .caja-productos .div-3 img {
+    width: 200px;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+  }
+  body .grid-container3 .caja-productos .div-3 label {
+    font-size: 1.5rem;
+    color: #323232;
+  }
+  body .grid-container3 .caja-productos .div-4 {
+    grid-area: item-4;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .grid-container3 .caja-productos .div-4 img {
+    width: 200px;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+  }
+  body .grid-container3 .caja-productos .div-4 label {
+    font-size: 1.5rem;
+    color: #323232;
+  }
+  body .grid-container3 .caja-productos .div-5 {
+    grid-area: item-5;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .grid-container3 .caja-productos .div-5 img {
+    width: 200px;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+  }
+  body .grid-container3 .caja-productos .div-5 label {
+    font-size: 1.5rem;
+    color: #323232;
+  }
+  body .grid-container3 .caja-productos .div-6 {
+    grid-area: item-6;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .grid-container3 .caja-productos .div-6 img {
+    width: 200px;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+  }
+  body .grid-container3 .caja-productos .div-6 label {
+    font-size: 1.5rem;
+    color: #323232;
   }
 }
 
