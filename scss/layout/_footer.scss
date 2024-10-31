@@ -1,63 +1,29 @@
 @mixin footer{
-    .footer1 {
-        list-style: none;
-        padding-bottom: 5px;
-        margin-bottom: -10px;
-        display: flex;
-        justify-content: center;
-        justify-items: center;
-        background-color: #c3c3c4;
-        border-top: 1px solid #323232;
-        justify-content: space-around;
-    
-        label {
+    .footer-1 {
+        background-color: gray;
+        border-top: 1px solid black;
+
+        ul{
             display: flex;
+            justify-content: space-around;
+            list-style: none;
+
+            div{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                align-content: space-around;
+
+                .imagen-footer{
+                    display: flex;
+                    flex-direction: row;
+                }
+            }
+
+            li{
+                text-decoration: none;
+            }
         }
-    
-        div {
-            margin-inline: 50px;
-        }
-    
-        .caja-1 {
-            margin-left: 150px;
-        }
-    
-        .caja-2 {
-            margin-left: 200px;
-        }
-    
-        .caja-3 {
-            margin-left: 50px;
-        }
-    
-        .div-footer1 label {
-            justify-content: center;
-        }
-    }
-    
-    .color-footer {
-        color: #323232;
-        font-size: 1.4rem;
-        font-weight: bolder;
-    }
-    
-    .label-div3 {
-        margin-left: 5px;
-    }
-    
-    #div4,
-    #div5 {
-        justify-content: center;
-    }
-    
-    .imagen-footer {
-        margin-top: 10px;
-        display: flex;
-        align-items: center;
-    
-        img {
-            margin-right: 10px;
-        }
-    }
-    
+
+}
 }
