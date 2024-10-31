@@ -47,3 +47,14 @@
     flex-direction: row;
     max-width: 100%;
 }
+
+@mixin button {
+    margin-top: 25px;
+    padding: 5px;
+    color: black;
+    font-size: 1rem;
+    background-color: #DDD0C8;
+    border: 3.2px solid black;
+    border-radius: 25px;
+    text-transform: capitalize;
+}

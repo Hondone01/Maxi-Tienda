@@ -1,9 +1,8 @@
 @use "../utilities/mixin" as *;
 @use "../utilities/variables" as *;
 @use "../base/reset" as *;
-
-
 @use "../layout/header" as *; 
+
 
 @media (min-width: 1024px) and (max-width: 1439px) {
     body {
@@ -19,7 +18,72 @@
                 ". item-2 ."
             ;
             gap: 20px;
-        } // Aquí puedes usar los estilos o mixins del header
-         // Ejemplo de uso de un mixin
+            
+            .div-1 {
+                grid-area: item-1;
+                margin-top: 140px;
+                align-content: center;
+                
+                video {
+                    border-radius: 5px;
+                    width: 400px;
+                    height: auto;
+                }
+            }
+            
+            .div-2 {
+                grid-area: item-2;
+                border-radius: 5px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                
+                img {
+                    width: 500px;
+                    height: auto;
+                    display: block;
+                    border-radius: 5px;
+                }
+                
+                button{
+                    @include button;
+                }
+                
+                button:hover {
+                    background-color: aliceblue;
+                    transition: 1s;
+                }
+                
+            }
+            
+            .div-3 {
+                margin-top: 140px;
+                grid-area: item-3;
+                border-radius: 5px;
+                align-content: center;
+                
+                video {
+                    border-radius: 5px;
+                    width: 400px;
+                    height: auto;
+                }
+            }
+            
+            .div-4 {
+                grid-area: item-4;
+                border-radius: 5px;
+                
+                h2 {
+                    display: flex;
+                    justify-content: center;
+                    font-size: 3rem;
+                    line-height: 1.2;
+                    max-width: 100%;
+                    overflow-wrap: break-word;
+                    color: black;
+                }
+            }
+            
+        } 
     }
 }
