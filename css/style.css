@@ -4083,10 +4083,9 @@ nav.navbar {
     border-radius: 5px;
   }
   body .grid-container1 .div-4 h2 {
-    display: flex;
-    justify-content: center;
     font-size: 3rem;
     line-height: 1.2;
+    margin: 0;
     max-width: 100%;
     overflow-wrap: break-word;
     color: black;
@@ -4308,6 +4307,239 @@ nav.navbar {
   body .grid-container3 .caja-productos .div-6 label {
     font-size: 1.5rem;
     color: #323232;
+  }
+  body .grid-container4 {
+    width: 100%;
+    max-width: 1024px;
+    background-color: rgb(241, 221, 214);
+    display: grid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas: ". item-1 ." "item-2 item-3 item-4";
+  }
+  body .grid-container4 .div-1 {
+    grid-area: item-1;
+    display: flex;
+    justify-content: center;
+  }
+  body .grid-container4 .div-1 h2 {
+    font-size: 3rem;
+    line-height: 1.2;
+    margin: 0;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    color: black;
+  }
+  body .grid-container4 .caja-promos {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+  }
+  body .grid-container4 .caja-promos .div-2 {
+    grid-area: item-2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  body .grid-container4 .caja-promos .div-2 p {
+    font-size: 1.5rem;
+    color: #323232;
+  }
+  body .grid-container4 .caja-promos .div-3 {
+    margin-left: -50px;
+    grid-area: item-3;
+    display: flex;
+    justify-content: center;
+  }
+  body .grid-container4 .caja-promos .div-3 img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+  }
+  body .grid-container4 .caja-promos .div-4 {
+    grid-area: item-4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  body .grid-container4 .caja-promos .div-4 p {
+    font-size: 1.5rem;
+    color: #323232;
+  }
+  body .grid-container4 .caja-promos .div-4 img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+  }
+  body .grid-container5 {
+    padding-top: 25px;
+    width: 100%;
+    max-width: 1024px;
+    background-color: rgb(241, 221, 214);
+    display: grid;
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: 0.5fr 1fr 1fr 0.5fr;
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: ". item-1 item-1 ." ". item-2 item-2 ." "item-3 item-3 item-3 item-3";
+    gap: 10px;
+    justify-content: center;
+  }
+  body .grid-container5 .div-1 {
+    grid-area: item-1;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  body .grid-container5 .div-1 h2 {
+    font-size: 3rem;
+    line-height: 1.2;
+    margin: 0;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    color: black;
+  }
+  body .grid-container5 .div-2 {
+    grid-area: item-2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  body .grid-container5 .div-2 img {
+    width: 700px;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+  }
+  body .grid-container5 .div-3 {
+    grid-area: item-3;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  body .grid-container5 .div-3 p {
+    padding: 20px;
+    font-size: 1rem;
+    color: #323232;
+    line-height: 1.5;
+    text-align: justify;
+    margin: 0;
+    max-width: 100%;
+    overflow-wrap: break-word;
+  }
+  body .grid-container6 {
+    width: 100%;
+    max-width: 1024px;
+    background-color: rgb(241, 221, 214);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas: ". item-1 item-1 ." "item-2 item-3 item-4 item-5";
+    gap: 20px;
+    justify-content: center;
+  }
+  body .grid-container6 .div-1 {
+    grid-area: item-1;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+  }
+  body .grid-container6 .div-1 h2 {
+    font-size: 3rem;
+    line-height: 1.2;
+    margin: 0;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    color: black;
+  }
+  body .grid-container6 .div-2 {
+    grid-area: item-2;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .grid-container6 .div-2 img {
+    width: 100px;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+  }
+  body .grid-container6 .div-2 label {
+    font-size: 1.5rem;
+    color: #323232;
+  }
+  body .grid-container6 .caja-calificacion {
+    padding-left: 5px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+  }
+  body .grid-container6 .caja-calificacion .div-3 {
+    grid-area: item-3;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .grid-container6 .caja-calificacion .div-3 img {
+    width: 100px;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+  }
+  body .grid-container6 .caja-calificacion .div-3 label {
+    font-size: 1.5rem;
+    color: #323232;
+  }
+  body .grid-container6 .caja-calificacion .div-4 {
+    grid-area: item-4;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .grid-container6 .caja-calificacion .div-4 img {
+    width: 100px;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+  }
+  body .grid-container6 .caja-calificacion .div-4 label {
+    font-size: 1.5rem;
+    color: #323232;
+  }
+  body .grid-container6 .caja-calificacion .div-5 {
+    grid-area: item-5;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .grid-container6 .caja-calificacion .div-5 img {
+    width: 100px;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+  }
+  body .grid-container6 .caja-calificacion .div-5 label {
+    font-size: 1rem;
+    color: #7450b8;
   }
 }
 

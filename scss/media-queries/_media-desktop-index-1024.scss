@@ -76,18 +76,12 @@
                 border-radius: 5px;
 
                 h2 {
-                    display: flex;
-                    justify-content: center;
-                    font-size: 3rem;
-                    line-height: 1.2;
-                    max-width: 100%;
-                    overflow-wrap: break-word;
-                    color: black;
+                    @include h2;
                 }
             }
 
         }
-        
+
         .grid-container2 {
             width: 100%;
             max-width: 1024px;
@@ -103,103 +97,98 @@
             ;
             gap: 20px;
             justify-content: center;
-            
+
             .div-1 {
                 grid-area: item-1;
                 border-radius: 5px;
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-                
+
                 h2 {
-                    font-size: 3rem;
-                    line-height: 1.2;
-                    margin: 0;
-                    max-width: 100%;
-                    overflow-wrap: break-word;
-                    color: black;
+                    @include h2;
                 }
             }
-            
+
             .caja-galeria {
                 display: flex;
                 justify-content: center;
                 justify-content: space-around;
-                
+
                 .div-2 {
                     grid-area: item-2;
                     border-radius: 5px;
                     display: flex;
                     flex-direction: column;
                     align-items: center;
-                    
+
                     img {
                         width: 200px;
                         height: auto;
                         display: block;
                         border-radius: 5px;
                     }
-                    
+
                     label {
                         font-size: 1.5rem;
                         color: #323232;
                     }
                 }
-                
+
                 .div-3 {
                     grid-area: item-3;
                     border-radius: 5px;
                     display: flex;
                     flex-direction: column;
                     align-items: center;
-                    
+
                     img {
                         width: 200px;
                         height: auto;
                         display: block;
                         border-radius: 5px;
                     }
-                    
+
                     label {
                         font-size: 1.5rem;
                         color: #323232;
                     }
                 }
-                
+
                 .div-4 {
                     grid-area: item-4;
                     border-radius: 5px;
                     display: flex;
                     flex-direction: column;
                     align-items: center;
-                    
+
                     img {
                         width: 200px;
                         height: 132px;
                         display: block;
                         border-radius: 5px;
                     }
-                    
+
                     label {
                         font-size: 1.5rem;
                         color: #323232;
                     }
                 }
-                
+
                 .div-5 {
                     grid-area: item-5;
                     border-radius: 5px;
                     display: flex;
                     flex-direction: column;
                     align-items: center;
-                    
+
                     img {
                         width: 200px;
                         height: auto;
                         display: block;
                         border-radius: 5px;
                     }
-                    
+
                     label {
                         font-size: 1.5rem;
                         color: #323232;
@@ -207,7 +196,7 @@
                 }
             }
         }
-        
+
         .grid-container3 {
             width: 100%;
             max-width: 1024px;
@@ -215,7 +204,7 @@
             display: grid;
             display: flex;
             flex-direction: column;
-    
+
             grid-template-columns: repeat(5, 1.2fr);
             grid-template-rows: repeat(2, auto);
             grid-template-areas:
@@ -224,86 +213,368 @@
             ;
             gap: 10px;
             justify-content: center;
-            
+
             .div-1 {
                 grid-area: item-1;
                 border-radius: 5px;
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-                
+
                 h2 {
-                    font-size: 3rem;
-                    line-height: 1.2;
-                    margin: 0;
-                    max-width: 100%;
-                    overflow-wrap: break-word;
-                    color: black;
+                    @include h2;
                 }
             }
-            
+
             .caja-productos {
                 display: flex;
                 justify-content: center;
                 justify-content: space-around;
-                
+
                 .div-2 {
                     grid-area: item-2;
                     display: flex;
                     flex-direction: column;
                     align-items: center;
-                    
+
                     img {
                         width: 200px;
                         height: 133px !important;
                         display: block;
                         border-radius: 5px;
                     }
-                    
+
                     label {
                         font-size: 1.5rem;
                         color: #323232;
                     }
                 }
-                
+
                 .div-3 {
                     grid-area: item-3;
                     border-radius: 5px;
                     display: flex;
                     flex-direction: column;
                     align-items: center;
-                    
+
                     img {
                         width: 200px;
                         height: auto;
                         display: block;
                         border-radius: 5px;
                     }
-                    
+
                     label {
                         font-size: 1.5rem;
                         color: #323232;
                     }
                 }
-                
+
                 .div-4 {
                     grid-area: item-4;
                     border-radius: 5px;
                     display: flex;
                     flex-direction: column;
                     align-items: center;
-                    
+
                     img {
                         width: 200px;
                         height: auto;
                         display: block;
                         border-radius: 5px;
                     }
-                    
+
                     label {
                         font-size: 1.5rem;
                         color: #323232;
                     }
+                }
+
+                .div-5 {
+                    grid-area: item-5;
+                    border-radius: 5px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    img {
+                        width: 200px;
+                        height: auto;
+                        display: block;
+                        border-radius: 5px;
+                    }
+
+                    label {
+                        font-size: 1.5rem;
+                        color: #323232;
+                    }
+                }
+
+                .div-6 {
+                    grid-area: item-6;
+                    border-radius: 5px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    img {
+                        width: 200px;
+                        height: auto;
+                        display: block;
+                        border-radius: 5px;
+                    }
+
+                    label {
+                        font-size: 1.5rem;
+                        color: #323232;
+                    }
+                }
+            }
+        }
+
+        .grid-container4 {
+            width: 100%;
+            max-width: 1024px;
+            background-color: $color-fondo;
+            display: grid;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(2, auto);
+            grid-template-areas:
+                ". item-1 ."
+                "item-2 item-3 item-4"
+            ;
+
+            .div-1 {
+                grid-area: item-1;
+                display: flex;
+                justify-content: center;
+
+                h2 {
+                    @include h2;
+                }
+
+            }
+
+            .caja-promos {
+                margin-top: 40px;
+                display: flex;
+                justify-content: center;
+                justify-content: space-around;
+
+                .div-2 {
+                    grid-area: item-2;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+
+                    p {
+                        font-size: 1.5rem;
+                        color: #323232;
+                    }
+                }
+
+                .div-3 {
+                    margin-left: -50px;
+                    grid-area: item-3;
+                    display: flex;
+                    justify-content: center;
+
+                    img {
+                        max-width: 100%;
+                        height: auto;
+                        display: block;
+                        border-radius: 5px;
+                    }
+
+                }
+
+                .div-4 {
+                    grid-area: item-4;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+
+                    p {
+                        font-size: 1.5rem;
+                        color: #323232;
+                    }
+
+                    img {
+                        max-width: 100%;
+                        height: auto;
+                        display: block;
+                        border-radius: 5px;
+                    }
+                }
+            }
+        }
+
+        .grid-container5 {
+            padding-top: 25px;
+            width: 100%;
+            max-width: 1024px;
+            background-color: $color-fondo;
+            display: grid;
+            display: flex;
+            flex-direction: column;
+            grid-template-columns: .5fr 1fr 1fr .5fr;
+            grid-template-rows: repeat(3, auto);
+            grid-template-areas:
+                ". item-1 item-1 ."
+                ". item-2 item-2 ."
+                "item-3 item-3 item-3 item-3"
+            ;
+            gap: 10px;
+            justify-content: center;
+
+            .div-1 {
+                grid-area: item-1;
+                border-radius: 5px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+                h2 {
+                    @include h2;
+                }
+
+            }
+
+            .div-2 {
+                grid-area: item-2;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+                img {
+                    width: 700px;
+                    height: auto;
+                    display: block;
+                    border-radius: 5px;
+                }
+            }
+
+            .div-3 {
+                grid-area: item-3;
+                border-radius: 5px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+                p {
+                    padding: 20px;
+                    font-size: 1rem;
+                    color: #323232;
+                    line-height: 1.5;
+                    text-align: justify;
+                    margin: 0;
+                    max-width: 100%;
+                    overflow-wrap: break-word;
+                }
+            }
+        }
+
+        .grid-container6 {
+            width: 100%;
+            max-width: 1024px;
+            background-color: $color-fondo;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(2, auto);
+            grid-template-areas:
+                ". item-1 item-1 ."
+                "item-2 item-3 item-4 item-5"
+            ;
+            gap: 20px;
+            justify-content: center;
+
+            .div-1 {
+                grid-area: item-1;
+                border-radius: 5px;
+                display: flex;
+                justify-content: center;
+
+                h2 {
+                    @include h2;
+                }
+            }
+
+            .div-2 {
+                grid-area: item-2;
+                border-radius: 5px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                img {
+                    width: 100px;
+                    height: auto;
+                    display: block;
+                    border-radius: 5px;
+                }
+
+                label {
+                    font-size: 1.5rem;
+                    color: #323232;
+                }
+            }
+
+            .caja-calificacion {
+                padding-left: 5px;
+                display: flex;
+                justify-content: center;
+                justify-content: space-around;
+
+                .div-3 {
+                    grid-area: item-3;
+                    border-radius: 5px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    img {
+                        width: 100px;
+                        height: auto;
+                        display: block;
+                        border-radius: 5px;
+                    }
+
+                    label {
+                        font-size: 1.5rem;
+                        color: #323232;
+                    }
+                }
+
+                .div-4 {
+                    grid-area: item-4;
+                    border-radius: 5px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+
+                    img {
+                        width: 100px;
+                        height: auto;
+                        display: block;
+                        border-radius: 5px;
+                    }
+
+                    label {
+                        font-size: 1.5rem;
+                        color: #323232;
+                    }
+
                 }
                 
                 .div-5 {
@@ -314,35 +585,15 @@
                     align-items: center;
                     
                     img {
-                        width: 200px;
+                        width: 100px;
                         height: auto;
                         display: block;
                         border-radius: 5px;
                     }
                     
                     label {
-                        font-size: 1.5rem;
-                        color: #323232;
-                    }
-                }
-                
-                .div-6 {
-                    grid-area: item-6;
-                    border-radius: 5px;
-                    display: flex;
-                    flex-direction: column;
-                    align-items: center;
-                    
-                    img {
-                        width: 200px;
-                        height: auto;
-                        display: block;
-                        border-radius: 5px;
-                    }
-                    
-                    label {
-                        font-size: 1.5rem;
-                        color: #323232;
+                        font-size: 1rem;
+                        color: #7450b8;
                     }
                 }
             }
