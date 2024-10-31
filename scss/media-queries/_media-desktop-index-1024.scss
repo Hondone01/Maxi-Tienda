@@ -600,12 +600,12 @@
                 }
             }
         }
-        
-            @include footer;
-            
-            .footer-2{
-                display: none;
-            }
+
+        @include footer;
+
+        .footer-2 {
+            display: none;
+        }
 
     }
 }

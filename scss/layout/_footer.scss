@@ -1,29 +1,59 @@
-@mixin footer{
+@mixin footer {
+
     .footer-1 {
         background-color: gray;
         border-top: 1px solid black;
+        margin-bottom: -20px;
 
-        ul{
+
+        ul {
+
+            
             display: flex;
             justify-content: space-around;
             list-style: none;
 
-            div{
+
+            div {
+
+                .label-color {
+                    font-weight: bolder;
+                }
+
                 display: flex;
                 flex-direction: column;
                 align-items: center;
                 align-content: space-around;
 
-                .imagen-footer{
+                .imagen-footer {
                     display: flex;
                     flex-direction: row;
+
+                    div {
+                        label {
+                            display: flex;
+                            flex-direction: column;
+                            align-content: center;
+                        }
+
+                    }
                 }
             }
 
-            li{
+            li {
                 text-decoration: none;
+
             }
         }
 
-}
+    }
+
+    .footer-2 {
+        border-top: 1px solid black;
+        padding-left: 10px;
+        padding-bottom: 20px;
+        background-color: grey;
+        display: flex;
+        justify-content: center;
+    }
 }
