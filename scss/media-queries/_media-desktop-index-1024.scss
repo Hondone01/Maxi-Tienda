@@ -1,14 +1,25 @@
 @use "../utilities/mixin" as *;
 @use "../utilities/variables" as *;
+@use "../base/reset" as *;
+
+
+@use "../layout/header" as *; 
 
 @media (min-width: 1024px) and (max-width: 1439px) {
-    @import "../base/reset";
-   
-
     body {
-        
-        @import "../layout/header";
-
-        
+        .grid-container1 {
+            margin-top: 30px;
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+            grid-template-rows: repeat(4, auto);
+            grid-template-areas:
+                ". item-4 item-5"
+                "item-1 item-2 ."
+                "item-1 item-2 item-3"
+                ". item-2 ."
+            ;
+            gap: 20px;
+        } // Aquí puedes usar los estilos o mixins del header
+         // Ejemplo de uso de un mixin
     }
 }

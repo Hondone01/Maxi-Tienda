@@ -1,9 +1,11 @@
-@use "../utilities/mixin"as *;
-@use "../utilities/variables"as *;
+@use "../utilities/mixin" as *;
+@use "../utilities/variables" as *;
+
+
+@use "../base/reset" as *;
+@use "../base/encabezado" as *;
 
 @media (min-width: 425px) and (max-width: 767px) {
-    @import "../base/reset";
-    @import "../base/encabezado";
 
     body {
 

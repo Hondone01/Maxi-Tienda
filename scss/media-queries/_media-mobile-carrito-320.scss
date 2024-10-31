@@ -1,9 +1,11 @@
 @use "../utilities/mixin" as *;
 @use "../utilities/variables" as *;
 
+@use "../base/reset" as *;
+@use "../base/encabezado" as *;
+
 @media (min-width: 320px) and (max-width: 374px) {
-    @import "../base/reset";
-    @import "../base/encabezado";
+
 
     body {
 
@@ -153,11 +155,12 @@
             }
 
         }
+
         .footer1 {
             display: none;
-          }
-      
-          .footer-2 {
+        }
+
+        .footer-2 {
             border-top: 1px solid black;
             padding-left: 10px;
             padding-top: 20px;
@@ -165,7 +168,7 @@
             background-color: grey;
             display: flex;
             justify-content: center;
-          }
+        }
 
     }
 

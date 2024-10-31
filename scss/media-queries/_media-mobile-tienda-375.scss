@@ -1,9 +1,11 @@
-@use "../utilities/mixin"as *;
-@use "../utilities/variables"as *;
+@use "../utilities/mixin" as *;
+@use "../utilities/variables" as *;
+
+
+@use "../base/reset" as *;
+@use "../base/encabezado" as *;
 
 @media (min-width: 375px) and (max-width: 424px) {
-    @import "../base/_reset"; 
-    @import "../base/_encabezado";  
 
     body {
 
@@ -293,12 +295,12 @@
 
             }
         }
-        
+
         .footer1 {
             display: none;
-          }
-      
-          .footer-2 {
+        }
+
+        .footer-2 {
             border-top: 1px solid black;
             padding-left: 10px;
             padding-top: 20px;
@@ -308,6 +310,6 @@
             align-items: center;
             justify-content: center;
             justify-content: space-around;
-          }
+        }
     }
 }
