@@ -1,0 +1,110 @@
+@use "../../utilities/mixin" as *;
+@use "../../utilities/variables" as *;
+@use "../../base/reset" as *;
+@use "../../layout/header" as *;
+@use "../../layout/footer" as *;
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    body {
+        @include header;
+
+
+        .grid-container11 {
+            width: 100%;
+            max-width: 1024px;
+            background-color: $color-fondo;
+            padding-left: 10px;
+            padding-bottom: 20px;
+            border: 1px solid black;
+            display: grid;
+            grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+            grid-template-rows: repeat(3, auto);
+            grid-template-areas:
+                "item-1 item-1"
+                "item-2 item-3"
+                "item-2 item-3"
+            ;
+            gap: 20px;
+            justify-content: center;
+            max-width: 100%;
+
+            .div-1 {
+                grid-area: item-1;
+                border-radius: 5px;
+                display: flex;
+                justify-content: center;
+                max-width: 100%;
+
+                h2 {
+                    font-size: 3rem;
+                    line-height: 1.2;
+                    margin: 0;
+                    max-width: 100%;
+                    overflow-wrap: break-word;
+                    color: black;
+                }
+            }
+
+            .div-2 {
+                grid-area: item-2;
+                border-radius: 5px;
+                display: flex;
+                flex-direction: column;
+                max-width: 100%;
+
+                p {
+                    margin-bottom: 60px;
+                    font-size: 1.2rem;
+                    line-height: 1.2;
+                    max-width: 100%;
+                    overflow-wrap: break-word;
+                    color: black;
+                }
+
+                label {
+                    margin-bottom: 10px;
+                    font-size: 1rem;
+                    color: black;
+                }
+
+                div {
+                    margin-bottom: 10px;
+                }
+
+                .margen {
+                    margin-bottom: 100px;
+                }
+
+                .area {
+                    display: flex;
+
+                    textarea {
+                        margin-top: 0px;
+                        margin-bottom: 15px;
+                    }
+                }
+            }
+
+            .div-3 {
+                max-width: 100%;
+                grid-area: item-3;
+                border-radius: 5px;
+                display: flex;
+                justify-content: center;
+                max-width: 100%;
+
+                video{
+                    width: 450px;
+                    height: auto;
+                }
+            }
+        }
+
+        @include footer;
+
+        .footer-2 {
+            display: none;
+        }
+
+    }
+}
