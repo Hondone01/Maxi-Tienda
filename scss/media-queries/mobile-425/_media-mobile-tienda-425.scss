@@ -1,11 +1,10 @@
-@use "../utilities/mixin" as *;
-@use "../utilities/variables" as *;
+@use "../../utilities/mixin" as *;
+@use "../../utilities/variables" as *;
 
+@use "../../base/reset" as *;
+@use "../../base/encabezado" as *;
 
-@use "../base/reset" as *;
-@use "../base/encabezado" as *;
-
-@media (min-width: 375px) and (max-width: 424px) {
+@media (min-width: 425px) and (max-width: 767px) {
 
     body {
 
@@ -51,11 +50,11 @@
                     align-items: center;
 
                     label {
-                        @include label-tienda;
+                        @include label-tienda-425;
                     }
 
                     img {
-                        width: 355px;
+                        width: 405px;
                         height: auto;
                         margin-top: 20px;
                         margin-bottom: 20px;
@@ -77,6 +76,8 @@
                     justify-content: center;
 
                     img {
+                        width: 250px;
+                        height: auto;
                         grid-area: item-3;
                         border-radius: 5px;
                         display: flex;
@@ -97,7 +98,8 @@
                     padding-top: 10px;
 
                     img {
-                        /* padding-top: 10px;*/
+                        width: 250px;
+                        height: 140px;
                         grid-area: item-3;
                         border-radius: 5px;
                         display: flex;
@@ -108,6 +110,7 @@
                 }
 
                 .div-5 {
+                    padding-top: 20px;
                     grid-area: item-5;
                     background-color: rgb(241, 221, 214);
                     display: flex;
@@ -123,7 +126,7 @@
                     }
 
                     label {
-                        @include label-tienda;
+                        @include label-tienda-425;
                     }
 
                     button {
@@ -153,12 +156,12 @@
                     justify-content: center;
 
                     label {
-                        @include label-tienda;
+                        @include label-tienda-425;
                     }
                 }
 
             }
-
+            
             .grid-container9 {
                 display: grid;
                 display: flex;
@@ -201,7 +204,7 @@
                     align-items: center;
 
                     label {
-                        @include label-tienda;
+                        @include label-tienda-425;
                     }
 
                     img {
@@ -228,7 +231,7 @@
                     }
 
                     label {
-                        @include label-tienda;
+                        @include label-tienda-425;
                     }
 
                 }
@@ -249,7 +252,7 @@
                     }
 
                     label {
-                        @include label-tienda;
+                        @include label-tienda-425;
                     }
                 }
 
@@ -269,7 +272,7 @@
                     }
 
                     label {
-                        @include label-tienda;
+                        @include label-tienda-425;
                     }
                 }
 
@@ -289,18 +292,18 @@
                     }
 
                     label {
-                        @include label-tienda;
+                        @include label-tienda-425;
                     }
                 }
 
             }
         }
-
+        
         .footer-1 {
             display: none;
-        }
-
-        .footer-2 {
+          }
+      
+          .footer-2 {
             border-top: 1px solid black;
             padding-left: 10px;
             padding-top: 20px;
@@ -310,6 +313,6 @@
             align-items: center;
             justify-content: center;
             justify-content: space-around;
-        }
+          }
     }
 }

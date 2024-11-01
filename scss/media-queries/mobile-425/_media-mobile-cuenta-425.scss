@@ -1,36 +1,14 @@
-@use "../utilities/mixin" as *;
+@use "../../utilities/mixin" as *;
+@use "../../utilities/variables" as *;
 
-@media (min-width: 320px) and (max-width: 374px) {
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
+@use "../../base/reset" as *;
+@use "../../base/encabezado" as *;
 
-    .desktop {
-        display: none;
-    }
-
-    .logo-header {
-        width: 40px;
-        height: 40px;
-        border-radius: 10px;
-    }
+@media (min-width: 425px) and (max-width: 767px) {
 
     body {
-        background-color: rgb(241, 221, 214);
-
-        .color-body {
-            background-color: rgb(241, 221, 214);
-        }
 
         main {
-            .inicio {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-            }
-            
             .grid-container10 {
                 display: grid;
                 display: flex;
@@ -46,7 +24,7 @@
                     "item-4 item-4"
                 ;
                 max-width: 100%;
-                
+
                 .div-1 {
                     background-color: rgb(241, 221, 214);
                     grid-area: item-1;
@@ -54,7 +32,7 @@
                     display: flex;
                     justify-content: center;
                     max-width: 100%;
-                    
+
                     h2 {
                         font-size: 3rem;
                         line-height: 1.2;
@@ -62,9 +40,9 @@
                         overflow-wrap: break-word;
                         color: black !important;
                     }
-                    
+
                 }
-                
+
                 .div-2 {
                     padding-top: 25px;
                     background-color: rgb(241, 221, 214);
@@ -75,7 +53,7 @@
                     justify-content: center;
                     align-items: center;
                     max-width: 100%;
-                    
+
                     h2 {
                         margin-top: 35px;
                         display: flex;
@@ -87,7 +65,7 @@
                         overflow-wrap: break-word;
                         color: black;
                     }
-                    
+
                     p {
                         padding: 10px;
                         margin-bottom: 15px;
@@ -98,39 +76,41 @@
                         overflow-wrap: break-word;
                         color: black;
                     }
-                    
+
                     label {
                         font-size: 1rem;
                         color: black;
                     }
-                    .foto{
+
+                    .foto {
                         display: flex;
                         flex-direction: column;
                         align-items: center;
-                        
-                        img{
-                            width: 120px;
+
+                        img {
+                            border-radius: 5px;
+                            width: 180px;
                             height: auto;
                         }
-                        
+
                     }
-                    
+
                     .foto button {
                         margin-top: 20px;
                         @include foto-button;
                     }
-                    
+
                     form {
                         width: 250px;
                         padding-top: 25px;
                         display: flex;
                         flex-direction: column;
                     }
-                    
+
                     input {
                         margin-bottom: 15px;
                     }
-                    
+
                     .genero {
                         width: 320px;
                         display: flex;
@@ -138,7 +118,7 @@
                         align-content: center;
                         align-items: center;
                     }
-                    
+
                     .idioma {
                         width: 320px;
                         display: flex;
@@ -146,9 +126,9 @@
                         align-content: center;
                         align-items: center;
                     }
-                    
+
                 }
-                
+
                 .div-3 {
                     background-color: rgb(241, 221, 214);
                     grid-area: item-3;
@@ -156,33 +136,33 @@
                     display: flex;
                     flex-direction: column;
                     max-width: 100%;
-                    
+
                     .botones button {
                         @include foto-button;
                     }
-                    
+
                     .botones {
                         margin-top: 15px;
                         display: flex;
                         justify-content: space-around;
                         max-width: 100%;
                     }
-                    
-                    .borrarcuenta{
+
+                    .borrarcuenta {
                         display: flex;
                         justify-content: center;
-                        
+
                         button {
                             margin-top: 20px;
                             @include foto-button;
                         }
                     }
-                    
-                   
-                    
-                    
+
+
+
+
                 }
-                
+
                 .div-4 {
                     padding-top: 25px;
                     background-color: rgb(241, 221, 214);
@@ -191,13 +171,14 @@
                     display: flex;
                     justify-content: center;
                     max-width: 100%;
-                    p{
+
+                    p {
                         padding: 10px;
                         text-align: justify;
                     }
-                    
+
                 }
-                
+
                 .div-5 {
                     background-color: rgb(241, 221, 214);
                     padding-left: 10px;
@@ -206,7 +187,7 @@
                     display: flex;
                     flex-direction: column;
                     max-width: 100%;
-                    
+
                     h2 {
                         display: flex;
                         justify-content: center;
@@ -217,15 +198,15 @@
                         overflow-wrap: break-word;
                         color: black;
                     }
-                    
+
                     label {
                         margin-bottom: 10px;
                         font-size: 1rem;
                         color: black;
                     }
                 }
-                
-                
+
+
             }
         }
         
@@ -240,8 +221,9 @@
             padding-bottom: 20px;
             background-color: grey;
             display: flex;
+            align-items: center;
             justify-content: center;
+            justify-content: space-around;
           }
-        
     }
 }

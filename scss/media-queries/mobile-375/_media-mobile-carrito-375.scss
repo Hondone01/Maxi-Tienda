@@ -1,15 +1,16 @@
-@use "../utilities/mixin" as *;
-@use "../utilities/variables" as *;
+@use "../../utilities/mixin" as *;
+@use "../../utilities/variables" as *;
 
-@use "../base/reset" as *;
-@use "../base/encabezado" as *;
 
-@media (min-width: 320px) and (max-width: 374px) {
+@use "../../base/reset" as *;
+@use "../../base/encabezado" as *;
 
+@media (min-width: 375px) and (max-width: 424px) {
 
     body {
 
         main {
+
             .grid-container7 {
                 display: grid;
                 display: flex;
@@ -151,9 +152,7 @@
                     }
                 }
 
-
             }
-
         }
 
         .footer-1 {
@@ -167,9 +166,10 @@
             padding-bottom: 20px;
             background-color: grey;
             display: flex;
+            align-items: center;
             justify-content: center;
+            justify-content: space-around;
         }
 
     }
-
 }

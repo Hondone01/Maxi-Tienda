@@ -1,18 +1,16 @@
-@use "../utilities/mixin" as *;
-@use "../utilities/variables" as *;
+@use "../../utilities/mixin" as *;
+@use "../../utilities/variables" as *;
 
-@use "../base/reset" as *;
-@use "../base/encabezado" as *;
+@use "../../base/reset" as *;
+@use "../../base/encabezado" as *;
 
-
-@media (min-width: 375px) and (max-width: 424px) {
-
-
+@media (min-width: 425px) and (max-width: 767px) {
     body {
+
         main {
             .grid-container1 {
                 background-color: $color-fondo;
-                width: 375px;
+                width: 425px;
                 display: grid;
                 justify-content: center;
                 grid-template-columns: 1fr;
@@ -28,7 +26,7 @@
 
                 .div-2 {
                     /* padding-left: 10px;*/
-                    width: 375px;
+                    width: 425px;
                     grid-area: item-2;
                     border-radius: 5px;
                     display: flex;
@@ -37,7 +35,7 @@
                     align-items: center;
 
                     img {
-                        width: 355px;
+                        width: 405px;
                         height: auto;
                         display: block;
                         border-radius: 5px;
@@ -47,7 +45,7 @@
                         margin-top: 10px;
                         padding: 2px;
                         color: black;
-                        font-size: .8rem;
+                        font-size: 1rem;
                         background-color: #DDD0C8;
                         border: 1px solid black;
                         border-radius: 5px;
@@ -88,13 +86,13 @@
             .grid-container2 {
                 background-color: rgb(241, 221, 214);
                 /* margin-top: 60px;*/
-                width: 375px;
+                width: 425px;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
 
                 .div-1 {
-                    width: 355px;
+                    width: 405px;
                     /* margin-top: 15px;*/
                     margin-bottom: 15px;
                     grid-area: item-1;
@@ -120,9 +118,9 @@
 
                 .caja-galeria {
                     /*padding-left: 10px;*/
-                    width: 375px;
+                    width: 425px;
                     display: grid;
-                    column-gap: 30px;
+                    column-gap: 25px;
                     justify-content: center;
                     grid-template-columns: repeat(2, 0.5fr);
                     grid-template-rows: repeat(3, auto);
@@ -134,7 +132,7 @@
                     /*  column-gap: 10px;*/
 
                     .div-2 {
-                        max-width: 100%;
+                        width: 200px;
                         height: auto;
                         grid-area: item-2;
                         border-radius: 5px;
@@ -143,10 +141,7 @@
                         align-items: center;
 
                         img {
-                            max-width: 100%;
-                            height: 100px;
-                            display: block;
-                            border-radius: 5px;
+                            @include img-tienda-425;
                         }
 
                         label {
@@ -155,7 +150,7 @@
                     }
 
                     .div-3 {
-                        max-width: 100%;
+                        width: 200px;
                         height: auto;
                         grid-area: item-3;
                         border-radius: 5px;
@@ -164,10 +159,7 @@
                         align-items: center;
 
                         img {
-                            max-width: 100%;
-                            height: 100px;
-                            display: block;
-                            border-radius: 5px;
+                            @include img-tienda-425;
                         }
 
                         label {
@@ -177,7 +169,7 @@
 
                     .div-4 {
                         padding-top: 15px;
-                        max-width: 100%;
+                        width: 200px;
                         height: auto;
                         grid-area: item-4;
                         border-radius: 5px;
@@ -186,8 +178,8 @@
                         align-items: center;
 
                         img {
-                            max-width: 100%;
-                            height: 100px;
+                            width: 180px;
+                            height: 120px;
                             display: block;
                             border-radius: 5px;
                         }
@@ -199,7 +191,7 @@
 
                     .div-5 {
                         padding-top: 15px;
-                        max-width: 100%;
+                        width: 200px;
                         height: auto;
                         grid-area: item-5;
                         border-radius: 5px;
@@ -208,10 +200,7 @@
                         align-items: center;
 
                         img {
-                            max-width: 100%;
-                            height: 100px;
-                            display: block;
-                            border-radius: 5px;
+                            @include img-tienda-425;
                         }
 
                         label {
@@ -225,7 +214,7 @@
             .grid-container3 {
                 background-color: rgb(241, 221, 214);
                 /* margin-top: 60px;*/
-                width: 375px;
+                width: 425px;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
@@ -254,10 +243,10 @@
 
                 .caja-productos {
                     background-color: rgb(241, 221, 214);
-                    width: 365px;
-                    padding-left: 10px;
+                    width: 425px;
+                    /* padding-left: 10px;*/
                     display: grid;
-                    grid-template-columns: repeat(4, .25fr);
+                    grid-template-columns: repeat(4, 106.25px);
                     grid-template-rows: repeat(4, auto);
                     grid-template-areas:
                         " . item-1 item-1 . "
@@ -265,12 +254,12 @@
                         " item-3 item-3 item-4 item-4 "
                         " item-5 item-5 item-6 item-6 "
                     ;
-                    column-gap: 35px;
+                    /*  column-gap: 35px;*/
                     justify-content: center;
 
                     .div-2 {
-                        margin-bottom: 25px;
-                        width: 170px;
+                        margin-bottom: 45px;
+                        width: 212.5px;
                         height: 100px;
                         grid-area: item-2;
                         border-radius: 5px;
@@ -279,11 +268,7 @@
                         align-items: center;
 
                         img {
-
-                            max-width: 100%;
-                            height: 100px;
-                            display: block;
-                            border-radius: 5px;
+                            @include img-tienda-425-caja-productos;
                         }
 
                         label {
@@ -293,8 +278,8 @@
 
                     .div-3 {
                         /* margin-top: 30px;*/
-                        margin-bottom: 25px;
-                        width: 170px;
+                        margin-bottom: 45px;
+                        width: 212.5px;
                         height: 100px;
                         grid-area: item-3;
                         border-radius: 5px;
@@ -303,10 +288,8 @@
                         align-items: center;
 
                         img {
-                            max-width: 100%;
-                            height: 100px;
-                            display: block;
-                            border-radius: 5px;
+                            width: 200px;
+                            @include img-tienda-425-caja-productos;
                         }
 
                         label {
@@ -316,7 +299,7 @@
 
                     .div-4 {
                         /*  margin-top: 30px;*/
-                        width: 170px;
+                        width: 212.5px;
                         height: 100px;
                         grid-area: item-4;
                         border-radius: 5px;
@@ -325,10 +308,8 @@
                         align-items: center;
 
                         img {
-                            max-width: 100%;
-                            height: 100px;
-                            display: block;
-                            border-radius: 5px;
+                            width: 200px;
+                            @include img-tienda-425-caja-productos;
                         }
 
                         label {
@@ -338,7 +319,7 @@
 
                     .div-5 {
                         margin-bottom: 25px;
-                        width: 170px;
+                        width: 212.5px;
                         height: 100px;
                         grid-area: item-5;
                         border-radius: 5px;
@@ -347,10 +328,8 @@
                         align-items: center;
 
                         img {
-                            max-width: 100%;
-                            height: 100px;
-                            display: block;
-                            border-radius: 5px;
+                            width: 200px;
+                            @include img-tienda-425-caja-productos;
                         }
 
                         label {
@@ -359,7 +338,7 @@
                     }
 
                     .div-6 {
-                        width: 170px;
+                        width: 212.5px;
                         height: 100px;
                         grid-area: item-6;
                         border-radius: 5px;
@@ -368,10 +347,8 @@
                         align-items: center;
 
                         img {
-                            max-width: 100%;
-                            height: 100px;
-                            display: block;
-                            border-radius: 5px;
+                            width: 200px;
+                            @include img-tienda-425-caja-productos;
                         }
 
                         label {
@@ -388,7 +365,7 @@
             .grid-container4 {
                 background-color: rgb(241, 221, 214);
 
-                width: 375px;
+                width: 425px;
                 display: flex;
                 flex-direction: column;
                 align-items: center;
@@ -429,10 +406,10 @@
                         display: flex;
 
                         p {
-                            width: 60px;
+                            width: 65px;
                             text-align: center;
                             color: black;
-                            font-size: 1rem;
+                            font-size: 1.2rem;
                             line-height: 1.5;
                             /*  margin: 0;*/
                             max-width: 100%;
@@ -448,7 +425,7 @@
                         justify-content: center;
 
                         img {
-                            width: 180px;
+                            width: 200px;
                             height: auto;
                             display: block;
                             border-radius: 5px;
@@ -464,7 +441,7 @@
                             width: 60px;
                             text-align: center;
                             color: black;
-                            font-size: 1rem;
+                            font-size: 1.2rem;
                             line-height: 1.5;
                             /*  margin: 0;*/
                             max-width: 100%;
@@ -476,7 +453,7 @@
 
             .grid-container5 {
                 background-color: rgb(241, 221, 214);
-                width: 375px;
+                width: 425px;
                 display: grid;
                 display: flex;
                 flex-direction: column;
@@ -515,7 +492,7 @@
 
                 .div-2 {
                     padding-left: 10px;
-                    width: 365px;
+                    width: 415px;
                     grid-area: item-2;
                     border-radius: 5px;
                     display: flex;
@@ -553,13 +530,12 @@
                         overflow-wrap: break-word;
                     }
 
-
                 }
             }
-
+            
             .grid-container6 {
                 background-color: rgb(241, 221, 214);
-                width: 375px;
+                width: 425px;
                 display: grid;
                 display: flex;
                 flex-direction: column;
@@ -599,7 +575,7 @@
 
                     .div-4 {
                         padding-bottom: 25px;
-                        width: 170px;
+                        width: 212.5px;
                         grid-area: item-4;
                         border-radius: 5px;
                         display: flex;
@@ -619,7 +595,7 @@
                             color: black;
                             font-size: 1rem;
                             line-height: 1.5;
-                            /* margin: 0;*/
+                           /* margin: 0;*/
                             max-width: 100%;
                             overflow-wrap: break-word;
                         }
@@ -628,7 +604,7 @@
 
                     .div-3 {
                         padding-bottom: 25px;
-                        width: 170px;
+                        width: 212.5px;
                         grid-area: item-3;
                         border-radius: 5px;
                         display: flex;
@@ -648,7 +624,7 @@
                             color: black;
                             font-size: 1rem;
                             line-height: 1.5;
-                            /* margin: 0;*/
+                           /* margin: 0;*/
                             max-width: 100%;
                             overflow-wrap: break-word;
                         }
@@ -661,14 +637,13 @@
 
                 }
             }
-
         }
-
+        
         .footer-1 {
             display: none;
-        }
-
-        .footer-2 {
+          }
+      
+          .footer-2 {
             border-top: 1px solid black;
             padding-left: 10px;
             padding-top: 20px;
@@ -676,7 +651,6 @@
             background-color: grey;
             display: flex;
             justify-content: center;
-        }
-
+          }
     }
 }
