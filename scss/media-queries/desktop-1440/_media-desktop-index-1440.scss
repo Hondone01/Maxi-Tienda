@@ -1,0 +1,12 @@
+@use "../../utilities/mixin" as *;
+@use "../../utilities/variables" as *;
+@use "../../base/reset" as *;
+@use "../../layout/header" as *;
+@use "../../layout/footer" as *;
+
+@media (min-width: 1440px) and (max-width: 1919px) {
+    body {
+        @include header;
+
+    }
+}
