@@ -4740,19 +4740,17 @@ body {
     color: #323232;
     font-size: 1rem;
   }
-  body .grid-container8 .grid-container9 {
+  body .grid-container9 {
     width: 100%;
     max-width: 1024px;
     background-color: rgb(241, 221, 214);
-    border: 1px solid black;
     display: grid;
-    display: flex;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(2, auto);
     grid-template-areas: ". item-1 item-1 item-1 ." "item-2 item-3 item-4 item-5 item-6";
     justify-content: center;
   }
-  body .grid-container8 .grid-container9 .div-1 {
+  body .grid-container9 .div-1 {
     background-color: rgb(241, 221, 214);
     margin-top: 20px;
     grid-area: item-1;
@@ -4760,7 +4758,7 @@ body {
     display: flex;
     justify-content: center;
   }
-  body .grid-container8 .grid-container9 .div-1 h2 {
+  body .grid-container9 .div-1 h2 {
     display: flex;
     justify-content: center;
     font-size: 3rem;
@@ -4768,6 +4766,138 @@ body {
     max-width: 100%;
     overflow-wrap: break-word;
     color: black;
+  }
+  body .grid-container9 .div-2 {
+    grid-area: item-2;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .grid-container9 .div-2 label {
+    color: #323232;
+    font-size: 1rem;
+    padding-bottom: 10px;
+  }
+  body .grid-container9 .div-2 img {
+    max-width: 100%;
+    height: 200px;
+    display: block;
+    border-radius: 5px;
+  }
+  body .grid-container9 .div-3 {
+    grid-area: item-3;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .grid-container9 .div-3 img {
+    max-width: 100%;
+    height: 200px;
+    display: block;
+    border-radius: 5px;
+  }
+  body .grid-container9 .div-3 label {
+    color: #323232;
+    font-size: 1rem;
+    padding-bottom: 10px;
+  }
+  body .grid-container9 .div-4 {
+    grid-area: item-4;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .grid-container9 .div-4 img {
+    max-width: 100%;
+    height: 200px;
+    display: block;
+    border-radius: 5px;
+  }
+  body .grid-container9 .div-4 label {
+    color: #323232;
+    font-size: 1rem;
+    padding-bottom: 10px;
+  }
+  body .grid-container9 .div-5 {
+    grid-area: item-5;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .grid-container9 .div-5 img {
+    max-width: 100%;
+    height: 200px;
+    display: block;
+    border-radius: 5px;
+  }
+  body .grid-container9 .div-5 label {
+    color: #323232;
+    font-size: 1rem;
+    padding-bottom: 10px;
+  }
+  body .grid-container9 .div-6 {
+    grid-area: item-6;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .grid-container9 .div-6 img {
+    max-width: 100%;
+    height: 200px;
+    display: block;
+    border-radius: 5px;
+  }
+  body .grid-container9 .div-6 label {
+    color: #323232;
+    font-size: 1rem;
+    padding-bottom: 10px;
+  }
+  body .footer-1 {
+    background-color: gray;
+    border-top: 1px solid black;
+    margin-bottom: -20px;
+  }
+  body .footer-1 ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+  }
+  body .footer-1 ul div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-around;
+  }
+  body .footer-1 ul div .label-color {
+    font-weight: bolder;
+  }
+  body .footer-1 ul div .imagen-footer {
+    display: flex;
+    flex-direction: row;
+  }
+  body .footer-1 ul div .imagen-footer div label {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+  body .footer-1 ul li {
+    text-decoration: none;
+  }
+  body .footer-2 {
+    border-top: 1px solid black;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+  }
+  body .footer-2 {
+    display: none;
   }
 }
 
