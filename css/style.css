@@ -4746,10 +4746,28 @@ body {
     background-color: rgb(241, 221, 214);
     border: 1px solid black;
     display: grid;
+    display: flex;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(2, auto);
     grid-template-areas: ". item-1 item-1 item-1 ." "item-2 item-3 item-4 item-5 item-6";
     justify-content: center;
+  }
+  body .grid-container8 .grid-container9 .div-1 {
+    background-color: rgb(241, 221, 214);
+    margin-top: 20px;
+    grid-area: item-1;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+  }
+  body .grid-container8 .grid-container9 .div-1 h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    line-height: 1.2;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    color: black;
   }
 }
 
