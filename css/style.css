@@ -1,17 +1,5119 @@
-/* Error: Can't find stylesheet to import.
- *    ,
- * 21 | @use "media-queries/_media-desktop-cuenta-1024" as *;
- *    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
- *    '
- *   scss\style.scss 21:1  root stylesheet */
+@media (min-width: 320px) and (max-width: 374px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .desktop {
+    display: none;
+  }
+  .logo-header {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+  }
+  body {
+    /* background-color: rgb(241, 221, 214);
 
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Can't find stylesheet to import.\a    \2577 \a 21 \2502  @use \"media-queries/_media-desktop-cuenta-1024\" as *;\d\a    \2502  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\a    \2575 \a   scss\\style.scss 21:1  root stylesheet";
+     .color-body {
+       background-color: rgb(241, 221, 214);
+     }*/
+  }
+  body main .inicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container1 {
+    background-color: rgb(241, 221, 214);
+    /*margin-top: 40px;*/
+    width: 320px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas: "item-4" "item-2";
+    gap: 5px;
+  }
+  body main .grid-container1 .div-1 {
+    display: none;
+  }
+  body main .grid-container1 .div-2 {
+    /* padding-left: 10px;*/
+    width: 320px;
+    grid-area: item-2;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container1 .div-2 img {
+    width: 300px;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container1 .div-2 button {
+    margin-top: 10px;
+    padding: 2px;
+    color: black;
+    font-size: 0.6rem;
+    background-color: #DDD0C8;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-transform: capitalize;
+  }
+  body main .grid-container1 .div-3 {
+    display: none;
+  }
+  body main .grid-container1 .div-4 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    grid-area: item-4;
+    border-radius: 5px;
+    align-content: center;
+  }
+  body main .grid-container1 .div-4 h2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 1.2;
+    margin: 0;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    color: black;
+  }
+  body main .grid-container1 .div-5 {
+    display: none;
+  }
+  body main .grid-container2 {
+    background-color: rgb(241, 221, 214);
+    /* margin-top: 60px;*/
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  body main .grid-container2 .div-1 {
+    width: 300px;
+    /* margin-top: 15px;*/
+    margin-bottom: 15px;
+    grid-area: item-1;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container2 .div-1 h2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 1.2;
+    margin: 0;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    color: black;
+  }
+  body main .grid-container2 .caja-galeria {
+    padding-left: 10px;
+    width: 310px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 0.5fr);
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: " item-1 item-1" " item-2 item-3" " item-4 item-5";
+    column-gap: 10px;
+  }
+  body main .grid-container2 .caja-galeria .div-2 {
+    width: 145px;
+    height: 100px;
+    grid-area: item-2;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container2 .caja-galeria .div-2 img {
+    max-width: 100%;
+    height: 100px;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container2 .caja-galeria .div-2 label {
+    font-size: 1rem;
+    color: black;
+  }
+  body main .grid-container2 .caja-galeria .div-3 {
+    width: 145px;
+    height: 100px;
+    grid-area: item-3;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container2 .caja-galeria .div-3 img {
+    max-width: 100%;
+    height: 100px;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container2 .caja-galeria .div-3 label {
+    font-size: 1rem;
+    color: black;
+  }
+  body main .grid-container2 .caja-galeria .div-4 {
+    padding-top: 25px;
+    width: 145px;
+    height: 100px;
+    grid-area: item-4;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container2 .caja-galeria .div-4 img {
+    max-width: 100%;
+    height: 100px;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container2 .caja-galeria .div-4 label {
+    font-size: 1rem;
+    color: black;
+  }
+  body main .grid-container2 .caja-galeria .div-5 {
+    padding-top: 25px;
+    width: 145px;
+    height: 100px;
+    grid-area: item-5;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container2 .caja-galeria .div-5 img {
+    max-width: 100%;
+    height: 100px;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container2 .caja-galeria .div-5 label {
+    font-size: 1rem;
+    color: black;
+  }
+  body main .grid-container3 {
+    background-color: rgb(241, 221, 214);
+    /* margin-top: 60px;*/
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  body main .grid-container3 .div-1 {
+    padding-top: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    grid-area: item-1;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container3 .div-1 h2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 1.2;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    color: black;
+  }
+  body main .grid-container3 .caja-productos {
+    background-color: rgb(241, 221, 214);
+    width: 310px;
+    padding-left: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 0.25fr);
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas: " . item-1 item-1 . " " . item-2 item-2 . " " item-3 item-3 item-4 item-4 " " item-5 item-5 item-6 item-6 ";
+    column-gap: 10px;
+    justify-content: center;
+  }
+  body main .grid-container3 .caja-productos .div-2 {
+    width: 140px;
+    height: 100px;
+    grid-area: item-2;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container3 .caja-productos .div-2 img {
+    max-width: 100%;
+    height: 100px;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container3 .caja-productos .div-2 label {
+    font-size: 1rem;
+    color: black;
+  }
+  body main .grid-container3 .caja-productos .div-3 {
+    /* margin-top: 30px;*/
+    width: 145px;
+    height: 100px;
+    grid-area: item-3;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container3 .caja-productos .div-3 img {
+    max-width: 100%;
+    height: 100px;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container3 .caja-productos .div-3 label {
+    font-size: 1rem;
+    color: black;
+  }
+  body main .grid-container3 .caja-productos .div-4 {
+    /*  margin-top: 30px;*/
+    width: 145px;
+    height: 100px;
+    grid-area: item-4;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container3 .caja-productos .div-4 img {
+    max-width: 100%;
+    height: 100px;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container3 .caja-productos .div-4 label {
+    font-size: 1rem;
+    color: black;
+  }
+  body main .grid-container3 .caja-productos .div-5 {
+    /*  margin-top: 30px;*/
+    width: 145px;
+    height: 100px;
+    grid-area: item-5;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container3 .caja-productos .div-5 img {
+    max-width: 100%;
+    height: 100px;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container3 .caja-productos .div-5 label {
+    font-size: 1rem;
+    color: black;
+  }
+  body main .grid-container3 .caja-productos .div-6 {
+    /*   margin-top: 30px;*/
+    width: 145px;
+    height: 100px;
+    grid-area: item-6;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container3 .caja-productos .div-6 img {
+    max-width: 100%;
+    height: 100px;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container3 .caja-productos .div-6 label {
+    font-size: 1rem;
+    color: black;
+  }
+  body main .grid-container4 {
+    background-color: rgb(241, 221, 214);
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container4 .div-1 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    grid-area: item-1;
+    border-radius: 5px;
+    display: flex;
+    align-content: center;
+  }
+  body main .grid-container4 .div-1 h2 {
+    text-align: center;
+    font-size: 2rem;
+    line-height: 1.2;
+    color: black;
+  }
+  body main .grid-container4 .caja-promos {
+    width: 300px;
+    display: grid;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    grid-template-columns: 75px 75px 75px 75px;
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas: " . item-1 item-1 . " " item-2 item-3 item-3 item-4 ";
+  }
+  body main .grid-container4 .caja-promos .div-2 {
+    margin-top: 10px;
+    grid-area: item-2;
+    border-radius: 5px;
+    display: flex;
+  }
+  body main .grid-container4 .caja-promos .div-2 p {
+    width: 60px;
+    text-align: center;
+    color: black;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 0;
+    max-width: 100%;
+    overflow-wrap: break-word;
+  }
+  body main .grid-container4 .caja-promos .div-3 {
+    width: 130px;
+    grid-area: item-3;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+  }
+  body main .grid-container4 .caja-promos .div-3 img {
+    max-width: 100%;
+    height: 100px;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container4 .caja-promos .div-4 {
+    grid-area: item-4;
+    border-radius: 5px;
+    display: flex;
+  }
+  body main .grid-container4 .caja-promos .div-4 p {
+    width: 60px;
+    text-align: center;
+    color: black;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 0;
+    max-width: 100%;
+    overflow-wrap: break-word;
+  }
+  body main .grid-container5 {
+    background-color: rgb(241, 221, 214);
+    width: 320px;
+    display: grid;
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: 0.5fr 1fr 1fr 0.5fr;
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: ". item-1 item-1 ." ". item-2 item-2 ." "item-3 item-3 item-3 item-3";
+    gap: 10px;
+    justify-content: center;
+  }
+  body main .grid-container5 .div-1 {
+    margin-top: 15px;
+    grid-area: item-1;
+    background-color: rgb(241, 221, 214);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  body main .grid-container5 h2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 1.2;
+    margin: 0;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    color: black;
+  }
+  body main .grid-container5 .div-2 {
+    padding-left: 10px;
+    width: 310px;
+    grid-area: item-2;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  body main .grid-container5 .div-2 img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container5 .div-3 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    grid-area: item-3;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  body main .grid-container5 .div-3 p {
+    padding: 10px;
+    text-align: justify;
+    color: black;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 0;
+    max-width: 100%;
+    overflow-wrap: break-word;
+  }
+  body main .grid-container6 {
+    background-color: rgb(241, 221, 214);
+    width: 320px;
+    display: grid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-template-columns: 150px 150px;
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas: " item-1 item-1" " item-4 item-3";
+  }
+  body main .grid-container6 .div-1 {
+    margin-top: 15px;
+    grid-area: item-1;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+  }
+  body main .grid-container6 .div-1 h2 {
+    text-align: center;
+    font-size: 2rem;
+    line-height: 1.2;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    color: black;
+  }
+  body main .grid-container6 .caja-calificacion {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+  }
+  body main .grid-container6 .caja-calificacion .div-2 {
+    display: none;
+  }
+  body main .grid-container6 .caja-calificacion .div-4 {
+    padding-bottom: 25px;
+    width: 140px;
+    grid-area: item-4;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container6 .caja-calificacion .div-4 img {
+    width: 100px;
+    height: 80px;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container6 .caja-calificacion .div-4 p {
+    width: 120px;
+    text-align: justify;
+    color: black;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 0;
+    max-width: 100%;
+    overflow-wrap: break-word;
+  }
+  body main .grid-container6 .caja-calificacion .div-3 {
+    padding-bottom: 25px;
+    width: 140px;
+    grid-area: item-3;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container6 .caja-calificacion .div-3 img {
+    width: 100px;
+    height: 80px;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container6 .caja-calificacion .div-3 p {
+    width: 120px;
+    text-align: justify;
+    color: black;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 0;
+    max-width: 100%;
+    overflow-wrap: break-word;
+  }
+  body main .grid-container6 .caja-calificacion .div-5 {
+    display: none;
+  }
+  body .footer-1 {
+    display: none;
+  }
+  body .footer-2 {
+    border-top: 1px solid black;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+  }
 }
+@media (min-width: 320px) and (max-width: 374px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .desktop {
+    display: none;
+  }
+  .logo-header {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+  }
+  body {
+    background-color: rgb(241, 221, 214);
+  }
+  body .color-body {
+    background-color: rgb(241, 221, 214);
+  }
+  body main .inicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container8 {
+    display: grid;
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: repeat(6, 0.4fr);
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas: ". . item-1 item-1 . ." "item-2 item-2 item-2 item-5 item-5 item-5" ". item-3 item-3 item-4 item-4 ." ". item-7 item-7 item-7 . .";
+    justify-content: center;
+  }
+  body main .grid-container8 .div-1 {
+    grid-area: item-1;
+    background-color: rgb(241, 221, 214);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+  }
+  body main .grid-container8 .div-1 h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    line-height: 1.2;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    color: black;
+  }
+  body main .grid-container8 .div-2 {
+    background-color: rgb(241, 221, 214);
+    grid-area: item-2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  body main .grid-container8 .div-2 label {
+    color: black;
+    font-size: 1rem;
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+  body main .grid-container8 .div-2 img {
+    width: 300px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  body main .grid-container8 .div-3 {
+    background-color: rgb(241, 221, 214);
+    grid-area: item-3;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  body main .grid-container8 .div-3 img {
+    grid-area: item-3;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  body main .grid-container8 .div-4 {
+    grid-area: item-4;
+    background-color: rgb(241, 221, 214);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+  }
+  body main .grid-container8 .div-4 img {
+    /* padding-top: 10px;*/
+    grid-area: item-3;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  body main .grid-container8 .div-5 {
+    grid-area: item-5;
+    background-color: rgb(241, 221, 214);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  body main .grid-container8 .div-5 p {
+    text-align: justify;
+    padding-top: 40px;
+    margin: 10px;
+    font-size: 1rem;
+  }
+  body main .grid-container8 .div-5 label {
+    color: black;
+    font-size: 1rem;
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+  body main .grid-container8 .div-5 button {
+    margin-top: 25px;
+    padding: 5px;
+    color: black;
+    font-size: 1rem;
+    background-color: #DDD0C8;
+    border: 1.5px solid black;
+    border-radius: 25px;
+    text-transform: capitalize;
+  }
+  body main .grid-container8 .div-6 {
+    display: none;
+  }
+  body main .grid-container8 .div-7 {
+    grid-area: item-7;
+    background-color: rgb(241, 221, 214);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  body main .grid-container8 .div-7 label {
+    color: black;
+    font-size: 1rem;
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+  body main .grid-container9 {
+    display: grid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas: ". item-1 item-1 item-1 ." "item-2 item-3 item-4 item-5 item-6";
+  }
+  body main .grid-container9 .div-1 {
+    background-color: rgb(241, 221, 214);
+    grid-area: item-1;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container9 .div-1 h2 {
+    padding-top: 25px;
+    display: flex;
+    justify-items: center;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    color: black;
+  }
+  body main .grid-container9 .div-2 {
+    background-color: rgb(241, 221, 214);
+    grid-area: item-2;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container9 .div-2 label {
+    color: black;
+    font-size: 1rem;
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+  body main .grid-container9 .div-2 img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container9 .div-3 {
+    background-color: rgb(241, 221, 214);
+    grid-area: item-3;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container9 .div-3 img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container9 .div-3 label {
+    color: black;
+    font-size: 1rem;
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+  body main .grid-container9 .div-4 {
+    background-color: rgb(241, 221, 214);
+    grid-area: item-4;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container9 .div-4 img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container9 .div-4 label {
+    color: black;
+    font-size: 1rem;
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+  body main .grid-container9 .div-5 {
+    background-color: rgb(241, 221, 214);
+    grid-area: item-5;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container9 .div-5 img {
+    max-width: 100%;
+    height: 200px;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container9 .div-5 label {
+    color: black;
+    font-size: 1rem;
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+  body main .grid-container9 .div-6 {
+    background-color: rgb(241, 221, 214);
+    grid-area: item-6;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container9 .div-6 img {
+    max-width: 100%;
+    height: 200px;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container9 .div-6 label {
+    color: black;
+    font-size: 1rem;
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+  body .footer-1 {
+    display: none;
+  }
+  body .footer-2 {
+    border-top: 1px solid black;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (min-width: 320px) and (max-width: 374px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .desktop {
+    display: none;
+  }
+  .logo-header {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+  }
+  body {
+    background-color: rgb(241, 221, 214);
+  }
+  body .color-body {
+    background-color: rgb(241, 221, 214);
+  }
+  body main .inicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container10 {
+    display: grid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    grid-template-columns: minmax(0, 0.5fr) minmax(0, 1fr);
+    grid-template-rows: repeat(5, auto);
+    grid-template-areas: "item-1 item-1" "item-5 item-2" "item-5 item-3" "item-5 item-3" "item-4 item-4";
+    max-width: 100%;
+  }
+  body main .grid-container10 .div-1 {
+    background-color: rgb(241, 221, 214);
+    grid-area: item-1;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+  }
+  body main .grid-container10 .div-1 h2 {
+    font-size: 3rem;
+    line-height: 1.2;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    color: black !important;
+  }
+  body main .grid-container10 .div-2 {
+    padding-top: 25px;
+    background-color: rgb(241, 221, 214);
+    grid-area: item-2;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+  }
+  body main .grid-container10 .div-2 h2 {
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    margin: 0;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    color: black;
+  }
+  body main .grid-container10 .div-2 p {
+    padding: 10px;
+    margin-bottom: 15px;
+    text-align: justify;
+    font-size: 1.2rem;
+    line-height: 1.2;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    color: black;
+  }
+  body main .grid-container10 .div-2 label {
+    font-size: 1rem;
+    color: black;
+  }
+  body main .grid-container10 .div-2 .foto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container10 .div-2 .foto img {
+    width: 120px;
+    height: auto;
+  }
+  body main .grid-container10 .div-2 .foto button {
+    margin-top: 20px;
+    padding: 4px;
+    color: black;
+    font-size: 1rem;
+    background-color: #DDD0C8;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+  }
+  body main .grid-container10 .div-2 form {
+    width: 250px;
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+  }
+  body main .grid-container10 .div-2 input {
+    margin-bottom: 15px;
+  }
+  body main .grid-container10 .div-2 .genero {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
+  body main .grid-container10 .div-2 .idioma {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
+  body main .grid-container10 .div-3 {
+    background-color: rgb(241, 221, 214);
+    grid-area: item-3;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+  }
+  body main .grid-container10 .div-3 .botones button {
+    padding: 4px;
+    color: black;
+    font-size: 1rem;
+    background-color: #DDD0C8;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+  }
+  body main .grid-container10 .div-3 .botones {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+  }
+  body main .grid-container10 .div-3 .borrarcuenta {
+    display: flex;
+    justify-content: center;
+  }
+  body main .grid-container10 .div-3 .borrarcuenta button {
+    margin-top: 20px;
+    padding: 4px;
+    color: black;
+    font-size: 1rem;
+    background-color: #DDD0C8;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+  }
+  body main .grid-container10 .div-4 {
+    padding-top: 25px;
+    background-color: rgb(241, 221, 214);
+    grid-area: item-4;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+  }
+  body main .grid-container10 .div-4 p {
+    padding: 10px;
+    text-align: justify;
+  }
+  body main .grid-container10 .div-5 {
+    background-color: rgb(241, 221, 214);
+    padding-left: 10px;
+    grid-area: item-5;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+  }
+  body main .grid-container10 .div-5 h2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    color: black;
+  }
+  body main .grid-container10 .div-5 label {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color: black;
+  }
+  body .footer-1 {
+    display: none;
+  }
+  body .footer-2 {
+    border-top: 1px solid black;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (min-width: 320px) and (max-width: 374px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .desktop {
+    display: none;
+  }
+  .logo-header {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+  }
+  body {
+    background-color: rgb(241, 221, 214);
+  }
+  body .color-body {
+    background-color: rgb(241, 221, 214);
+  }
+  body main .inicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container11 {
+    display: grid;
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: "item-1 item-1" "item-2 item-3" "item-2 item-3";
+    /*gap: 20px;*/
+    justify-content: center;
+    max-width: 100%;
+  }
+  body main .grid-container11 .div-1 {
+    background-color: rgb(241, 221, 214);
+    grid-area: item-1;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+  }
+  body main .grid-container11 .div-1 h2 {
+    font-size: 3rem;
+    line-height: 1.2;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    color: black;
+  }
+  body main .grid-container11 .div-2 {
+    background-color: rgb(241, 221, 214);
+    grid-area: item-2;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+  }
+  body main .grid-container11 .div-2 p {
+    text-align: justify;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    line-height: 1.2;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    color: black;
+  }
+  body main .grid-container11 .div-2 label {
+    color: black;
+    font-size: 1rem;
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+  body main .grid-container11 .div-2 form button {
+    margin-left: 10px;
+    padding: 4px;
+    color: black;
+    font-size: 1rem;
+    background-color: #DDD0C8;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+  }
+  body main .grid-container11 .div-3 {
+    background-color: rgb(241, 221, 214);
+    grid-area: item-3;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+  }
+  body main .grid-container11 .div-3 video {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 300px;
+    height: auto;
+    border-radius: 5px;
+  }
+  body .footer-1 {
+    display: none;
+  }
+  body .footer-2 {
+    border-top: 1px solid black;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(241, 221, 214);
+}
+
+.desktop {
+  display: none;
+}
+
+.logo-header {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+  body main .grid-container7 {
+    display: grid;
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: 0.25fr 1fr 0.625fr 0.25fr;
+    grid-template-rows: repeat(5, auto);
+    grid-template-areas: ". item-1 item-1 ." ". item-2 item-6 ." ". item-4 item-5 ." ". item-3 item-5 ." ". item-3 item-5 .";
+    justify-content: center;
+  }
+  body main .grid-container7 .div-1 {
+    background-color: rgb(241, 221, 214);
+    grid-area: item-1;
+    display: flex;
+    justify-content: center;
+  }
+  body main .grid-container7 .div-1 h2 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    justify-content: center;
+    font-size: 2rem;
+    line-height: 1.2;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    color: black;
+  }
+  body main .grid-container7 .div-2 {
+    background-color: rgb(241, 221, 214);
+    padding-bottom: 15px;
+    grid-area: item-2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  body main .grid-container7 .div-2 img {
+    margin-bottom: 15px;
+    width: 150px;
+    height: auto;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container7 .div-2 label {
+    color: #323232;
+    font-size: 1rem;
+  }
+  body main .grid-container7 .div-3 {
+    grid-area: item-3;
+    background-color: rgb(241, 221, 214);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  body main .grid-container7 .div-3 label {
+    color: #323232;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  body main .grid-container7 .div-4 {
+    grid-area: item-4;
+    background-color: rgb(241, 221, 214);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  body main .grid-container7 .div-4 label {
+    display: flex;
+    flex-direction: column;
+    color: #323232;
+    font-size: 1rem;
+  }
+  body main .grid-container7 .div-4 button {
+    margin-top: 20px;
+    padding: 4px;
+    color: black;
+    font-size: 1rem;
+    background-color: #DDD0C8;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+  }
+  body main .grid-container7 .div-5 {
+    grid-area: item-5;
+    background-color: rgb(241, 221, 214);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container7 .div-5 img {
+    margin-bottom: 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 150px;
+    height: auto;
+  }
+  body main .grid-container7 .div-5 label {
+    padding-top: 60px;
+    color: #323232;
+    font-size: 1rem;
+    font-weight: bolder;
+  }
+  body main .grid-container7 .div-6 {
+    background-color: rgb(241, 221, 214);
+    padding-bottom: 15px;
+    grid-area: item-6;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+  }
+  body main .grid-container7 .div-6 label {
+    color: #323232;
+    font-size: 1rem;
+  }
+  body main .grid-container7 .div-6 img {
+    margin-bottom: 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 150px;
+    height: auto;
+  }
+  body .footer-1 {
+    display: none;
+  }
+  body .footer-2 {
+    border-top: 1px solid black;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (min-width: 375px) and (max-width: 424px) {
+  body main .grid-container1 {
+    background-color: rgb(241, 221, 214);
+    width: 375px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas: "item-4" "item-2";
+  }
+  body main .grid-container1 .div-1 {
+    display: none;
+  }
+  body main .grid-container1 .div-2 {
+    /* padding-left: 10px;*/
+    width: 375px;
+    grid-area: item-2;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container1 .div-2 img {
+    width: 355px;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container1 .div-2 button {
+    margin-top: 10px;
+    padding: 2px;
+    color: black;
+    font-size: 0.8rem;
+    background-color: #DDD0C8;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-transform: capitalize;
+  }
+  body main .grid-container1 .div-3 {
+    display: none;
+  }
+  body main .grid-container1 .div-4 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    grid-area: item-4;
+    border-radius: 5px;
+    align-content: center;
+  }
+  body main .grid-container1 .div-4 h2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 1.2;
+    margin: 0;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    color: black;
+  }
+  body main .grid-container1 .div-5 {
+    display: none;
+  }
+  body main .grid-container2 {
+    background-color: rgb(241, 221, 214);
+    /* margin-top: 60px;*/
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  body main .grid-container2 .div-1 {
+    width: 355px;
+    /* margin-top: 15px;*/
+    margin-bottom: 15px;
+    grid-area: item-1;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container2 .div-1 h2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 1.2;
+    margin: 0;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    color: black;
+  }
+  body main .grid-container2 .caja-galeria {
+    /*padding-left: 10px;*/
+    width: 375px;
+    display: grid;
+    column-gap: 30px;
+    justify-content: center;
+    grid-template-columns: repeat(2, 0.5fr);
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: " item-1 item-1" " item-2 item-3" " item-4 item-5";
+    /*  column-gap: 10px;*/
+  }
+  body main .grid-container2 .caja-galeria .div-2 {
+    max-width: 100%;
+    height: auto;
+    grid-area: item-2;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container2 .caja-galeria .div-2 img {
+    max-width: 100%;
+    height: 100px;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container2 .caja-galeria .div-2 label {
+    font-size: 1rem;
+    color: black;
+  }
+  body main .grid-container2 .caja-galeria .div-3 {
+    max-width: 100%;
+    height: auto;
+    grid-area: item-3;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container2 .caja-galeria .div-3 img {
+    max-width: 100%;
+    height: 100px;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container2 .caja-galeria .div-3 label {
+    font-size: 1rem;
+    color: black;
+  }
+  body main .grid-container2 .caja-galeria .div-4 {
+    padding-top: 15px;
+    max-width: 100%;
+    height: auto;
+    grid-area: item-4;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container2 .caja-galeria .div-4 img {
+    max-width: 100%;
+    height: 100px;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container2 .caja-galeria .div-4 label {
+    font-size: 1rem;
+    color: black;
+  }
+  body main .grid-container2 .caja-galeria .div-5 {
+    padding-top: 15px;
+    max-width: 100%;
+    height: auto;
+    grid-area: item-5;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container2 .caja-galeria .div-5 img {
+    max-width: 100%;
+    height: 100px;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container2 .caja-galeria .div-5 label {
+    font-size: 1rem;
+    color: black;
+  }
+  body main .grid-container3 {
+    background-color: rgb(241, 221, 214);
+    /* margin-top: 60px;*/
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  body main .grid-container3 .div-1 {
+    padding-top: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    grid-area: item-1;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container3 .div-1 h2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 1.2;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    color: black;
+  }
+  body main .grid-container3 .caja-productos {
+    background-color: rgb(241, 221, 214);
+    width: 365px;
+    padding-left: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 0.25fr);
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas: " . item-1 item-1 . " " . item-2 item-2 . " " item-3 item-3 item-4 item-4 " " item-5 item-5 item-6 item-6 ";
+    column-gap: 35px;
+    justify-content: center;
+  }
+  body main .grid-container3 .caja-productos .div-2 {
+    margin-bottom: 25px;
+    width: 170px;
+    height: 100px;
+    grid-area: item-2;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container3 .caja-productos .div-2 img {
+    max-width: 100%;
+    height: 100px;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container3 .caja-productos .div-2 label {
+    font-size: 1rem;
+    color: black;
+  }
+  body main .grid-container3 .caja-productos .div-3 {
+    /* margin-top: 30px;*/
+    margin-bottom: 25px;
+    width: 170px;
+    height: 100px;
+    grid-area: item-3;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container3 .caja-productos .div-3 img {
+    max-width: 100%;
+    height: 100px;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container3 .caja-productos .div-3 label {
+    font-size: 1rem;
+    color: black;
+  }
+  body main .grid-container3 .caja-productos .div-4 {
+    /*  margin-top: 30px;*/
+    width: 170px;
+    height: 100px;
+    grid-area: item-4;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container3 .caja-productos .div-4 img {
+    max-width: 100%;
+    height: 100px;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container3 .caja-productos .div-4 label {
+    font-size: 1rem;
+    color: black;
+  }
+  body main .grid-container3 .caja-productos .div-5 {
+    margin-bottom: 25px;
+    width: 170px;
+    height: 100px;
+    grid-area: item-5;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container3 .caja-productos .div-5 img {
+    max-width: 100%;
+    height: 100px;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container3 .caja-productos .div-5 label {
+    font-size: 1rem;
+    color: black;
+  }
+  body main .grid-container3 .caja-productos .div-6 {
+    width: 170px;
+    height: 100px;
+    grid-area: item-6;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container3 .caja-productos .div-6 img {
+    max-width: 100%;
+    height: 100px;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container3 .caja-productos .div-6 label {
+    font-size: 1rem;
+    color: black;
+  }
+  body main .grid-container4 {
+    background-color: rgb(241, 221, 214);
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container4 .div-1 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    grid-area: item-1;
+    border-radius: 5px;
+    display: flex;
+    align-content: center;
+  }
+  body main .grid-container4 .div-1 h2 {
+    text-align: center;
+    font-size: 2rem;
+    line-height: 1.2;
+    color: black;
+  }
+  body main .grid-container4 .caja-promos {
+    width: 355px;
+    display: grid;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    grid-template-columns: 88.75px 88.75px 88.75px 88.75px;
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas: " . item-1 item-1 . " " item-2 item-3 item-3 item-4 ";
+  }
+  body main .grid-container4 .caja-promos .div-2 {
+    margin-top: 10px;
+    grid-area: item-2;
+    border-radius: 5px;
+    display: flex;
+  }
+  body main .grid-container4 .caja-promos .div-2 p {
+    width: 60px;
+    text-align: center;
+    color: black;
+    font-size: 1rem;
+    line-height: 1.5;
+    /*  margin: 0;*/
+    max-width: 100%;
+    overflow-wrap: break-word;
+  }
+  body main .grid-container4 .caja-promos .div-3 {
+    width: 177.5px;
+    grid-area: item-3;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+  }
+  body main .grid-container4 .caja-promos .div-3 img {
+    width: 180px;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container4 .caja-promos .div-4 {
+    grid-area: item-4;
+    border-radius: 5px;
+    display: flex;
+  }
+  body main .grid-container4 .caja-promos .div-4 p {
+    width: 60px;
+    text-align: center;
+    color: black;
+    font-size: 1rem;
+    line-height: 1.5;
+    /*  margin: 0;*/
+    max-width: 100%;
+    overflow-wrap: break-word;
+  }
+  body main .grid-container5 {
+    background-color: rgb(241, 221, 214);
+    width: 375px;
+    display: grid;
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: 0.5fr 1fr 1fr 0.5fr;
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: ". item-1 item-1 ." ". item-2 item-2 ." "item-3 item-3 item-3 item-3";
+    /* gap: 10px;*/
+    justify-content: center;
+  }
+  body main .grid-container5 .div-1 {
+    margin-top: 15px;
+    grid-area: item-1;
+    background-color: rgb(241, 221, 214);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  body main .grid-container5 h2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 1.2;
+    /*  margin: 0;*/
+    max-width: 100%;
+    overflow-wrap: break-word;
+    color: black;
+  }
+  body main .grid-container5 .div-2 {
+    padding-left: 10px;
+    width: 365px;
+    grid-area: item-2;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  body main .grid-container5 .div-2 img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container5 .div-3 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    grid-area: item-3;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  body main .grid-container5 .div-3 p {
+    padding: 10px;
+    text-align: justify;
+    color: black;
+    font-size: 1rem;
+    line-height: 1.5;
+    /*  margin: 0;*/
+    max-width: 100%;
+    overflow-wrap: break-word;
+  }
+  body main .grid-container6 {
+    background-color: rgb(241, 221, 214);
+    width: 375px;
+    display: grid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-template-columns: 187.5px 187.5px;
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas: " item-1 item-1" " item-4 item-3";
+  }
+  body main .grid-container6 .div-1 {
+    margin-top: 15px;
+    grid-area: item-1;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+  }
+  body main .grid-container6 .div-1 h2 {
+    text-align: center;
+    font-size: 2rem;
+    line-height: 1.2;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    color: black;
+  }
+  body main .grid-container6 .caja-calificacion {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+  }
+  body main .grid-container6 .caja-calificacion .div-2 {
+    display: none;
+  }
+  body main .grid-container6 .caja-calificacion .div-4 {
+    padding-bottom: 25px;
+    width: 170px;
+    grid-area: item-4;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container6 .caja-calificacion .div-4 img {
+    width: 100px;
+    height: 80px;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container6 .caja-calificacion .div-4 p {
+    width: 120px;
+    text-align: justify;
+    color: black;
+    font-size: 1rem;
+    line-height: 1.5;
+    /* margin: 0;*/
+    max-width: 100%;
+    overflow-wrap: break-word;
+  }
+  body main .grid-container6 .caja-calificacion .div-3 {
+    padding-bottom: 25px;
+    width: 170px;
+    grid-area: item-3;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container6 .caja-calificacion .div-3 img {
+    width: 100px;
+    height: 80px;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container6 .caja-calificacion .div-3 p {
+    width: 120px;
+    text-align: justify;
+    color: black;
+    font-size: 1rem;
+    line-height: 1.5;
+    /* margin: 0;*/
+    max-width: 100%;
+    overflow-wrap: break-word;
+  }
+  body main .grid-container6 .caja-calificacion .div-5 {
+    display: none;
+  }
+  body .footer-1 {
+    display: none;
+  }
+  body .footer-2 {
+    border-top: 1px solid black;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (min-width: 375px) and (max-width: 424px) {
+  body main .grid-container8 {
+    display: grid;
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: repeat(6, 0.4fr);
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas: ". . item-1 item-1 . ." "item-2 item-2 item-2 item-5 item-5 item-5" ". item-3 item-3 item-4 item-4 ." ". item-7 item-7 item-7 . .";
+    justify-content: center;
+  }
+  body main .grid-container8 .div-1 {
+    grid-area: item-1;
+    background-color: rgb(241, 221, 214);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+  }
+  body main .grid-container8 .div-1 h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    line-height: 1.2;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    color: black;
+  }
+  body main .grid-container8 .div-2 {
+    background-color: rgb(241, 221, 214);
+    grid-area: item-2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  body main .grid-container8 .div-2 label {
+    color: black;
+    font-size: 1rem;
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+  body main .grid-container8 .div-2 img {
+    width: 355px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  body main .grid-container8 .div-3 {
+    background-color: rgb(241, 221, 214);
+    grid-area: item-3;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  body main .grid-container8 .div-3 img {
+    grid-area: item-3;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  body main .grid-container8 .div-4 {
+    grid-area: item-4;
+    background-color: rgb(241, 221, 214);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+  }
+  body main .grid-container8 .div-4 img {
+    /* padding-top: 10px;*/
+    grid-area: item-3;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  body main .grid-container8 .div-5 {
+    grid-area: item-5;
+    background-color: rgb(241, 221, 214);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  body main .grid-container8 .div-5 p {
+    text-align: justify;
+    padding-top: 40px;
+    margin: 10px;
+    font-size: 1rem;
+  }
+  body main .grid-container8 .div-5 label {
+    color: black;
+    font-size: 1rem;
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+  body main .grid-container8 .div-5 button {
+    margin-top: 25px;
+    padding: 5px;
+    color: black;
+    font-size: 1rem;
+    background-color: #DDD0C8;
+    border: 1.5px solid black;
+    border-radius: 25px;
+    text-transform: capitalize;
+  }
+  body main .grid-container8 .div-6 {
+    display: none;
+  }
+  body main .grid-container8 .div-7 {
+    grid-area: item-7;
+    background-color: rgb(241, 221, 214);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  body main .grid-container8 .div-7 label {
+    color: black;
+    font-size: 1rem;
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+  body main .grid-container9 {
+    display: grid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas: ". item-1 item-1 item-1 ." "item-2 item-3 item-4 item-5 item-6";
+  }
+  body main .grid-container9 .div-1 {
+    background-color: rgb(241, 221, 214);
+    grid-area: item-1;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container9 .div-1 h2 {
+    padding-top: 25px;
+    display: flex;
+    justify-items: center;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    color: black;
+  }
+  body main .grid-container9 .div-2 {
+    background-color: rgb(241, 221, 214);
+    grid-area: item-2;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container9 .div-2 label {
+    color: black;
+    font-size: 1rem;
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+  body main .grid-container9 .div-2 img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container9 .div-3 {
+    background-color: rgb(241, 221, 214);
+    grid-area: item-3;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container9 .div-3 img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container9 .div-3 label {
+    color: black;
+    font-size: 1rem;
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+  body main .grid-container9 .div-4 {
+    background-color: rgb(241, 221, 214);
+    grid-area: item-4;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container9 .div-4 img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container9 .div-4 label {
+    color: black;
+    font-size: 1rem;
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+  body main .grid-container9 .div-5 {
+    background-color: rgb(241, 221, 214);
+    grid-area: item-5;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container9 .div-5 img {
+    max-width: 100%;
+    height: 200px;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container9 .div-5 label {
+    color: black;
+    font-size: 1rem;
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+  body main .grid-container9 .div-6 {
+    background-color: rgb(241, 221, 214);
+    grid-area: item-6;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container9 .div-6 img {
+    max-width: 100%;
+    height: 200px;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container9 .div-6 label {
+    color: black;
+    font-size: 1rem;
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+  body .footer-1 {
+    display: none;
+  }
+  body .footer-2 {
+    border-top: 1px solid black;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+  }
+}
+@media (min-width: 375px) and (max-width: 424px) {
+  body main .grid-container10 {
+    display: grid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    grid-template-columns: minmax(0, 0.5fr) minmax(0, 1fr);
+    grid-template-rows: repeat(5, auto);
+    grid-template-areas: "item-1 item-1" "item-5 item-2" "item-5 item-3" "item-5 item-3" "item-4 item-4";
+    max-width: 100%;
+  }
+  body main .grid-container10 .div-1 {
+    background-color: rgb(241, 221, 214);
+    grid-area: item-1;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+  }
+  body main .grid-container10 .div-1 h2 {
+    font-size: 3rem;
+    line-height: 1.2;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    color: black !important;
+  }
+  body main .grid-container10 .div-2 {
+    padding-top: 25px;
+    background-color: rgb(241, 221, 214);
+    grid-area: item-2;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+  }
+  body main .grid-container10 .div-2 h2 {
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    margin: 0;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    color: black;
+  }
+  body main .grid-container10 .div-2 p {
+    padding: 10px;
+    margin-bottom: 15px;
+    text-align: justify;
+    font-size: 1.2rem;
+    line-height: 1.2;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    color: black;
+  }
+  body main .grid-container10 .div-2 label {
+    font-size: 1rem;
+    color: black;
+  }
+  body main .grid-container10 .div-2 .foto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container10 .div-2 .foto img {
+    width: 120px;
+    height: auto;
+  }
+  body main .grid-container10 .div-2 .foto button {
+    margin-top: 20px;
+    padding: 4px;
+    color: black;
+    font-size: 1rem;
+    background-color: #DDD0C8;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+  }
+  body main .grid-container10 .div-2 form {
+    width: 250px;
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+  }
+  body main .grid-container10 .div-2 input {
+    margin-bottom: 15px;
+  }
+  body main .grid-container10 .div-2 .genero {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
+  body main .grid-container10 .div-2 .idioma {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
+  body main .grid-container10 .div-3 {
+    background-color: rgb(241, 221, 214);
+    grid-area: item-3;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+  }
+  body main .grid-container10 .div-3 .botones button {
+    padding: 4px;
+    color: black;
+    font-size: 1rem;
+    background-color: #DDD0C8;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+  }
+  body main .grid-container10 .div-3 .botones {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+  }
+  body main .grid-container10 .div-3 .borrarcuenta {
+    display: flex;
+    justify-content: center;
+  }
+  body main .grid-container10 .div-3 .borrarcuenta button {
+    margin-top: 20px;
+    padding: 4px;
+    color: black;
+    font-size: 1rem;
+    background-color: #DDD0C8;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+  }
+  body main .grid-container10 .div-4 {
+    padding-top: 25px;
+    background-color: rgb(241, 221, 214);
+    grid-area: item-4;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+  }
+  body main .grid-container10 .div-4 p {
+    padding: 10px;
+    text-align: justify;
+  }
+  body main .grid-container10 .div-5 {
+    background-color: rgb(241, 221, 214);
+    padding-left: 10px;
+    grid-area: item-5;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+  }
+  body main .grid-container10 .div-5 h2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    color: black;
+  }
+  body main .grid-container10 .div-5 label {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color: black;
+  }
+  body .footer-1 {
+    display: none;
+  }
+  body .footer-2 {
+    border-top: 1px solid black;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (min-width: 375px) and (max-width: 424px) {
+  body main .grid-container11 {
+    display: grid;
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: "item-1 item-1" "item-2 item-3" "item-2 item-3";
+    /*gap: 20px;*/
+    justify-content: center;
+    max-width: 100%;
+  }
+  body main .grid-container11 .div-1 {
+    background-color: rgb(241, 221, 214);
+    grid-area: item-1;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+  }
+  body main .grid-container11 .div-1 h2 {
+    font-size: 3rem;
+    line-height: 1.2;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    color: black;
+  }
+  body main .grid-container11 .div-2 {
+    background-color: rgb(241, 221, 214);
+    grid-area: item-2;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+  }
+  body main .grid-container11 .div-2 p {
+    text-align: justify;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    line-height: 1.2;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    color: black;
+  }
+  body main .grid-container11 .div-2 label {
+    color: black;
+    font-size: 1rem;
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+  body main .grid-container11 .div-2 form button {
+    margin-left: 10px;
+    padding: 4px;
+    color: black;
+    font-size: 1rem;
+    background-color: #DDD0C8;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+  }
+  body main .grid-container11 .div-3 {
+    background-color: rgb(241, 221, 214);
+    grid-area: item-3;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+  }
+  body main .grid-container11 .div-3 video {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 355px;
+    height: auto;
+    border-radius: 5px;
+  }
+  body .footer-1 {
+    display: none;
+  }
+  body .footer-2 {
+    border-top: 1px solid black;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+  }
+}
+@media (min-width: 375px) and (max-width: 424px) {
+  body main .grid-container7 {
+    display: grid;
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: 0.25fr 1fr 0.625fr 0.25fr;
+    grid-template-rows: repeat(5, auto);
+    grid-template-areas: ". item-1 item-1 ." ". item-2 item-6 ." ". item-4 item-5 ." ". item-3 item-5 ." ". item-3 item-5 .";
+    justify-content: center;
+  }
+  body main .grid-container7 .div-1 {
+    background-color: rgb(241, 221, 214);
+    grid-area: item-1;
+    display: flex;
+    justify-content: center;
+  }
+  body main .grid-container7 .div-1 h2 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    justify-content: center;
+    font-size: 2rem;
+    line-height: 1.2;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    color: black;
+  }
+  body main .grid-container7 .div-2 {
+    background-color: rgb(241, 221, 214);
+    padding-bottom: 15px;
+    grid-area: item-2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  body main .grid-container7 .div-2 img {
+    margin-bottom: 15px;
+    width: 150px;
+    height: auto;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container7 .div-2 label {
+    color: #323232;
+    font-size: 1rem;
+  }
+  body main .grid-container7 .div-3 {
+    grid-area: item-3;
+    background-color: rgb(241, 221, 214);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  body main .grid-container7 .div-3 label {
+    color: #323232;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  body main .grid-container7 .div-4 {
+    grid-area: item-4;
+    background-color: rgb(241, 221, 214);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  body main .grid-container7 .div-4 label {
+    display: flex;
+    flex-direction: column;
+    color: #323232;
+    font-size: 1rem;
+  }
+  body main .grid-container7 .div-4 button {
+    margin-top: 20px;
+    padding: 4px;
+    color: black;
+    font-size: 1rem;
+    background-color: #DDD0C8;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+  }
+  body main .grid-container7 .div-5 {
+    grid-area: item-5;
+    background-color: rgb(241, 221, 214);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container7 .div-5 img {
+    margin-bottom: 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 150px;
+    height: auto;
+  }
+  body main .grid-container7 .div-5 label {
+    padding-top: 60px;
+    color: #323232;
+    font-size: 1rem;
+    font-weight: bolder;
+  }
+  body main .grid-container7 .div-6 {
+    background-color: rgb(241, 221, 214);
+    padding-bottom: 15px;
+    grid-area: item-6;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+  }
+  body main .grid-container7 .div-6 label {
+    color: #323232;
+    font-size: 1rem;
+  }
+  body main .grid-container7 .div-6 img {
+    margin-bottom: 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 150px;
+    height: auto;
+  }
+  body .footer-1 {
+    display: none;
+  }
+  body .footer-2 {
+    border-top: 1px solid black;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+  }
+}
+@media (min-width: 425px) and (max-width: 767px) {
+  body main .grid-container1 {
+    background-color: rgb(241, 221, 214);
+    width: 425px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas: "item-4" "item-2";
+  }
+  body main .grid-container1 .div-1 {
+    display: none;
+  }
+  body main .grid-container1 .div-2 {
+    /* padding-left: 10px;*/
+    width: 425px;
+    grid-area: item-2;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container1 .div-2 img {
+    width: 405px;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container1 .div-2 button {
+    margin-top: 10px;
+    padding: 2px;
+    color: black;
+    font-size: 1rem;
+    background-color: #DDD0C8;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-transform: capitalize;
+  }
+  body main .grid-container1 .div-3 {
+    display: none;
+  }
+  body main .grid-container1 .div-4 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    grid-area: item-4;
+    border-radius: 5px;
+    align-content: center;
+  }
+  body main .grid-container1 .div-4 h2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 1.2;
+    margin: 0;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    color: black;
+  }
+  body main .grid-container1 .div-5 {
+    display: none;
+  }
+  body main .grid-container2 {
+    background-color: rgb(241, 221, 214);
+    /* margin-top: 60px;*/
+    width: 425px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  body main .grid-container2 .div-1 {
+    width: 405px;
+    /* margin-top: 15px;*/
+    margin-bottom: 15px;
+    grid-area: item-1;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container2 .div-1 h2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 1.2;
+    margin: 0;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    color: black;
+  }
+  body main .grid-container2 .caja-galeria {
+    /*padding-left: 10px;*/
+    width: 425px;
+    display: grid;
+    column-gap: 25px;
+    justify-content: center;
+    grid-template-columns: repeat(2, 0.5fr);
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: " item-1 item-1" " item-2 item-3" " item-4 item-5";
+    /*  column-gap: 10px;*/
+  }
+  body main .grid-container2 .caja-galeria .div-2 {
+    width: 200px;
+    height: auto;
+    grid-area: item-2;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container2 .caja-galeria .div-2 img {
+    width: 180px;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container2 .caja-galeria .div-2 label {
+    font-size: 1rem;
+    color: black;
+  }
+  body main .grid-container2 .caja-galeria .div-3 {
+    width: 200px;
+    height: auto;
+    grid-area: item-3;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container2 .caja-galeria .div-3 img {
+    width: 180px;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container2 .caja-galeria .div-3 label {
+    font-size: 1rem;
+    color: black;
+  }
+  body main .grid-container2 .caja-galeria .div-4 {
+    padding-top: 15px;
+    width: 200px;
+    height: auto;
+    grid-area: item-4;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container2 .caja-galeria .div-4 img {
+    width: 180px;
+    height: 120px;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container2 .caja-galeria .div-4 label {
+    font-size: 1rem;
+    color: black;
+  }
+  body main .grid-container2 .caja-galeria .div-5 {
+    padding-top: 15px;
+    width: 200px;
+    height: auto;
+    grid-area: item-5;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container2 .caja-galeria .div-5 img {
+    width: 180px;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container2 .caja-galeria .div-5 label {
+    font-size: 1rem;
+    color: black;
+  }
+  body main .grid-container3 {
+    background-color: rgb(241, 221, 214);
+    /* margin-top: 60px;*/
+    width: 425px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  body main .grid-container3 .div-1 {
+    padding-top: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    grid-area: item-1;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container3 .div-1 h2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 1.2;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    color: black;
+  }
+  body main .grid-container3 .caja-productos {
+    background-color: rgb(241, 221, 214);
+    width: 425px;
+    /* padding-left: 10px;*/
+    display: grid;
+    grid-template-columns: repeat(4, 106.25px);
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas: " . item-1 item-1 . " " . item-2 item-2 . " " item-3 item-3 item-4 item-4 " " item-5 item-5 item-6 item-6 ";
+    /*  column-gap: 35px;*/
+    justify-content: center;
+  }
+  body main .grid-container3 .caja-productos .div-2 {
+    margin-bottom: 45px;
+    width: 212.5px;
+    height: 100px;
+    grid-area: item-2;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container3 .caja-productos .div-2 img {
+    height: 120px;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container3 .caja-productos .div-2 label {
+    font-size: 1rem;
+    color: black;
+  }
+  body main .grid-container3 .caja-productos .div-3 {
+    /* margin-top: 30px;*/
+    margin-bottom: 45px;
+    width: 212.5px;
+    height: 100px;
+    grid-area: item-3;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container3 .caja-productos .div-3 img {
+    width: 200px;
+    height: 120px;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container3 .caja-productos .div-3 label {
+    font-size: 1rem;
+    color: black;
+  }
+  body main .grid-container3 .caja-productos .div-4 {
+    /*  margin-top: 30px;*/
+    width: 212.5px;
+    height: 100px;
+    grid-area: item-4;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container3 .caja-productos .div-4 img {
+    width: 200px;
+    height: 120px;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container3 .caja-productos .div-4 label {
+    font-size: 1rem;
+    color: black;
+  }
+  body main .grid-container3 .caja-productos .div-5 {
+    margin-bottom: 25px;
+    width: 212.5px;
+    height: 100px;
+    grid-area: item-5;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container3 .caja-productos .div-5 img {
+    width: 200px;
+    height: 120px;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container3 .caja-productos .div-5 label {
+    font-size: 1rem;
+    color: black;
+  }
+  body main .grid-container3 .caja-productos .div-6 {
+    width: 212.5px;
+    height: 100px;
+    grid-area: item-6;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container3 .caja-productos .div-6 img {
+    width: 200px;
+    height: 120px;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container3 .caja-productos .div-6 label {
+    font-size: 1rem;
+    color: black;
+  }
+  body main .grid-container4 {
+    background-color: rgb(241, 221, 214);
+    width: 425px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container4 .div-1 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    grid-area: item-1;
+    border-radius: 5px;
+    display: flex;
+    align-content: center;
+  }
+  body main .grid-container4 .div-1 h2 {
+    text-align: center;
+    font-size: 2rem;
+    line-height: 1.2;
+    color: black;
+  }
+  body main .grid-container4 .caja-promos {
+    width: 355px;
+    display: grid;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    grid-template-columns: 88.75px 88.75px 88.75px 88.75px;
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas: " . item-1 item-1 . " " item-2 item-3 item-3 item-4 ";
+  }
+  body main .grid-container4 .caja-promos .div-2 {
+    margin-top: 10px;
+    grid-area: item-2;
+    border-radius: 5px;
+    display: flex;
+  }
+  body main .grid-container4 .caja-promos .div-2 p {
+    width: 65px;
+    text-align: center;
+    color: black;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    /*  margin: 0;*/
+    max-width: 100%;
+    overflow-wrap: break-word;
+  }
+  body main .grid-container4 .caja-promos .div-3 {
+    width: 177.5px;
+    grid-area: item-3;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+  }
+  body main .grid-container4 .caja-promos .div-3 img {
+    width: 200px;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container4 .caja-promos .div-4 {
+    grid-area: item-4;
+    border-radius: 5px;
+    display: flex;
+  }
+  body main .grid-container4 .caja-promos .div-4 p {
+    width: 60px;
+    text-align: center;
+    color: black;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    /*  margin: 0;*/
+    max-width: 100%;
+    overflow-wrap: break-word;
+  }
+  body main .grid-container5 {
+    background-color: rgb(241, 221, 214);
+    width: 425px;
+    display: grid;
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: 0.5fr 1fr 1fr 0.5fr;
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: ". item-1 item-1 ." ". item-2 item-2 ." "item-3 item-3 item-3 item-3";
+    /* gap: 10px;*/
+    justify-content: center;
+  }
+  body main .grid-container5 .div-1 {
+    margin-top: 15px;
+    grid-area: item-1;
+    background-color: rgb(241, 221, 214);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  body main .grid-container5 h2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 1.2;
+    /*  margin: 0;*/
+    max-width: 100%;
+    overflow-wrap: break-word;
+    color: black;
+  }
+  body main .grid-container5 .div-2 {
+    padding-left: 10px;
+    width: 415px;
+    grid-area: item-2;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  body main .grid-container5 .div-2 img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container5 .div-3 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    grid-area: item-3;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  body main .grid-container5 .div-3 p {
+    padding: 10px;
+    text-align: justify;
+    color: black;
+    font-size: 1rem;
+    line-height: 1.5;
+    /*  margin: 0;*/
+    max-width: 100%;
+    overflow-wrap: break-word;
+  }
+  body main .grid-container6 {
+    background-color: rgb(241, 221, 214);
+    width: 425px;
+    display: grid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-template-columns: 187.5px 187.5px;
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas: " item-1 item-1" " item-4 item-3";
+  }
+  body main .grid-container6 .div-1 {
+    margin-top: 15px;
+    grid-area: item-1;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+  }
+  body main .grid-container6 .div-1 h2 {
+    text-align: center;
+    font-size: 2rem;
+    line-height: 1.2;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    color: black;
+  }
+  body main .grid-container6 .caja-calificacion {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+  }
+  body main .grid-container6 .caja-calificacion .div-2 {
+    display: none;
+  }
+  body main .grid-container6 .caja-calificacion .div-4 {
+    padding-bottom: 25px;
+    width: 212.5px;
+    grid-area: item-4;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container6 .caja-calificacion .div-4 img {
+    width: 100px;
+    height: 80px;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container6 .caja-calificacion .div-4 p {
+    width: 120px;
+    text-align: justify;
+    color: black;
+    font-size: 1rem;
+    line-height: 1.5;
+    /* margin: 0;*/
+    max-width: 100%;
+    overflow-wrap: break-word;
+  }
+  body main .grid-container6 .caja-calificacion .div-3 {
+    padding-bottom: 25px;
+    width: 212.5px;
+    grid-area: item-3;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container6 .caja-calificacion .div-3 img {
+    width: 100px;
+    height: 80px;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container6 .caja-calificacion .div-3 p {
+    width: 120px;
+    text-align: justify;
+    color: black;
+    font-size: 1rem;
+    line-height: 1.5;
+    /* margin: 0;*/
+    max-width: 100%;
+    overflow-wrap: break-word;
+  }
+  body main .grid-container6 .caja-calificacion .div-5 {
+    display: none;
+  }
+  body .footer-1 {
+    display: none;
+  }
+  body .footer-2 {
+    border-top: 1px solid black;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (min-width: 425px) and (max-width: 767px) {
+  body main .grid-container8 {
+    display: grid;
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: repeat(6, 0.4fr);
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas: ". . item-1 item-1 . ." "item-2 item-2 item-2 item-5 item-5 item-5" ". item-3 item-3 item-4 item-4 ." ". item-7 item-7 item-7 . .";
+    justify-content: center;
+  }
+  body main .grid-container8 .div-1 {
+    grid-area: item-1;
+    background-color: rgb(241, 221, 214);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+  }
+  body main .grid-container8 .div-1 h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    line-height: 1.2;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    color: black;
+  }
+  body main .grid-container8 .div-2 {
+    background-color: rgb(241, 221, 214);
+    grid-area: item-2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  body main .grid-container8 .div-2 label {
+    color: black;
+    font-size: 1.3rem;
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+  body main .grid-container8 .div-2 img {
+    width: 405px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  body main .grid-container8 .div-3 {
+    background-color: rgb(241, 221, 214);
+    grid-area: item-3;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  body main .grid-container8 .div-3 img {
+    width: 250px;
+    height: auto;
+    grid-area: item-3;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  body main .grid-container8 .div-4 {
+    grid-area: item-4;
+    background-color: rgb(241, 221, 214);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+  }
+  body main .grid-container8 .div-4 img {
+    width: 250px;
+    height: 140px;
+    grid-area: item-3;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  body main .grid-container8 .div-5 {
+    padding-top: 20px;
+    grid-area: item-5;
+    background-color: rgb(241, 221, 214);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  body main .grid-container8 .div-5 p {
+    text-align: justify;
+    padding-top: 40px;
+    margin: 10px;
+    font-size: 1rem;
+  }
+  body main .grid-container8 .div-5 label {
+    color: black;
+    font-size: 1.3rem;
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+  body main .grid-container8 .div-5 button {
+    margin-top: 25px;
+    padding: 5px;
+    color: black;
+    font-size: 1rem;
+    background-color: #DDD0C8;
+    border: 1.5px solid black;
+    border-radius: 25px;
+    text-transform: capitalize;
+  }
+  body main .grid-container8 .div-6 {
+    display: none;
+  }
+  body main .grid-container8 .div-7 {
+    grid-area: item-7;
+    background-color: rgb(241, 221, 214);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  body main .grid-container8 .div-7 label {
+    color: black;
+    font-size: 1.3rem;
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+  body main .grid-container9 {
+    display: grid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas: ". item-1 item-1 item-1 ." "item-2 item-3 item-4 item-5 item-6";
+  }
+  body main .grid-container9 .div-1 {
+    background-color: rgb(241, 221, 214);
+    grid-area: item-1;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container9 .div-1 h2 {
+    padding-top: 25px;
+    display: flex;
+    justify-items: center;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    color: black;
+  }
+  body main .grid-container9 .div-2 {
+    background-color: rgb(241, 221, 214);
+    grid-area: item-2;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container9 .div-2 label {
+    color: black;
+    font-size: 1.3rem;
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+  body main .grid-container9 .div-2 img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container9 .div-3 {
+    background-color: rgb(241, 221, 214);
+    grid-area: item-3;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container9 .div-3 img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container9 .div-3 label {
+    color: black;
+    font-size: 1.3rem;
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+  body main .grid-container9 .div-4 {
+    background-color: rgb(241, 221, 214);
+    grid-area: item-4;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container9 .div-4 img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container9 .div-4 label {
+    color: black;
+    font-size: 1.3rem;
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+  body main .grid-container9 .div-5 {
+    background-color: rgb(241, 221, 214);
+    grid-area: item-5;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container9 .div-5 img {
+    max-width: 100%;
+    height: 200px;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container9 .div-5 label {
+    color: black;
+    font-size: 1.3rem;
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+  body main .grid-container9 .div-6 {
+    background-color: rgb(241, 221, 214);
+    grid-area: item-6;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container9 .div-6 img {
+    max-width: 100%;
+    height: 200px;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container9 .div-6 label {
+    color: black;
+    font-size: 1.3rem;
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+  body .footer-1 {
+    display: none;
+  }
+  body .footer-2 {
+    border-top: 1px solid black;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+  }
+}
+@media (min-width: 425px) and (max-width: 767px) {
+  body main .grid-container10 {
+    display: grid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    grid-template-columns: minmax(0, 0.5fr) minmax(0, 1fr);
+    grid-template-rows: repeat(5, auto);
+    grid-template-areas: "item-1 item-1" "item-5 item-2" "item-5 item-3" "item-5 item-3" "item-4 item-4";
+    max-width: 100%;
+  }
+  body main .grid-container10 .div-1 {
+    background-color: rgb(241, 221, 214);
+    grid-area: item-1;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+  }
+  body main .grid-container10 .div-1 h2 {
+    font-size: 3rem;
+    line-height: 1.2;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    color: black !important;
+  }
+  body main .grid-container10 .div-2 {
+    padding-top: 25px;
+    background-color: rgb(241, 221, 214);
+    grid-area: item-2;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+  }
+  body main .grid-container10 .div-2 h2 {
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    margin: 0;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    color: black;
+  }
+  body main .grid-container10 .div-2 p {
+    padding: 10px;
+    margin-bottom: 15px;
+    text-align: justify;
+    font-size: 1.2rem;
+    line-height: 1.2;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    color: black;
+  }
+  body main .grid-container10 .div-2 label {
+    font-size: 1rem;
+    color: black;
+  }
+  body main .grid-container10 .div-2 .foto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container10 .div-2 .foto img {
+    border-radius: 5px;
+    width: 180px;
+    height: auto;
+  }
+  body main .grid-container10 .div-2 .foto button {
+    margin-top: 20px;
+    padding: 4px;
+    color: black;
+    font-size: 1rem;
+    background-color: #DDD0C8;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+  }
+  body main .grid-container10 .div-2 form {
+    width: 250px;
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+  }
+  body main .grid-container10 .div-2 input {
+    margin-bottom: 15px;
+  }
+  body main .grid-container10 .div-2 .genero {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
+  body main .grid-container10 .div-2 .idioma {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
+  body main .grid-container10 .div-3 {
+    background-color: rgb(241, 221, 214);
+    grid-area: item-3;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+  }
+  body main .grid-container10 .div-3 .botones button {
+    padding: 4px;
+    color: black;
+    font-size: 1rem;
+    background-color: #DDD0C8;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+  }
+  body main .grid-container10 .div-3 .botones {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+  }
+  body main .grid-container10 .div-3 .borrarcuenta {
+    display: flex;
+    justify-content: center;
+  }
+  body main .grid-container10 .div-3 .borrarcuenta button {
+    margin-top: 20px;
+    padding: 4px;
+    color: black;
+    font-size: 1rem;
+    background-color: #DDD0C8;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+  }
+  body main .grid-container10 .div-4 {
+    padding-top: 25px;
+    background-color: rgb(241, 221, 214);
+    grid-area: item-4;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+  }
+  body main .grid-container10 .div-4 p {
+    padding: 10px;
+    text-align: justify;
+  }
+  body main .grid-container10 .div-5 {
+    background-color: rgb(241, 221, 214);
+    padding-left: 10px;
+    grid-area: item-5;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+  }
+  body main .grid-container10 .div-5 h2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    color: black;
+  }
+  body main .grid-container10 .div-5 label {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color: black;
+  }
+  body .footer-1 {
+    display: none;
+  }
+  body .footer-2 {
+    border-top: 1px solid black;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+  }
+}
+@media (min-width: 425px) and (max-width: 767px) {
+  body main .grid-container11 {
+    display: grid;
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: "item-1 item-1" "item-2 item-3" "item-2 item-3";
+    /*gap: 20px;*/
+    justify-content: center;
+    max-width: 100%;
+  }
+  body main .grid-container11 .div-1 {
+    background-color: rgb(241, 221, 214);
+    grid-area: item-1;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+  }
+  body main .grid-container11 .div-1 h2 {
+    font-size: 3rem;
+    line-height: 1.2;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    color: black;
+  }
+  body main .grid-container11 .div-2 {
+    background-color: rgb(241, 221, 214);
+    grid-area: item-2;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+  }
+  body main .grid-container11 .div-2 p {
+    text-align: justify;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    line-height: 1.2;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    color: black;
+  }
+  body main .grid-container11 .div-2 label {
+    color: black;
+    font-size: 1rem;
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+  body main .grid-container11 .div-2 form button {
+    margin-left: 10px;
+    padding: 4px;
+    color: black;
+    font-size: 1rem;
+    background-color: #DDD0C8;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+  }
+  body main .grid-container11 .div-3 {
+    background-color: rgb(241, 221, 214);
+    grid-area: item-3;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+  }
+  body main .grid-container11 .div-3 video {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 405px;
+    height: auto;
+    border-radius: 5px;
+  }
+  body .footer-1 {
+    display: none;
+  }
+  body .footer-2 {
+    border-top: 1px solid black;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+  }
+}
+@media (min-width: 425px) and (max-width: 767px) {
+  body main .grid-container7 {
+    width: 425px;
+    display: grid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    grid-template-columns: 0.25fr 1fr 0.625fr 0.25fr;
+    grid-template-rows: repeat(5, auto);
+    grid-template-areas: ". item-1 item-1 ." ". item-2 item-6 ." ". item-4 item-5 ." ". item-3 item-5 ." ". item-3 item-5 .";
+  }
+  body main .grid-container7 .div-1 {
+    background-color: rgb(241, 221, 214);
+    grid-area: item-1;
+    display: flex;
+    justify-content: center;
+  }
+  body main .grid-container7 .div-1 h2 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    justify-content: center;
+    font-size: 2.5rem;
+    line-height: 1.2;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    color: black;
+  }
+  body main .grid-container7 .div-2 {
+    background-color: rgb(241, 221, 214);
+    padding-bottom: 15px;
+    grid-area: item-2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  body main .grid-container7 .div-2 img {
+    margin-bottom: 15px;
+    width: 150px;
+    height: auto;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container7 .div-2 label {
+    color: black;
+    font-size: 1.3rem;
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+  body main .grid-container7 .div-3 {
+    grid-area: item-3;
+    background-color: rgb(241, 221, 214);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  body main .grid-container7 .div-3 label {
+    color: black;
+    font-size: 1.3rem;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  body main .grid-container7 .div-4 {
+    grid-area: item-4;
+    background-color: rgb(241, 221, 214);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  body main .grid-container7 .div-4 label {
+    display: flex;
+    flex-direction: column;
+    color: black;
+    font-size: 1.3rem;
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+  body main .grid-container7 .div-4 button {
+    margin-top: 20px;
+    padding: 4px;
+    color: black;
+    font-size: 1rem;
+    background-color: #DDD0C8;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+  }
+  body main .grid-container7 .div-5 {
+    grid-area: item-5;
+    background-color: rgb(241, 221, 214);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container7 .div-5 img {
+    margin-bottom: 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 190px;
+    height: auto;
+  }
+  body main .grid-container7 .div-5 label {
+    padding-top: 60px;
+    color: black;
+    font-size: 1.3rem;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-weight: bolder;
+  }
+  body main .grid-container7 .div-6 {
+    width: 425px;
+    background-color: rgb(241, 221, 214);
+    padding-bottom: 15px;
+    grid-area: item-6;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+  }
+  body main .grid-container7 .div-6 label {
+    color: black;
+    font-size: 1.3rem;
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+  body main .grid-container7 .div-6 img {
+    margin-bottom: 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 150px;
+    height: auto;
+  }
+  body .footer-1 {
+    display: none;
+  }
+  body .footer-2 {
+    border-top: 1px solid black;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1439px) {
+  body nav.navbar {
+    display: none;
+  }
+  body .desktop {
+    background-color: #c3c3c4;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #323232;
+  }
+  body .desktop .logo-header {
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+  }
+  body .desktop .div2 .estilo-lista {
+    margin-left: -320px;
+    margin-top: 10px;
+    list-style: none;
+  }
+  body .desktop .div2 .ul-display li {
+    display: inline;
+    padding: 4px;
+    margin-inline: 20px;
+  }
+  body .desktop .div2 .ul-display li:hover {
+    border: 2px solid #323232;
+    border-radius: 25px;
+    background-color: aliceblue;
+    transition: 1s;
+  }
+  body .desktop .div2 .ul-display li .links-menu {
+    text-decoration: none;
+    color: #323232;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body .desktop .btn-group .custom-button {
+    background-color: #ddd0c8;
+    border: none;
+  }
+  body .grid-container1 {
+    width: 100%;
+    max-width: 1024px;
+    background-color: rgb(241, 221, 214);
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas: ". item-4 item-5" "item-1 item-2 ." "item-1 item-2 item-3" ". item-2 .";
+  }
+  body .grid-container1 .div-1 {
+    grid-area: item-1;
+    margin-top: 140px;
+    align-content: center;
+  }
+  body .grid-container1 .div-1 video {
+    border-radius: 5px;
+    max-width: 100%;
+    height: auto;
+  }
+  body .grid-container1 .div-2 {
+    grid-area: item-2;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .grid-container1 .div-2 img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+  }
+  body .grid-container1 .div-2 button {
+    margin-top: 25px;
+    padding: 5px;
+    color: black;
+    font-size: 1rem;
+    background-color: #DDD0C8;
+    border: 3.2px solid black;
+    border-radius: 25px;
+    text-transform: capitalize;
+  }
+  body .grid-container1 .div-2 button:hover {
+    background-color: aliceblue;
+    transition: 1s;
+  }
+  body .grid-container1 .div-3 {
+    margin-top: 140px;
+    grid-area: item-3;
+    border-radius: 5px;
+    align-content: center;
+  }
+  body .grid-container1 .div-3 video {
+    border-radius: 5px;
+    max-width: 100%;
+    height: auto;
+  }
+  body .grid-container1 .div-4 {
+    grid-area: item-4;
+    border-radius: 5px;
+  }
+  body .grid-container1 .div-4 h2 {
+    font-size: 3rem;
+    line-height: 1.2;
+    margin: 0;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    color: black;
+  }
+  body .grid-container2 {
+    width: 100%;
+    max-width: 1024px;
+    background-color: rgb(241, 221, 214);
+    display: grid;
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas: ". item-1 item-1 ." "item-2 item-3 item-4 item-5";
+    gap: 20px;
+    justify-content: center;
+  }
+  body .grid-container2 .div-1 {
+    grid-area: item-1;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .grid-container2 .div-1 h2 {
+    font-size: 3rem;
+    line-height: 1.2;
+    margin: 0;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    color: black;
+  }
+  body .grid-container2 .caja-galeria {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+  }
+  body .grid-container2 .caja-galeria .div-2 {
+    grid-area: item-2;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .grid-container2 .caja-galeria .div-2 img {
+    width: 200px;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+  }
+  body .grid-container2 .caja-galeria .div-2 label {
+    font-size: 1.5rem;
+    color: #323232;
+  }
+  body .grid-container2 .caja-galeria .div-3 {
+    grid-area: item-3;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .grid-container2 .caja-galeria .div-3 img {
+    width: 200px;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+  }
+  body .grid-container2 .caja-galeria .div-3 label {
+    font-size: 1.5rem;
+    color: #323232;
+  }
+  body .grid-container2 .caja-galeria .div-4 {
+    grid-area: item-4;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .grid-container2 .caja-galeria .div-4 img {
+    width: 200px;
+    height: 132px;
+    display: block;
+    border-radius: 5px;
+  }
+  body .grid-container2 .caja-galeria .div-4 label {
+    font-size: 1.5rem;
+    color: #323232;
+  }
+  body .grid-container2 .caja-galeria .div-5 {
+    grid-area: item-5;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .grid-container2 .caja-galeria .div-5 img {
+    width: 200px;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+  }
+  body .grid-container2 .caja-galeria .div-5 label {
+    font-size: 1.5rem;
+    color: #323232;
+  }
+  body .grid-container3 {
+    width: 100%;
+    max-width: 1024px;
+    background-color: rgb(241, 221, 214);
+    display: grid;
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: repeat(5, 1.2fr);
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas: ". item-1 item-1 item-1 ." "item-2 item-3 item-4 item-5 item-6";
+    gap: 10px;
+    justify-content: center;
+  }
+  body .grid-container3 .div-1 {
+    grid-area: item-1;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .grid-container3 .div-1 h2 {
+    font-size: 3rem;
+    line-height: 1.2;
+    margin: 0;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    color: black;
+  }
+  body .grid-container3 .caja-productos {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+  }
+  body .grid-container3 .caja-productos .div-2 {
+    grid-area: item-2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .grid-container3 .caja-productos .div-2 img {
+    width: 200px;
+    height: 133px !important;
+    display: block;
+    border-radius: 5px;
+  }
+  body .grid-container3 .caja-productos .div-2 label {
+    font-size: 1.5rem;
+    color: #323232;
+  }
+  body .grid-container3 .caja-productos .div-3 {
+    grid-area: item-3;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .grid-container3 .caja-productos .div-3 img {
+    width: 200px;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+  }
+  body .grid-container3 .caja-productos .div-3 label {
+    font-size: 1.5rem;
+    color: #323232;
+  }
+  body .grid-container3 .caja-productos .div-4 {
+    grid-area: item-4;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .grid-container3 .caja-productos .div-4 img {
+    width: 200px;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+  }
+  body .grid-container3 .caja-productos .div-4 label {
+    font-size: 1.5rem;
+    color: #323232;
+  }
+  body .grid-container3 .caja-productos .div-5 {
+    grid-area: item-5;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .grid-container3 .caja-productos .div-5 img {
+    width: 200px;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+  }
+  body .grid-container3 .caja-productos .div-5 label {
+    font-size: 1.5rem;
+    color: #323232;
+  }
+  body .grid-container3 .caja-productos .div-6 {
+    grid-area: item-6;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .grid-container3 .caja-productos .div-6 img {
+    width: 200px;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+  }
+  body .grid-container3 .caja-productos .div-6 label {
+    font-size: 1.5rem;
+    color: #323232;
+  }
+  body .grid-container4 {
+    width: 100%;
+    max-width: 1024px;
+    background-color: rgb(241, 221, 214);
+    display: grid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas: ". item-1 ." "item-2 item-3 item-4";
+  }
+  body .grid-container4 .div-1 {
+    grid-area: item-1;
+    display: flex;
+    justify-content: center;
+  }
+  body .grid-container4 .div-1 h2 {
+    font-size: 3rem;
+    line-height: 1.2;
+    margin: 0;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    color: black;
+  }
+  body .grid-container4 .caja-promos {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+  }
+  body .grid-container4 .caja-promos .div-2 {
+    grid-area: item-2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  body .grid-container4 .caja-promos .div-2 p {
+    font-size: 1.5rem;
+    color: #323232;
+  }
+  body .grid-container4 .caja-promos .div-3 {
+    margin-left: -50px;
+    grid-area: item-3;
+    display: flex;
+    justify-content: center;
+  }
+  body .grid-container4 .caja-promos .div-3 img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+  }
+  body .grid-container4 .caja-promos .div-4 {
+    grid-area: item-4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  body .grid-container4 .caja-promos .div-4 p {
+    font-size: 1.5rem;
+    color: #323232;
+  }
+  body .grid-container4 .caja-promos .div-4 img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+  }
+  body .grid-container5 {
+    padding-top: 25px;
+    width: 100%;
+    max-width: 1024px;
+    background-color: rgb(241, 221, 214);
+    display: grid;
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: 0.5fr 1fr 1fr 0.5fr;
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: ". item-1 item-1 ." ". item-2 item-2 ." "item-3 item-3 item-3 item-3";
+    gap: 10px;
+    justify-content: center;
+  }
+  body .grid-container5 .div-1 {
+    grid-area: item-1;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  body .grid-container5 .div-1 h2 {
+    font-size: 3rem;
+    line-height: 1.2;
+    margin: 0;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    color: black;
+  }
+  body .grid-container5 .div-2 {
+    grid-area: item-2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  body .grid-container5 .div-2 img {
+    width: 700px;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+  }
+  body .grid-container5 .div-3 {
+    grid-area: item-3;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  body .grid-container5 .div-3 p {
+    padding: 20px;
+    font-size: 1rem;
+    color: #323232;
+    line-height: 1.5;
+    text-align: justify;
+    margin: 0;
+    max-width: 100%;
+    overflow-wrap: break-word;
+  }
+  body .grid-container6 {
+    width: 100%;
+    max-width: 1024px;
+    background-color: rgb(241, 221, 214);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas: ". item-1 item-1 ." "item-2 item-3 item-4 item-5";
+    gap: 20px;
+    justify-content: center;
+  }
+  body .grid-container6 .div-1 {
+    grid-area: item-1;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+  }
+  body .grid-container6 .div-1 h2 {
+    font-size: 3rem;
+    line-height: 1.2;
+    margin: 0;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    color: black;
+  }
+  body .grid-container6 .div-2 {
+    grid-area: item-2;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .grid-container6 .div-2 img {
+    width: 100px;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+  }
+  body .grid-container6 .div-2 label {
+    font-size: 1.5rem;
+    color: #323232;
+  }
+  body .grid-container6 .caja-calificacion {
+    padding-left: 5px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+  }
+  body .grid-container6 .caja-calificacion .div-3 {
+    grid-area: item-3;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .grid-container6 .caja-calificacion .div-3 img {
+    width: 100px;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+  }
+  body .grid-container6 .caja-calificacion .div-3 label {
+    font-size: 1.5rem;
+    color: #323232;
+  }
+  body .grid-container6 .caja-calificacion .div-4 {
+    grid-area: item-4;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .grid-container6 .caja-calificacion .div-4 img {
+    width: 100px;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+  }
+  body .grid-container6 .caja-calificacion .div-4 label {
+    font-size: 1.5rem;
+    color: #323232;
+  }
+  body .grid-container6 .caja-calificacion .div-5 {
+    grid-area: item-5;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .grid-container6 .caja-calificacion .div-5 img {
+    width: 100px;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+  }
+  body .grid-container6 .caja-calificacion .div-5 label {
+    font-size: 1rem;
+    color: #7450b8;
+  }
+  body .footer-1 {
+    background-color: gray;
+    border-top: 1px solid black;
+    margin-bottom: -20px;
+  }
+  body .footer-1 ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+  }
+  body .footer-1 ul div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-around;
+  }
+  body .footer-1 ul div .label-color {
+    font-weight: bolder;
+  }
+  body .footer-1 ul div .imagen-footer {
+    display: flex;
+    flex-direction: row;
+  }
+  body .footer-1 ul div .imagen-footer div label {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+  body .footer-1 ul li {
+    text-decoration: none;
+  }
+  body .footer-2 {
+    border-top: 1px solid black;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+  }
+  body .footer-2 {
+    display: none;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1439px) {
+  body nav.navbar {
+    display: none;
+  }
+  body .desktop {
+    background-color: #c3c3c4;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #323232;
+  }
+  body .desktop .logo-header {
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+  }
+  body .desktop .div2 .estilo-lista {
+    margin-left: -320px;
+    margin-top: 10px;
+    list-style: none;
+  }
+  body .desktop .div2 .ul-display li {
+    display: inline;
+    padding: 4px;
+    margin-inline: 20px;
+  }
+  body .desktop .div2 .ul-display li:hover {
+    border: 2px solid #323232;
+    border-radius: 25px;
+    background-color: aliceblue;
+    transition: 1s;
+  }
+  body .desktop .div2 .ul-display li .links-menu {
+    text-decoration: none;
+    color: #323232;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body .desktop .btn-group .custom-button {
+    background-color: #ddd0c8;
+    border: none;
+  }
+  body .grid-container8 {
+    width: 100%;
+    max-width: 1024px;
+    background-color: rgb(241, 221, 214);
+    display: grid;
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: repeat(6, 0.4fr);
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas: ". . item-1 item-1 . ." "item-2 item-2 item-2 item-5 item-5 item-5" ". . item-3 item-3 . ." ". item-7 item-7 item-7 . .";
+    justify-content: center;
+  }
+  body .grid-container8 .div-1 {
+    grid-area: item-1;
+    display: flex;
+    justify-content: center;
+  }
+  body .grid-container8 .div-1 h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    line-height: 1.2;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    color: black;
+  }
+  body .grid-container8 .div-2 {
+    width: 100%;
+    max-width: 1004px;
+    margin-left: 10px;
+    border: 1px solid black;
+    grid-area: item-2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  body .grid-container8 .div-2 label {
+    color: #323232;
+    font-size: 1rem;
+  }
+  body .grid-container8 .div-2 img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  body .grid-container8 .div-3 {
+    padding-top: 25px;
+    grid-area: item-3;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  body .grid-container8 .div-3 img {
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+  }
+  body .grid-container8 .div-5 {
+    margin-top: 25px;
+    width: 100%;
+    max-width: 1004px;
+    margin-left: 10px;
+    grid-area: item-5;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  body .grid-container8 .div-5 p {
+    text-align: justify;
+    padding-top: 40px;
+    margin: 10px;
+    font-size: 1rem;
+  }
+  body .grid-container8 .div-5 label {
+    color: #323232;
+    font-size: 1rem;
+  }
+  body .grid-container8 .div-5 .horizontal {
+    display: flex;
+    align-content: space-around;
+  }
+  body .grid-container8 .div-5 button {
+    margin-top: 25px;
+    padding: 5px;
+    color: black;
+    font-size: 1rem;
+    background-color: #DDD0C8;
+    border: 3.2px solid black;
+    border-radius: 25px;
+    text-transform: capitalize;
+  }
+  body .grid-container8 .div-5 button:hover {
+    background-color: aliceblue;
+    transition: 1s;
+  }
+  body .grid-container8 .div-7 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    grid-area: item-7;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  body .grid-container8 .div-7 label {
+    padding-left: 120px;
+    color: #323232;
+    font-size: 1rem;
+  }
+  body .grid-container9 {
+    width: 100%;
+    max-width: 1024px;
+    background-color: rgb(241, 221, 214);
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas: ". item-1 item-1 item-1 ." "item-2 item-3 item-4 item-5 item-6";
+    justify-content: center;
+  }
+  body .grid-container9 .div-1 {
+    background-color: rgb(241, 221, 214);
+    margin-top: 20px;
+    grid-area: item-1;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+  }
+  body .grid-container9 .div-1 h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    line-height: 1.2;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    color: black;
+  }
+  body .grid-container9 .div-2 {
+    grid-area: item-2;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .grid-container9 .div-2 label {
+    color: #323232;
+    font-size: 1rem;
+    padding-bottom: 10px;
+  }
+  body .grid-container9 .div-2 img {
+    max-width: 100%;
+    height: 200px;
+    display: block;
+    border-radius: 5px;
+  }
+  body .grid-container9 .div-3 {
+    grid-area: item-3;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .grid-container9 .div-3 img {
+    max-width: 100%;
+    height: 200px;
+    display: block;
+    border-radius: 5px;
+  }
+  body .grid-container9 .div-3 label {
+    color: #323232;
+    font-size: 1rem;
+    padding-bottom: 10px;
+  }
+  body .grid-container9 .div-4 {
+    grid-area: item-4;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .grid-container9 .div-4 img {
+    max-width: 100%;
+    height: 200px;
+    display: block;
+    border-radius: 5px;
+  }
+  body .grid-container9 .div-4 label {
+    color: #323232;
+    font-size: 1rem;
+    padding-bottom: 10px;
+  }
+  body .grid-container9 .div-5 {
+    grid-area: item-5;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .grid-container9 .div-5 img {
+    max-width: 100%;
+    height: 200px;
+    display: block;
+    border-radius: 5px;
+  }
+  body .grid-container9 .div-5 label {
+    color: #323232;
+    font-size: 1rem;
+    padding-bottom: 10px;
+  }
+  body .grid-container9 .div-6 {
+    grid-area: item-6;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .grid-container9 .div-6 img {
+    max-width: 100%;
+    height: 200px;
+    display: block;
+    border-radius: 5px;
+  }
+  body .grid-container9 .div-6 label {
+    color: #323232;
+    font-size: 1rem;
+    padding-bottom: 10px;
+  }
+  body .footer-1 {
+    background-color: gray;
+    border-top: 1px solid black;
+    margin-bottom: -20px;
+  }
+  body .footer-1 ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+  }
+  body .footer-1 ul div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-around;
+  }
+  body .footer-1 ul div .label-color {
+    font-weight: bolder;
+  }
+  body .footer-1 ul div .imagen-footer {
+    display: flex;
+    flex-direction: row;
+  }
+  body .footer-1 ul div .imagen-footer div label {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+  body .footer-1 ul li {
+    text-decoration: none;
+  }
+  body .footer-2 {
+    border-top: 1px solid black;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+  }
+  body .footer-2 {
+    display: none;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1439px) {
+  body nav.navbar {
+    display: none;
+  }
+  body .desktop {
+    background-color: #c3c3c4;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #323232;
+  }
+  body .desktop .logo-header {
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+  }
+  body .desktop .div2 .estilo-lista {
+    margin-left: -320px;
+    margin-top: 10px;
+    list-style: none;
+  }
+  body .desktop .div2 .ul-display li {
+    display: inline;
+    padding: 4px;
+    margin-inline: 20px;
+  }
+  body .desktop .div2 .ul-display li:hover {
+    border: 2px solid #323232;
+    border-radius: 25px;
+    background-color: aliceblue;
+    transition: 1s;
+  }
+  body .desktop .div2 .ul-display li .links-menu {
+    text-decoration: none;
+    color: #323232;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body .desktop .btn-group .custom-button {
+    background-color: #ddd0c8;
+    border: none;
+  }
+  body .grid-container10 {
+    background-color: rgb(241, 221, 214);
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: minmax(0, 0.5fr) minmax(0, 1fr);
+    grid-template-rows: repeat(5, auto);
+    grid-template-areas: "item-1 item-1" "item-5 item-2" "item-5 item-3" "item-5 item-3" "item-4 item-4";
+    justify-content: center;
+    max-width: 100%;
+  }
+  body .grid-container10 .div-1 {
+    grid-area: item-1;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+  }
+  body .grid-container10 .div-1 h2 {
+    font-size: 3rem;
+    line-height: 1.2;
+    margin: 0;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    color: black !important;
+  }
+  body .grid-container10 .div-2 {
+    grid-area: item-2;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100%;
+  }
+  body .grid-container10 .div-2 h3 {
+    font-size: 1.5rem;
+    line-height: 1.2;
+    margin: 0;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    color: black;
+  }
+  body .grid-container10 .div-2 p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+    line-height: 1.2;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    color: black;
+  }
+  body .grid-container10 .div-2 label {
+    font-size: 1rem;
+    color: black;
+  }
+  body .grid-container10 .div-2 .foto button {
+    margin-top: -48px;
+    margin-left: 150px;
+    padding: 10px;
+    color: black;
+    font-size: 1rem;
+    background-color: #DDD0C8;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+  }
+  body .grid-container10 .div-2 .foto button:hover {
+    background-color: aliceblue;
+  }
+  body .grid-container10 .div-2 form {
+    width: 250px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+  }
+  body .grid-container10 .div-2 input {
+    margin-bottom: 15px;
+  }
+  body .grid-container10 .div-2 .genero {
+    width: 500px;
+    display: flex;
+  }
+  body .grid-container10 .div-2 .genero form {
+    margin-bottom: 15px;
+    margin-top: 0px;
+    margin-left: 400px;
+  }
+  body .grid-container10 .div-2 .idioma {
+    width: 500px;
+    display: flex;
+  }
+  body .grid-container10 .div-2 .idioma form {
+    margin-top: 0px;
+    margin-left: 400px;
+  }
+  body .grid-container10 .div-3 {
+    grid-area: item-3;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+  }
+  body .grid-container10 .div-3 .botones {
+    margin-top: 15px;
+    display: flex;
+    max-width: 100%;
+  }
+  body .grid-container10 .div-3 .botones button {
+    margin-right: 5px;
+    padding: 10px;
+    color: black;
+    font-size: 1rem;
+    background-color: #DDD0C8;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-transform: capitalize;
+    display: flex;
+    max-width: 100%;
+  }
+  body .grid-container10 .div-3 .botones button:hover {
+    background-color: aliceblue;
+  }
+  body .grid-container10 .div-3 .borrarcuenta button {
+    margin-left: 450px;
+    padding: 10px;
+    color: black;
+    font-size: 1rem;
+    background-color: #DDD0C8;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-transform: capitalize;
+    display: flex;
+    max-width: 100%;
+  }
+  body .grid-container10 .div-3 .borrarcuenta button:hover {
+    background-color: aliceblue;
+  }
+  body .grid-container10 .div-4 {
+    grid-area: item-4;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+  }
+  body .grid-container10 .div-4 p {
+    padding: 10px;
+    text-align: justify;
+  }
+  body .grid-container10 .div-5 {
+    padding-left: 10px;
+    grid-area: item-5;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+  }
+  body .grid-container10 .div-5 h3 {
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    color: black;
+  }
+  body .grid-container10 .div-5 label {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color: black;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

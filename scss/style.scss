@@ -16,9 +16,9 @@
 @use "media-queries/mobile-425/_media-mobile-contacto-425" as *;
 @use "media-queries/mobile-425/_media-mobile-carrito-425" as *;
 
-@use "media-queries/_media-desktop-index-1024" as *;
-@use "media-queries/_media-desktop-tienda-1024" as *;
-@use "media-queries/_media-desktop-cuenta-1024" as *;
+@use "media-queries/desktop-1024/_media-desktop-index-1024" as *;
+@use "media-queries/desktop-1024/_media-desktop-tienda-1024" as *;
+@use "media-queries/desktop-1024/_media-desktop-cuenta-1024" as *;
 
 @use "layout/header" as *;
 @use "layout/footer" as *;
