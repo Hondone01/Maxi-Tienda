@@ -4,13 +4,13 @@
 @use "../../layout/header" as *;
 @use "../../layout/footer" as *;
 
-@media (min-width: 1440px) and (max-width: 1919px) {
+@media (min-width: 1920px) {
     body {
         @include header;
 
         .grid-container10 {
             width: 100%;
-            max-width: 1440px;
+            max-width: 1920px;
             background-color: $color-fondo;
             border: 1px solid black;
             display: grid;
@@ -224,5 +224,6 @@
         .footer-2 {
             display: none;
         }
+
     }
 }
