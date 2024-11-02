@@ -22,7 +22,6 @@
                 "item-2 item-3"
                 "item-2 item-3"
             ;
-            /*  gap: 20px;*/
 
             .div-1 {
                 grid-area: item-1;
@@ -49,7 +48,7 @@
                 max-width: 100%;
 
                 p {
-                    margin-bottom: 110px;
+                    margin-bottom: 111px;
                     font-size: 1.2rem;
                     line-height: 1.2;
                     max-width: 100%;
@@ -96,7 +95,11 @@
             }
         }
 
+        @include footer;
 
+        .footer-2 {
+            display: none;
+        }
 
     }
 }
