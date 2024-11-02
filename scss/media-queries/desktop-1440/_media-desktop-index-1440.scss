@@ -8,5 +8,79 @@
     body {
         @include header;
 
+        .grid-container1 {
+            width: 100%;
+            max-width: 1440px;
+            background-color: $color-fondo;
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+            grid-template-rows: repeat(4, auto);
+            grid-template-areas:
+                ". item-4 item-5"
+                "item-1 item-2 ."
+                "item-1 item-2 item-3"
+                ". item-2 ."
+            ;
+
+            .div-1 {
+                grid-area: item-1;
+                margin-top: 140px;
+                align-content: center;
+
+                video {
+                    border-radius: 5px;
+                    max-width: 100%;
+                    height: auto;
+                }
+            }
+
+            .div-2 {
+                grid-area: item-2;
+                border-radius: 5px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                img {
+                    max-width: 100%;
+                    height: auto;
+                    display: block;
+                    border-radius: 5px;
+                }
+
+                button {
+                    @include button;
+                }
+
+                button:hover {
+                    background-color: aliceblue;
+                    transition: 1s;
+                }
+
+            }
+
+            .div-3 {
+                margin-top: 140px;
+                grid-area: item-3;
+                border-radius: 5px;
+                align-content: center;
+
+                video {
+                    border-radius: 5px;
+                    max-width: 100%;
+                    height: auto;
+                }
+            }
+
+            .div-4 {
+                grid-area: item-4;
+                border-radius: 5px;
+
+                h2 {
+                    @include h2;
+                }
+            }
+
+        }
     }
 }

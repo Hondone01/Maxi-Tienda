@@ -5585,6 +5585,75 @@ body {
     background-color: #ddd0c8;
     border: none;
   }
+  body .grid-container1 {
+    width: 100%;
+    max-width: 1440px;
+    background-color: rgb(241, 221, 214);
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas: ". item-4 item-5" "item-1 item-2 ." "item-1 item-2 item-3" ". item-2 .";
+  }
+  body .grid-container1 .div-1 {
+    grid-area: item-1;
+    margin-top: 140px;
+    align-content: center;
+  }
+  body .grid-container1 .div-1 video {
+    border-radius: 5px;
+    max-width: 100%;
+    height: auto;
+  }
+  body .grid-container1 .div-2 {
+    grid-area: item-2;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .grid-container1 .div-2 img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+  }
+  body .grid-container1 .div-2 button {
+    margin-top: 25px;
+    padding: 5px;
+    color: black;
+    font-size: 1rem;
+    background-color: #DDD0C8;
+    border: 3.2px solid black;
+    border-radius: 25px;
+    text-transform: capitalize;
+  }
+  body .grid-container1 .div-2 button:hover {
+    background-color: aliceblue;
+    transition: 1s;
+  }
+  body .grid-container1 .div-3 {
+    margin-top: 140px;
+    grid-area: item-3;
+    border-radius: 5px;
+    align-content: center;
+  }
+  body .grid-container1 .div-3 video {
+    border-radius: 5px;
+    max-width: 100%;
+    height: auto;
+  }
+  body .grid-container1 .div-4 {
+    grid-area: item-4;
+    border-radius: 5px;
+  }
+  body .grid-container1 .div-4 h2 {
+    font-size: 3rem;
+    line-height: 1.2;
+    margin: 0;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    color: black;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
