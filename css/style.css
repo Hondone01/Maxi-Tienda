@@ -2609,142 +2609,7 @@ body {
 /*@use "../../base/reset" as *;*/
 @media (min-width: 425px) and (max-width: 460px) {
   body main {
-    /*   .grid-container2 {
-            width: 100%;
-            max-width: 460px;
-            background-color: rgb(241, 221, 214);
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            justify-items: center;
-            align-items: center;
-
-            .div-1 {
-                width: 95%;
-                max-width: 460px;
-                margin-bottom: 15px;
-                grid-area: item-1;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                justify-items: center;
-                justify-content: center;
-
-                h2 {
-                    margin-top: 15px;
-                    margin-bottom: 15px;
-                    text-align: center;
-                    font-size: 2rem;
-                    line-height: 1.2;
-                    margin: 0;
-                    max-width: 100%;
-                    overflow-wrap: break-word;
-                    color: black;
-                }
-
-            }
-
-            .caja-galeria {
-                width: 100%;
-                max-width: 460px;
-                display: grid;
-                justify-content: center;
-                justify-items: center;
-                grid-template-columns: repeat(2, 0.5fr);
-                grid-template-rows: repeat(3, auto);
-                grid-template-areas:
-                    " item-1 item-1"
-                    " item-2 item-3"
-                    " item-4 item-5"
-                ;
-                column-gap: 17px;
-
-                .div-2 {
-                    width: 200px;
-                    height: 110px;
-                    grid-area: item-2;
-                    display: flex;
-                    flex-direction: column;
-                    align-items: center;
-
-                    img {
-                        max-width: 100%;
-                        height: 110px;
-                        display: block;
-                        border-radius: 5px;
-                    }
-
-                    label {
-                        @include label-index;
-                    }
-                }
-
-                .div-3 {
-                    width: 200px;
-                    height: 110px;
-                    grid-area: item-3;
-                    display: flex;
-                    flex-direction: column;
-                    align-items: center;
-
-                    img {
-                        max-width: 100%;
-                        height: 110px;
-                        display: block;
-                        border-radius: 5px;
-                    }
-
-                    label {
-                        @include label-index;
-                    }
-                }
-
-                .div-4 {
-                    padding-top: 15px;
-                    width: 200px;
-                    height: 110px;
-                    grid-area: item-4;
-                    display: flex;
-                    flex-direction: column;
-                    align-items: center;
-
-                    img {
-                        max-width: 100%;
-                        height: 110px;
-                        display: block;
-                        border-radius: 5px;
-                    }
-
-                    label {
-                        @include label-index;
-                    }
-                }
-
-                .div-5 {
-                    padding-top: 15px;
-                    width: 200px;
-                    height: 110px;
-                    grid-area: item-5;
-                    display: flex;
-                    flex-direction: column;
-                    align-items: center;
-
-                    img {
-                        max-width: 100%;
-                        height: 110px;
-                        display: block;
-                        border-radius: 5px;
-                    }
-
-                    label {
-                        @include label-index;
-                    }
-                }
-            }
-
-        }
-
-        .grid-container3 {
+    /*    .grid-container3 {
             width: 100%;
             max-width: 460px;
             background-color: rgb(241, 221, 214);
@@ -3251,6 +3116,123 @@ body {
   }
   body main .grid-container1 .div-5 {
     display: none;
+  }
+  body main .grid-container2 {
+    width: 100%;
+    max-width: 460px;
+    background-color: rgb(241, 221, 214);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+  }
+  body main .grid-container2 .div-1 {
+    width: 95%;
+    max-width: 460px;
+    margin-bottom: 15px;
+    grid-area: item-1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+  }
+  body main .grid-container2 .div-1 h2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 1.2;
+    margin: 0;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    color: black;
+  }
+  body main .grid-container2 .caja-galeria {
+    width: 100%;
+    max-width: 460px;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    grid-template-columns: repeat(2, 0.5fr);
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: " item-1 item-1" " item-2 item-3" " item-4 item-5";
+    column-gap: 17px;
+  }
+  body main .grid-container2 .caja-galeria .div-2 {
+    width: 200px;
+    height: 110px;
+    grid-area: item-2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container2 .caja-galeria .div-2 img {
+    max-width: 100%;
+    height: 110px;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container2 .caja-galeria .div-2 label {
+    font-size: 1rem;
+    color: black;
+  }
+  body main .grid-container2 .caja-galeria .div-3 {
+    width: 200px;
+    height: 110px;
+    grid-area: item-3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container2 .caja-galeria .div-3 img {
+    max-width: 100%;
+    height: 110px;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container2 .caja-galeria .div-3 label {
+    font-size: 1rem;
+    color: black;
+  }
+  body main .grid-container2 .caja-galeria .div-4 {
+    padding-top: 15px;
+    width: 200px;
+    height: 110px;
+    grid-area: item-4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container2 .caja-galeria .div-4 img {
+    max-width: 100%;
+    height: 110px;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container2 .caja-galeria .div-4 label {
+    font-size: 1rem;
+    color: black;
+  }
+  body main .grid-container2 .caja-galeria .div-5 {
+    padding-top: 15px;
+    width: 200px;
+    height: 110px;
+    grid-area: item-5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .grid-container2 .caja-galeria .div-5 img {
+    max-width: 100%;
+    height: 110px;
+    display: block;
+    border-radius: 5px;
+  }
+  body main .grid-container2 .caja-galeria .div-5 label {
+    font-size: 1rem;
+    color: black;
   }
 }
 @media (min-width: 425px) and (max-width: 767px) {
