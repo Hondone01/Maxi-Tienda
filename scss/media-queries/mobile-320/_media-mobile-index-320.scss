@@ -34,8 +34,8 @@
           grid-area: item-2;
           border-radius: 5px;
           display: flex;
-          justify-content: center;
           flex-direction: column;
+          justify-items: center;
           align-items: center;
 
           img {
@@ -90,7 +90,6 @@
         width: 100%;
         max-width: 374px;
         background-color: rgb(241, 221, 214);
-        width: 320px;
         display: flex;
         flex-direction: column;
         align-items: center;
