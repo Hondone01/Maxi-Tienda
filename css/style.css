@@ -3135,7 +3135,7 @@ body {
     color: black;
   }
   body main .grid-container2 .caja-galeria {
-    width: 100%;
+    width: 90%;
     max-width: 460px;
     display: grid;
     justify-content: center;
@@ -3143,7 +3143,7 @@ body {
     grid-template-columns: repeat(2, 0.5fr);
     grid-template-rows: repeat(3, auto);
     grid-template-areas: " item-1 item-1" " item-2 item-3" " item-4 item-5";
-    column-gap: 17px;
+    /* column-gap: 10px;*/
   }
   body main .grid-container2 .caja-galeria .div-2 {
     width: 200px;

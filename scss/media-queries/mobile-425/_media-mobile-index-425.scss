@@ -121,7 +121,7 @@
                 }
 
                 .caja-galeria {
-                    width: 100%;
+                    width: 90%;
                     max-width: 460px;
                     display: grid;
                     justify-content: center;
@@ -133,7 +133,7 @@
                         " item-2 item-3"
                         " item-4 item-5"
                     ;
-                    column-gap: 17px;
+                   /* column-gap: 10px;*/
 
                     .div-2 {
                         width: 200px;
