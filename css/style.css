@@ -3108,7 +3108,7 @@ body {
     background-color: rgb(241, 221, 214);
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /*  justify-content: center;*/
     justify-items: center;
     align-items: center;
   }
@@ -3121,7 +3121,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-items: center;
-    justify-content: center;
+    /*  justify-content: center;*/
   }
   body main .grid-container2 .div-1 h2 {
     margin-top: 15px;
@@ -3170,6 +3170,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-items: center;
   }
   body main .grid-container2 .caja-galeria .div-3 img {
     max-width: 100%;
@@ -3189,6 +3190,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-items: center;
   }
   body main .grid-container2 .caja-galeria .div-4 img {
     max-width: 100%;
@@ -3208,6 +3210,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-items: center;
   }
   body main .grid-container2 .caja-galeria .div-5 img {
     max-width: 100%;
