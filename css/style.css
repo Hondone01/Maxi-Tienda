@@ -113,10 +113,10 @@ body {
     color: black;
   }
   body main .grid-container2 .caja-galeria {
-    width: 97%;
+    width: 90%;
     max-width: 374px;
-    margin-left: 10px;
     display: grid;
+    align-items: center;
     justify-content: center;
     grid-template-columns: repeat(2, 0.5fr);
     grid-template-rows: repeat(3, auto);
