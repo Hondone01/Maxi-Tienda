@@ -225,7 +225,6 @@ body {
     color: black;
   }
   body main .grid-container3 .caja-productos {
-    /* background-color: rgb(241, 221, 214);*/
     width: 90%;
     max-width: 374px;
     display: grid;
@@ -3038,20 +3037,6 @@ body {
 
             }
         }
-    }
-
-    .footer-1 {
-        display: none;
-    }
-
-    .footer-2 {
-        border-top: 1px solid black;
-        padding-left: 10px;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        background-color: grey;
-        display: flex;
-        justify-content: center;
     }*/
   }
   body main .grid-container1 {
@@ -3233,6 +3218,18 @@ body {
   body main .grid-container2 .caja-galeria .div-5 label {
     font-size: 1rem;
     color: black;
+  }
+  body main .footer-1 {
+    display: none;
+  }
+  body main .footer-2 {
+    border-top: 1px solid black;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
   }
 }
 @media (min-width: 425px) and (max-width: 767px) {
