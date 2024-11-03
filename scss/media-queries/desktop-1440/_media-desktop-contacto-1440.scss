@@ -24,6 +24,7 @@
             ;
 
             .div-1 {
+                padding-top: 20px;
                 grid-area: item-1;
                 border-radius: 5px;
                 display: flex;
@@ -41,6 +42,7 @@
             }
 
             .div-2 {
+                padding-top: 20px;
                 grid-area: item-2;
                 border-radius: 5px;
                 display: flex;
@@ -72,11 +74,17 @@
 
                 .area {
                     display: flex;
+                    padding-bottom: 30px;
 
                     textarea {
                         margin-top: 0px;
                         margin-bottom: 15px;
                     }
+                }
+
+                
+                form{
+                    padding-bottom: 37px;
                 }
             }
 

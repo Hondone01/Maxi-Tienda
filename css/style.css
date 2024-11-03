@@ -6708,6 +6708,7 @@ body {
     grid-template-areas: "item-1 item-1" "item-2 item-3" "item-2 item-3";
   }
   body .grid-container11 .div-1 {
+    padding-top: 20px;
     grid-area: item-1;
     border-radius: 5px;
     display: flex;
@@ -6723,6 +6724,7 @@ body {
     color: black;
   }
   body .grid-container11 .div-2 {
+    padding-top: 20px;
     grid-area: item-2;
     border-radius: 5px;
     display: flex;
@@ -6750,10 +6752,14 @@ body {
   }
   body .grid-container11 .div-2 .area {
     display: flex;
+    padding-bottom: 30px;
   }
   body .grid-container11 .div-2 .area textarea {
     margin-top: 0px;
     margin-bottom: 15px;
+  }
+  body .grid-container11 .div-2 form {
+    padding-bottom: 37px;
   }
   body .grid-container11 .div-3 {
     max-width: 100%;
