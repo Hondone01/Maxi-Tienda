@@ -875,31 +875,9 @@ body {
   }
 }
 @media (min-width: 320px) and (max-width: 374px) {
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  .desktop {
-    display: none;
-  }
-  .logo-header {
-    width: 40px;
-    height: 40px;
-    border-radius: 10px;
-  }
-  body {
-    background-color: rgb(241, 221, 214);
-  }
-  body .color-body {
-    background-color: rgb(241, 221, 214);
-  }
-  body main .inicio {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
   body main .grid-container10 {
+    width: 100%;
+    max-width: 374px;
     display: grid;
     display: flex;
     flex-direction: column;
@@ -907,33 +885,32 @@ body {
     grid-template-columns: minmax(0, 0.5fr) minmax(0, 1fr);
     grid-template-rows: repeat(5, auto);
     grid-template-areas: "item-1 item-1" "item-5 item-2" "item-5 item-3" "item-5 item-3" "item-4 item-4";
-    max-width: 100%;
   }
   body main .grid-container10 .div-1 {
+    width: 100%;
+    max-width: 374px;
     background-color: rgb(241, 221, 214);
     grid-area: item-1;
-    border-radius: 5px;
     display: flex;
     justify-content: center;
-    max-width: 100%;
   }
   body main .grid-container10 .div-1 h2 {
     font-size: 3rem;
     line-height: 1.2;
-    max-width: 100%;
+    /*   max-width: 100%;*/
     overflow-wrap: break-word;
     color: black !important;
   }
   body main .grid-container10 .div-2 {
+    width: 100%;
+    max-width: 374px;
     padding-top: 25px;
     background-color: rgb(241, 221, 214);
     grid-area: item-2;
-    border-radius: 5px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 100%;
   }
   body main .grid-container10 .div-2 h2 {
     margin-top: 35px;
@@ -942,7 +919,6 @@ body {
     font-size: 1.5rem;
     line-height: 1.2;
     margin: 0;
-    max-width: 100%;
     overflow-wrap: break-word;
     color: black;
   }
@@ -968,6 +944,7 @@ body {
   body main .grid-container10 .div-2 .foto img {
     width: 120px;
     height: auto;
+    border-radius: 5px;
   }
   body main .grid-container10 .div-2 .foto button {
     margin-top: 20px;
@@ -992,26 +969,28 @@ body {
     margin-bottom: 15px;
   }
   body main .grid-container10 .div-2 .genero {
-    width: 320px;
+    width: 100%;
+    max-width: 374px;
     display: flex;
     flex-direction: column;
     align-content: center;
     align-items: center;
   }
   body main .grid-container10 .div-2 .idioma {
-    width: 320px;
+    width: 100%;
+    max-width: 374px;
     display: flex;
     flex-direction: column;
     align-content: center;
     align-items: center;
   }
   body main .grid-container10 .div-3 {
+    width: 100%;
+    max-width: 374px;
     background-color: rgb(241, 221, 214);
     grid-area: item-3;
-    border-radius: 5px;
     display: flex;
     flex-direction: column;
-    max-width: 100%;
   }
   body main .grid-container10 .div-3 .botones button {
     padding: 4px;
@@ -1049,26 +1028,26 @@ body {
     max-width: 100%;
   }
   body main .grid-container10 .div-4 {
+    width: 100%;
+    max-width: 374px;
     padding-top: 25px;
     background-color: rgb(241, 221, 214);
     grid-area: item-4;
-    border-radius: 5px;
     display: flex;
     justify-content: center;
-    max-width: 100%;
   }
   body main .grid-container10 .div-4 p {
     padding: 10px;
     text-align: justify;
   }
   body main .grid-container10 .div-5 {
+    width: 100%;
+    max-width: 374px;
     background-color: rgb(241, 221, 214);
     padding-left: 10px;
     grid-area: item-5;
-    border-radius: 5px;
     display: flex;
     flex-direction: column;
-    max-width: 100%;
   }
   body main .grid-container10 .div-5 h2 {
     display: flex;
