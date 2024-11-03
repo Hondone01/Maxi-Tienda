@@ -2612,6 +2612,9 @@ body {
     max-width: 767px;
     background-color: rgb(241, 221, 214);
     display: grid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
     justify-items: center;
     grid-template-columns: 1fr;
