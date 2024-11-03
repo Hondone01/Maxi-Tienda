@@ -5252,6 +5252,9 @@ body {
   }
 }
 @media (min-width: 1024px) and (max-width: 1439px) {
+  body {
+    /*  @include footer;*/
+  }
   body nav.navbar {
     display: none;
   }
@@ -5419,45 +5422,6 @@ body {
     height: auto;
     display: block;
     border-radius: 5px;
-  }
-  body .footer-1 {
-    background-color: gray;
-    border-top: 1px solid black;
-    margin-bottom: -20px;
-  }
-  body .footer-1 ul {
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
-  }
-  body .footer-1 ul div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-content: space-around;
-  }
-  body .footer-1 ul div .label-color {
-    font-weight: bolder;
-  }
-  body .footer-1 ul div .imagen-footer {
-    display: flex;
-    flex-direction: row;
-  }
-  body .footer-1 ul div .imagen-footer div label {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-  }
-  body .footer-1 ul li {
-    text-decoration: none;
-  }
-  body .footer-2 {
-    border-top: 1px solid black;
-    padding-left: 10px;
-    padding-bottom: 20px;
-    background-color: grey;
-    display: flex;
-    justify-content: center;
   }
   body .footer-2 {
     display: none;
