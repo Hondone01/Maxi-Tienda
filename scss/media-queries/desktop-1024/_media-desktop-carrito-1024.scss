@@ -10,23 +10,20 @@
 
         .grid-container7 {
             width: 100%;
+            padding: 10px;
             max-width: 1439px;
             background-color: $color-fondo;
             display: grid;
-            
-            grid-template-columns: .25fr 1fr .625fr .25fr;
-            grid-template-rows: repeat(5, auto);
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: repeat(3, auto);
             grid-template-areas:
-                ". item-1 item-1 ."
-                ". item-2 item-4 ."
-                ". item-6 item-5 ."
-                ". item-3 item-5 ."
-                ". item-3 item-5 ."
+                ". item-1 ."
+                "item-2 item-3 item-4"
+                "item-5 item-6 item-7"
             ;
 
 
             .div-1 {
-              /*  padding-top: 20px;*/
                 grid-area: item-1;
                 display: flex;
                 justify-content: center;
@@ -45,8 +42,16 @@
                 grid-area: item-2;
                 border-radius: 5px;
                 display: flex;
-                justify-content: space-around;
-                
+                flex-direction: column;
+                justify-items: center;
+
+
+                label {
+                    display: flex;
+                    flex-direction: column;
+                    color: #323232;
+                    font-size: 1rem;
+                }
 
                 img {
                     max-width: 100%;
@@ -55,12 +60,6 @@
                     border-radius: 5px;
                 }
 
-                label {
-                    display: flex;
-                    flex-direction: column;
-                    color: #323232;
-                    font-size: 1rem;
-                }
             }
 
             .div-3 {
@@ -82,7 +81,7 @@
             }
 
             .div-4 {
-               /* padding-right: 20px;*/
+                /* padding-right: 20px;*/
                 grid-area: item-4;
                 display: flex;
                 flex-direction: column;
@@ -120,39 +119,37 @@
             }
 
             .div-5 {
-             /*   margin-top: 20px;*/
-               /* margin-right: 20px;*/
+                /*   margin-top: 20px;*/
+                /* margin-right: 20px;*/
                 grid-area: item-5;
+              /*  display: flex;*/
+              /*  align-items: center;*/
+                justify-content: center;
+               
+                img {
+                    max-width: 100%;
+                    height: auto;
+                    display: block;
+                    border-radius: 5px;
+                }
+
+              /*  label {
+                      padding-top: 60px;
+                    display: flex;
+                    flex-direction: column;
+                    color: #323232;
+                    font-size: 1rem;
+                }*/
+            }
+
+            .div-6 {
+                /*   padding-bottom: 15px;*/
+                grid-area: item-6;
+                border-radius: 5px;
                 display: flex;
                 flex-direction: column;
                 align-items: center;
                 justify-items: center;
-                align-items: center;
-
-                img {
-                    border-radius: 5px;
-                /*    margin-top: 10px;*/
-                    width: 150px;
-                    height: auto;
-                }
-
-                label {
-                  /*  padding-top: 60px;*/
-                    display: flex;
-                    flex-direction: column;
-                    color: #323232;
-                    font-size: 1rem;
-                }
-            }
-
-            .div-6 {
-             /*   padding-bottom: 15px;*/
-                grid-area: item-6;
-                border-radius: 5px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                justify-content: space-around;
 
                 label {
                     display: flex;
@@ -161,10 +158,32 @@
                     font-size: 1rem;
                 }
 
-                img {
-                 /*   margin-top: 10px;*/
+               /* img {
+                      margin-top: 10px;
                     margin-left: -3px;
                     max-width: 100%;
+                    height: auto;
+                    display: block;
+                    border-radius: 5px;
+                }*/
+            }
+
+            .div-7{
+                grid-area: item-7;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-items: center;
+
+                label {
+                 /*   display: flex;
+                    flex-direction: column;*/
+                    color: #323232;
+                    font-size: 1rem;
+                }
+
+                img {
+                    width:120px ;
                     height: auto;
                     display: block;
                     border-radius: 5px;
