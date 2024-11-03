@@ -5295,7 +5295,7 @@ body {
     border: none;
   }
   body .grid-container7 {
-    padding-bottom: 228px;
+    padding-bottom: 78px;
     padding-left: 10px;
     width: 100%;
     max-width: 1439px;
@@ -5321,6 +5321,7 @@ body {
     color: black;
   }
   body .grid-container7 .div-2 {
+    margin-top: 100px;
     width: 100%;
     max-width: 1439px;
     grid-area: item-2;
@@ -5342,6 +5343,7 @@ body {
     border-radius: 5px;
   }
   body .grid-container7 .div-3 {
+    margin-top: 100px;
     width: 100%;
     max-width: 1439px;
     grid-area: item-3;
@@ -5358,6 +5360,7 @@ body {
     flex-direction: column;
   }
   body .grid-container7 .div-4 {
+    margin-top: 100px;
     width: 100%;
     max-width: 1439px;
     grid-area: item-4;
@@ -5390,6 +5393,7 @@ body {
     transition: 1s;
   }
   body .grid-container7 .div-5 {
+    margin-top: 100px;
     width: 100%;
     max-width: 1439px;
     grid-area: item-5;
@@ -5402,6 +5406,7 @@ body {
     border-radius: 5px;
   }
   body .grid-container7 .div-6 {
+    margin-top: 100px;
     width: 100%;
     max-width: 1439px;
     grid-area: item-6;
@@ -5418,6 +5423,7 @@ body {
     font-size: 1rem;
   }
   body .grid-container7 .div-7 {
+    margin-top: 100px;
     width: 100%;
     max-width: 1439px;
     grid-area: item-7;

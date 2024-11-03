@@ -9,7 +9,7 @@
         @include header;
 
         .grid-container7 {
-            padding-bottom: 228px;
+            padding-bottom: 78px;
             padding-left: 10px;
             width: 100%;
             max-width: 1439px;
@@ -22,7 +22,6 @@
                 "item-2 item-3 item-4"
                 "item-5 item-6 item-7"
             ;
-
 
             .div-1 {
                 width: 100%;
@@ -42,6 +41,7 @@
             }
 
             .div-2 {
+                margin-top: 100px;
                 width: 100%;
                 max-width: 1439px;
                 grid-area: item-2;
@@ -68,6 +68,7 @@
             }
 
             .div-3 {
+                margin-top: 100px;
                 width: 100%;
                 max-width: 1439px;
                 grid-area: item-3;
@@ -88,6 +89,7 @@
             }
 
             .div-4 {
+                margin-top: 100px;
                 width: 100%;
                 max-width: 1439px;
                 grid-area: item-4;
@@ -126,6 +128,7 @@
             }
 
             .div-5 {
+                margin-top: 100px;
                 width: 100%;
                 max-width: 1439px;
                 grid-area: item-5;
@@ -140,6 +143,7 @@
             }
 
             .div-6 {
+                margin-top: 100px;
                 width: 100%;
                 max-width: 1439px;
                 grid-area: item-6;
@@ -159,6 +163,7 @@
             }
 
             .div-7 {
+                margin-top: 100px;
                 width: 100%;
                 max-width: 1439px;
                 grid-area: item-7;
