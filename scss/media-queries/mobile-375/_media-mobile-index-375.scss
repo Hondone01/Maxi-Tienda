@@ -16,6 +16,7 @@
                 background-color: $color-fondo;
                 display: grid;
                 justify-content: center;
+                justify-items: center;
                 grid-template-columns: 1fr;
                 grid-template-rows: repeat(2, auto);
                 grid-template-areas:
@@ -28,10 +29,9 @@
                 }
 
                 .div-2 {
-                    width: 100%;
+                    width: 95%;
                     max-width: 424px;
                     grid-area: item-2;
-                    border-radius: 5px;
                     display: flex;
                     justify-content: center;
                     flex-direction: column;
@@ -287,8 +287,6 @@
                     }
 
                     .div-3 {
-                        /* margin-top: 30px;*/
-                       /* margin-bottom: 25px;*/
                         width: 170px;
                         height: 100px;
                         grid-area: item-3;
@@ -309,7 +307,6 @@
                     }
 
                     .div-4 {
-                        /*  margin-top: 30px;*/
                         width: 170px;
                         height: 100px;
                         grid-area: item-4;
@@ -419,7 +416,6 @@
                     .div-2 {
                         margin-top: 10px;
                         grid-area: item-2;
-                        border-radius: 5px;
                         display: flex;
 
                         p {
@@ -428,7 +424,6 @@
                             color: black;
                             font-size: 1rem;
                             line-height: 1.5;
-                            /*  margin: 0;*/
                             max-width: 100%;
                             overflow-wrap: break-word;
                         }
@@ -437,7 +432,6 @@
                     .div-3 {
                         width: 177.5px;
                         grid-area: item-3;
-                        border-radius: 5px;
                         display: flex;
                         justify-content: center;
 
@@ -460,7 +454,6 @@
                             color: black;
                             font-size: 1rem;
                             line-height: 1.5;
-                            /*  margin: 0;*/
                             max-width: 100%;
                             overflow-wrap: break-word;
                         }
@@ -512,7 +505,6 @@
                     width: 95%;
                     max-width: 424px;
                     grid-area: item-2;
-                    border-radius: 5px;
                     display: flex;
                     flex-direction: column;
                     align-items: center;

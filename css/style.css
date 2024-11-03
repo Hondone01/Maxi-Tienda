@@ -1347,6 +1347,7 @@ body {
     background-color: rgb(241, 221, 214);
     display: grid;
     justify-content: center;
+    justify-items: center;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, auto);
     grid-template-areas: "item-4" "item-2";
@@ -1355,10 +1356,9 @@ body {
     display: none;
   }
   body main .grid-container1 .div-2 {
-    width: 100%;
+    width: 95%;
     max-width: 424px;
     grid-area: item-2;
-    border-radius: 5px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -1577,8 +1577,6 @@ body {
     color: black;
   }
   body main .grid-container3 .caja-productos .div-3 {
-    /* margin-top: 30px;*/
-    /* margin-bottom: 25px;*/
     width: 170px;
     height: 100px;
     grid-area: item-3;
@@ -1597,7 +1595,6 @@ body {
     color: black;
   }
   body main .grid-container3 .caja-productos .div-4 {
-    /*  margin-top: 30px;*/
     width: 170px;
     height: 100px;
     grid-area: item-4;
@@ -1690,7 +1687,6 @@ body {
   body main .grid-container4 .caja-promos .div-2 {
     margin-top: 10px;
     grid-area: item-2;
-    border-radius: 5px;
     display: flex;
   }
   body main .grid-container4 .caja-promos .div-2 p {
@@ -1699,14 +1695,12 @@ body {
     color: black;
     font-size: 1rem;
     line-height: 1.5;
-    /*  margin: 0;*/
     max-width: 100%;
     overflow-wrap: break-word;
   }
   body main .grid-container4 .caja-promos .div-3 {
     width: 177.5px;
     grid-area: item-3;
-    border-radius: 5px;
     display: flex;
     justify-content: center;
   }
@@ -1727,7 +1721,6 @@ body {
     color: black;
     font-size: 1rem;
     line-height: 1.5;
-    /*  margin: 0;*/
     max-width: 100%;
     overflow-wrap: break-word;
   }
@@ -1768,7 +1761,6 @@ body {
     width: 95%;
     max-width: 424px;
     grid-area: item-2;
-    border-radius: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -2621,10 +2613,12 @@ body {
 }
 @media (min-width: 425px) and (max-width: 767px) {
   body main .grid-container1 {
+    width: 100%;
+    max-width: 767px;
     background-color: rgb(241, 221, 214);
-    width: 425px;
     display: grid;
     justify-content: center;
+    justify-items: center;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, auto);
     grid-template-areas: "item-4" "item-2";
@@ -2633,10 +2627,9 @@ body {
     display: none;
   }
   body main .grid-container1 .div-2 {
-    /* padding-left: 10px;*/
-    width: 425px;
+    width: 95%;
+    max-width: 767px;
     grid-area: item-2;
-    border-radius: 5px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -2665,7 +2658,6 @@ body {
     margin-top: 15px;
     margin-bottom: 15px;
     grid-area: item-4;
-    border-radius: 5px;
     align-content: center;
   }
   body main .grid-container1 .div-4 h2 {
@@ -2683,19 +2675,18 @@ body {
     display: none;
   }
   body main .grid-container2 {
+    width: 100%;
+    max-width: 767px;
     background-color: rgb(241, 221, 214);
-    /* margin-top: 60px;*/
-    width: 425px;
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
   body main .grid-container2 .div-1 {
-    width: 405px;
-    /* margin-top: 15px;*/
+    width: 95%;
+    max-width: 767px;
     margin-bottom: 15px;
     grid-area: item-1;
-    border-radius: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -2712,21 +2703,19 @@ body {
     color: black;
   }
   body main .grid-container2 .caja-galeria {
-    /*padding-left: 10px;*/
-    width: 425px;
+    width: 100%;
+    max-width: 767px;
     display: grid;
     column-gap: 25px;
     justify-content: center;
     grid-template-columns: repeat(2, 0.5fr);
     grid-template-rows: repeat(3, auto);
     grid-template-areas: " item-1 item-1" " item-2 item-3" " item-4 item-5";
-    /*  column-gap: 10px;*/
   }
   body main .grid-container2 .caja-galeria .div-2 {
     width: 200px;
     height: auto;
     grid-area: item-2;
-    border-radius: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -2745,7 +2734,6 @@ body {
     width: 200px;
     height: auto;
     grid-area: item-3;
-    border-radius: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -2765,7 +2753,6 @@ body {
     width: 200px;
     height: auto;
     grid-area: item-4;
-    border-radius: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -2785,7 +2772,6 @@ body {
     width: 200px;
     height: auto;
     grid-area: item-5;
-    border-radius: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -2801,12 +2787,13 @@ body {
     color: black;
   }
   body main .grid-container3 {
+    width: 100%;
+    max-width: 767px;
     background-color: rgb(241, 221, 214);
-    /* margin-top: 60px;*/
-    width: 425px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
   }
   body main .grid-container3 .div-1 {
     padding-top: 25px;
@@ -2829,22 +2816,21 @@ body {
     color: black;
   }
   body main .grid-container3 .caja-productos {
+    width: 100%;
+    max-width: 767px;
     background-color: rgb(241, 221, 214);
-    width: 425px;
-    /* padding-left: 10px;*/
     display: grid;
+    justify-items: center;
+    justify-content: center;
     grid-template-columns: repeat(4, 106.25px);
     grid-template-rows: repeat(4, auto);
     grid-template-areas: " . item-1 item-1 . " " . item-2 item-2 . " " item-3 item-3 item-4 item-4 " " item-5 item-5 item-6 item-6 ";
-    /*  column-gap: 35px;*/
-    justify-content: center;
   }
   body main .grid-container3 .caja-productos .div-2 {
     margin-bottom: 45px;
     width: 212.5px;
     height: 100px;
     grid-area: item-2;
-    border-radius: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -2859,12 +2845,10 @@ body {
     color: black;
   }
   body main .grid-container3 .caja-productos .div-3 {
-    /* margin-top: 30px;*/
     margin-bottom: 45px;
     width: 212.5px;
     height: 100px;
     grid-area: item-3;
-    border-radius: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -2880,7 +2864,6 @@ body {
     color: black;
   }
   body main .grid-container3 .caja-productos .div-4 {
-    /*  margin-top: 30px;*/
     width: 212.5px;
     height: 100px;
     grid-area: item-4;
@@ -2939,8 +2922,9 @@ body {
     color: black;
   }
   body main .grid-container4 {
+    width: 100%;
+    max-width: 767px;
     background-color: rgb(241, 221, 214);
-    width: 425px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -2960,7 +2944,8 @@ body {
     color: black;
   }
   body main .grid-container4 .caja-promos {
-    width: 355px;
+    width: 98%;
+    max-width: 767px;
     display: grid;
     display: flex;
     justify-content: space-around;
@@ -2972,7 +2957,6 @@ body {
   body main .grid-container4 .caja-promos .div-2 {
     margin-top: 10px;
     grid-area: item-2;
-    border-radius: 5px;
     display: flex;
   }
   body main .grid-container4 .caja-promos .div-2 p {
@@ -2981,14 +2965,12 @@ body {
     color: black;
     font-size: 1.2rem;
     line-height: 1.5;
-    /*  margin: 0;*/
     max-width: 100%;
     overflow-wrap: break-word;
   }
   body main .grid-container4 .caja-promos .div-3 {
     width: 177.5px;
     grid-area: item-3;
-    border-radius: 5px;
     display: flex;
     justify-content: center;
   }
@@ -3009,30 +2991,27 @@ body {
     color: black;
     font-size: 1.2rem;
     line-height: 1.5;
-    /*  margin: 0;*/
     max-width: 100%;
     overflow-wrap: break-word;
   }
   body main .grid-container5 {
+    width: 100%;
+    max-width: 767px;
     background-color: rgb(241, 221, 214);
-    width: 425px;
     display: grid;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     grid-template-columns: 0.5fr 1fr 1fr 0.5fr;
     grid-template-rows: repeat(3, auto);
     grid-template-areas: ". item-1 item-1 ." ". item-2 item-2 ." "item-3 item-3 item-3 item-3";
-    /* gap: 10px;*/
-    justify-content: center;
   }
   body main .grid-container5 .div-1 {
     margin-top: 15px;
     grid-area: item-1;
     background-color: rgb(241, 221, 214);
-    border-radius: 5px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
   }
   body main .grid-container5 h2 {
@@ -3041,20 +3020,18 @@ body {
     text-align: center;
     font-size: 2rem;
     line-height: 1.2;
-    /*  margin: 0;*/
     max-width: 100%;
     overflow-wrap: break-word;
     color: black;
   }
   body main .grid-container5 .div-2 {
-    padding-left: 10px;
-    width: 415px;
+    width: 95%;
+    max-width: 767px;
     grid-area: item-2;
-    border-radius: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-items: center;
   }
   body main .grid-container5 .div-2 img {
     max-width: 100%;
@@ -3066,7 +3043,6 @@ body {
     margin-top: 15px;
     margin-bottom: 15px;
     grid-area: item-3;
-    border-radius: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -3078,13 +3054,13 @@ body {
     color: black;
     font-size: 1rem;
     line-height: 1.5;
-    /*  margin: 0;*/
     max-width: 100%;
     overflow-wrap: break-word;
   }
   body main .grid-container6 {
+    width: 100%;
+    max-width: 767px;
     background-color: rgb(241, 221, 214);
-    width: 425px;
     display: grid;
     display: flex;
     flex-direction: column;
@@ -3096,7 +3072,6 @@ body {
   body main .grid-container6 .div-1 {
     margin-top: 15px;
     grid-area: item-1;
-    border-radius: 5px;
     display: flex;
     justify-content: center;
   }
@@ -3120,7 +3095,6 @@ body {
     padding-bottom: 25px;
     width: 212.5px;
     grid-area: item-4;
-    border-radius: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -3137,7 +3111,6 @@ body {
     color: black;
     font-size: 1rem;
     line-height: 1.5;
-    /* margin: 0;*/
     max-width: 100%;
     overflow-wrap: break-word;
   }
