@@ -11,11 +11,10 @@
 
         .grid-container11 {
             width: 100%;
-            max-width: 1024px;
+            max-width: 1439px;
             background-color: $color-fondo;
             padding-left: 10px;
             padding-bottom: 20px;
-            border: 1px solid black;
             display: grid;
             grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
             grid-template-rows: repeat(3, auto);
@@ -94,7 +93,7 @@
                 max-width: 100%;
 
                 video{
-                    width: 450px;
+                    width: 550px;
                     height: auto;
                 }
             }

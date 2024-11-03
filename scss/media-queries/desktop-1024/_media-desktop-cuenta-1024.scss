@@ -9,8 +9,9 @@
         @include header;
 
         .grid-container10 {
+            width: 100%;
+            max-width: 1439px;
             background-color: $color-fondo;
-            border: 1px solid black;
             display: grid;
             grid-template-columns: minmax(0, 0.5fr) minmax(0, 1fr);
             grid-template-rows: repeat(5, auto);

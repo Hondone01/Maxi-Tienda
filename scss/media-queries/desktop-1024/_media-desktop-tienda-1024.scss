@@ -10,11 +10,12 @@
 
         .grid-container8 {
             width: 100%;
-            max-width: 1024px;
+            max-width: 1439px;
             background-color: $color-fondo;
             display: grid;
             display: flex;
             flex-direction: column;
+            align-items: center;
             grid-template-columns: repeat(6, .4fr);
             grid-template-rows: repeat(4, auto);
             grid-template-areas:
@@ -23,7 +24,7 @@
                 ". . item-3 item-3 . ."
                 ". item-7 item-7 item-7 . ."
             ;
-            justify-content: center;
+            
 
             .div-1 {
                 grid-area: item-1;
@@ -44,9 +45,9 @@
 
             .div-2 {
 
-                width: 100%;
-                max-width: 1004px;
-                margin-left: 10px;
+                width: 98%;
+                max-width: 1439px;
+               /* margin-left: 10px;*/
                 border: 1px solid black;
                 grid-area: item-2;
                 display: flex;
@@ -86,9 +87,8 @@
 
             .div-5 {
                 margin-top: 25px;
-                width: 100%;
-                max-width: 1004px;
-                margin-left: 10px;
+                width: 98%;
+                max-width: 1439px;
                 grid-area: item-5;
                 border: 1px solid black;
                 display: flex;
@@ -144,7 +144,7 @@
 
         .grid-container9 {
             width: 100%;
-            max-width: 1024px;
+            max-width: 1439px;
             background-color: $color-fondo;
             display: grid;
             grid-template-columns: repeat(5, 1fr);

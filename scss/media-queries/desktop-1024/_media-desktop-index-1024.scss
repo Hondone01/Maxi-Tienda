@@ -10,7 +10,7 @@
 
         .grid-container1 {
             width: 100%;
-            max-width: 1024px;
+            max-width: 1439px;
             background-color: $color-fondo;
             display: grid;
             grid-template-columns: 1fr 2fr 1fr;
@@ -73,6 +73,8 @@
             }
 
             .div-4 {
+                display: flex;
+                justify-content: center;
                 grid-area: item-4;
                 border-radius: 5px;
 
@@ -85,7 +87,7 @@
 
         .grid-container2 {
             width: 100%;
-            max-width: 1024px;
+            max-width: 1439px;
             background-color: $color-fondo;
             display: grid;
             display: flex;
@@ -200,7 +202,7 @@
 
         .grid-container3 {
             width: 100%;
-            max-width: 1024px;
+            max-width: 1439px;
             background-color: $color-fondo;
             display: grid;
             display: flex;
@@ -335,7 +337,7 @@
 
         .grid-container4 {
             width: 100%;
-            max-width: 1024px;
+            max-width: 1439px;
             background-color: $color-fondo;
             display: grid;
             display: flex;
@@ -418,7 +420,7 @@
         .grid-container5 {
             padding-top: 25px;
             width: 100%;
-            max-width: 1024px;
+            max-width: 1439px;
             background-color: $color-fondo;
             display: grid;
             display: flex;
@@ -485,7 +487,7 @@
 
         .grid-container6 {
             width: 100%;
-            max-width: 1024px;
+            max-width: 1439px;
             background-color: $color-fondo;
             display: flex;
             flex-direction: column;
@@ -531,7 +533,7 @@
             }
 
             .caja-calificacion {
-                padding-left: 5px;
+                padding-left: 10px;
                 display: flex;
                 justify-content: center;
                 justify-content: space-around;
