@@ -2627,6 +2627,7 @@ body {
     grid-area: item-2;
     display: flex;
     justify-content: center;
+    justify-items: center;
     flex-direction: column;
     align-items: center;
   }
@@ -2661,7 +2662,7 @@ body {
     text-align: center;
     font-size: 2rem;
     line-height: 1.2;
-    margin: 0;
+    /* margin: 0;*/
     max-width: 100%;
     overflow-wrap: break-word;
     color: black;
@@ -2676,6 +2677,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    justify-items: center;
+    align-items: center;
   }
   body main .grid-container2 .div-1 {
     width: 95%;
@@ -2685,6 +2688,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-items: center;
+    justify-content: center;
   }
   body main .grid-container2 .div-1 h2 {
     margin-top: 15px;
@@ -2692,7 +2697,7 @@ body {
     text-align: center;
     font-size: 2rem;
     line-height: 1.2;
-    margin: 0;
+    /* margin: 0;*/
     max-width: 100%;
     overflow-wrap: break-word;
     color: black;
@@ -2703,6 +2708,7 @@ body {
     display: grid;
     /*column-gap: 10px;*/
     justify-content: center;
+    justify-items: center;
     grid-template-columns: repeat(2, 0.5fr);
     grid-template-rows: repeat(3, auto);
     grid-template-areas: " item-1 item-1" " item-2 item-3" " item-4 item-5";
@@ -2714,6 +2720,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-items: center;
   }
   body main .grid-container2 .caja-galeria .div-2 img {
     width: 180px;
@@ -2732,6 +2739,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-items: center;
   }
   body main .grid-container2 .caja-galeria .div-3 img {
     width: 180px;
@@ -2751,6 +2759,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-items: center;
   }
   body main .grid-container2 .caja-galeria .div-4 img {
     width: 180px;
@@ -2770,6 +2779,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-items: center;
   }
   body main .grid-container2 .caja-galeria .div-5 img {
     width: 180px;
@@ -2816,7 +2826,7 @@ body {
     display: grid;
     justify-items: center;
     justify-content: center;
-    grid-template-columns: repeat(4, 106.25px);
+    grid-template-columns: repeat(4, 25fr);
     grid-template-rows: repeat(4, auto);
     grid-template-areas: " . item-1 item-1 . " " . item-2 item-2 . " " item-3 item-3 item-4 item-4 " " item-5 item-5 item-6 item-6 ";
   }
