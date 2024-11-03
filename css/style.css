@@ -5296,7 +5296,6 @@ body {
   }
   body .grid-container7 {
     width: 100%;
-    padding: 10px;
     max-width: 1439px;
     background-color: rgb(241, 221, 214);
     display: grid;
@@ -5351,22 +5350,23 @@ body {
     flex-direction: column;
   }
   body .grid-container7 .div-4 {
-    /* padding-right: 20px;*/
     grid-area: item-4;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-items: center;
-    justify-content: space-around;
   }
-  body .grid-container7 .div-4 label {
+  body .grid-container7 .div-4 .data {
+    display: flex;
+    flex-direction: column;
+  }
+  body .grid-container7 .div-4 .data label {
     display: flex;
     flex-direction: column;
     color: #323232;
     font-size: 1rem;
   }
   body .grid-container7 .div-4 button {
-    /*  margin-top: 25px;*/
     padding: 5px;
     color: black;
     font-size: 1rem;
@@ -5379,24 +5379,9 @@ body {
     background-color: aliceblue;
     transition: 1s;
   }
-  body .grid-container7 .div-4 .data {
-    display: flex;
-    flex-direction: column;
-  }
   body .grid-container7 .div-5 {
-    /*   margin-top: 20px;*/
-    /* margin-right: 20px;*/
     grid-area: item-5;
-    /*  display: flex;*/
-    /*  align-items: center;*/
     justify-content: center;
-    /*  label {
-            padding-top: 60px;
-          display: flex;
-          flex-direction: column;
-          color: #323232;
-          font-size: 1rem;
-      }*/
   }
   body .grid-container7 .div-5 img {
     max-width: 100%;
@@ -5405,21 +5390,12 @@ body {
     border-radius: 5px;
   }
   body .grid-container7 .div-6 {
-    /*   padding-bottom: 15px;*/
     grid-area: item-6;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-items: center;
-    /* img {
-           margin-top: 10px;
-         margin-left: -3px;
-         max-width: 100%;
-         height: auto;
-         display: block;
-         border-radius: 5px;
-     }*/
   }
   body .grid-container7 .div-6 label {
     display: flex;
@@ -5435,8 +5411,6 @@ body {
     justify-items: center;
   }
   body .grid-container7 .div-7 label {
-    /*   display: flex;
-       flex-direction: column;*/
     color: #323232;
     font-size: 1rem;
   }

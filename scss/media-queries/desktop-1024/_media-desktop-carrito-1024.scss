@@ -10,7 +10,6 @@
 
         .grid-container7 {
             width: 100%;
-            padding: 10px;
             max-width: 1439px;
             background-color: $color-fondo;
             display: grid;
@@ -81,23 +80,25 @@
             }
 
             .div-4 {
-                /* padding-right: 20px;*/
                 grid-area: item-4;
                 display: flex;
                 flex-direction: column;
                 align-items: center;
                 justify-items: center;
-                justify-content: space-around;
 
-                label {
+                .data {
                     display: flex;
                     flex-direction: column;
-                    color: #323232;
-                    font-size: 1rem;
+
+                    label {
+                        display: flex;
+                        flex-direction: column;
+                        color: #323232;
+                        font-size: 1rem;
+                    }
                 }
 
                 button {
-                    /*  margin-top: 25px;*/
                     padding: 5px;
                     color: black;
                     font-size: 1rem;
@@ -112,38 +113,21 @@
                     transition: 1s;
                 }
 
-                .data {
-                    display: flex;
-                    flex-direction: column;
-                }
             }
 
             .div-5 {
-                /*   margin-top: 20px;*/
-                /* margin-right: 20px;*/
                 grid-area: item-5;
-              /*  display: flex;*/
-              /*  align-items: center;*/
                 justify-content: center;
-               
+
                 img {
                     max-width: 100%;
                     height: auto;
                     display: block;
                     border-radius: 5px;
                 }
-
-              /*  label {
-                      padding-top: 60px;
-                    display: flex;
-                    flex-direction: column;
-                    color: #323232;
-                    font-size: 1rem;
-                }*/
             }
 
             .div-6 {
-                /*   padding-bottom: 15px;*/
                 grid-area: item-6;
                 border-radius: 5px;
                 display: flex;
@@ -158,17 +142,9 @@
                     font-size: 1rem;
                 }
 
-               /* img {
-                      margin-top: 10px;
-                    margin-left: -3px;
-                    max-width: 100%;
-                    height: auto;
-                    display: block;
-                    border-radius: 5px;
-                }*/
             }
 
-            .div-7{
+            .div-7 {
                 grid-area: item-7;
                 display: flex;
                 flex-direction: column;
@@ -176,14 +152,12 @@
                 justify-items: center;
 
                 label {
-                 /*   display: flex;
-                    flex-direction: column;*/
                     color: #323232;
                     font-size: 1rem;
                 }
 
                 img {
-                    width:120px ;
+                    width: 120px;
                     height: auto;
                     display: block;
                     border-radius: 5px;
