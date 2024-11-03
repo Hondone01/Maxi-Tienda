@@ -11,8 +11,9 @@
     body {
         main {
             .grid-container1 {
+                width: 100%;
+                max-width: 424px;
                 background-color: $color-fondo;
-                width: 375px;
                 display: grid;
                 justify-content: center;
                 grid-template-columns: 1fr;
@@ -27,8 +28,8 @@
                 }
 
                 .div-2 {
-                    /* padding-left: 10px;*/
-                    width: 375px;
+                    width: 100%;
+                    max-width: 424px;
                     grid-area: item-2;
                     border-radius: 5px;
                     display: flex;
@@ -86,16 +87,16 @@
             }
 
             .grid-container2 {
+                width: 100%;
+                max-width: 424px;
                 background-color: rgb(241, 221, 214);
-                /* margin-top: 60px;*/
-                width: 375px;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
 
                 .div-1 {
-                    width: 355px;
-                    /* margin-top: 15px;*/
+                    width: 95%;
+                    max-width: 424px;
                     margin-bottom: 15px;
                     grid-area: item-1;
                     border-radius: 5px;
@@ -119,11 +120,11 @@
                 }
 
                 .caja-galeria {
-                    /*padding-left: 10px;*/
-                    width: 375px;
+                    width: 100%;
+                    max-width: 424px;
                     display: grid;
-                    column-gap: 30px;
-                    justify-content: center;
+                    column-gap: 20px;
+                    justify-items: center;
                     grid-template-columns: repeat(2, 0.5fr);
                     grid-template-rows: repeat(3, auto);
                     grid-template-areas:
@@ -131,13 +132,11 @@
                         " item-2 item-3"
                         " item-4 item-5"
                     ;
-                    /*  column-gap: 10px;*/
 
                     .div-2 {
-                        max-width: 100%;
-                        height: auto;
+                        width: 145px;
+                        height: 100px;
                         grid-area: item-2;
-                        border-radius: 5px;
                         display: flex;
                         flex-direction: column;
                         align-items: center;
@@ -155,10 +154,9 @@
                     }
 
                     .div-3 {
-                        max-width: 100%;
-                        height: auto;
+                        width: 145px;
+                        height: 100px;
                         grid-area: item-3;
-                        border-radius: 5px;
                         display: flex;
                         flex-direction: column;
                         align-items: center;
@@ -176,18 +174,16 @@
                     }
 
                     .div-4 {
-                        padding-top: 15px;
-                        max-width: 100%;
-                        height: auto;
+                        padding-top: 25px;
+                        width: 145px;
+                        height: 100px;
                         grid-area: item-4;
-                        border-radius: 5px;
                         display: flex;
                         flex-direction: column;
                         align-items: center;
-
                         img {
-                            max-width: 100%;
-                            height: 100px;
+                            width: 145px;
+                            height: 97px;
                             display: block;
                             border-radius: 5px;
                         }
@@ -198,11 +194,10 @@
                     }
 
                     .div-5 {
-                        padding-top: 15px;
-                        max-width: 100%;
-                        height: auto;
+                        padding-top: 25px;
+                        width: 145px;
+                        height: 100px;
                         grid-area: item-5;
-                        border-radius: 5px;
                         display: flex;
                         flex-direction: column;
                         align-items: center;
@@ -223,12 +218,13 @@
             }
 
             .grid-container3 {
+                width: 100%;
+                max-width: 424px;
                 background-color: rgb(241, 221, 214);
-                /* margin-top: 60px;*/
-                width: 375px;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
+                align-items: center;
 
                 .div-1 {
                     padding-top: 25px;
@@ -253,10 +249,11 @@
                 }
 
                 .caja-productos {
-                    background-color: rgb(241, 221, 214);
-                    width: 365px;
-                    padding-left: 10px;
+                    width: 100%;
+                    max-width: 424px;
                     display: grid;
+                    align-items: center;
+                    justify-items: center;
                     grid-template-columns: repeat(4, .25fr);
                     grid-template-rows: repeat(4, auto);
                     grid-template-areas:
@@ -265,15 +262,13 @@
                         " item-3 item-3 item-4 item-4 "
                         " item-5 item-5 item-6 item-6 "
                     ;
-                    column-gap: 35px;
-                    justify-content: center;
-
+                    column-gap: 15px;
+                    
                     .div-2 {
                         margin-bottom: 25px;
                         width: 170px;
                         height: 100px;
                         grid-area: item-2;
-                        border-radius: 5px;
                         display: flex;
                         flex-direction: column;
                         align-items: center;
@@ -293,11 +288,10 @@
 
                     .div-3 {
                         /* margin-top: 30px;*/
-                        margin-bottom: 25px;
+                       /* margin-bottom: 25px;*/
                         width: 170px;
                         height: 100px;
                         grid-area: item-3;
-                        border-radius: 5px;
                         display: flex;
                         flex-direction: column;
                         align-items: center;
@@ -319,7 +313,6 @@
                         width: 170px;
                         height: 100px;
                         grid-area: item-4;
-                        border-radius: 5px;
                         display: flex;
                         flex-direction: column;
                         align-items: center;
@@ -337,11 +330,10 @@
                     }
 
                     .div-5 {
-                        margin-bottom: 25px;
+                        padding-top: 25px;
                         width: 170px;
                         height: 100px;
                         grid-area: item-5;
-                        border-radius: 5px;
                         display: flex;
                         flex-direction: column;
                         align-items: center;
@@ -359,10 +351,10 @@
                     }
 
                     .div-6 {
+                        padding-top: 25px;
                         width: 170px;
                         height: 100px;
                         grid-area: item-6;
-                        border-radius: 5px;
                         display: flex;
                         flex-direction: column;
                         align-items: center;
@@ -386,9 +378,10 @@
             }
 
             .grid-container4 {
+                padding-top: 45px;
+                width: 100%;
+                max-width: 424px;
                 background-color: rgb(241, 221, 214);
-
-                width: 375px;
                 display: flex;
                 flex-direction: column;
                 align-items: center;
@@ -410,7 +403,8 @@
                 }
 
                 .caja-promos {
-                    width: 355px;
+                    width: 98%;
+                    max-width: 424px;
                     display: grid;
                     display: flex;
                     justify-content: space-around;
@@ -475,11 +469,14 @@
             }
 
             .grid-container5 {
+                width: 100%;
+                max-width: 424px;
                 background-color: rgb(241, 221, 214);
-                width: 375px;
                 display: grid;
                 display: flex;
                 flex-direction: column;
+                align-items: center;
+                justify-content: center;
                 grid-template-columns: .5fr 1fr 1fr .5fr;
                 grid-template-rows: repeat(3, auto);
                 grid-template-areas:
@@ -487,8 +484,7 @@
                     ". item-2 item-2 ."
                     "item-3 item-3 item-3 item-3"
                 ;
-                /* gap: 10px;*/
-                justify-content: center;
+                
 
                 .div-1 {
                     margin-top: 15px;
@@ -507,15 +503,14 @@
                     text-align: center;
                     font-size: 2rem;
                     line-height: 1.2;
-                    /*  margin: 0;*/
                     max-width: 100%;
                     overflow-wrap: break-word;
                     color: black;
                 }
 
                 .div-2 {
-                    padding-left: 10px;
-                    width: 365px;
+                    width: 95%;
+                    max-width: 424px;
                     grid-area: item-2;
                     border-radius: 5px;
                     display: flex;
@@ -548,7 +543,6 @@
                         color: black;
                         font-size: 1rem;
                         line-height: 1.5;
-                        /*  margin: 0;*/
                         max-width: 100%;
                         overflow-wrap: break-word;
                     }
@@ -558,8 +552,9 @@
             }
 
             .grid-container6 {
+                width: 100%;
+                max-width: 424px;
                 background-color: rgb(241, 221, 214);
-                width: 375px;
                 display: grid;
                 display: flex;
                 flex-direction: column;
