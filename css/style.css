@@ -2622,7 +2622,7 @@ body {
     display: none;
   }
   body main .grid-container1 .div-2 {
-    width: 95%;
+    width: 80%;
     max-width: 767px;
     grid-area: item-2;
     display: flex;
@@ -2631,7 +2631,7 @@ body {
     align-items: center;
   }
   body main .grid-container1 .div-2 img {
-    width: 405px;
+    width: 100%;
     height: auto;
     display: block;
     border-radius: 5px;
