@@ -2609,279 +2609,278 @@ body {
 @media (min-width: 425px) and (max-width: 460px) {
   body main {
     /*
-                .grid-container4 {
-                    width: 100%;
-                    max-width: 460px;
-                    background-color: rgb(241, 221, 214);
-                    display: flex;
-                    flex-direction: column;
-                    align-items: center;
+    .grid-container4 {
+        width: 100%;
+        max-width: 460px;
+        background-color: rgb(241, 221, 214);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
 
-                    .div-1 {
-                        padding-top: 25px;
-                        margin-top: 15px;
-                        margin-bottom: 15px;
-                        grid-area: item-1;
-                        border-radius: 5px;
-                        display: flex;
-                        align-content: center;
+        .div-1 {
+            padding-top: 25px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            grid-area: item-1;
+            border-radius: 5px;
+            display: flex;
+            align-content: center;
 
-                        h2 {
-                            text-align: center;
-                            font-size: 2rem;
-                            line-height: 1.2;
-                            color: black;
-                        }
-                    }
+            h2 {
+                text-align: center;
+                font-size: 2rem;
+                line-height: 1.2;
+                color: black;
+            }
+        }
 
-                    .caja-promos {
-                        width: 98%;
-                        max-width: 460px;
-                        display: grid;
-                        display: flex;
-                        justify-content: space-around;
-                        align-items: center;
-                        grid-template-columns: 88.75px 88.75px 88.75px 88.75px;
-                        grid-template-rows: repeat(2, auto);
-                        grid-template-areas:
-                            " . item-1 item-1 . "
-                            " item-2 item-3 item-3 item-4 "
-                        ;
+        .caja-promos {
+            width: 98%;
+            max-width: 460px;
+            display: grid;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            grid-template-columns: 88.75px 88.75px 88.75px 88.75px;
+            grid-template-rows: repeat(2, auto);
+            grid-template-areas:
+                " . item-1 item-1 . "
+                " item-2 item-3 item-3 item-4 "
+            ;
 
-                        .div-2 {
-                            margin-top: 10px;
-                            grid-area: item-2;
-                            display: flex;
+            .div-2 {
+                margin-top: 10px;
+                grid-area: item-2;
+                display: flex;
 
-                            p {
-                                width: 65px;
-                                text-align: center;
-                                color: black;
-                                font-size: 1.2rem;
-                                line-height: 1.5;
-                                margin: 0;
-                                max-width: 100%;
-                                overflow-wrap: break-word;
-                            }
-                        }
+                p {
+                    width: 65px;
+                    text-align: center;
+                    color: black;
+                    font-size: 1.2rem;
+                    line-height: 1.5;
+                    margin: 0;
+                    max-width: 100%;
+                    overflow-wrap: break-word;
+                }
+            }
 
-                        .div-3 {
-                            width: 177.5px;
-                            grid-area: item-3;
-                            display: flex;
-                            justify-content: center;
+            .div-3 {
+                width: 177.5px;
+                grid-area: item-3;
+                display: flex;
+                justify-content: center;
 
-                            img {
-                                max-width: 100%;
-                                height: 100px;
-                                display: block;
-                                border-radius: 5px;
-                            }
-                        }
+                img {
+                    max-width: 100%;
+                    height: 100px;
+                    display: block;
+                    border-radius: 5px;
+                }
+            }
 
-                        .div-4 {
-                            grid-area: item-4;
-                            border-radius: 5px;
-                            display: flex;
+            .div-4 {
+                grid-area: item-4;
+                border-radius: 5px;
+                display: flex;
 
-                            p {
-                                width: 60px;
-                                text-align: center;
-                                color: black;
-                                font-size: 1.2rem;
-                                line-height: 1.5;
-                                margin: 0;
-                                max-width: 100%;
-                                overflow-wrap: break-word;
-                            }
-                        }
-                    }
+                p {
+                    width: 60px;
+                    text-align: center;
+                    color: black;
+                    font-size: 1.2rem;
+                    line-height: 1.5;
+                    margin: 0;
+                    max-width: 100%;
+                    overflow-wrap: break-word;
+                }
+            }
+        }
+    }
+
+    .grid-container5 {
+        width: 100%;
+        max-width: 460px;
+        background-color: rgb(241, 221, 214);
+        display: grid;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        grid-template-columns: .5fr 1fr 1fr .5fr;
+        grid-template-rows: repeat(3, auto);
+        grid-template-areas:
+            ". item-1 item-1 ."
+            ". item-2 item-2 ."
+            "item-3 item-3 item-3 item-3"
+        ;
+
+
+        .div-1 {
+            margin-top: 15px;
+            grid-area: item-1;
+            background-color: rgb(241, 221, 214);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        h2 {
+            margin-top: 15px;
+            margin-bottom: 15px;
+            text-align: center;
+            font-size: 2rem;
+            line-height: 1.2;
+            margin: 0;
+            max-width: 100%;
+            overflow-wrap: break-word;
+            color: black;
+        }
+
+        .div-2 {
+            width: 95%;
+            max-width: 460px;
+            grid-area: item-2;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-items: center;
+
+            img {
+                width: 95%;
+                height: auto;
+                display: block;
+                border-radius: 5px;
+            }
+        }
+
+        .div-3 {
+            margin-top: 15px;
+            margin-bottom: 15px;
+            grid-area: item-3;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            p {
+                padding: 10px;
+                text-align: justify;
+                color: black;
+                font-size: 1rem;
+                line-height: 1.5;
+                margin: 0;
+                max-width: 100%;
+                overflow-wrap: break-word;
+            }
+
+        }
+    }
+
+    .grid-container6 {
+        width: 100%;
+        max-width: 460px;
+        background-color: rgb(241, 221, 214);
+        display: grid;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        grid-template-columns: 187.5px 187.5px;
+        grid-template-rows: repeat(2, auto);
+        grid-template-areas:
+            " item-1 item-1"
+            " item-4 item-3"
+        ;
+
+        .div-1 {
+            margin-top: 15px;
+            grid-area: item-1;
+            display: flex;
+            justify-content: center;
+
+            h2 {
+                text-align: center;
+                font-size: 2rem;
+                line-height: 1.2;
+                max-width: 100%;
+                overflow-wrap: break-word;
+                color: black;
+            }
+        }
+
+        .caja-calificacion {
+            display: flex;
+            justify-content: center;
+            justify-content: space-around;
+
+            .div-2 {
+                display: none;
+            }
+
+            .div-4 {
+                padding-bottom: 25px;
+                width: 212.5px;
+                grid-area: item-4;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                img {
+                    width: 100px;
+                    height: 80px;
+                    display: block;
+                    border-radius: 5px;
                 }
 
-                .grid-container5 {
-                    width: 100%;
-                    max-width: 460px;
-                    background-color: rgb(241, 221, 214);
-                    display: grid;
-                    display: flex;
-                    flex-direction: column;
-                    align-items: center;
-                    justify-content: center;
-                    grid-template-columns: .5fr 1fr 1fr .5fr;
-                    grid-template-rows: repeat(3, auto);
-                    grid-template-areas:
-                        ". item-1 item-1 ."
-                        ". item-2 item-2 ."
-                        "item-3 item-3 item-3 item-3"
-                    ;
-
-
-                    .div-1 {
-                        margin-top: 15px;
-                        grid-area: item-1;
-                        background-color: rgb(241, 221, 214);
-                        display: flex;
-                        flex-direction: column;
-                        align-items: center;
-                        justify-content: center;
-                    }
-
-                    h2 {
-                        margin-top: 15px;
-                        margin-bottom: 15px;
-                        text-align: center;
-                        font-size: 2rem;
-                        line-height: 1.2;
-                        margin: 0;
-                        max-width: 100%;
-                        overflow-wrap: break-word;
-                        color: black;
-                    }
-
-                    .div-2 {
-                        width: 95%;
-                        max-width: 460px;
-                        grid-area: item-2;
-                        display: flex;
-                        flex-direction: column;
-                        align-items: center;
-                        justify-items: center;
-
-                        img {
-                            width: 95%;
-                            height: auto;
-                            display: block;
-                            border-radius: 5px;
-                        }
-                    }
-
-                    .div-3 {
-                        margin-top: 15px;
-                        margin-bottom: 15px;
-                        grid-area: item-3;
-                        display: flex;
-                        flex-direction: column;
-                        align-items: center;
-                        justify-content: center;
-
-                        p {
-                            padding: 10px;
-                            text-align: justify;
-                            color: black;
-                            font-size: 1rem;
-                            line-height: 1.5;
-                            margin: 0;
-                            max-width: 100%;
-                            overflow-wrap: break-word;
-                        }
-
-                    }
+                p {
+                    width: 120px;
+                    text-align: justify;
+                    color: black;
+                    font-size: 1rem;
+                    line-height: 1.5;
+                    margin: 0;
+                    max-width: 100%;
+                    overflow-wrap: break-word;
                 }
 
-                .grid-container6 {
-                    width: 100%;
-                    max-width: 460px;
-                    background-color: rgb(241, 221, 214);
-                    display: grid;
-                    display: flex;
-                    flex-direction: column;
-                    align-items: center;
-                    grid-template-columns: 187.5px 187.5px;
-                    grid-template-rows: repeat(2, auto);
-                    grid-template-areas:
-                        " item-1 item-1"
-                        " item-4 item-3"
-                    ;
+            }
 
-                    .div-1 {
-                        margin-top: 15px;
-                        grid-area: item-1;
-                        display: flex;
-                        justify-content: center;
+            .div-3 {
+                padding-bottom: 25px;
+                width: 212.5px;
+                grid-area: item-3;
+                border-radius: 5px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
 
-                        h2 {
-                            text-align: center;
-                            font-size: 2rem;
-                            line-height: 1.2;
-                            max-width: 100%;
-                            overflow-wrap: break-word;
-                            color: black;
-                        }
-                    }
-
-                    .caja-calificacion {
-                        display: flex;
-                        justify-content: center;
-                        justify-content: space-around;
-
-                        .div-2 {
-                            display: none;
-                        }
-
-                        .div-4 {
-                            padding-bottom: 25px;
-                            width: 212.5px;
-                            grid-area: item-4;
-                            display: flex;
-                            flex-direction: column;
-                            align-items: center;
-
-                            img {
-                                width: 100px;
-                                height: 80px;
-                                display: block;
-                                border-radius: 5px;
-                            }
-
-                            p {
-                                width: 120px;
-                                text-align: justify;
-                                color: black;
-                                font-size: 1rem;
-                                line-height: 1.5;
-                                margin: 0;
-                                max-width: 100%;
-                                overflow-wrap: break-word;
-                            }
-
-                        }
-
-                        .div-3 {
-                            padding-bottom: 25px;
-                            width: 212.5px;
-                            grid-area: item-3;
-                            border-radius: 5px;
-                            display: flex;
-                            flex-direction: column;
-                            align-items: center;
-
-                            img {
-                                width: 100px;
-                                height: 80px;
-                                display: block;
-                                border-radius: 5px;
-                            }
-
-                            p {
-                                width: 120px;
-                                text-align: justify;
-                                color: black;
-                                font-size: 1rem;
-                                line-height: 1.5;
-                                margin: 0;
-                                max-width: 100%;
-                                overflow-wrap: break-word;
-                            }
-
-                        }
-
-                        .div-5 {
-                            display: none;
-                        }
-
-                    }
+                img {
+                    width: 100px;
+                    height: 80px;
+                    display: block;
+                    border-radius: 5px;
                 }
-                    */
+
+                p {
+                    width: 120px;
+                    text-align: justify;
+                    color: black;
+                    font-size: 1rem;
+                    line-height: 1.5;
+                    margin: 0;
+                    max-width: 100%;
+                    overflow-wrap: break-word;
+                }
+
+            }
+
+            .div-5 {
+                display: none;
+            }
+
+        }
+    }*/
   }
   body main .grid-container1 {
     width: 100%;
@@ -2952,7 +2951,6 @@ body {
     background-color: rgb(241, 221, 214);
     display: flex;
     flex-direction: column;
-    /*  justify-content: center;*/
     justify-items: center;
     align-items: center;
   }
@@ -2965,7 +2963,6 @@ body {
     flex-direction: column;
     align-items: center;
     justify-items: center;
-    /*  justify-content: center;*/
   }
   body main .grid-container2 .div-1 h2 {
     margin-top: 15px;
