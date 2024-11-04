@@ -2459,13 +2459,12 @@ body {
 }
 @media (min-width: 375px) and (max-width: 424px) {
   body main .grid-container7 {
+    width: 100%;
+    max-width: 424px;
     display: grid;
-    display: flex;
-    flex-direction: column;
-    grid-template-columns: 0.25fr 1fr 0.625fr 0.25fr;
-    grid-template-rows: repeat(5, auto);
-    grid-template-areas: ". item-1 item-1 ." ". item-2 item-6 ." ". item-4 item-5 ." ". item-3 item-5 ." ". item-3 item-5 .";
-    justify-content: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, auto);
+    grid-template-areas: " item-1 " " item-2 " " item-3 " " item-5 " " item-6 " " item-4 ";
   }
   body main .grid-container7 .div-1 {
     background-color: rgb(241, 221, 214);
@@ -2477,7 +2476,7 @@ body {
     margin-top: 25px;
     margin-bottom: 25px;
     justify-content: center;
-    font-size: 2rem;
+    font-size: 2.5rem;
     line-height: 1.2;
     max-width: 100%;
     overflow-wrap: break-word;
@@ -2502,8 +2501,10 @@ body {
     border-radius: 5px;
   }
   body main .grid-container7 .div-2 label {
-    color: #323232;
-    font-size: 1rem;
+    color: black;
+    font-size: 1.3rem;
+    padding-left: 10px;
+    padding-bottom: 10px;
   }
   body main .grid-container7 .div-3 {
     grid-area: item-3;
@@ -2514,13 +2515,16 @@ body {
     justify-content: center;
   }
   body main .grid-container7 .div-3 label {
-    color: #323232;
-    font-size: 1rem;
+    color: black;
+    font-size: 1.3rem;
+    padding-left: 10px;
+    padding-bottom: 10px;
     margin-bottom: 20px;
     display: flex;
     flex-direction: column;
   }
   body main .grid-container7 .div-4 {
+    padding-bottom: 20px;
     grid-area: item-4;
     background-color: rgb(241, 221, 214);
     border-radius: 5px;
@@ -2532,8 +2536,10 @@ body {
   body main .grid-container7 .div-4 label {
     display: flex;
     flex-direction: column;
-    color: #323232;
-    font-size: 1rem;
+    color: black;
+    font-size: 1.3rem;
+    padding-left: 10px;
+    padding-bottom: 10px;
   }
   body main .grid-container7 .div-4 button {
     margin-top: 20px;
@@ -2564,11 +2570,14 @@ body {
   }
   body main .grid-container7 .div-5 label {
     padding-top: 60px;
-    color: #323232;
-    font-size: 1rem;
+    color: black;
+    font-size: 1.3rem;
+    padding-left: 10px;
+    padding-bottom: 10px;
     font-weight: bolder;
   }
   body main .grid-container7 .div-6 {
+    width: 375px;
     background-color: rgb(241, 221, 214);
     padding-bottom: 15px;
     grid-area: item-6;
@@ -2580,8 +2589,10 @@ body {
     justify-content: space-around;
   }
   body main .grid-container7 .div-6 label {
-    color: #323232;
-    font-size: 1rem;
+    color: black;
+    font-size: 1.3rem;
+    padding-left: 10px;
+    padding-bottom: 10px;
   }
   body main .grid-container7 .div-6 img {
     margin-bottom: 20px;
@@ -2589,6 +2600,9 @@ body {
     margin-top: 10px;
     width: 150px;
     height: auto;
+  }
+  body main .grid-container7 .div-7 {
+    display: none;
   }
   body .footer-1 {
     display: none;
