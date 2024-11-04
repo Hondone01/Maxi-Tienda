@@ -41,5 +41,7 @@
 @use "components/button" as *;
 @use "utilities/_variables" as *;
 @use "utilities/_mixin" as *;
+@use "utilities/_extend" as *;
+
 @use "base/_reset" as *;
 @use "base/_encabezado" as *;
