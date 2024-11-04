@@ -7049,7 +7049,7 @@ body {
     display: none;
   }
 }
-@media (min-width: 1920px) {
+@media (min-width: 1920px) and (max-width: 2559px) {
   body nav.navbar {
     display: none;
   }
@@ -7094,7 +7094,7 @@ body {
   }
   body .grid-container1 {
     width: 100%;
-    max-width: 1920px;
+    max-width: 2559px;
     background-color: rgb(241, 221, 214);
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
@@ -7164,7 +7164,7 @@ body {
   }
   body .grid-container2 {
     width: 100%;
-    max-width: 1920px;
+    max-width: 2559px;
     background-color: rgb(241, 221, 214);
     display: grid;
     display: flex;
@@ -7265,7 +7265,7 @@ body {
   }
   body .grid-container3 {
     width: 100%;
-    max-width: 1920px;
+    max-width: 2559px;
     background-color: rgb(241, 221, 214);
     display: grid;
     display: flex;
@@ -7382,7 +7382,7 @@ body {
   }
   body .grid-container4 {
     width: 100%;
-    max-width: 1920px;
+    max-width: 2559px;
     background-color: rgb(241, 221, 214);
     display: grid;
     display: flex;
@@ -7454,7 +7454,7 @@ body {
   body .grid-container5 {
     padding-top: 25px;
     width: 100%;
-    max-width: 1920px;
+    max-width: 2559px;
     background-color: rgb(241, 221, 214);
     display: grid;
     display: flex;
@@ -7514,7 +7514,7 @@ body {
   }
   body .grid-container6 {
     width: 100%;
-    max-width: 1920px;
+    max-width: 2559px;
     background-color: rgb(241, 221, 214);
     display: flex;
     flex-direction: column;
