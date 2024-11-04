@@ -3230,8 +3230,9 @@ body {
     justify-content: center;
   }
   body main .grid-container8 .div-3 img {
+    margin-top: 20px;
     width: 250px;
-    height: auto;
+    height: 130px;
     grid-area: item-3;
     border-radius: 5px;
     display: flex;
