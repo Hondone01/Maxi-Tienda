@@ -129,19 +129,21 @@
                 }
 
                 .div-6 {
-                    width: 375px;
+                    width: 100%;
+                    max-width: 424px;
                     background-color: $color-fondo;
                     padding-bottom: 15px;
                     grid-area: item-6;
-                    border-radius: 5px;
                     display: flex;
                     flex-direction: column;
-                    justify-content: center;
+                    justify-items: center;
                     align-items: center;
                     justify-content: space-around;
 
                     label {
-                        @include label-tienda-425;
+                        color: black;
+                        font-size: 1.3rem;
+                        padding-bottom: 10px;
                     }
 
                     img {

@@ -2577,21 +2577,20 @@ body {
     font-weight: bolder;
   }
   body main .grid-container7 .div-6 {
-    width: 375px;
+    width: 100%;
+    max-width: 424px;
     background-color: rgb(241, 221, 214);
     padding-bottom: 15px;
     grid-area: item-6;
-    border-radius: 5px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-items: center;
     align-items: center;
     justify-content: space-around;
   }
   body main .grid-container7 .div-6 label {
     color: black;
     font-size: 1.3rem;
-    padding-left: 10px;
     padding-bottom: 10px;
   }
   body main .grid-container7 .div-6 img {
