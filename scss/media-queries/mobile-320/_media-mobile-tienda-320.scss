@@ -1,36 +1,14 @@
-@use "../../utilities/mixin"as *;
+@use "../../utilities/mixin" as *;
+@use "../../utilities/variables" as *;
+
+@use "../../base/reset" as *;
+@use "../../base/encabezado" as *;
 
 @media (min-width: 320px) and (max-width: 374px) {
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-
-    .desktop {
-        display: none;
-    }
-
-    .logo-header {
-        width: 40px;
-        height: 40px;
-        border-radius: 10px;
-    }
 
     body {
-        background-color: rgb(241, 221, 214);
-
-        .color-body {
-            background-color: rgb(241, 221, 214);
-        }
 
         main {
-            .inicio {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-            }
-
             .grid-container8 {
                 display: grid;
                 display: flex;
@@ -98,6 +76,9 @@
                     justify-content: center;
 
                     img {
+                        margin-top: 20px;
+                        width: 250px;
+                        height: 130px;
                         grid-area: item-3;
                         border-radius: 5px;
                         display: flex;
@@ -129,6 +110,7 @@
                 }
 
                 .div-5 {
+                    padding-top: 20px;
                     grid-area: item-5;
                     background-color: rgb(241, 221, 214);
                     display: flex;
