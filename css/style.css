@@ -2817,12 +2817,11 @@ body {
     color: black;
   }
   body main .grid-container3 .caja-productos {
-    width: 90%;
+    width: 100%;
     max-width: 460px;
     display: grid;
     align-items: center;
     justify-items: center;
-    padding-left: 20px;
     grid-template-columns: repeat(4, 0.25fr);
     grid-template-rows: repeat(4, auto);
     grid-template-areas: " . item-1 item-1 . " " . item-2 item-2 . " " item-3 item-3 item-4 item-4 " " item-5 item-5 item-6 item-6 ";
