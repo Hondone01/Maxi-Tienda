@@ -3891,7 +3891,7 @@ body {
     border-radius: 5px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-items: center;
     align-items: center;
     justify-content: space-around;
   }
