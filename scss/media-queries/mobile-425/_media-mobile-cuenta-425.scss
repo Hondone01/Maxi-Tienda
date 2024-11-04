@@ -10,20 +10,19 @@
 
         main {
             .grid-container10 {
+                width: 100%;
+                max-width: 767px;
                 display: grid;
-                display: flex;
-                flex-direction: column;
                 justify-content: center;
-                grid-template-columns: minmax(0, 0.5fr) minmax(0, 1fr);
+                grid-template-columns: 1fr;
                 grid-template-rows: repeat(5, auto);
                 grid-template-areas:
-                    "item-1 item-1"
-                    "item-5 item-2"
-                    "item-5 item-3"
-                    "item-5 item-3"
-                    "item-4 item-4"
+                    "item-1 "
+                    "item-5 "
+                    "item-2 "
+                    "item-3 "
+                    "item-4 "
                 ;
-                max-width: 100%;
 
                 .div-1 {
                     background-color: rgb(241, 221, 214);
