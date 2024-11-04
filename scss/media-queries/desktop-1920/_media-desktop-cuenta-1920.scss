@@ -4,15 +4,15 @@
 @use "../../layout/header" as *;
 @use "../../layout/footer" as *;
 
-@media (min-width: 1920px) {
+@media (min-width: 1920px) and (max-width: 2559px) {
     body {
         @include header;
 
         .grid-container10 {
+            padding-top: 45px;
             width: 100%;
-            max-width: 1920px;
+            max-width: 2559px;
             background-color: $color-fondo;
-            border: 1px solid black;
             display: grid;
             grid-template-columns: minmax(0, 0.5fr) minmax(0, 1fr);
             grid-template-rows: repeat(5, auto);
@@ -27,6 +27,7 @@
             max-width: 100%;
 
             .div-1 {
+                padding-top: 35px;
                 grid-area: item-1;
                 border-radius: 5px;
                 display: flex;
@@ -44,6 +45,7 @@
             }
 
             .div-2 {
+                padding-top: 45px;
                 grid-area: item-2;
                 border-radius: 5px;
                 display: flex;
@@ -182,6 +184,7 @@
             }
 
             .div-4 {
+                padding-top: 40px;
                 grid-area: item-4;
                 border-radius: 5px;
                 display: flex;
@@ -195,6 +198,7 @@
             }
 
             .div-5 {
+                padding-top: 45px;
                 padding-left: 10px;
                 grid-area: item-5;
                 border-radius: 5px;
