@@ -3833,7 +3833,6 @@ body {
     padding-bottom: 20px;
     grid-area: item-4;
     background-color: rgb(241, 221, 214);
-    border-radius: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -3888,7 +3887,6 @@ body {
     background-color: rgb(241, 221, 214);
     padding-bottom: 15px;
     grid-area: item-6;
-    border-radius: 5px;
     display: flex;
     flex-direction: column;
     justify-items: center;
