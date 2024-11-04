@@ -8406,7 +8406,7 @@ body {
     grid-template-areas: ". item-1 ." "item-2 item-3 item-4" "item-5 item-6 item-7";
   }
   body .grid-container7 .div-1 {
-    padding-top: 80px;
+    padding-top: 90px;
     width: 100%;
     max-width: 2559px;
     grid-area: item-1;
@@ -8423,7 +8423,7 @@ body {
   }
   body .grid-container7 .div-2 {
     padding-bottom: 45px;
-    margin-top: 105px;
+    margin-top: 150px;
     width: 100%;
     max-width: 2559px;
     grid-area: item-2;
@@ -8446,7 +8446,7 @@ body {
   }
   body .grid-container7 .div-3 {
     padding-bottom: 45px;
-    margin-top: 105px;
+    margin-top: 150px;
     width: 100%;
     max-width: 2559px;
     grid-area: item-3;
@@ -8464,7 +8464,7 @@ body {
   }
   body .grid-container7 .div-4 {
     padding-bottom: 45px;
-    margin-top: 105px;
+    margin-top: 150px;
     width: 100%;
     max-width: 2559px;
     grid-area: item-4;
@@ -8498,7 +8498,7 @@ body {
   }
   body .grid-container7 .div-5 {
     padding-bottom: 35px;
-    margin-top: 80px;
+    margin-top: 150px;
     width: 100%;
     max-width: 2559px;
     grid-area: item-5;
@@ -8512,7 +8512,7 @@ body {
   }
   body .grid-container7 .div-6 {
     padding-bottom: 35px;
-    margin-top: 80px;
+    margin-top: 150px;
     width: 100%;
     max-width: 2559px;
     grid-area: item-6;
@@ -8530,7 +8530,7 @@ body {
   }
   body .grid-container7 .div-7 {
     padding-bottom: 35px;
-    margin-top: 80px;
+    margin-top: 150px;
     width: 100%;
     max-width: 2559px;
     grid-area: item-7;
