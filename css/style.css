@@ -3816,6 +3816,7 @@ body {
     flex-direction: column;
   }
   body main .grid-container7 .div-4 {
+    padding-bottom: 20px;
     grid-area: item-4;
     background-color: rgb(241, 221, 214);
     border-radius: 5px;
