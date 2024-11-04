@@ -129,7 +129,8 @@
                 }
 
                 .div-6 {
-                    width: 425px;
+                    width: 100%;
+                    max-width: 767px;
                     background-color: $color-fondo;
                     padding-bottom: 15px;
                     grid-area: item-6;
