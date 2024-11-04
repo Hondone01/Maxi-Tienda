@@ -10,21 +10,20 @@
         main {
 
             .grid-container7 {
-                width: 425px;
+                width: 100%;
+                max-width: 767px;
                 display: grid;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                grid-template-columns: .25fr 1fr .625fr .25fr;
-                grid-template-rows: repeat(5, auto);
+                grid-template-columns: 1fr;
+                grid-template-rows: repeat(6, auto);
                 grid-template-areas:
-                    ". item-1 item-1 ."
-                    ". item-2 item-6 ."
-                    ". item-4 item-5 ."
-                    ". item-3 item-5 ."
-                    ". item-3 item-5 ."
+                    " item-1 "
+                    " item-2 "
+                    " item-3 "
+                    " item-5 "
+                    " item-6 "
+                    " item-4 "
                 ;
-                
+
 
                 .div-1 {
                     background-color: $color-fondo;
@@ -151,6 +150,10 @@
                         width: 150px;
                         height: auto;
                     }
+                }
+
+                .div-7 {
+                    display: none;
                 }
 
             }
