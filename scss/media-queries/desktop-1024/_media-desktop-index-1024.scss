@@ -1,8 +1,8 @@
-@use "../utilities/mixin" as *;
-@use "../utilities/variables" as *;
-@use "../base/reset" as *;
-@use "../layout/header" as *;
-@use "../layout/footer" as *;
+@use "../../utilities/mixin" as *;
+@use "../../utilities/variables" as *;
+@use "../../base/reset" as *;
+@use "../../layout/header" as *;
+@use "../../layout/footer" as *;
 
 @media (min-width: 1024px) and (max-width: 1439px) {
     body {
@@ -10,7 +10,7 @@
 
         .grid-container1 {
             width: 100%;
-            max-width: 1024px;
+            max-width: 1439px;
             background-color: $color-fondo;
             display: grid;
             grid-template-columns: 1fr 2fr 1fr;
@@ -21,7 +21,6 @@
                 "item-1 item-2 item-3"
                 ". item-2 ."
             ;
-            gap: 20px;
 
             .div-1 {
                 grid-area: item-1;
@@ -74,6 +73,8 @@
             }
 
             .div-4 {
+                display: flex;
+                justify-content: center;
                 grid-area: item-4;
                 border-radius: 5px;
 
@@ -86,7 +87,7 @@
 
         .grid-container2 {
             width: 100%;
-            max-width: 1024px;
+            max-width: 1439px;
             background-color: $color-fondo;
             display: grid;
             display: flex;
@@ -201,7 +202,7 @@
 
         .grid-container3 {
             width: 100%;
-            max-width: 1024px;
+            max-width: 1439px;
             background-color: $color-fondo;
             display: grid;
             display: flex;
@@ -336,7 +337,7 @@
 
         .grid-container4 {
             width: 100%;
-            max-width: 1024px;
+            max-width: 1439px;
             background-color: $color-fondo;
             display: grid;
             display: flex;
@@ -419,7 +420,7 @@
         .grid-container5 {
             padding-top: 25px;
             width: 100%;
-            max-width: 1024px;
+            max-width: 1439px;
             background-color: $color-fondo;
             display: grid;
             display: flex;
@@ -486,7 +487,7 @@
 
         .grid-container6 {
             width: 100%;
-            max-width: 1024px;
+            max-width: 1439px;
             background-color: $color-fondo;
             display: flex;
             flex-direction: column;
@@ -532,7 +533,7 @@
             }
 
             .caja-calificacion {
-                padding-left: 5px;
+                padding-left: 10px;
                 display: flex;
                 justify-content: center;
                 justify-content: space-around;
@@ -601,18 +602,11 @@
             }
         }
 
-        
-            @include footer;
-            
-            .footer-2{
-                display: none;
-            }
-        
+        @include footer;
 
-
-
-
-
+        .footer-2 {
+            display: none;
+        }
 
     }
 }

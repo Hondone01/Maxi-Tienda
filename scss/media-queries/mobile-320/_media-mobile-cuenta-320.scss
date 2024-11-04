@@ -1,16 +1,19 @@
-@use "../utilities/mixin" as *;
-@use "../utilities/variables" as *;
+@use "../../utilities/mixin" as *;
+@use "../../utilities/variables" as *;
 
+@use "../../base/reset" as *;
+@use "../../base/encabezado" as *;
 
-@use "../base/reset" as *;
-@use "../base/encabezado" as *;
+@media (min-width: 320px) and (max-width: 374px) {
 
-@media (min-width: 375px) and (max-width: 424px) {
 
     body {
 
         main {
+
             .grid-container10 {
+                width: 100%;
+                max-width: 374px;
                 display: grid;
                 display: flex;
                 flex-direction: column;
@@ -24,20 +27,19 @@
                     "item-5 item-3"
                     "item-4 item-4"
                 ;
-                max-width: 100%;
 
                 .div-1 {
+                    width: 100%;
+                    max-width: 374px;
                     background-color: rgb(241, 221, 214);
                     grid-area: item-1;
-                    border-radius: 5px;
                     display: flex;
                     justify-content: center;
-                    max-width: 100%;
 
                     h2 {
                         font-size: 3rem;
                         line-height: 1.2;
-                        max-width: 100%;
+                     /*   max-width: 100%;*/
                         overflow-wrap: break-word;
                         color: black !important;
                     }
@@ -45,15 +47,15 @@
                 }
 
                 .div-2 {
+                    width: 100%;
+                    max-width: 374px;
                     padding-top: 25px;
                     background-color: rgb(241, 221, 214);
                     grid-area: item-2;
-                    border-radius: 5px;
                     display: flex;
                     flex-direction: column;
                     justify-content: center;
                     align-items: center;
-                    max-width: 100%;
 
                     h2 {
                         margin-top: 35px;
@@ -62,7 +64,6 @@
                         font-size: 1.5rem;
                         line-height: 1.2;
                         margin: 0;
-                        max-width: 100%;
                         overflow-wrap: break-word;
                         color: black;
                     }
@@ -91,6 +92,7 @@
                         img {
                             width: 120px;
                             height: auto;
+                            border-radius: 5px;
                         }
 
                     }
@@ -112,7 +114,8 @@
                     }
 
                     .genero {
-                        width: 320px;
+                        width: 100%;
+                        max-width: 374px;
                         display: flex;
                         flex-direction: column;
                         align-content: center;
@@ -120,7 +123,8 @@
                     }
 
                     .idioma {
-                        width: 320px;
+                        width: 100%;
+                        max-width: 374px;
                         display: flex;
                         flex-direction: column;
                         align-content: center;
@@ -130,12 +134,12 @@
                 }
 
                 .div-3 {
+                    width: 100%;
+                    max-width: 374px;
                     background-color: rgb(241, 221, 214);
                     grid-area: item-3;
-                    border-radius: 5px;
                     display: flex;
                     flex-direction: column;
-                    max-width: 100%;
 
                     .botones button {
                         @include foto-button;
@@ -164,13 +168,13 @@
                 }
 
                 .div-4 {
+                    width: 100%;
+                    max-width: 374px;
                     padding-top: 25px;
                     background-color: rgb(241, 221, 214);
                     grid-area: item-4;
-                    border-radius: 5px;
                     display: flex;
                     justify-content: center;
-                    max-width: 100%;
 
                     p {
                         padding: 10px;
@@ -180,13 +184,13 @@
                 }
 
                 .div-5 {
+                    width: 100%;
+                    max-width: 374px;
                     background-color: rgb(241, 221, 214);
                     padding-left: 10px;
                     grid-area: item-5;
-                    border-radius: 5px;
                     display: flex;
                     flex-direction: column;
-                    max-width: 100%;
 
                     h2 {
                         display: flex;
@@ -210,7 +214,7 @@
             }
         }
 
-        .footer1 {
+        .footer-1 {
             display: none;
         }
 
@@ -223,5 +227,6 @@
             display: flex;
             justify-content: center;
         }
+
     }
 }
