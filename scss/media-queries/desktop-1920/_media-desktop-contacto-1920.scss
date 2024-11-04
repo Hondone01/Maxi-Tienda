@@ -4,16 +4,16 @@
 @use "../../layout/header" as *;
 @use "../../layout/footer" as *;
 
-@media (min-width: 1920px) {
+@media (min-width: 1920px) and (max-width: 2559px) {
     body {
         @include header;
 
         .grid-container11 {
             width: 100%;
-            max-width: 1920px;
+            max-width: 2559px;
             background-color: $color-fondo;
             padding-left: 10px;
-            padding-bottom: 20px;
+            padding-bottom: 80px;
             display: grid;
             grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
             grid-template-rows: repeat(3, auto);
@@ -24,6 +24,7 @@
             ;
 
             .div-1 {
+                padding-top: 50px;
                 grid-area: item-1;
                 border-radius: 5px;
                 display: flex;
@@ -47,12 +48,12 @@
                 flex-direction: column;
                 max-width: 100%;
 
-                form{
+                form {
                     margin-top: -200px;
                 }
 
                 p {
-                   margin-bottom: 525px;
+                    margin-bottom: 525px;
                     font-size: 1.2rem;
                     line-height: 1.2;
                     max-width: 100%;
@@ -70,7 +71,7 @@
                     margin-bottom: 10px;
                 }
 
-                  .margen {
+                .margen {
                     margin-bottom: 100px;
                 }
 
@@ -78,9 +79,14 @@
                     display: flex;
 
                     textarea {
+                        padding-top: 60px;
                         margin-top: 0px;
                         margin-bottom: 15px;
                     }
+                }
+
+                form {
+                    padding-bottom: 22px;
                 }
             }
 
@@ -99,7 +105,7 @@
             }
         }
 
-        
+
         @include footer;
 
         .footer-2 {
