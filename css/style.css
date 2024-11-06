@@ -5320,6 +5320,7 @@ body {
     grid-template-areas: ". item-1 ." "item-2 item-3 item-4" "item-5 item-6 item-7";
   }
   body .grid-container7 .div-1 {
+    padding-top: 35px;
     width: 100%;
     max-width: 1439px;
     grid-area: item-1;
@@ -5349,7 +5350,7 @@ body {
     display: flex;
     flex-direction: column;
     color: #323232;
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   body .grid-container7 .div-2 img {
     max-width: 100%;
@@ -5369,10 +5370,10 @@ body {
     justify-content: center;
   }
   body .grid-container7 .div-3 div label {
-    color: #323232;
-    font-size: 1rem;
     display: flex;
     flex-direction: column;
+    color: #323232;
+    font-size: 1rem;
   }
   body .grid-container7 .div-4 {
     margin-top: 100px;
