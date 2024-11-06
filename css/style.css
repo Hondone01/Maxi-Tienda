@@ -5317,7 +5317,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: repeat(3, auto);
-    grid-template-areas: ". item-1 ." "item-2 item-3 item-4" "item-5 item-6 item-7";
+    grid-template-areas: " . item-1 ." " item-2 item-3 item-4 " " item-5 item-6 item-7 ";
   }
   body .grid-container7 .div-1 {
     padding-top: 35px;
@@ -5347,13 +5347,15 @@ body {
     justify-items: center;
   }
   body .grid-container7 .div-2 label {
+    padding-bottom: 15px;
     display: flex;
     flex-direction: column;
     color: #323232;
-    font-size: 1.2rem;
+    font-size: 2rem;
+    font-weight: bolder;
   }
   body .grid-container7 .div-2 img {
-    max-width: 100%;
+    width: 150px;
     height: auto;
     display: block;
     border-radius: 5px;
@@ -5369,11 +5371,12 @@ body {
     align-items: center;
     justify-content: center;
   }
-  body .grid-container7 .div-3 div label {
+  body .grid-container7 .div-3 label {
     display: flex;
     flex-direction: column;
     color: #323232;
-    font-size: 1rem;
+    font-size: 1.2rem;
+    font-weight: bolder;
   }
   body .grid-container7 .div-4 {
     margin-top: 100px;
@@ -5385,17 +5388,27 @@ body {
     align-items: center;
     justify-items: center;
   }
+  body .grid-container7 .div-4 .subtotal label {
+    padding-bottom: 15px;
+    color: #323232;
+    font-size: 2rem;
+    font-weight: bolder;
+  }
+  body .grid-container7 .div-4 label {
+    display: flex;
+    flex-direction: column;
+    color: #323232;
+    font-size: 1.2rem;
+    font-weight: bolder;
+  }
   body .grid-container7 .div-4 .data {
     display: flex;
     flex-direction: column;
   }
-  body .grid-container7 .div-4 .data label {
-    display: flex;
-    flex-direction: column;
-    color: #323232;
-    font-size: 1rem;
+  body .grid-container7 .div-4 .b-margen {
+    padding-top: 20px;
   }
-  body .grid-container7 .div-4 button {
+  body .grid-container7 .div-4 .b-margen .btn-ir-a-envios {
     padding: 5px;
     color: black;
     font-size: 1rem;
@@ -5404,7 +5417,7 @@ body {
     border-radius: 25px;
     text-transform: capitalize;
   }
-  body .grid-container7 .div-4 button:hover {
+  body .grid-container7 .div-4 .b-margen .btn-ir-a-envios hover {
     background-color: aliceblue;
     transition: 1s;
   }
@@ -5417,12 +5430,13 @@ body {
     justify-content: center;
   }
   body .grid-container7 .div-5 img {
-    max-width: 100%;
+    width: 150px;
     height: auto;
     display: block;
     border-radius: 5px;
   }
   body .grid-container7 .div-6 {
+    padding-top: 30px;
     margin-top: 100px;
     width: 100%;
     max-width: 1439px;
@@ -5437,7 +5451,8 @@ body {
     display: flex;
     flex-direction: column;
     color: #323232;
-    font-size: 1rem;
+    font-size: 1.2rem;
+    font-weight: bolder;
   }
   body .grid-container7 .div-7 {
     margin-top: 100px;
@@ -5450,8 +5465,12 @@ body {
     justify-items: center;
   }
   body .grid-container7 .div-7 label {
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: column;
     color: #323232;
-    font-size: 1rem;
+    font-size: 1.2rem;
+    font-weight: bolder;
   }
   body .grid-container7 .div-7 img {
     width: 120px;
