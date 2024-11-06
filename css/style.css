@@ -4890,6 +4890,8 @@ body {
     max-width: 100%;
   }
   body .grid-container10 .div-1 {
+    padding-top: 30px;
+    padding-bottom: 60px;
     grid-area: item-1;
     border-radius: 5px;
     display: flex;
