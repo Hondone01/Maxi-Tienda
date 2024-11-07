@@ -128,20 +128,12 @@
 
                 .b-margen {
                     padding-top: 20px;
-
                     .btn-ir-a-envios {
-                        padding: 5px;
-                        color: black;
-                        font-size: 1rem;
-                        background-color: #DDD0C8;
-                        border: 1.5px solid black;
-                        border-radius: 25px;
-                        text-transform: capitalize;
-
-                        hover {
-                            background-color: aliceblue;
-                            transition: 1s;
-                        }
+                       @include button;
+                    }
+                    
+                    button:hover {
+                        background-image: radial-gradient(circle, rgb(190, 125, 156), rgb(212, 75, 98));
                     }
                 }
 
