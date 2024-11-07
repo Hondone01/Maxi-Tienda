@@ -5226,6 +5226,19 @@ body {
   body .grid-container11 .div-2 form {
     padding-bottom: 37px;
   }
+  body .grid-container11 .div-2 form button {
+    margin-top: 25px;
+    padding: 5px;
+    color: black;
+    font-size: 1rem;
+    background-image: radial-gradient(circle, rgb(247, 183, 213), rgb(219, 101, 120));
+    border: 1px solid black;
+    border-radius: 25px;
+    text-transform: capitalize;
+  }
+  body .grid-container11 .div-2 form button:hover {
+    background-image: radial-gradient(circle, rgb(190, 125, 156), rgb(212, 75, 98));
+  }
   body .grid-container11 .div-3 {
     max-width: 100%;
     grid-area: item-3;

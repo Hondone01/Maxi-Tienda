@@ -86,6 +86,15 @@
 
                 form{
                     padding-bottom: 37px;
+                    
+                    button{
+                        @include button;
+                    }
+                    
+                    button:hover {
+                        background-image: radial-gradient(circle, rgb(190, 125, 156), rgb(212, 75, 98));
+                    }
+                        
                 }
             }
 
