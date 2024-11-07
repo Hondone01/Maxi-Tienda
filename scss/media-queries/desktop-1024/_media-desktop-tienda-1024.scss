@@ -24,9 +24,11 @@
                 ". . item-3 item-3 . ."
                 ". item-7 item-7 item-7 . ."
             ;
-            
+
 
             .div-1 {
+                padding-top: 30px;
+                padding-bottom: 30px;
                 grid-area: item-1;
                 display: flex;
                 justify-content: center;
@@ -45,9 +47,9 @@
 
             .div-2 {
 
-                width: 98%;
+                width: 60%;
                 max-width: 1439px;
-               /* margin-left: 10px;*/
+                padding-bottom: 20px;
                 border: 1px solid black;
                 grid-area: item-2;
                 display: flex;
@@ -56,8 +58,9 @@
                 align-items: center;
 
                 label {
+                    padding-top: 20px;
                     color: #323232;
-                    font-size: 1rem;
+                    font-size: 1.2rem;
                 }
 
                 img {
@@ -72,6 +75,8 @@
             }
 
             .div-3 {
+                width: 45%;
+                max-width: 1439px;
                 padding-top: 25px;
                 grid-area: item-3;
                 display: flex;
@@ -81,13 +86,15 @@
                 img {
                     border-radius: 5px;
                     align-items: center;
-                    justify-content: center;
+                    display: flex;
                 }
             }
 
             .div-5 {
+                padding-top: 25px;
+                padding-bottom: 25px;
                 margin-top: 25px;
-                width: 98%;
+                width: 60%;
                 max-width: 1439px;
                 grid-area: item-5;
                 border: 1px solid black;
@@ -100,12 +107,12 @@
                     text-align: justify;
                     padding-top: 40px;
                     margin: 10px;
-                    font-size: 1rem;
+                    font-size: 1.2rem;
                 }
 
                 label {
                     color: #323232;
-                    font-size: 1rem;
+                    font-size: 1.2rem;
                 }
 
                 .horizontal {
@@ -124,19 +131,22 @@
             }
 
             .div-7 {
-                margin-top: 10px;
+                width: 60%;
+                max-width: 1439px;
+                padding-top: 35px;
                 margin-bottom: 20px;
                 grid-area: item-7;
-                border-radius: 5px;
                 display: flex;
                 flex-direction: column;
-                align-items: flex-start;
+                align-items: center;
                 justify-content: center;
+                justify-items: center;
 
                 label {
-                    padding-left: 120px;
+                    padding-top: 15x;
                     color: #323232;
-                    font-size: 1rem;
+                    font-size: 1.2rem;
+                    font-weight: bolder;
                 }
             }
 
@@ -146,6 +156,7 @@
             width: 100%;
             max-width: 1439px;
             background-color: $color-fondo;
+            padding-bottom: 15px;
             display: grid;
             grid-template-columns: repeat(5, 1fr);
             grid-template-rows: repeat(2, auto);
@@ -156,6 +167,7 @@
             justify-content: center;
 
             .div-1 {
+                padding-bottom: 30px;
                 background-color: $color-fondo;
                 margin-top: 20px;
                 grid-area: item-1;
@@ -175,6 +187,7 @@
             }
 
             .div-2 {
+               
                 grid-area: item-2;
                 @include divs-tienda-container9;
 
