@@ -50,7 +50,6 @@
                 width: 60%;
                 max-width: 1439px;
                 padding-bottom: 20px;
-                border: 1px solid black;
                 grid-area: item-2;
                 display: flex;
                 flex-direction: column;
@@ -97,7 +96,6 @@
                 width: 60%;
                 max-width: 1439px;
                 grid-area: item-5;
-                border: 1px solid black;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
@@ -187,7 +185,7 @@
             }
 
             .div-2 {
-               
+
                 grid-area: item-2;
                 @include divs-tienda-container9;
 
