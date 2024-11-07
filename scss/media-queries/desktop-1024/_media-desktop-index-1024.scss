@@ -44,6 +44,7 @@
 
                 img {
                     max-width: 100%;
+                    mask-image: linear-gradient(black 80%, transparent);
                     height: auto;
                     display: block;
                     border-radius: 5px;

@@ -6,6 +6,7 @@
 
     .desktop {
         background-image: radial-gradient(circle, orange, rgb(219, 101, 120));
+      
         display: flex;
         align-items: center;
         justify-content: space-around;
@@ -36,16 +37,16 @@
                     margin-inline: 20px;
 
                     &:hover {
-                        border: 2px solid #323232;
                         border-radius: 25px;
                         background-color: aliceblue;
-                        transition: 2s;
+                        transition: 1s;
                     }
 
                     .links-menu {
                         text-decoration: none;
                         color: #323232;
                         font-family: Arial, Helvetica, sans-serif;
+                        cursor: pointer;
                     }
                 }
             }

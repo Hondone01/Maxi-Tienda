@@ -14,7 +14,6 @@
             max-width: 1439px;
             background-color: $color-fondo;
             padding-left: 10px;
-          /*  padding-bottom: 20px;*/
             display: grid;
             grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
             grid-template-rows: repeat(3, auto);
@@ -46,6 +45,8 @@
             }
 
             .div-2 {
+                padding-top: 30px;
+                padding-left: 100px;
                 grid-area: item-2;
                 border-radius: 5px;
                 display: flex;
@@ -99,15 +100,14 @@
             }
 
             .div-3 {
-                max-width: 100%;
                 grid-area: item-3;
-                border-radius: 5px;
                 display: flex;
                 justify-content: center;
-                max-width: 100%;
+                
 
                 video{
-                    width: 450px;
+                    padding-right: 100px;
+                    width: 650px;
                     height: auto;
                 }
             }
