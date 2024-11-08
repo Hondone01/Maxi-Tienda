@@ -33,6 +33,7 @@
                     max-width: 100%;
 
                     h2 {
+                        padding-top: 25px;
                         font-size: 3rem;
                         line-height: 1.2;
                         max-width: 100%;
@@ -96,7 +97,7 @@
 
                     .foto button {
                         margin-top: 20px;
-                        @include foto-button;
+                        @include button;
                     }
 
                     form {
@@ -137,7 +138,7 @@
                     max-width: 100%;
 
                     .botones button {
-                        @include foto-button;
+                        @include button;
                     }
 
                     .botones {
@@ -153,7 +154,7 @@
 
                         button {
                             margin-top: 20px;
-                            @include foto-button;
+                            @include button;
                         }
                     }
 
@@ -188,6 +189,7 @@
                     max-width: 100%;
 
                     h2 {
+                        padding-top: 10px;
                         display: flex;
                         justify-content: center;
                         margin-bottom: 15px;

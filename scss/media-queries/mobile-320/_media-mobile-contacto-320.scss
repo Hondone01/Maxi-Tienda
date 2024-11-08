@@ -11,6 +11,8 @@
         main {
             
             .grid-container11 {
+                width: 100%;
+                max-width: 374px;
                 display: grid;
                 display: flex;
                 flex-direction: column;
@@ -21,14 +23,12 @@
                     "item-2 item-3"
                     "item-2 item-3"
                 ;
-                /*gap: 20px;*/
                 justify-content: center;
-                max-width: 100%;
+                
                 
                 .div-1 {
                     background-color: rgb(241, 221, 214);
                     grid-area: item-1;
-                    border-radius: 5px;
                     display: flex;
                     justify-content: center;
                     max-width: 100%;
@@ -73,10 +73,12 @@
                         }
                     }
                     
-                    .margen{
-                        .mail-margen{
-                            margin-left: 10px;
-                        }
+                    input{
+                        margin-left: 10px;
+                    }
+                    
+                    textarea{
+                        margin-left: 10px;
                     }
                     
                 }
