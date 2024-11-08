@@ -594,6 +594,7 @@ body {
     justify-content: center;
   }
   body main .grid-container8 .div-1 h2 {
+    padding-top: 20px;
     display: flex;
     justify-content: center;
     font-size: 3rem;
@@ -637,7 +638,7 @@ body {
   }
   body main .grid-container8 .div-3 img {
     margin-top: 20px;
-    width: 250px;
+    width: 200px;
     height: 130px;
     grid-area: item-3;
     border-radius: 5px;
@@ -688,13 +689,15 @@ body {
   }
   body main .grid-container8 .div-5 button {
     margin-top: 25px;
+    margin-top: 25px;
     padding: 5px;
     color: black;
     font-size: 1rem;
-    background-color: #DDD0C8;
-    border: 1.5px solid black;
+    background-image: radial-gradient(circle, rgb(247, 183, 213), rgb(219, 101, 120));
+    border: 1px solid black;
     border-radius: 25px;
     text-transform: capitalize;
+    margin-bottom: 15px;
   }
   body main .grid-container8 .div-6 {
     display: none;
@@ -733,6 +736,7 @@ body {
   }
   body main .grid-container9 .div-1 h2 {
     padding-top: 25px;
+    padding-bottom: 15px;
     display: flex;
     justify-items: center;
     font-size: 1.5rem;
@@ -742,6 +746,7 @@ body {
     color: black;
   }
   body main .grid-container9 .div-2 {
+    padding-bottom: 25px;
     background-color: rgb(241, 221, 214);
     grid-area: item-2;
     border-radius: 5px;
@@ -762,6 +767,7 @@ body {
     border-radius: 5px;
   }
   body main .grid-container9 .div-3 {
+    padding-bottom: 25px;
     background-color: rgb(241, 221, 214);
     grid-area: item-3;
     border-radius: 5px;
@@ -782,6 +788,7 @@ body {
     padding-bottom: 10px;
   }
   body main .grid-container9 .div-4 {
+    padding-bottom: 25px;
     background-color: rgb(241, 221, 214);
     grid-area: item-4;
     border-radius: 5px;
@@ -1878,6 +1885,7 @@ body {
     justify-content: center;
   }
   body main .grid-container8 .div-1 h2 {
+    padding-top: 20px;
     display: flex;
     justify-content: center;
     font-size: 3rem;
@@ -1921,7 +1929,7 @@ body {
   }
   body main .grid-container8 .div-3 img {
     margin-top: 20px;
-    width: 250px;
+    width: 200px;
     height: 130px;
     grid-area: item-3;
     border-radius: 5px;
@@ -1973,13 +1981,15 @@ body {
   }
   body main .grid-container8 .div-5 button {
     margin-top: 25px;
+    margin-top: 25px;
     padding: 5px;
     color: black;
     font-size: 1rem;
-    background-color: #DDD0C8;
-    border: 1.5px solid black;
+    background-image: radial-gradient(circle, rgb(247, 183, 213), rgb(219, 101, 120));
+    border: 1px solid black;
     border-radius: 25px;
     text-transform: capitalize;
+    margin-bottom: 15px;
   }
   body main .grid-container8 .div-6 {
     display: none;
@@ -2018,6 +2028,7 @@ body {
   }
   body main .grid-container9 .div-1 h2 {
     padding-top: 25px;
+    padding-bottom: 15px;
     display: flex;
     justify-items: center;
     font-size: 1.5rem;
@@ -2027,6 +2038,7 @@ body {
     color: black;
   }
   body main .grid-container9 .div-2 {
+    padding-bottom: 25px;
     background-color: rgb(241, 221, 214);
     grid-area: item-2;
     border-radius: 5px;
@@ -2047,6 +2059,7 @@ body {
     border-radius: 5px;
   }
   body main .grid-container9 .div-3 {
+    padding-bottom: 25px;
     background-color: rgb(241, 221, 214);
     grid-area: item-3;
     border-radius: 5px;
@@ -3184,6 +3197,7 @@ body {
     justify-content: center;
   }
   body main .grid-container8 .div-1 h2 {
+    padding-top: 20px;
     display: flex;
     justify-content: center;
     font-size: 3rem;
@@ -3227,7 +3241,7 @@ body {
   }
   body main .grid-container8 .div-3 img {
     margin-top: 20px;
-    width: 250px;
+    width: 200px;
     height: 130px;
     grid-area: item-3;
     border-radius: 5px;
@@ -3279,13 +3293,15 @@ body {
   }
   body main .grid-container8 .div-5 button {
     margin-top: 25px;
+    margin-top: 25px;
     padding: 5px;
     color: black;
     font-size: 1rem;
-    background-color: #DDD0C8;
-    border: 1.5px solid black;
+    background-image: radial-gradient(circle, rgb(247, 183, 213), rgb(219, 101, 120));
+    border: 1px solid black;
     border-radius: 25px;
     text-transform: capitalize;
+    margin-bottom: 15px;
   }
   body main .grid-container8 .div-6 {
     display: none;
@@ -3324,6 +3340,7 @@ body {
   }
   body main .grid-container9 .div-1 h2 {
     padding-top: 25px;
+    padding-bottom: 15px;
     display: flex;
     justify-items: center;
     font-size: 1.5rem;
@@ -3333,6 +3350,7 @@ body {
     color: black;
   }
   body main .grid-container9 .div-2 {
+    padding-bottom: 25px;
     background-color: rgb(241, 221, 214);
     grid-area: item-2;
     border-radius: 5px;
@@ -3353,6 +3371,7 @@ body {
     border-radius: 5px;
   }
   body main .grid-container9 .div-3 {
+    padding-bottom: 25px;
     background-color: rgb(241, 221, 214);
     grid-area: item-3;
     border-radius: 5px;
