@@ -425,6 +425,7 @@ body {
   body main .grid-container5 .div-1 {
     padding-top: 50px;
     margin-top: 15px;
+    padding-bottom: 30px;
     grid-area: item-1;
     background-color: rgb(241, 221, 214);
     display: flex;
@@ -1703,6 +1704,7 @@ body {
   body main .grid-container5 .div-1 {
     padding-top: 50px;
     margin-top: 15px;
+    padding-bottom: 30px;
     grid-area: item-1;
     background-color: rgb(241, 221, 214);
     border-radius: 5px;
@@ -3000,6 +3002,7 @@ body {
   body main .grid-container5 .div-1 {
     padding-top: 50px;
     margin-top: 15px;
+    padding-bottom: 30px;
     grid-area: item-1;
     background-color: rgb(241, 221, 214);
     display: flex;
