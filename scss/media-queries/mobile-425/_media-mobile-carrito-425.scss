@@ -92,6 +92,22 @@
                     align-items: center;
                     justify-content: center;
 
+                    .data {
+                        .total {
+                            display: flex;
+                            justify-content: center;
+
+                            label {
+                                color: black;
+                                font-size: 1.4rem;
+                                font-weight: bolder;
+                                padding-left: 10px;
+                                padding-bottom: 10px;
+                            }
+
+                        }
+                    }
+
                     label {
                         display: flex;
                         flex-direction: column;
@@ -100,7 +116,7 @@
 
                     button {
                         margin-top: 20px;
-                        @include foto-button;
+                        @include button;
                     }
 
                 }

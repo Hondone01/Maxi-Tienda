@@ -1221,6 +1221,17 @@ body {
     align-items: center;
     justify-content: center;
   }
+  body main .grid-container7 .div-4 .data .total {
+    display: flex;
+    justify-content: center;
+  }
+  body main .grid-container7 .div-4 .data .total label {
+    color: black;
+    font-size: 1.4rem;
+    font-weight: bolder;
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
   body main .grid-container7 .div-4 label {
     display: flex;
     flex-direction: column;
@@ -1231,16 +1242,14 @@ body {
   }
   body main .grid-container7 .div-4 button {
     margin-top: 20px;
-    padding: 4px;
+    margin-top: 25px;
+    padding: 5px;
     color: black;
     font-size: 1rem;
-    background-color: #DDD0C8;
+    background-image: radial-gradient(circle, rgb(247, 183, 213), rgb(219, 101, 120));
     border: 1px solid black;
-    border-radius: 5px;
+    border-radius: 25px;
     text-transform: capitalize;
-    display: flex;
-    flex-direction: row;
-    max-width: 100%;
   }
   body main .grid-container7 .div-5 {
     grid-area: item-5;
@@ -2504,6 +2513,17 @@ body {
     align-items: center;
     justify-content: center;
   }
+  body main .grid-container7 .div-4 .data .total {
+    display: flex;
+    justify-content: center;
+  }
+  body main .grid-container7 .div-4 .data .total label {
+    color: black;
+    font-size: 1.4rem;
+    font-weight: bolder;
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
   body main .grid-container7 .div-4 label {
     display: flex;
     flex-direction: column;
@@ -2514,16 +2534,14 @@ body {
   }
   body main .grid-container7 .div-4 button {
     margin-top: 20px;
-    padding: 4px;
+    margin-top: 25px;
+    padding: 5px;
     color: black;
     font-size: 1rem;
-    background-color: #DDD0C8;
+    background-image: radial-gradient(circle, rgb(247, 183, 213), rgb(219, 101, 120));
     border: 1px solid black;
-    border-radius: 5px;
+    border-radius: 25px;
     text-transform: capitalize;
-    display: flex;
-    flex-direction: row;
-    max-width: 100%;
   }
   body main .grid-container7 .div-5 {
     grid-area: item-5;
@@ -3810,6 +3828,17 @@ body {
     align-items: center;
     justify-content: center;
   }
+  body main .grid-container7 .div-4 .data .total {
+    display: flex;
+    justify-content: center;
+  }
+  body main .grid-container7 .div-4 .data .total label {
+    color: black;
+    font-size: 1.4rem;
+    font-weight: bolder;
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
   body main .grid-container7 .div-4 label {
     display: flex;
     flex-direction: column;
@@ -3820,16 +3849,14 @@ body {
   }
   body main .grid-container7 .div-4 button {
     margin-top: 20px;
-    padding: 4px;
+    margin-top: 25px;
+    padding: 5px;
     color: black;
     font-size: 1rem;
-    background-color: #DDD0C8;
+    background-image: radial-gradient(circle, rgb(247, 183, 213), rgb(219, 101, 120));
     border: 1px solid black;
-    border-radius: 5px;
+    border-radius: 25px;
     text-transform: capitalize;
-    display: flex;
-    flex-direction: row;
-    max-width: 100%;
   }
   body main .grid-container7 .div-5 {
     grid-area: item-5;
