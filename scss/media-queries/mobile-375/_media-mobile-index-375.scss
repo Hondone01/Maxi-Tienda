@@ -47,12 +47,7 @@
                     button {
                         margin-top: 10px;
                         padding: 2px;
-                        color: black;
-                        font-size: .8rem;
-                        background-color: #DDD0C8;
-                        border: 1px solid black;
-                        border-radius: 5px;
-                        text-transform: capitalize;
+                        @include button;
                     }
                 }
 
@@ -62,14 +57,13 @@
 
                 .div-4 {
                     margin-top: 15px;
-                    margin-bottom: 15px;
+                    margin-bottom: 5px;
                     grid-area: item-4;
                     border-radius: 5px;
                     align-content: center;
 
                     h2 {
-                        margin-top: 15px;
-                        margin-bottom: 15px;
+                        padding-top: 30px;
                         text-align: center;
                         font-size: 2rem;
                         line-height: 1.2;
@@ -105,7 +99,7 @@
                     align-items: center;
 
                     h2 {
-                        margin-top: 15px;
+                        padding-top: 60px;
                         margin-bottom: 15px;
                         text-align: center;
                         font-size: 2rem;
@@ -181,6 +175,7 @@
                         display: flex;
                         flex-direction: column;
                         align-items: center;
+
                         img {
                             width: 145px;
                             height: 97px;
@@ -227,7 +222,7 @@
                 align-items: center;
 
                 .div-1 {
-                    padding-top: 25px;
+                    padding-top: 65px;
                     margin-top: 15px;
                     margin-bottom: 15px;
                     grid-area: item-1;
@@ -238,7 +233,6 @@
 
                     h2 {
                         margin-top: 15px;
-                        margin-bottom: 15px;
                         text-align: center;
                         font-size: 2rem;
                         line-height: 1.2;
@@ -263,7 +257,7 @@
                         " item-5 item-5 item-6 item-6 "
                     ;
                     column-gap: 15px;
-                    
+
                     .div-2 {
                         margin-bottom: 25px;
                         width: 170px;
@@ -384,7 +378,7 @@
                 align-items: center;
 
                 .div-1 {
-                    margin-top: 15px;
+                    padding-top: 85px;
                     margin-bottom: 15px;
                     grid-area: item-1;
                     border-radius: 5px;
@@ -477,9 +471,10 @@
                     ". item-2 item-2 ."
                     "item-3 item-3 item-3 item-3"
                 ;
-                
+
 
                 .div-1 {
+                    padding-top: 50px;
                     margin-top: 15px;
                     grid-area: item-1;
                     background-color: rgb(241, 221, 214);
