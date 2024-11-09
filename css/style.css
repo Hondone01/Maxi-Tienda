@@ -112,7 +112,7 @@ body {
     color: black;
   }
   body main .grid-container2 .caja-galeria {
-    width: 90%;
+    width: 100%;
     max-width: 374px;
     display: grid;
     align-items: center;
@@ -123,8 +123,8 @@ body {
     column-gap: 17px;
   }
   body main .grid-container2 .caja-galeria .div-2 {
-    width: 135px;
-    height: 100px;
+    width: 150px;
+    height: auto;
     grid-area: item-2;
     display: flex;
     flex-direction: column;
@@ -132,7 +132,7 @@ body {
   }
   body main .grid-container2 .caja-galeria .div-2 img {
     max-width: 100%;
-    height: 100px;
+    height: 95px;
     display: block;
     border-radius: 5px;
   }
@@ -141,8 +141,8 @@ body {
     color: black;
   }
   body main .grid-container2 .caja-galeria .div-3 {
-    width: 135px;
-    height: 100px;
+    width: 150px;
+    height: auto;
     grid-area: item-3;
     display: flex;
     flex-direction: column;
@@ -150,7 +150,7 @@ body {
   }
   body main .grid-container2 .caja-galeria .div-3 img {
     max-width: 100%;
-    height: 100px;
+    height: 95px;
     display: block;
     border-radius: 5px;
   }
@@ -160,16 +160,16 @@ body {
   }
   body main .grid-container2 .caja-galeria .div-4 {
     padding-top: 20px;
-    width: 135px;
-    height: 100px;
+    width: 150px;
+    height: auto;
     grid-area: item-4;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
   body main .grid-container2 .caja-galeria .div-4 img {
-    max-width: 100%;
-    height: 90px;
+    width: 140px;
+    height: 95px;
     display: block;
     border-radius: 5px;
   }
@@ -179,8 +179,8 @@ body {
   }
   body main .grid-container2 .caja-galeria .div-5 {
     padding-top: 20px;
-    width: 135px;
-    height: 100px;
+    width: 150px;
+    height: auto;
     grid-area: item-5;
     display: flex;
     flex-direction: column;
@@ -188,7 +188,7 @@ body {
   }
   body main .grid-container2 .caja-galeria .div-5 img {
     max-width: 100%;
-    height: 100px;
+    height: 95px;
     display: block;
     border-radius: 5px;
   }
@@ -2719,7 +2719,7 @@ body {
   }
   body main .grid-container2 .caja-galeria .div-2 {
     width: 200px;
-    height: 110px;
+    height: auto;
     grid-area: item-2;
     display: flex;
     flex-direction: column;
@@ -2727,7 +2727,7 @@ body {
   }
   body main .grid-container2 .caja-galeria .div-2 img {
     max-width: 100%;
-    height: 110px;
+    height: 95px;
     display: block;
     border-radius: 5px;
   }
@@ -2737,16 +2737,15 @@ body {
   }
   body main .grid-container2 .caja-galeria .div-3 {
     width: 200px;
-    height: 110px;
+    height: auto;
     grid-area: item-3;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-items: center;
   }
   body main .grid-container2 .caja-galeria .div-3 img {
     max-width: 100%;
-    height: 110px;
+    height: 95px;
     display: block;
     border-radius: 5px;
   }
@@ -2757,16 +2756,15 @@ body {
   body main .grid-container2 .caja-galeria .div-4 {
     padding-top: 20px;
     width: 200px;
-    height: 110px;
+    height: auto;
     grid-area: item-4;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-items: center;
   }
   body main .grid-container2 .caja-galeria .div-4 img {
-    max-width: 100%;
-    height: 110px;
+    width: 142px;
+    height: 95px;
     display: block;
     border-radius: 5px;
   }
@@ -2777,16 +2775,15 @@ body {
   body main .grid-container2 .caja-galeria .div-5 {
     padding-top: 20px;
     width: 200px;
-    height: 110px;
+    height: auto;
     grid-area: item-5;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-items: center;
   }
   body main .grid-container2 .caja-galeria .div-5 img {
     max-width: 100%;
-    height: 110px;
+    height: 95px;
     display: block;
     border-radius: 5px;
   }
