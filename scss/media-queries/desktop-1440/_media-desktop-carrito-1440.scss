@@ -15,21 +15,23 @@
             max-width: 1919px;
             background-color: $color-fondo;
             display: grid;
+            justify-content: center;
             grid-template-columns: 1fr 1fr 1fr;
             grid-template-rows: repeat(3, auto);
             grid-template-areas:
-                ". item-1 ."
-                "item-2 item-3 item-4"
-                "item-5 item-6 item-7"
+                " . item-1 ."
+                " item-2 item-3 item-4 "
+                " item-5 item-6 item-7 "
             ;
 
             .div-1 {
+                padding-top: 35px;
                 width: 100%;
                 max-width: 1919px;
                 grid-area: item-1;
                 display: flex;
                 justify-content: center;
-                
+
                 h2 {
                     justify-content: center;
                     font-size: 3rem;
@@ -52,14 +54,16 @@
                 justify-items: center;
 
                 label {
+                    padding-bottom: 15px;
                     display: flex;
                     flex-direction: column;
                     color: #323232;
-                    font-size: 1rem;
+                    font-size: 2rem;
+                    font-weight: bolder;
                 }
 
                 img {
-                    max-width: 100%;
+                    width: 150px;
                     height: auto;
                     display: block;
                     border-radius: 5px;
@@ -67,6 +71,7 @@
             }
 
             .div-3 {
+                margin-left: -80px;
                 margin-top: 100px;
                 width: 100%;
                 max-width: 1919px;
@@ -77,17 +82,17 @@
                 align-items: center;
                 justify-content: center;
 
-                div {
-                    label {
-                        color: #323232;
-                        font-size: 1rem;
-                        display: flex;
-                        flex-direction: column;
-                    }
+                label {
+                    display: flex;
+                    flex-direction: column;
+                    color: #323232;
+                    font-size: 1.2rem;
+                    font-weight: bolder;
                 }
             }
 
             .div-4 {
+                margin-left: -30px;
                 margin-top: 100px;
                 width: 100%;
                 max-width: 1919px;
@@ -95,35 +100,40 @@
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-                justify-items: center;
+
+                .subtotal {
+                    label {
+                        padding-bottom: 15px;
+                        color: #323232;
+                        font-size: 2rem;
+                        font-weight: bolder;
+                    }
+                }
+
+                label {
+                    display: flex;
+                    flex-direction: column;
+                    color: #323232;
+                    font-size: 1.2rem;
+                    font-weight: bolder;
+                }
 
                 .data {
                     display: flex;
                     flex-direction: column;
+                }
 
-                    label {
-                        display: flex;
-                        flex-direction: column;
-                        color: #323232;
-                        font-size: 1rem;
+                .b-margen {
+                    padding-top: 20px;
+
+                    .btn-ir-a-envios {
+                        @include button;
+                    }
+
+                    button:hover {
+                        background-image: radial-gradient(circle, rgb(190, 125, 156), rgb(212, 75, 98));
                     }
                 }
-
-                button {
-                    padding: 5px;
-                    color: black;
-                    font-size: 1rem;
-                    background-color: #DDD0C8;
-                    border: 1.5px solid black;
-                    border-radius: 25px;
-                    text-transform: capitalize;
-                }
-
-                button:hover {
-                    background-color: aliceblue;
-                    transition: 1s;
-                }
-
             }
 
             .div-5 {
@@ -135,7 +145,7 @@
                 justify-content: center;
 
                 img {
-                    max-width: 100%;
+                    width: 150px;
                     height: auto;
                     display: block;
                     border-radius: 5px;
@@ -143,6 +153,8 @@
             }
 
             .div-6 {
+                margin-left: -80px;
+                padding-top: 30px;
                 margin-top: 100px;
                 width: 100%;
                 max-width: 1919px;
@@ -157,12 +169,13 @@
                     display: flex;
                     flex-direction: column;
                     color: #323232;
-                    font-size: 1rem;
+                    font-size: 1.2rem;
+                    font-weight: bolder;
                 }
-
             }
 
             .div-7 {
+                margin-left: -30px;
                 margin-top: 100px;
                 width: 100%;
                 max-width: 1919px;
@@ -173,8 +186,12 @@
                 justify-items: center;
 
                 label {
+                    padding-bottom: 15px;
+                    display: flex;
+                    flex-direction: column;
                     color: #323232;
-                    font-size: 1rem;
+                    font-size: 1.2rem;
+                    font-weight: bolder;
                 }
 
                 img {
