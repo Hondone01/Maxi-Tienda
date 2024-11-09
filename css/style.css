@@ -5374,6 +5374,7 @@ body {
     max-width: 1439px;
     background-color: rgb(241, 221, 214);
     display: grid;
+    justify-content: center;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: repeat(3, auto);
     grid-template-areas: " . item-1 ." " item-2 item-3 item-4 " " item-5 item-6 item-7 ";
@@ -5395,7 +5396,7 @@ body {
     color: black;
   }
   body .grid-container7 .div-2 {
-    margin-left: 120px;
+    margin-left: 60px;
     margin-top: 100px;
     width: 100%;
     max-width: 1439px;
@@ -5420,6 +5421,7 @@ body {
     border-radius: 5px;
   }
   body .grid-container7 .div-3 {
+    margin-left: -80px;
     margin-top: 100px;
     width: 100%;
     max-width: 1439px;
@@ -5438,6 +5440,7 @@ body {
     font-weight: bolder;
   }
   body .grid-container7 .div-4 {
+    margin-left: -30px;
     margin-top: 100px;
     width: 100%;
     max-width: 1439px;
@@ -5445,7 +5448,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-items: center;
   }
   body .grid-container7 .div-4 .subtotal label {
     padding-bottom: 15px;
@@ -5481,7 +5483,7 @@ body {
     background-image: radial-gradient(circle, rgb(190, 125, 156), rgb(212, 75, 98));
   }
   body .grid-container7 .div-5 {
-    margin-left: 120px;
+    margin-left: 60px;
     margin-top: 100px;
     width: 100%;
     max-width: 1439px;
@@ -5495,6 +5497,7 @@ body {
     border-radius: 5px;
   }
   body .grid-container7 .div-6 {
+    margin-left: -80px;
     padding-top: 30px;
     margin-top: 100px;
     width: 100%;
@@ -5514,6 +5517,7 @@ body {
     font-weight: bolder;
   }
   body .grid-container7 .div-7 {
+    margin-left: -30px;
     margin-top: 100px;
     width: 100%;
     max-width: 1439px;
@@ -8563,7 +8567,7 @@ body {
     display: none;
   }
 }
-@media (min-width: 1920px) and (max-width: 2559px) {
+@media (min-width: 1920px) {
   body nav.navbar {
     display: none;
   }
@@ -8611,18 +8615,19 @@ body {
     border: none;
   }
   body .grid-container7 {
-    padding-bottom: 158px;
+    padding-bottom: 128px;
     padding-left: 10px;
     width: 100%;
     max-width: 2559px;
     background-color: rgb(241, 221, 214);
     display: grid;
+    justify-content: center;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: repeat(3, auto);
-    grid-template-areas: ". item-1 ." "item-2 item-3 item-4" "item-5 item-6 item-7";
+    grid-template-areas: " . item-1 ." " item-2 item-3 item-4 " " item-5 item-6 item-7 ";
   }
   body .grid-container7 .div-1 {
-    padding-top: 90px;
+    padding-top: 35px;
     width: 100%;
     max-width: 2559px;
     grid-area: item-1;
@@ -8639,8 +8644,7 @@ body {
   }
   body .grid-container7 .div-2 {
     margin-left: 120px;
-    padding-bottom: 45px;
-    margin-top: 150px;
+    margin-top: 100px;
     width: 100%;
     max-width: 2559px;
     grid-area: item-2;
@@ -8650,20 +8654,22 @@ body {
     justify-items: center;
   }
   body .grid-container7 .div-2 label {
+    padding-bottom: 15px;
     display: flex;
     flex-direction: column;
     color: #323232;
-    font-size: 1rem;
+    font-size: 2rem;
+    font-weight: bolder;
   }
   body .grid-container7 .div-2 img {
-    max-width: 100%;
+    width: 150px;
     height: auto;
     display: block;
     border-radius: 5px;
   }
   body .grid-container7 .div-3 {
-    padding-bottom: 45px;
-    margin-top: 150px;
+    margin-left: -80px;
+    margin-top: 100px;
     width: 100%;
     max-width: 2559px;
     grid-area: item-3;
@@ -8673,64 +8679,74 @@ body {
     align-items: center;
     justify-content: center;
   }
-  body .grid-container7 .div-3 div label {
-    color: #323232;
-    font-size: 1rem;
+  body .grid-container7 .div-3 label {
     display: flex;
     flex-direction: column;
+    color: #323232;
+    font-size: 1.2rem;
+    font-weight: bolder;
   }
   body .grid-container7 .div-4 {
-    padding-bottom: 45px;
-    margin-top: 150px;
+    margin-left: -30px;
+    margin-top: 100px;
     width: 100%;
     max-width: 2559px;
     grid-area: item-4;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-items: center;
+  }
+  body .grid-container7 .div-4 .subtotal label {
+    padding-bottom: 15px;
+    color: #323232;
+    font-size: 2rem;
+    font-weight: bolder;
+  }
+  body .grid-container7 .div-4 label {
+    display: flex;
+    flex-direction: column;
+    color: #323232;
+    font-size: 1.2rem;
+    font-weight: bolder;
   }
   body .grid-container7 .div-4 .data {
     display: flex;
     flex-direction: column;
   }
-  body .grid-container7 .div-4 .data label {
-    display: flex;
-    flex-direction: column;
-    color: #323232;
-    font-size: 1rem;
+  body .grid-container7 .div-4 .b-margen {
+    padding-top: 20px;
   }
-  body .grid-container7 .div-4 button {
+  body .grid-container7 .div-4 .b-margen .btn-ir-a-envios {
+    margin-top: 25px;
     padding: 5px;
     color: black;
     font-size: 1rem;
-    background-color: #DDD0C8;
-    border: 1.5px solid black;
+    background-image: radial-gradient(circle, rgb(247, 183, 213), rgb(219, 101, 120));
+    border: 1px solid black;
     border-radius: 25px;
     text-transform: capitalize;
   }
-  body .grid-container7 .div-4 button:hover {
-    background-color: aliceblue;
-    transition: 1s;
+  body .grid-container7 .div-4 .b-margen button:hover {
+    background-image: radial-gradient(circle, rgb(190, 125, 156), rgb(212, 75, 98));
   }
   body .grid-container7 .div-5 {
     margin-left: 120px;
-    padding-bottom: 35px;
-    margin-top: 150px;
+    margin-top: 100px;
     width: 100%;
     max-width: 2559px;
     grid-area: item-5;
     justify-content: center;
   }
   body .grid-container7 .div-5 img {
-    max-width: 100%;
+    width: 150px;
     height: auto;
     display: block;
     border-radius: 5px;
   }
   body .grid-container7 .div-6 {
-    padding-bottom: 35px;
-    margin-top: 150px;
+    margin-left: -80px;
+    padding-top: 30px;
+    margin-top: 100px;
     width: 100%;
     max-width: 2559px;
     grid-area: item-6;
@@ -8744,11 +8760,12 @@ body {
     display: flex;
     flex-direction: column;
     color: #323232;
-    font-size: 1rem;
+    font-size: 1.2rem;
+    font-weight: bolder;
   }
   body .grid-container7 .div-7 {
-    padding-bottom: 35px;
-    margin-top: 150px;
+    margin-left: -30px;
+    margin-top: 100px;
     width: 100%;
     max-width: 2559px;
     grid-area: item-7;
@@ -8758,8 +8775,12 @@ body {
     justify-items: center;
   }
   body .grid-container7 .div-7 label {
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: column;
     color: #323232;
-    font-size: 1rem;
+    font-size: 1.2rem;
+    font-weight: bolder;
   }
   body .grid-container7 .div-7 img {
     width: 120px;
