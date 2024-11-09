@@ -1422,7 +1422,7 @@ body {
     grid-template-areas: " item-1 item-1" " item-2 item-3" " item-4 item-5";
   }
   body main .grid-container2 .caja-galeria .div-2 {
-    width: 145px;
+    width: 150px;
     height: 100px;
     grid-area: item-2;
     display: flex;
@@ -3989,7 +3989,6 @@ body {
   body .grid-container1 .div-2 {
     padding-top: 25px;
     grid-area: item-2;
-    border-radius: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -4017,7 +4016,6 @@ body {
   body .grid-container1 .div-3 {
     margin-top: 140px;
     grid-area: item-3;
-    border-radius: 5px;
     align-content: center;
   }
   body .grid-container1 .div-3 video {
@@ -4056,7 +4054,6 @@ body {
   body .grid-container2 .div-1 {
     padding-top: 85px;
     grid-area: item-1;
-    border-radius: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -4076,7 +4073,6 @@ body {
   }
   body .grid-container2 .caja-galeria .div-2 {
     grid-area: item-2;
-    border-radius: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -4127,7 +4123,6 @@ body {
   }
   body .grid-container2 .caja-galeria .div-5 {
     grid-area: item-5;
-    border-radius: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -4158,7 +4153,6 @@ body {
   body .grid-container3 .div-1 {
     padding-top: 85px;
     grid-area: item-1;
-    border-radius: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -4411,7 +4405,6 @@ body {
   body .grid-container6 .div-1 {
     padding-top: 85px;
     grid-area: item-1;
-    border-radius: 5px;
     display: flex;
     justify-content: center;
   }
@@ -5652,6 +5645,7 @@ body {
     height: auto;
   }
   body .grid-container1 .div-2 {
+    padding-top: 25px;
     grid-area: item-2;
     display: flex;
     flex-direction: column;
@@ -5659,6 +5653,7 @@ body {
   }
   body .grid-container1 .div-2 img {
     max-width: 100%;
+    mask-image: linear-gradient(black 80%, transparent);
     height: auto;
     display: block;
     border-radius: 5px;
@@ -5674,8 +5669,7 @@ body {
     text-transform: capitalize;
   }
   body .grid-container1 .div-2 button:hover {
-    background-color: aliceblue;
-    transition: 1s;
+    background-image: radial-gradient(circle, rgb(190, 125, 156), rgb(212, 75, 98));
   }
   body .grid-container1 .div-3 {
     margin-top: 140px;
@@ -5688,9 +5682,11 @@ body {
     height: auto;
   }
   body .grid-container1 .div-4 {
-    grid-area: item-4;
+    padding-top: 35px;
     display: flex;
     justify-content: center;
+    grid-area: item-4;
+    border-radius: 5px;
   }
   body .grid-container1 .div-4 h2 {
     font-size: 3rem;
@@ -5714,6 +5710,7 @@ body {
     justify-content: center;
   }
   body .grid-container2 .div-1 {
+    padding-top: 85px;
     grid-area: item-1;
     display: flex;
     flex-direction: column;
@@ -5810,6 +5807,7 @@ body {
     justify-content: center;
   }
   body .grid-container3 .div-1 {
+    padding-top: 85px;
     grid-area: item-1;
     display: flex;
     flex-direction: column;
@@ -5922,6 +5920,7 @@ body {
     grid-template-areas: ". item-1 ." "item-2 item-3 item-4";
   }
   body .grid-container4 .div-1 {
+    padding-top: 85px;
     grid-area: item-1;
     display: flex;
     justify-content: center;
@@ -5995,6 +5994,7 @@ body {
     justify-content: center;
   }
   body .grid-container5 .div-1 {
+    padding-top: 85px;
     grid-area: item-1;
     display: flex;
     flex-direction: column;
@@ -6054,6 +6054,7 @@ body {
     justify-content: center;
   }
   body .grid-container6 .div-1 {
+    padding-top: 85px;
     grid-area: item-1;
     display: flex;
     justify-content: center;
@@ -6083,6 +6084,7 @@ body {
     color: #323232;
   }
   body .grid-container6 .caja-calificacion {
+    padding-bottom: 35px;
     padding-left: 5px;
     display: flex;
     justify-content: center;
@@ -7234,14 +7236,15 @@ body {
     height: auto;
   }
   body .grid-container1 .div-2 {
+    padding-top: 25px;
     grid-area: item-2;
-    border-radius: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
   body .grid-container1 .div-2 img {
-    width: 650px;
+    max-width: 100%;
+    mask-image: linear-gradient(black 80%, transparent);
     height: auto;
     display: block;
     border-radius: 5px;
@@ -7257,13 +7260,11 @@ body {
     text-transform: capitalize;
   }
   body .grid-container1 .div-2 button:hover {
-    background-color: aliceblue;
-    transition: 1s;
+    background-image: radial-gradient(circle, rgb(190, 125, 156), rgb(212, 75, 98));
   }
   body .grid-container1 .div-3 {
     margin-top: 140px;
     grid-area: item-3;
-    border-radius: 5px;
     align-content: center;
   }
   body .grid-container1 .div-3 video {
@@ -7272,9 +7273,11 @@ body {
     height: auto;
   }
   body .grid-container1 .div-4 {
-    grid-area: item-4;
+    padding-top: 35px;
     display: flex;
     justify-content: center;
+    grid-area: item-4;
+    border-radius: 5px;
   }
   body .grid-container1 .div-4 h2 {
     font-size: 3rem;
@@ -7298,8 +7301,8 @@ body {
     justify-content: center;
   }
   body .grid-container2 .div-1 {
+    padding-top: 85px;
     grid-area: item-1;
-    border-radius: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -7319,7 +7322,6 @@ body {
   }
   body .grid-container2 .caja-galeria .div-2 {
     grid-area: item-2;
-    border-radius: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -7370,7 +7372,6 @@ body {
   }
   body .grid-container2 .caja-galeria .div-5 {
     grid-area: item-5;
-    border-radius: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -7399,8 +7400,8 @@ body {
     justify-content: center;
   }
   body .grid-container3 .div-1 {
+    padding-top: 85px;
     grid-area: item-1;
-    border-radius: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -7515,6 +7516,7 @@ body {
     grid-template-areas: ". item-1 ." "item-2 item-3 item-4";
   }
   body .grid-container4 .div-1 {
+    padding-top: 85px;
     grid-area: item-1;
     display: flex;
     justify-content: center;
@@ -7588,6 +7590,7 @@ body {
     justify-content: center;
   }
   body .grid-container5 .div-1 {
+    padding-top: 85px;
     grid-area: item-1;
     border-radius: 5px;
     display: flex;
@@ -7648,8 +7651,8 @@ body {
     justify-content: center;
   }
   body .grid-container6 .div-1 {
+    padding-top: 85px;
     grid-area: item-1;
-    border-radius: 5px;
     display: flex;
     justify-content: center;
   }
@@ -7679,6 +7682,7 @@ body {
     color: #323232;
   }
   body .grid-container6 .caja-calificacion {
+    padding-bottom: 35px;
     padding-left: 5px;
     display: flex;
     justify-content: center;
