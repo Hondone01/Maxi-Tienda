@@ -4633,7 +4633,7 @@ body {
     display: block;
   }
   body .grid-container8 .div-3 {
-    width: 45%;
+    width: 100%;
     max-width: 1439px;
     padding-top: 25px;
     grid-area: item-3;
@@ -4642,6 +4642,8 @@ body {
     justify-content: space-around;
   }
   body .grid-container8 .div-3 img {
+    width: 280px;
+    height: 250px;
     border-radius: 5px;
     align-items: center;
     display: flex;
@@ -6241,6 +6243,8 @@ body {
     grid-template-areas: ". . item-1 item-1 . ." "item-2 item-2 item-2 item-5 item-5 item-5" ". . item-3 item-3 . ." ". item-7 item-7 item-7 . .";
   }
   body .grid-container8 .div-1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
     grid-area: item-1;
     display: flex;
     justify-content: center;
@@ -6255,9 +6259,9 @@ body {
     color: black;
   }
   body .grid-container8 .div-2 {
-    width: 98%;
+    width: 60%;
     max-width: 1919px;
-    border: 1px solid black;
+    padding-bottom: 20px;
     grid-area: item-2;
     display: flex;
     flex-direction: column;
@@ -6265,8 +6269,9 @@ body {
     align-items: center;
   }
   body .grid-container8 .div-2 label {
+    padding-top: 20px;
     color: #323232;
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   body .grid-container8 .div-2 img {
     margin-top: 20px;
@@ -6277,6 +6282,8 @@ body {
     display: block;
   }
   body .grid-container8 .div-3 {
+    width: 100%;
+    max-width: 1919px;
     padding-top: 25px;
     grid-area: item-3;
     display: flex;
@@ -6284,16 +6291,19 @@ body {
     justify-content: space-around;
   }
   body .grid-container8 .div-3 img {
+    width: 280px;
+    height: 250px;
     border-radius: 5px;
     align-items: center;
-    justify-content: center;
+    display: flex;
   }
   body .grid-container8 .div-5 {
+    padding-top: 25px;
+    padding-bottom: 25px;
     margin-top: 25px;
-    width: 98%;
+    width: 60%;
     max-width: 1919px;
     grid-area: item-5;
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -6303,11 +6313,11 @@ body {
     text-align: justify;
     padding-top: 40px;
     margin: 10px;
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   body .grid-container8 .div-5 label {
     color: #323232;
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   body .grid-container8 .div-5 .horizontal {
     display: flex;
@@ -6324,23 +6334,25 @@ body {
     text-transform: capitalize;
   }
   body .grid-container8 .div-5 button:hover {
-    background-color: aliceblue;
-    transition: 1s;
+    background-image: radial-gradient(circle, rgb(190, 125, 156), rgb(212, 75, 98));
   }
   body .grid-container8 .div-7 {
-    margin-top: 10px;
+    width: 60%;
+    max-width: 1919px;
+    padding-top: 35px;
     margin-bottom: 20px;
     grid-area: item-7;
-    border-radius: 5px;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
+    justify-items: center;
   }
   body .grid-container8 .div-7 label {
-    padding-left: 120px;
+    padding-top: 15x;
     color: #323232;
-    font-size: 1rem;
+    font-size: 1.2rem;
+    font-weight: bolder;
   }
   body .grid-container9 {
     width: 100%;
@@ -6353,6 +6365,7 @@ body {
     justify-content: center;
   }
   body .grid-container9 .div-1 {
+    padding-bottom: 30px;
     background-color: rgb(241, 221, 214);
     margin-top: 20px;
     grid-area: item-1;
@@ -7836,12 +7849,15 @@ body {
     display: grid;
     display: flex;
     flex-direction: column;
+    align-items: center;
     grid-template-columns: repeat(6, 0.4fr);
     grid-template-rows: repeat(4, auto);
     grid-template-areas: ". . item-1 item-1 . ." "item-2 item-2 item-2 item-5 item-5 item-5" ". . item-3 item-3 . ." ". item-7 item-7 item-7 . .";
     justify-content: center;
   }
   body .grid-container8 .div-1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
     grid-area: item-1;
     display: flex;
     justify-content: center;
@@ -7856,10 +7872,9 @@ body {
     color: black;
   }
   body .grid-container8 .div-2 {
-    width: 99%;
+    width: 60%;
     max-width: 2559px;
-    margin-left: 10px;
-    border: 1px solid black;
+    padding-bottom: 20px;
     grid-area: item-2;
     display: flex;
     flex-direction: column;
@@ -7867,8 +7882,9 @@ body {
     align-items: center;
   }
   body .grid-container8 .div-2 label {
+    padding-top: 20px;
     color: #323232;
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   body .grid-container8 .div-2 img {
     margin-top: 20px;
@@ -7879,6 +7895,8 @@ body {
     display: block;
   }
   body .grid-container8 .div-3 {
+    width: 100%;
+    max-width: 2559px;
     padding-top: 25px;
     grid-area: item-3;
     display: flex;
@@ -7886,17 +7904,19 @@ body {
     justify-content: space-around;
   }
   body .grid-container8 .div-3 img {
+    width: 280px;
+    height: 250px;
     border-radius: 5px;
     align-items: center;
-    justify-content: center;
+    display: flex;
   }
   body .grid-container8 .div-5 {
+    padding-top: 25px;
+    padding-bottom: 25px;
     margin-top: 25px;
-    width: 99%;
+    width: 60%;
     max-width: 2559px;
-    margin-left: 10px;
     grid-area: item-5;
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -7906,11 +7926,11 @@ body {
     text-align: justify;
     padding-top: 40px;
     margin: 10px;
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   body .grid-container8 .div-5 label {
     color: #323232;
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   body .grid-container8 .div-5 .horizontal {
     display: flex;
@@ -7927,23 +7947,25 @@ body {
     text-transform: capitalize;
   }
   body .grid-container8 .div-5 button:hover {
-    background-color: aliceblue;
-    transition: 1s;
+    background-image: radial-gradient(circle, rgb(190, 125, 156), rgb(212, 75, 98));
   }
   body .grid-container8 .div-7 {
-    margin-top: 10px;
+    width: 60%;
+    max-width: 2559px;
+    padding-top: 35px;
     margin-bottom: 20px;
     grid-area: item-7;
-    border-radius: 5px;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
+    justify-items: center;
   }
   body .grid-container8 .div-7 label {
-    padding-left: 120px;
+    padding-top: 15x;
     color: #323232;
-    font-size: 1rem;
+    font-size: 1.2rem;
+    font-weight: bolder;
   }
   body .grid-container9 {
     width: 100%;
@@ -7956,6 +7978,7 @@ body {
     justify-content: center;
   }
   body .grid-container9 .div-1 {
+    padding-bottom: 30px;
     background-color: rgb(241, 221, 214);
     margin-top: 20px;
     grid-area: item-1;
@@ -8061,6 +8084,48 @@ body {
     color: #323232;
     font-size: 1rem;
     padding-bottom: 10px;
+  }
+  body .footer-1 {
+    background-color: gray;
+    border-top: 1px solid black;
+    margin-bottom: -20px;
+  }
+  body .footer-1 ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+  }
+  body .footer-1 ul div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-around;
+  }
+  body .footer-1 ul div .label-color {
+    font-weight: bolder;
+  }
+  body .footer-1 ul div .imagen-footer {
+    display: flex;
+    flex-direction: row;
+  }
+  body .footer-1 ul div .imagen-footer div label {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+  body .footer-1 ul li {
+    text-decoration: none;
+  }
+  body .footer-2 {
+    border-top: 1px solid black;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+  }
+  body .footer-2 {
+    display: none;
   }
 }
 @media (min-width: 1920px) and (max-width: 2559px) {
