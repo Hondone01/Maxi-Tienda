@@ -8217,6 +8217,7 @@ body {
   }
   body .grid-container10 .div-1 {
     padding-top: 35px;
+    padding-bottom: 5px;
     grid-area: item-1;
     border-radius: 5px;
     display: flex;
