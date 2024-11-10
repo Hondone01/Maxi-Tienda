@@ -4710,11 +4710,12 @@ body {
     color: black;
   }
   body .grid-container10 .div-2 p {
+    text-align: justify;
     margin-top: 15px;
     margin-bottom: 15px;
     font-size: 1.2rem;
     line-height: 1.2;
-    max-width: 100%;
+    width: 500px;
     overflow-wrap: break-word;
     color: black;
   }
@@ -4824,11 +4825,13 @@ body {
     max-width: 100%;
   }
   body .grid-container10 .div-4 p {
+    width: 550px;
     padding: 10px;
+    margin-bottom: 2px;
     text-align: justify;
   }
   body .grid-container10 .div-5 {
-    padding-left: 10px;
+    padding-left: 30px;
     grid-area: item-5;
     border-radius: 5px;
     display: flex;
