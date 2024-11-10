@@ -29,6 +29,7 @@
             .div-1 {
                 padding-top: 35px;
                 padding-bottom: 5px;
+                margin-bottom: 10px;
                 grid-area: item-1;
                 border-radius: 5px;
                 display: flex;
@@ -63,7 +64,8 @@
                     color: black;
                 }
 
-                p {
+                p {text-align: justify;
+                    width: 700px;
                     margin-top: 15px;
                     margin-bottom: 15px;
                     font-size: 1.2rem;
@@ -181,6 +183,7 @@
                 max-width: 100%;
 
                 p {
+                    width: 700px;
                     padding: 10px;
                     text-align: justify;
                 }
@@ -188,7 +191,7 @@
 
             .div-5 {
                 padding-top: 45px;
-                padding-left: 10px;
+                padding-left: 30px; 
                 grid-area: item-5;
                 border-radius: 5px;
                 display: flex;

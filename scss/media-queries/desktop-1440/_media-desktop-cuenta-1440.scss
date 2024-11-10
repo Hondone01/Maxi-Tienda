@@ -31,6 +31,7 @@
                 display: flex;
                 justify-content: center;
                 max-width: 100%;
+                padding-bottom: 10px;
 
                 h2 {
                     font-size: 3rem;
@@ -60,11 +61,12 @@
                 }
 
                 p {
+                    text-align: justify;
                     margin-top: 15px;
-                    margin-bottom: 15px;
-                    font-size: 1.2rem;
+                    margin-bottom: 18px;
+                    font-size: 1.2rem;  
                     line-height: 1.2;
-                    max-width: 100%;
+                    width: 600px;
                     overflow-wrap: break-word;
                     color: black;
                 }
@@ -175,14 +177,14 @@
                 justify-content: center;
                 max-width: 100%;
 
-                p {
+                p { width: 600px;
                     padding: 10px;
                     text-align: justify;
                 }
             }
 
             .div-5 {
-                padding-left: 10px;
+                padding-left: 30px;
                 grid-area: item-5;
                 border-radius: 5px;
                 display: flex;

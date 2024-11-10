@@ -6335,6 +6335,7 @@ body {
     display: flex;
     justify-content: center;
     max-width: 100%;
+    padding-bottom: 10px;
   }
   body .grid-container10 .div-1 h2 {
     font-size: 3rem;
@@ -6361,11 +6362,12 @@ body {
     color: black;
   }
   body .grid-container10 .div-2 p {
+    text-align: justify;
     margin-top: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 18px;
     font-size: 1.2rem;
     line-height: 1.2;
-    max-width: 100%;
+    width: 600px;
     overflow-wrap: break-word;
     color: black;
   }
@@ -6475,11 +6477,12 @@ body {
     max-width: 100%;
   }
   body .grid-container10 .div-4 p {
+    width: 600px;
     padding: 10px;
     text-align: justify;
   }
   body .grid-container10 .div-5 {
-    padding-left: 10px;
+    padding-left: 30px;
     grid-area: item-5;
     border-radius: 5px;
     display: flex;
@@ -7994,6 +7997,7 @@ body {
   body .grid-container10 .div-1 {
     padding-top: 35px;
     padding-bottom: 5px;
+    margin-bottom: 10px;
     grid-area: item-1;
     border-radius: 5px;
     display: flex;
@@ -8026,6 +8030,8 @@ body {
     color: black;
   }
   body .grid-container10 .div-2 p {
+    text-align: justify;
+    width: 700px;
     margin-top: 15px;
     margin-bottom: 15px;
     font-size: 1.2rem;
@@ -8141,12 +8147,13 @@ body {
     max-width: 100%;
   }
   body .grid-container10 .div-4 p {
+    width: 700px;
     padding: 10px;
     text-align: justify;
   }
   body .grid-container10 .div-5 {
     padding-top: 45px;
-    padding-left: 10px;
+    padding-left: 30px;
     grid-area: item-5;
     border-radius: 5px;
     display: flex;
