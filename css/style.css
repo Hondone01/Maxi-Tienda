@@ -6037,6 +6037,7 @@ body {
     justify-content: center;
   }
   body .grid-container5 .div-3 p {
+    width: 850px;
     padding: 20px;
     font-size: 1rem;
     color: #323232;
@@ -7669,6 +7670,7 @@ body {
     justify-content: center;
   }
   body .grid-container5 .div-3 p {
+    width: 850px;
     padding: 20px;
     font-size: 1rem;
     color: #323232;
@@ -8509,6 +8511,7 @@ body {
     margin-top: -200px;
   }
   body .grid-container11 .div-2 p {
+    padding-bottom: 5px;
     margin-bottom: 525px;
     font-size: 1.2rem;
     line-height: 1.2;
