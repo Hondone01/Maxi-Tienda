@@ -737,7 +737,7 @@ body {
   }
   body main .grid-container9 .div-5 img {
     max-width: 100%;
-    height: 200px;
+    height: auto;
     display: block;
     border-radius: 5px;
   }
@@ -758,7 +758,7 @@ body {
   }
   body main .grid-container9 .div-6 img {
     max-width: 100%;
-    height: 200px;
+    height: auto;
     display: block;
     border-radius: 5px;
   }
@@ -1947,7 +1947,7 @@ body {
   }
   body main .grid-container9 .div-5 img {
     max-width: 100%;
-    height: 200px;
+    height: auto;
     display: block;
     border-radius: 5px;
   }
@@ -1968,7 +1968,7 @@ body {
   }
   body main .grid-container9 .div-6 img {
     max-width: 100%;
-    height: 200px;
+    height: auto;
     display: block;
     border-radius: 5px;
   }
@@ -3170,7 +3170,7 @@ body {
   }
   body main .grid-container9 .div-5 img {
     max-width: 100%;
-    height: 200px;
+    height: auto;
     display: block;
     border-radius: 5px;
   }
@@ -3191,7 +3191,7 @@ body {
   }
   body main .grid-container9 .div-6 img {
     max-width: 100%;
-    height: 200px;
+    height: auto;
     display: block;
     border-radius: 5px;
   }
