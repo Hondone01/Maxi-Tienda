@@ -75,23 +75,22 @@
                 }
 
                 .foto {
+                    img{
+                        width: 150px;
+                        height: auto;
+                        border-radius: 5px;
+                    }
                     button {
                         margin-top: -48px;
-                        margin-left: 150px;
-                        padding: 10px;
-                        color: black;
-                        font-size: 1rem;
-                        background-color: #DDD0C8;
-                        border: 1px solid black;
-                        border-radius: 5px;
-                        text-transform: capitalize;
+                        margin-left: 180px;
+                        @include button;
                         display: flex;
                         flex-direction: row;
                         max-width: 100%;
                     }
 
                     button:hover {
-                        background-color: aliceblue;
+                        background-image: radial-gradient(circle, rgb(190, 125, 156), rgb(212, 75, 98));
                     }
                 }
 
@@ -143,19 +142,13 @@
 
                     button {
                         margin-right: 5px;
-                        padding: 10px;
-                        color: black;
-                        font-size: 1rem;
-                        background-color: #DDD0C8;
-                        border: 1px solid black;
-                        border-radius: 5px;
-                        text-transform: capitalize;
+                       @include button;
                         display: flex;
                         max-width: 100%;
                     }
 
                     button:hover {
-                        background-color: aliceblue;
+                        background-image: radial-gradient(circle, rgb(190, 125, 156), rgb(212, 75, 98));
                     }
                 }
 
@@ -163,18 +156,13 @@
                     button {
                         margin-left: 450px;
                         padding: 10px;
-                        color: black;
-                        font-size: 1rem;
-                        background-color: #DDD0C8;
-                        border: 1px solid black;
-                        border-radius: 5px;
-                        text-transform: capitalize;
+                      @include button;
                         display: flex;
                         max-width: 100%;
                     }
 
                     button:hover {
-                        background-color: aliceblue;
+                        background-image: radial-gradient(circle, rgb(190, 125, 156), rgb(212, 75, 98));
                     }
                 }
 

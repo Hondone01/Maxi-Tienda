@@ -6619,22 +6619,28 @@ body {
     font-size: 1rem;
     color: black;
   }
+  body .grid-container10 .div-2 .foto img {
+    width: 150px;
+    height: auto;
+    border-radius: 5px;
+  }
   body .grid-container10 .div-2 .foto button {
     margin-top: -48px;
-    margin-left: 150px;
-    padding: 10px;
+    margin-left: 180px;
+    margin-top: 25px;
+    padding: 5px;
     color: black;
     font-size: 1rem;
-    background-color: #DDD0C8;
+    background-image: radial-gradient(circle, rgb(247, 183, 213), rgb(219, 101, 120));
     border: 1px solid black;
-    border-radius: 5px;
+    border-radius: 25px;
     text-transform: capitalize;
     display: flex;
     flex-direction: row;
     max-width: 100%;
   }
   body .grid-container10 .div-2 .foto button:hover {
-    background-color: aliceblue;
+    background-image: radial-gradient(circle, rgb(190, 125, 156), rgb(212, 75, 98));
   }
   body .grid-container10 .div-2 form {
     width: 250px;
@@ -6676,33 +6682,36 @@ body {
   }
   body .grid-container10 .div-3 .botones button {
     margin-right: 5px;
-    padding: 10px;
+    margin-top: 25px;
+    padding: 5px;
     color: black;
     font-size: 1rem;
-    background-color: #DDD0C8;
+    background-image: radial-gradient(circle, rgb(247, 183, 213), rgb(219, 101, 120));
     border: 1px solid black;
-    border-radius: 5px;
+    border-radius: 25px;
     text-transform: capitalize;
     display: flex;
     max-width: 100%;
   }
   body .grid-container10 .div-3 .botones button:hover {
-    background-color: aliceblue;
+    background-image: radial-gradient(circle, rgb(190, 125, 156), rgb(212, 75, 98));
   }
   body .grid-container10 .div-3 .borrarcuenta button {
     margin-left: 450px;
     padding: 10px;
+    margin-top: 25px;
+    padding: 5px;
     color: black;
     font-size: 1rem;
-    background-color: #DDD0C8;
+    background-image: radial-gradient(circle, rgb(247, 183, 213), rgb(219, 101, 120));
     border: 1px solid black;
-    border-radius: 5px;
+    border-radius: 25px;
     text-transform: capitalize;
     display: flex;
     max-width: 100%;
   }
   body .grid-container10 .div-3 .borrarcuenta button:hover {
-    background-color: aliceblue;
+    background-image: radial-gradient(circle, rgb(190, 125, 156), rgb(212, 75, 98));
   }
   body .grid-container10 .div-4 {
     grid-area: item-4;
@@ -8275,22 +8284,28 @@ body {
     font-size: 1rem;
     color: black;
   }
+  body .grid-container10 .div-2 .foto img {
+    width: 150px;
+    height: auto;
+    border-radius: 5px;
+  }
   body .grid-container10 .div-2 .foto button {
     margin-top: -48px;
-    margin-left: 150px;
-    padding: 10px;
+    margin-left: 180px;
+    margin-top: 25px;
+    padding: 5px;
     color: black;
     font-size: 1rem;
-    background-color: #DDD0C8;
+    background-image: radial-gradient(circle, rgb(247, 183, 213), rgb(219, 101, 120));
     border: 1px solid black;
-    border-radius: 5px;
+    border-radius: 25px;
     text-transform: capitalize;
     display: flex;
     flex-direction: row;
     max-width: 100%;
   }
   body .grid-container10 .div-2 .foto button:hover {
-    background-color: aliceblue;
+    background-image: radial-gradient(circle, rgb(190, 125, 156), rgb(212, 75, 98));
   }
   body .grid-container10 .div-2 form {
     width: 250px;
@@ -8332,33 +8347,36 @@ body {
   }
   body .grid-container10 .div-3 .botones button {
     margin-right: 5px;
-    padding: 10px;
+    margin-top: 25px;
+    padding: 5px;
     color: black;
     font-size: 1rem;
-    background-color: #DDD0C8;
+    background-image: radial-gradient(circle, rgb(247, 183, 213), rgb(219, 101, 120));
     border: 1px solid black;
-    border-radius: 5px;
+    border-radius: 25px;
     text-transform: capitalize;
     display: flex;
     max-width: 100%;
   }
   body .grid-container10 .div-3 .botones button:hover {
-    background-color: aliceblue;
+    background-image: radial-gradient(circle, rgb(190, 125, 156), rgb(212, 75, 98));
   }
   body .grid-container10 .div-3 .borrarcuenta button {
     margin-left: 450px;
     padding: 10px;
+    margin-top: 25px;
+    padding: 5px;
     color: black;
     font-size: 1rem;
-    background-color: #DDD0C8;
+    background-image: radial-gradient(circle, rgb(247, 183, 213), rgb(219, 101, 120));
     border: 1px solid black;
-    border-radius: 5px;
+    border-radius: 25px;
     text-transform: capitalize;
     display: flex;
     max-width: 100%;
   }
   body .grid-container10 .div-3 .borrarcuenta button:hover {
-    background-color: aliceblue;
+    background-image: radial-gradient(circle, rgb(190, 125, 156), rgb(212, 75, 98));
   }
   body .grid-container10 .div-4 {
     padding-top: 40px;
