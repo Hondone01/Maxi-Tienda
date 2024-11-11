@@ -68,6 +68,15 @@
     color: black;
 }
 
+@mixin h2 {
+    font-size: 3rem;
+    line-height: 1.2;
+    margin: 0;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    color: black;
+}
+
 @mixin divs-tienda-container9 {
     border-radius: 5px;
     display: flex;
