@@ -93,14 +93,15 @@
                         .total {
                             display: flex;
                             justify-content: center;
-                            label{
+
+                            label {
                                 color: black;
                                 font-size: 1.4rem;
                                 font-weight: bolder;
                                 padding-left: 10px;
                                 padding-bottom: 10px;
                             }
-                           
+
                         }
                     }
 
@@ -185,7 +186,21 @@
             padding-bottom: 20px;
             background-color: grey;
             display: flex;
-            justify-content: center;
+            /*justify-content: space-around;*/
+
+            #div4 {
+                margin-left: 35px;
+            }
+
+            #div5 {
+                margin-left: 25px;
+            }
+
+            img {
+                margin-left: 10px;
+                width: 45px;
+                height: 45px;
+            }
         }
 
     }
