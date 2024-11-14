@@ -15,8 +15,8 @@
         border-bottom: 1px solid #323232;
 
         .logo-header {
-            max-height: 50px; /* Ajusta el tamaño del logo */
-            width: auto;
+            width: 60px;
+            height: 70px;
             border-radius: 10px;
             transition: 2s;
             &:hover{transform: translateY(-10px);}

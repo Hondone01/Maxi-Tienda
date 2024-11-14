@@ -63,7 +63,6 @@ header h1 {
   border-radius: 10px;
 }
 
-
 @media (min-width: 320px) and (max-width: 374px) {
   body main .grid-container1 {
     background-color: rgb(241, 221, 214);
@@ -3777,7 +3776,7 @@ header h1 {
     border-bottom: 1px solid #323232;
   }
   body .desktop .logo-header {
-    width: 70px;
+    width: 60px;
     height: 70px;
     border-radius: 10px;
     transition: 2s;
@@ -4395,7 +4394,7 @@ header h1 {
     border-bottom: 1px solid #323232;
   }
   body .desktop .logo-header {
-    width: 70px;
+    width: 60px;
     height: 70px;
     border-radius: 10px;
     transition: 2s;
@@ -4732,7 +4731,7 @@ header h1 {
     border-bottom: 1px solid #323232;
   }
   body .desktop .logo-header {
-    width: 70px;
+    width: 60px;
     height: 70px;
     border-radius: 10px;
     transition: 2s;
@@ -5012,7 +5011,7 @@ header h1 {
     border-bottom: 1px solid #323232;
   }
   body .desktop .logo-header {
-    width: 70px;
+    width: 60px;
     height: 70px;
     border-radius: 10px;
     transition: 2s;
@@ -5194,7 +5193,7 @@ header h1 {
     border-bottom: 1px solid #323232;
   }
   body .desktop .logo-header {
-    width: 70px;
+    width: 60px;
     height: 70px;
     border-radius: 10px;
     transition: 2s;
@@ -5462,7 +5461,7 @@ header h1 {
     border-bottom: 1px solid #323232;
   }
   body .desktop .logo-header {
-    width: 70px;
+    width: 60px;
     height: 70px;
     border-radius: 10px;
     transition: 2s;
@@ -6070,7 +6069,7 @@ header h1 {
     border-bottom: 1px solid #323232;
   }
   body .desktop .logo-header {
-    width: 70px;
+    width: 60px;
     height: 70px;
     border-radius: 10px;
     transition: 2s;
@@ -6406,7 +6405,7 @@ header h1 {
     border-bottom: 1px solid #323232;
   }
   body .desktop .logo-header {
-    width: 70px;
+    width: 60px;
     height: 70px;
     border-radius: 10px;
     transition: 2s;
@@ -6683,7 +6682,7 @@ header h1 {
     border-bottom: 1px solid #323232;
   }
   body .desktop .logo-header {
-    width: 70px;
+    width: 60px;
     height: 70px;
     border-radius: 10px;
     transition: 2s;
@@ -6866,7 +6865,7 @@ header h1 {
     border-bottom: 1px solid #323232;
   }
   body .desktop .logo-header {
-    width: 70px;
+    width: 60px;
     height: 70px;
     border-radius: 10px;
     transition: 2s;
@@ -7134,7 +7133,7 @@ header h1 {
     border-bottom: 1px solid #323232;
   }
   body .desktop .logo-header {
-    width: 70px;
+    width: 60px;
     height: 70px;
     border-radius: 10px;
     transition: 2s;
@@ -7752,7 +7751,7 @@ header h1 {
     border-bottom: 1px solid #323232;
   }
   body .desktop .logo-header {
-    width: 70px;
+    width: 60px;
     height: 70px;
     border-radius: 10px;
     transition: 2s;
@@ -8089,7 +8088,7 @@ header h1 {
     border-bottom: 1px solid #323232;
   }
   body .desktop .logo-header {
-    width: 70px;
+    width: 60px;
     height: 70px;
     border-radius: 10px;
     transition: 2s;
@@ -8374,7 +8373,7 @@ header h1 {
     border-bottom: 1px solid #323232;
   }
   body .desktop .logo-header {
-    width: 70px;
+    width: 60px;
     height: 70px;
     border-radius: 10px;
     transition: 2s;
@@ -8564,7 +8563,7 @@ header h1 {
     border-bottom: 1px solid #323232;
   }
   body .desktop .logo-header {
-    width: 70px;
+    width: 60px;
     height: 70px;
     border-radius: 10px;
     transition: 2s;
@@ -8832,4 +8831,4 @@ header h1 {
   font-size: 1rem;
 }
 
-
+/*# sourceMappingURL=style.css.map */
