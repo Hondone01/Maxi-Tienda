@@ -1,7 +1,7 @@
 @use "../../utilities/mixin" as *;
 @use "../../utilities/variables" as *;
 
-/*@use "../../base/reset" as *;*/
+@use "../../base/reset" as *;
 @use "../../base/encabezado" as *;
 
 @media (min-width: 425px) and (max-width: 460px) {

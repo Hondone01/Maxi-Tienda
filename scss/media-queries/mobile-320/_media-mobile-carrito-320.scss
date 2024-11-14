@@ -60,7 +60,8 @@
                     }
 
                     label {
-                        @include label-carrito;
+                        font-size: 1.3rem;
+                        font-weight: bolder;
                     }
                 }
 
@@ -186,7 +187,6 @@
             padding-bottom: 20px;
             background-color: grey;
             display: flex;
-            /*justify-content: space-around;*/
 
             #div4 {
                 margin-left: 35px;

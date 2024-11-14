@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -5,6 +6,51 @@
 
 body {
   background-color: rgb(241, 221, 214);
+}
+
+/* Estilo del header */
+header nav {
+  background-image: radial-gradient(circle, orange, rgb(219, 101, 120));
+}
+
+/* Estilo para el logo */
+.logo-header {
+  max-height: 50px; /* Ajusta el tamaño del logo */
+  width: auto;
+}
+
+/* Estilo para el título del header */
+header h1 {
+  color: black; /* Cambia el color del texto */
+  font-size: 2rem; /* Ajusta el tamaño de la fuente */
+}
+
+/* Estilo para los enlaces de navegación */
+.navbar-nav .nav-link {
+  color: black; /* Color de los enlaces */
+  font-size: 16px;
+}
+
+/* Cambio de color al pasar el mouse sobre los enlaces */
+.navbar-nav .nav-link:hover {
+  color: #f8f9fa; /* Color al pasar el mouse */
+}
+
+/* Estilo para los botones de la navbar */
+.navbar-toggler {
+  border-color: white; /* Bordes del botón */
+}
+
+/* Estilo específico para los enlaces "Sobre nosotros" y "Ir a otras tiendas" */
+.links-menu {
+  color: black; /* Cambia el color a negro */
+  text-decoration: none; /* Elimina el subrayado */
+  font-size: 1.3rem;
+}
+
+/* Cambiar el color al pasar el mouse por estos enlaces */
+.links-menu:hover {
+  color: #333; /* Un tono de negro más oscuro al pasar el mouse */
 }
 
 .desktop {
@@ -1154,8 +1200,8 @@ body {
     border-radius: 5px;
   }
   body main .grid-container7 .div-2 label {
-    color: #323232;
-    font-size: 1rem;
+    font-size: 1.3rem;
+    font-weight: bolder;
   }
   body main .grid-container7 .div-3 {
     grid-area: item-3;
@@ -1272,7 +1318,6 @@ body {
     padding-bottom: 20px;
     background-color: grey;
     display: flex;
-    /*justify-content: space-around;*/
   }
   body .footer-2 #div4 {
     margin-left: 35px;
@@ -2372,10 +2417,8 @@ body {
     border-radius: 5px;
   }
   body main .grid-container7 .div-2 label {
-    color: black;
     font-size: 1.3rem;
-    padding-left: 10px;
-    padding-bottom: 10px;
+    font-weight: bolder;
   }
   body main .grid-container7 .div-3 {
     grid-area: item-3;
@@ -2498,7 +2541,6 @@ body {
     justify-content: space-around;
   }
 }
-/*@use "../../base/reset" as *;*/
 @media (min-width: 425px) and (max-width: 460px) {
   body main .grid-container1 {
     width: 100%;
@@ -3597,10 +3639,8 @@ body {
     border-radius: 5px;
   }
   body main .grid-container7 .div-2 label {
-    color: black;
     font-size: 1.3rem;
-    padding-left: 10px;
-    padding-bottom: 10px;
+    font-weight: bolder;
   }
   body main .grid-container7 .div-3 {
     grid-area: item-3;

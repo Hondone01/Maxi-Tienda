@@ -132,8 +132,8 @@
 
                     button {
                         margin-top: 25px;
-                       @include button;
-                       margin-bottom: 15px;
+                        @include button;
+                        margin-bottom: 15px;
                     }
 
                 }
@@ -288,7 +288,7 @@
 
                     img {
                         max-width: 100%;
-                        height: auto;   
+                        height: auto;
                         display: block;
                         border-radius: 5px;
                     }
@@ -300,11 +300,12 @@
 
             }
         }
+
         .footer-1 {
             display: none;
-          }
-      
-          .footer-2 {
+        }
+
+        .footer-2 {
             border-top: 1px solid black;
             padding-left: 10px;
             padding-top: 20px;
@@ -326,7 +327,7 @@
                 height: 45px;
             }
         }
-      
-        }
-      
+
     }
+
+}

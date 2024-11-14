@@ -1,3 +1,49 @@
+/* Estilo del header */
+header nav {
+    background-image: radial-gradient(circle, orange, rgb(219, 101, 120));
+}
+
+/* Estilo para el logo */
+.logo-header {
+    max-height: 50px; /* Ajusta el tamaño del logo */
+    width: auto;
+}
+
+/* Estilo para el título del header */
+header h1 {
+    color: black; /* Cambia el color del texto */
+    font-size: 2rem; /* Ajusta el tamaño de la fuente */
+}
+
+/* Estilo para los enlaces de navegación */
+.navbar-nav .nav-link {
+    color: black; /* Color de los enlaces */
+    font-size: 16px;
+}
+
+/* Cambio de color al pasar el mouse sobre los enlaces */
+.navbar-nav .nav-link:hover {
+    color: #f8f9fa; /* Color al pasar el mouse */
+}
+
+/* Estilo para los botones de la navbar */
+.navbar-toggler {
+    border-color: white; /* Bordes del botón */
+}
+
+/* Estilo específico para los enlaces "Sobre nosotros" y "Ir a otras tiendas" */
+.links-menu {
+    color: black; /* Cambia el color a negro */
+    text-decoration: none; /* Elimina el subrayado */
+    font-size: 1.3rem;
+}
+
+/* Cambiar el color al pasar el mouse por estos enlaces */
+.links-menu:hover {
+    color: #333; /* Un tono de negro más oscuro al pasar el mouse */
+}
+
+
 .desktop {
     display: none;
 }
