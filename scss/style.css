@@ -5302,7 +5302,7 @@ header h1 {
     line-height: 1.2;
     max-width: 100%;
     overflow-wrap: break-word;
-    color: black;
+    color: rgb(0, 0, 0);
   }
   body .grid-container7 .div-2 {
     margin-left: 60px;
