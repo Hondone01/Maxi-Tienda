@@ -7737,7 +7737,7 @@ header h1 {
     display: none;
   }
 }
-@media (min-width: 1920px) and (max-width: 2559px) {
+@media (min-width: 1920px) {
   body nav.navbar {
     display: none;
   }
@@ -8089,7 +8089,7 @@ header h1 {
     display: none;
   }
 }
-@media (min-width: 1920px) and (max-width: 2559px) {
+@media (min-width: 1920px) {
   body nav.navbar {
     display: none;
   }
@@ -8374,7 +8374,7 @@ header h1 {
     display: none;
   }
 }
-@media (min-width: 1920px) and (max-width: 2559px) {
+@media (min-width: 1920px) {
   body nav.navbar {
     display: none;
   }
