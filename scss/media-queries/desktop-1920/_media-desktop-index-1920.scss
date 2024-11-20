@@ -4,7 +4,7 @@
 @use "../../layout/header" as *;
 @use "../../layout/footer" as *;
 
-@media (min-width: 1920px) {
+@media (min-width: 1920px) and (max-width: 2559px) {
     body {
         @include header;
 
@@ -108,8 +108,8 @@
                 flex-direction: column;
                 align-items: center;
 
-                h1 {
-                    @include h1;
+                h2 {
+                    @include h2;
                 }
             }
 
@@ -156,7 +156,7 @@
                         display: block;
                         border-radius: 5px;
                     }
-
+                    
                     img:hover {
                         box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
                         -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
@@ -182,7 +182,7 @@
                         display: block;
                         border-radius: 5px;
                     }
-
+                    
                     img:hover {
                         box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
                         -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
@@ -207,7 +207,7 @@
                         display: block;
                         border-radius: 5px;
                     }
-
+                    
                     img:hover {
                         box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
                         -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
@@ -267,7 +267,7 @@
                         display: block;
                         border-radius: 5px;
                     }
-
+                    
                     img:hover {
                         box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
                         -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
@@ -293,7 +293,7 @@
                         display: block;
                         border-radius: 5px;
                     }
-
+                    
                     img:hover {
                         box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
                         -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
@@ -319,7 +319,7 @@
                         display: block;
                         border-radius: 5px;
                     }
-
+                    
                     img:hover {
                         box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
                         -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
@@ -345,7 +345,7 @@
                         display: block;
                         border-radius: 5px;
                     }
-
+                    
                     img:hover {
                         box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
                         -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
@@ -371,7 +371,7 @@
                         display: block;
                         border-radius: 5px;
                     }
-
+                    
                     img:hover {
                         box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
                         -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
@@ -444,7 +444,7 @@
                         display: block;
                         border-radius: 5px;
                     }
-
+                    
                     img:hover {
                         box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
                         -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
@@ -471,7 +471,7 @@
                         display: block;
                         border-radius: 5px;
                     }
-
+                    
                     img:hover {
                         box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
                         -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
@@ -527,7 +527,7 @@
                     display: block;
                     border-radius: 5px;
                 }
-
+                
                 img:hover {
                     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
                     -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
@@ -592,12 +592,12 @@
                 align-items: center;
 
                 img {
-                    width: 150px;
+                    width: 100px;
                     height: auto;
                     display: block;
                     border-radius: 5px;
                 }
-
+                
                 img:hover {
                     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
                     -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
@@ -625,7 +625,7 @@
                     align-items: center;
 
                     img {
-                        width: 150px;
+                        width: 100px;
                         height: auto;
                         display: block;
                         border-radius: 5px;
@@ -646,7 +646,7 @@
 
 
                     img {
-                        width: 150px;
+                        width: 100px;
                         height: auto;
                         display: block;
                         border-radius: 5px;
@@ -667,7 +667,7 @@
                     align-items: center;
 
                     img {
-                        width: 150px;
+                        width: 100px;
                         height: auto;
                         display: block;
                         border-radius: 5px;

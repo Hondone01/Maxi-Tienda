@@ -4,7 +4,7 @@
 @use "../../layout/header" as *;
 @use "../../layout/footer" as *;
 
-@media (min-width: 1920px) {
+@media (min-width: 1920px) and (max-width: 2559px) {
     body {
         @include header;
 

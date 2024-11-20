@@ -19,11 +19,11 @@
             grid-template-columns: repeat(6, .4fr);
             grid-template-rows: repeat(5, auto);
             grid-template-areas:
-                ". . item-1 item-1 . . "
-                ". item-2 item-2 item-2 item-2 . "
+                ". . item-1 item-1 . ."
+                "item-2 item-2 item-2 item-2 item-2 item-2"
                 ". item-3 item-3 item-4 item-4 ."
-                ". item-5 item-5 item-5 item-5 . "
-                ". . item-7 item-7 . ."
+                ". . item-5 item-5 . ."
+                ". item-7 item-7 item-7 . ."
             ;
 
 
@@ -83,14 +83,14 @@
                 justify-content: space-around;
 
                 img {
-                    width: 280px;
+                    width: 280px;    
                     height: 250px;
                     border-radius: 5px;
                     align-items: center;
                     display: flex;
                 }
             }
-
+            
             .div-4 {
                 width: 100%;
                 max-width: 1439px;
@@ -101,7 +101,7 @@
                 justify-content: space-around;
 
                 img {
-                    width: 280px;
+                    width: 280px;    
                     height: 250px;
                     border-radius: 5px;
                     align-items: center;
@@ -113,7 +113,7 @@
                 padding-top: 25px;
                 padding-bottom: 25px;
                 margin-top: 25px;
-                width: 100%;
+                width: 60%;
                 max-width: 1439px;
                 grid-area: item-5;
                 display: flex;
@@ -148,7 +148,7 @@
             }
 
             .div-7 {
-                width: 100%;
+                width: 60%;
                 max-width: 1439px;
                 padding-top: 35px;
                 margin-bottom: 20px;

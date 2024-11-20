@@ -612,7 +612,12 @@ header h1 {
     margin-top: 20px;
     width: 200px;
     height: 130px;
+    grid-area: item-3;
     border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
   body main .grid-container8 .div-4 {
     grid-area: item-4;
@@ -625,9 +630,13 @@ header h1 {
     padding-top: 10px;
   }
   body main .grid-container8 .div-4 img {
-    width: 200px;
-    height: 130px;
+    /* padding-top: 10px;*/
+    grid-area: item-3;
     border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
   body main .grid-container8 .div-5 {
     padding-top: 20px;
@@ -1849,9 +1858,15 @@ header h1 {
     justify-content: center;
   }
   body main .grid-container8 .div-3 img {
-    width: 250px;
-    height: 140px;
+    margin-top: 20px;
+    width: 200px;
+    height: 130px;
+    grid-area: item-3;
     border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
   body main .grid-container8 .div-4 {
     grid-area: item-4;
@@ -1866,7 +1881,12 @@ header h1 {
   body main .grid-container8 .div-4 img {
     width: 250px;
     height: 140px;
+    grid-area: item-3;
     border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
   body main .grid-container8 .div-5 {
     padding-top: 20px;
@@ -3059,9 +3079,14 @@ header h1 {
   }
   body main .grid-container8 .div-3 img {
     margin-top: 20px;
-    width: 250px;
-    height: 140px;
+    width: 200px;
+    height: 130px;
+    grid-area: item-3;
     border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
   body main .grid-container8 .div-4 {
     grid-area: item-4;
@@ -3076,7 +3101,12 @@ header h1 {
   body main .grid-container8 .div-4 img {
     width: 250px;
     height: 140px;
+    grid-area: item-3;
     border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
   body main .grid-container8 .div-5 {
     padding-top: 20px;
@@ -3778,7 +3808,7 @@ header h1 {
     border: none;
   }
   body .grid-container1 {
-    width: 100%;
+    width: 99%;
     max-width: 1439px;
     background-color: rgb(241, 221, 214);
     display: grid;
@@ -4294,7 +4324,7 @@ header h1 {
     align-items: center;
   }
   body .grid-container6 .div-2 img {
-    width: 150px;
+    width: 100px;
     height: auto;
     display: block;
     border-radius: 5px;
@@ -4318,7 +4348,7 @@ header h1 {
     align-items: center;
   }
   body .grid-container6 .caja-calificacion .div-3 img {
-    width: 150px;
+    width: 100px;
     height: auto;
     display: block;
     border-radius: 5px;
@@ -4335,7 +4365,7 @@ header h1 {
     align-items: center;
   }
   body .grid-container6 .caja-calificacion .div-4 img {
-    width: 150px;
+    width: 100px;
     height: auto;
     display: block;
     border-radius: 5px;
@@ -4352,7 +4382,7 @@ header h1 {
     align-items: center;
   }
   body .grid-container6 .caja-calificacion .div-5 img {
-    width: 150px;
+    width: 100px;
     height: auto;
     display: block;
     border-radius: 5px;
@@ -4465,7 +4495,7 @@ header h1 {
     align-items: center;
     grid-template-columns: repeat(6, 0.4fr);
     grid-template-rows: repeat(5, auto);
-    grid-template-areas: ". . item-1 item-1 . . " ". item-2 item-2 item-2 item-2 . " ". item-3 item-3 item-4 item-4 ." ". item-5 item-5 item-5 item-5 . " ". . item-7 item-7 . .";
+    grid-template-areas: ". . item-1 item-1 . ." "item-2 item-2 item-2 item-2 item-2 item-2" ". item-3 item-3 item-4 item-4 ." ". . item-5 item-5 . ." ". item-7 item-7 item-7 . .";
   }
   body .grid-container8 .div-1 {
     padding-top: 30px;
@@ -4542,7 +4572,7 @@ header h1 {
     padding-top: 25px;
     padding-bottom: 25px;
     margin-top: 25px;
-    width: 100%;
+    width: 60%;
     max-width: 1439px;
     grid-area: item-5;
     display: flex;
@@ -4578,7 +4608,7 @@ header h1 {
     background-image: radial-gradient(circle, rgb(190, 125, 156), rgb(212, 75, 98));
   }
   body .grid-container8 .div-7 {
-    width: 100%;
+    width: 60%;
     max-width: 1439px;
     padding-top: 35px;
     margin-bottom: 20px;
@@ -4870,6 +4900,11 @@ header h1 {
     width: 150px;
     height: auto;
     border-radius: 5px;
+  }
+  body .grid-container10 .div-2 .foto img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   }
   body .grid-container10 .div-2 .foto button {
     margin-top: -48px;
@@ -5323,6 +5358,11 @@ header h1 {
     display: block;
     border-radius: 5px;
   }
+  body .grid-container7 .div-2 img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  }
   body .grid-container7 .div-3 {
     margin-left: -80px;
     margin-top: 100px;
@@ -5399,6 +5439,11 @@ header h1 {
     display: block;
     border-radius: 5px;
   }
+  body .grid-container7 .div-5 img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  }
   body .grid-container7 .div-6 {
     margin-left: -80px;
     padding-top: 30px;
@@ -5443,6 +5488,11 @@ header h1 {
     height: auto;
     display: block;
     border-radius: 5px;
+  }
+  body .grid-container7 .div-7 img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   }
   body .footer-1 {
     background-color: gray;
@@ -5654,6 +5704,11 @@ header h1 {
     display: block;
     border-radius: 5px;
   }
+  body .grid-container2 .caja-galeria .div-2 img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  }
   body .grid-container2 .caja-galeria .div-2 label {
     font-size: 1.5rem;
     color: #323232;
@@ -5669,6 +5724,11 @@ header h1 {
     height: auto;
     display: block;
     border-radius: 5px;
+  }
+  body .grid-container2 .caja-galeria .div-3 img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   }
   body .grid-container2 .caja-galeria .div-3 label {
     font-size: 1.5rem;
@@ -5686,6 +5746,11 @@ header h1 {
     display: block;
     border-radius: 5px;
   }
+  body .grid-container2 .caja-galeria .div-4 img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  }
   body .grid-container2 .caja-galeria .div-4 label {
     font-size: 1.5rem;
     color: #323232;
@@ -5701,6 +5766,11 @@ header h1 {
     height: auto;
     display: block;
     border-radius: 5px;
+  }
+  body .grid-container2 .caja-galeria .div-5 img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   }
   body .grid-container2 .caja-galeria .div-5 label {
     font-size: 1.5rem;
@@ -5751,6 +5821,11 @@ header h1 {
     display: block;
     border-radius: 5px;
   }
+  body .grid-container3 .caja-productos .div-2 img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  }
   body .grid-container3 .caja-productos .div-2 label {
     font-size: 1.5rem;
     color: #323232;
@@ -5768,6 +5843,11 @@ header h1 {
     display: block;
     border-radius: 5px;
   }
+  body .grid-container3 .caja-productos .div-3 img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  }
   body .grid-container3 .caja-productos .div-3 label {
     font-size: 1.5rem;
     color: #323232;
@@ -5783,6 +5863,11 @@ header h1 {
     height: auto;
     display: block;
     border-radius: 5px;
+  }
+  body .grid-container3 .caja-productos .div-4 img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   }
   body .grid-container3 .caja-productos .div-4 label {
     font-size: 1.5rem;
@@ -5800,6 +5885,11 @@ header h1 {
     display: block;
     border-radius: 5px;
   }
+  body .grid-container3 .caja-productos .div-5 img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  }
   body .grid-container3 .caja-productos .div-5 label {
     font-size: 1.5rem;
     color: #323232;
@@ -5815,6 +5905,11 @@ header h1 {
     height: auto;
     display: block;
     border-radius: 5px;
+  }
+  body .grid-container3 .caja-productos .div-6 img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   }
   body .grid-container3 .caja-productos .div-6 label {
     font-size: 1.5rem;
@@ -5875,6 +5970,11 @@ header h1 {
     display: block;
     border-radius: 5px;
   }
+  body .grid-container4 .caja-promos .div-3 img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  }
   body .grid-container4 .caja-promos .div-4 {
     grid-area: item-4;
     display: flex;
@@ -5891,6 +5991,11 @@ header h1 {
     height: auto;
     display: block;
     border-radius: 5px;
+  }
+  body .grid-container4 .caja-promos .div-4 img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   }
   body .grid-container5 {
     padding-top: 25px;
@@ -5934,6 +6039,11 @@ header h1 {
     height: auto;
     display: block;
     border-radius: 5px;
+  }
+  body .grid-container5 .div-2 img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   }
   body .grid-container5 .div-3 {
     grid-area: item-3;
@@ -5988,10 +6098,15 @@ header h1 {
     align-items: center;
   }
   body .grid-container6 .div-2 img {
-    width: 150px;
+    width: 100px;
     height: auto;
     display: block;
     border-radius: 5px;
+  }
+  body .grid-container6 .div-2 img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   }
   body .grid-container6 .div-2 label {
     font-size: 1.5rem;
@@ -6011,7 +6126,7 @@ header h1 {
     align-items: center;
   }
   body .grid-container6 .caja-calificacion .div-3 img {
-    width: 150px;
+    width: 100px;
     height: auto;
     display: block;
     border-radius: 5px;
@@ -6027,7 +6142,7 @@ header h1 {
     align-items: center;
   }
   body .grid-container6 .caja-calificacion .div-4 img {
-    width: 150px;
+    width: 100px;
     height: auto;
     display: block;
     border-radius: 5px;
@@ -6043,7 +6158,7 @@ header h1 {
     align-items: center;
   }
   body .grid-container6 .caja-calificacion .div-5 img {
-    width: 150px;
+    width: 100px;
     height: auto;
     display: block;
     border-radius: 5px;
@@ -6151,12 +6266,12 @@ header h1 {
     max-width: 1919px;
     background-color: rgb(241, 221, 214);
     display: grid;
-    /* display: flex;
-     flex-direction: column;*/
+    display: flex;
+    flex-direction: column;
     align-items: center;
     grid-template-columns: repeat(6, 0.4fr);
-    grid-template-rows: repeat(5, auto);
-    grid-template-areas: ". . item-1 item-1 . . " ". item-2 item-2 item-2 item-2 . " ". item-3 item-3 item-4 item-4 ." ". item-5 item-5 item-5 item-5 . " ". . item-7 item-7 . .";
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas: ". . item-1 item-1 . ." "item-2 item-2 item-2 item-5 item-5 item-5" ". . item-3 item-3 . ." ". item-7 item-7 item-7 . .";
   }
   body .grid-container8 .div-1 {
     padding-top: 30px;
@@ -6175,7 +6290,7 @@ header h1 {
     color: black;
   }
   body .grid-container8 .div-2 {
-    width: 100%;
+    width: 60%;
     max-width: 1919px;
     padding-bottom: 20px;
     grid-area: item-2;
@@ -6213,27 +6328,11 @@ header h1 {
     align-items: center;
     display: flex;
   }
-  body .grid-container8 .div-4 {
-    width: 100%;
-    max-width: 1919px;
-    padding-top: 25px;
-    grid-area: item-4;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-  }
-  body .grid-container8 .div-4 img {
-    width: 280px;
-    height: 250px;
-    border-radius: 5px;
-    align-items: center;
-    display: flex;
-  }
   body .grid-container8 .div-5 {
     padding-top: 25px;
     padding-bottom: 25px;
     margin-top: 25px;
-    width: 100%;
+    width: 60%;
     max-width: 1919px;
     grid-area: item-5;
     display: flex;
@@ -6269,7 +6368,7 @@ header h1 {
     background-image: radial-gradient(circle, rgb(190, 125, 156), rgb(212, 75, 98));
   }
   body .grid-container8 .div-7 {
-    width: 100%;
+    width: 60%;
     max-width: 1919px;
     padding-top: 35px;
     margin-bottom: 20px;
@@ -6558,6 +6657,11 @@ header h1 {
     width: 150px;
     height: auto;
     border-radius: 5px;
+  }
+  body .grid-container10 .div-2 .foto img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   }
   body .grid-container10 .div-2 .foto button {
     margin-top: -48px;
@@ -7011,6 +7115,11 @@ header h1 {
     display: block;
     border-radius: 5px;
   }
+  body .grid-container7 .div-2 img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  }
   body .grid-container7 .div-3 {
     margin-left: -80px;
     margin-top: 100px;
@@ -7087,6 +7196,11 @@ header h1 {
     display: block;
     border-radius: 5px;
   }
+  body .grid-container7 .div-5 img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  }
   body .grid-container7 .div-6 {
     margin-left: -80px;
     padding-top: 30px;
@@ -7131,6 +7245,11 @@ header h1 {
     height: auto;
     display: block;
     border-radius: 5px;
+  }
+  body .grid-container7 .div-7 img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   }
   body .footer-1 {
     background-color: gray;
@@ -7179,7 +7298,7 @@ header h1 {
     display: none;
   }
 }
-@media (min-width: 1920px) {
+@media (min-width: 1920px) and (max-width: 2559px) {
   body nav.navbar {
     display: none;
   }
@@ -7317,7 +7436,7 @@ header h1 {
     flex-direction: column;
     align-items: center;
   }
-  body .grid-container2 .div-1 h1 {
+  body .grid-container2 .div-1 h2 {
     font-size: 3rem;
     line-height: 1.2;
     margin: 0;
@@ -7743,7 +7862,7 @@ header h1 {
     align-items: center;
   }
   body .grid-container6 .div-2 img {
-    width: 150px;
+    width: 100px;
     height: auto;
     display: block;
     border-radius: 5px;
@@ -7772,7 +7891,7 @@ header h1 {
     align-items: center;
   }
   body .grid-container6 .caja-calificacion .div-3 img {
-    width: 150px;
+    width: 100px;
     height: auto;
     display: block;
     border-radius: 5px;
@@ -7789,7 +7908,7 @@ header h1 {
     align-items: center;
   }
   body .grid-container6 .caja-calificacion .div-4 img {
-    width: 150px;
+    width: 100px;
     height: auto;
     display: block;
     border-radius: 5px;
@@ -7806,7 +7925,7 @@ header h1 {
     align-items: center;
   }
   body .grid-container6 .caja-calificacion .div-5 img {
-    width: 150px;
+    width: 100px;
     height: auto;
     display: block;
     border-radius: 5px;
@@ -7862,7 +7981,7 @@ header h1 {
     display: none;
   }
 }
-@media (min-width: 1920px) {
+@media (min-width: 1920px) and (max-width: 2559px) {
   body nav.navbar {
     display: none;
   }
@@ -7914,12 +8033,13 @@ header h1 {
     max-width: 2559px;
     background-color: rgb(241, 221, 214);
     display: grid;
-    /* display: flex;
-     flex-direction: column;*/
+    display: flex;
+    flex-direction: column;
     align-items: center;
     grid-template-columns: repeat(6, 0.4fr);
-    grid-template-rows: repeat(5, auto);
-    grid-template-areas: ". . item-1 item-1 . . " ". item-2 item-2 item-2 item-2 . " ". item-3 item-3 item-4 item-4 ." ". item-5 item-5 item-5 item-5 . " ". . item-7 item-7 . .";
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas: ". . item-1 item-1 . ." "item-2 item-2 item-2 item-5 item-5 item-5" ". . item-3 item-3 . ." ". item-7 item-7 item-7 . .";
+    justify-content: center;
   }
   body .grid-container8 .div-1 {
     padding-top: 30px;
@@ -7938,7 +8058,7 @@ header h1 {
     color: black;
   }
   body .grid-container8 .div-2 {
-    width: 100%;
+    width: 60%;
     max-width: 2559px;
     padding-bottom: 20px;
     grid-area: item-2;
@@ -7956,7 +8076,7 @@ header h1 {
     margin-top: 20px;
     margin-bottom: 20px;
     border-radius: 5px;
-    width: 400px;
+    max-width: 100%;
     height: auto;
     display: block;
   }
@@ -7970,24 +8090,8 @@ header h1 {
     justify-content: space-around;
   }
   body .grid-container8 .div-3 img {
-    width: 400px;
-    height: 380px;
-    border-radius: 5px;
-    align-items: center;
-    display: flex;
-  }
-  body .grid-container8 .div-4 {
-    width: 100%;
-    max-width: 2559px;
-    padding-top: 25px;
-    grid-area: item-4;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-  }
-  body .grid-container8 .div-4 img {
-    width: 400px;
-    height: 380px;
+    width: 280px;
+    height: 250px;
     border-radius: 5px;
     align-items: center;
     display: flex;
@@ -7996,7 +8100,7 @@ header h1 {
     padding-top: 25px;
     padding-bottom: 25px;
     margin-top: 25px;
-    width: 100%;
+    width: 60%;
     max-width: 2559px;
     grid-area: item-5;
     display: flex;
@@ -8032,7 +8136,7 @@ header h1 {
     background-image: radial-gradient(circle, rgb(190, 125, 156), rgb(212, 75, 98));
   }
   body .grid-container8 .div-7 {
-    width: 100%;
+    width: 60%;
     max-width: 2559px;
     padding-top: 35px;
     margin-bottom: 20px;
@@ -8214,7 +8318,7 @@ header h1 {
     display: none;
   }
 }
-@media (min-width: 1920px) {
+@media (min-width: 1920px) and (max-width: 2559px) {
   body nav.navbar {
     display: none;
   }
@@ -8327,6 +8431,11 @@ header h1 {
     width: 150px;
     height: auto;
     border-radius: 5px;
+  }
+  body .grid-container10 .div-2 .foto img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   }
   body .grid-container10 .div-2 .foto button {
     margin-top: -48px;
@@ -8499,7 +8608,7 @@ header h1 {
     display: none;
   }
 }
-@media (min-width: 1920px) {
+@media (min-width: 1920px) and (max-width: 2559px) {
   body nav.navbar {
     display: none;
   }
@@ -8791,6 +8900,11 @@ header h1 {
     display: block;
     border-radius: 5px;
   }
+  body .grid-container7 .div-2 img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  }
   body .grid-container7 .div-3 {
     padding-bottom: 15px;
     margin-left: -80px;
@@ -8870,6 +8984,11 @@ header h1 {
     display: block;
     border-radius: 5px;
   }
+  body .grid-container7 .div-5 img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  }
   body .grid-container7 .div-6 {
     padding-bottom: 15px;
     margin-left: -80px;
@@ -8916,6 +9035,11 @@ header h1 {
     height: auto;
     display: block;
     border-radius: 5px;
+  }
+  body .grid-container7 .div-7 img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   }
   body .footer-1 {
     background-color: gray;
