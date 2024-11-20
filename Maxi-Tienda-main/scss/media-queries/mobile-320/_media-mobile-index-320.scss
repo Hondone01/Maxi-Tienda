@@ -1,0 +1,576 @@
+@use "../../utilities/mixin" as *;
+@use "../../utilities/variables" as *;
+@use "../../base/reset" as *;
+@use "../../base/encabezado" as *;
+
+@media (min-width: 320px) and (max-width: 374px) {
+
+
+    body {
+
+        main {
+            .grid-container1 {
+                background-color: rgb(241, 221, 214);
+                width: 100%;
+                max-width: 374px;
+                display: grid;
+                justify-content: center;
+                grid-template-columns: 1fr;
+                grid-template-rows: repeat(2, auto);
+                grid-template-areas:
+                    "item-4"
+                    "item-2"
+                ;
+                gap: 5px;
+
+                .div-1 {
+                    display: none;
+                }
+
+                .div-2 {
+                    width: 100%;
+                    max-width: 374px;
+                    grid-area: item-2;
+                    border-radius: 5px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-items: center;
+                    align-items: center;
+
+                    img {
+                        width: 90%;
+                        height: auto;
+                        display: block;
+                        border-radius: 5px;
+                    }
+
+                    button {
+                        margin-top: 10px;
+                        @include button;
+                    }
+                }
+
+                .div-3 {
+                    display: none;
+                }
+
+                .div-4 {
+                    margin-top: 15px;
+                    margin-bottom: 5px;
+                    grid-area: item-4;
+                    border-radius: 5px;
+                    align-content: center;
+
+                    h1 {
+                        padding-top: 30px;
+                        text-align: center;
+                        font-size: 2rem;
+                        line-height: 1.2;
+                        margin: 0;
+                        max-width: 100%;
+                        overflow-wrap: break-word;
+                        color: black;
+                    }
+                }
+
+                .div-5 {
+                    display: none;
+                }
+            }
+
+            .grid-container2 {
+                width: 100%;
+                max-width: 374px;
+                background-color: rgb(241, 221, 214);
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                .div-1 {
+                    width: 98%;
+                    max-width: 374px;
+                    margin-bottom: 15px;
+                    grid-area: item-1;
+                    border-radius: 5px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    h2 {
+                        padding-top: 60px;
+                        margin-bottom: 15px;
+                        text-align: center;
+                        font-size: 2rem;
+                        line-height: 1.2;
+                        margin: 0;
+                        max-width: 100%;
+                        overflow-wrap: break-word;
+                        color: black;
+                    }
+
+
+                }
+
+                .caja-galeria {
+                    width: 100%;
+                    max-width: 374px;
+                    display: grid;
+                    align-items: center;
+                    justify-content: center;
+                    grid-template-columns: repeat(2, 0.5fr);
+                    grid-template-rows: repeat(3, auto);
+                    grid-template-areas:
+                        " item-1 item-1"
+                        " item-2 item-3"
+                        " item-4 item-5"
+                    ;
+                    column-gap: 17px;
+
+                    .div-2 {
+                        width: 150px;
+                        height: auto;
+                        grid-area: item-2;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+
+                        img {
+                            max-width: 100%;
+                            height: 95px;
+                            display: block;
+                            border-radius: 5px;
+                        }
+
+                        label {
+                            @include label-index;
+                        }
+                    }
+
+                    .div-3 {
+                        width: 150px;
+                        height: auto;
+                        grid-area: item-3;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+
+                        img {
+                            max-width: 100%;
+                            height: 95px;
+                            display: block;
+                            border-radius: 5px;
+                        }
+
+                        label {
+                            @include label-index;
+                        }
+                    }
+
+                    .div-4 {
+                        padding-top: 20px;
+                        width: 150px;
+                        height: auto;
+                        grid-area: item-4;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+
+                        img {
+                            width: 140px;
+                            height: 95px;
+                            display: block;
+                            border-radius: 5px;
+                        }
+
+                        label {
+                            @include label-index;
+                        }
+                    }
+
+                    .div-5 {
+                        padding-top: 20px;
+                        width: 150px;
+                        height: auto;
+                        grid-area: item-5;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+
+                        img {
+                            max-width: 100%;
+                            height: 95px;
+                            display: block;
+                            border-radius: 5px;
+                        }
+
+                        label {
+                            @include label-index;
+                        }
+                    }
+                }
+
+
+            }
+
+            .grid-container3 {
+                width: 100%;
+                max-width: 374px;
+                background-color: rgb(241, 221, 214);
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                .div-1 {
+                    padding-top: 65px;
+                    margin-top: 15px;
+                    margin-bottom: 15px;
+                    grid-area: item-1;
+                    border-radius: 5px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    h2 {
+                        margin-top: 15px;
+                        text-align: center;
+                        font-size: 2rem;
+                        line-height: 1.2;
+                        max-width: 100%;
+                        overflow-wrap: break-word;
+                        color: black;
+                    }
+                }
+
+                .caja-productos {
+                    width: 100%;
+                    max-width: 374px;
+                    display: grid;
+                    align-items: center;
+                    justify-items: center;
+                    grid-template-columns: repeat(4, .25fr);
+                    grid-template-rows: repeat(4, auto);
+                    grid-template-areas:
+                        " . item-1 item-1 . "
+                        " . item-2 item-2 . "
+                        " item-3 item-3 item-4 item-4 "
+                        " item-5 item-5 item-6 item-6 "
+                    ;
+                    column-gap: 10px;
+
+                    .div-2 {
+                        width: 135px;
+                        height: 100px;
+                        grid-area: item-2;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+
+                        img {
+                            max-width: 100%;
+                            height: 100px;
+                            display: block;
+                            border-radius: 5px;
+                        }
+
+                        label {
+                            @include label-index;
+                        }
+                    }
+
+                    .div-3 {
+                        width: 135px;
+                        height: 100px;
+                        grid-area: item-3;
+                        border-radius: 5px;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+
+                        img {
+                            max-width: 100%;
+                            height: 100px;
+                            display: block;
+                            border-radius: 5px;
+                        }
+
+                        label {
+                            @include label-index;
+                        }
+                    }
+
+                    .div-4 {
+                        width: 135px;
+                        height: 100px;
+                        grid-area: item-4;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+
+                        img {
+                            max-width: 100%;
+                            height: 100px;
+                            display: block;
+                            border-radius: 5px;
+                        }
+
+                        label {
+                            @include label-index;
+                        }
+                    }
+
+                    .div-5 {
+                        padding-top: 20px;
+                        width: 135px;
+                        height: 100px;
+                        grid-area: item-5;
+                        border-radius: 5px;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+
+                        img {
+                            max-width: 100%;
+                            height: 100px;
+                            display: block;
+                            border-radius: 5px;
+                        }
+
+                        label {
+                            @include label-index;
+                        }
+                    }
+
+                    .div-6 {
+                        padding-top: 20px;
+                        width: 135px;
+                        height: 100px;
+                        grid-area: item-6;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+
+                        img {
+                            max-width: 100%;
+                            height: 100px;
+                            display: block;
+                            border-radius: 5px;
+                        }
+
+                        label {
+                            @include label-index;
+                        }
+                    }
+
+                }
+
+            }
+
+            .grid-container4 {
+                width: 100%;
+                max-width: 374px;
+                background-color: rgb(241, 221, 214);
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                .div-1 {
+                    padding-top: 85px;
+                    margin-top: 15px;
+                    margin-bottom: 15px;
+                    grid-area: item-1;
+                    border-radius: 5px;
+                    display: flex;
+                    align-content: center;
+
+                    h2 {
+                        text-align: center;
+                        font-size: 2rem;
+                        line-height: 1.2;
+                        color: black;
+                    }
+                }
+
+                .caja-promos {
+                    width: 98%;
+                    max-width: 374px;
+                    display: grid;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    grid-template-columns: 75px 75px 75px 75px;
+                    grid-template-rows: repeat(2, auto);
+                    grid-template-areas:
+                        " . item-1 item-1 . "
+                        " item-2 item-3 item-3 item-4 "
+                    ;
+
+                    .div-2 {
+                        margin-top: 10px;
+                        grid-area: item-2;
+                        border-radius: 5px;
+                        display: flex;
+
+                        p {
+                            width: 60px;
+                            text-align: center;
+                            color: black;
+                            font-size: 1rem;
+                            line-height: 1.5;
+                            margin: 0;
+                            max-width: 100%;
+                            overflow-wrap: break-word;
+                        }
+                    }
+
+                    .div-3 {
+                        width: 130px;
+                        grid-area: item-3;
+                        border-radius: 5px;
+                        display: flex;
+                        justify-content: center;
+
+                        img {
+                            max-width: 100%;
+                            height: 100px;
+                            display: block;
+                            border-radius: 5px;
+                        }
+                    }
+
+                    .div-4 {
+                        grid-area: item-4;
+                        border-radius: 5px;
+                        display: flex;
+
+                        p {
+                            width: 60px;
+                            text-align: center;
+                            color: black;
+                            font-size: 1rem;
+                            line-height: 1.5;
+                            margin: 0;
+                            max-width: 100%;
+                            overflow-wrap: break-word;
+                        }
+                    }
+                }
+            }
+
+            .grid-container5 {
+                width: 100%;
+                max-width: 374px;
+                background-color: rgb(241, 221, 214);
+                display: grid;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                grid-template-columns: .5fr 1fr 1fr .5fr;
+                grid-template-rows: repeat(3, auto);
+                grid-template-areas:
+                    ". item-1 item-1 ."
+                    ". item-2 item-2 ."
+                    "item-3 item-3 item-3 item-3"
+                ;
+
+                .div-1 {
+                    padding-top: 50px;
+                    margin-top: 15px;
+                    padding-bottom: 30px;
+                    grid-area: item-1;
+                    background-color: rgb(241, 221, 214);
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                }
+
+                h2 {
+                    margin-top: 15px;
+                    margin-bottom: 15px;
+                    text-align: center;
+                    font-size: 2rem;
+                    line-height: 1.2;
+                    margin: 0;
+                    max-width: 100%;
+                    overflow-wrap: break-word;
+                    color: black;
+                }
+
+                .div-2 {
+                    width: 95%;
+                    max-width: 374px;
+                    grid-area: item-2;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-items: center;
+
+                    img {
+                        width: 95%;
+                        height: auto;
+                        display: block;
+                        border-radius: 5px;
+                    }
+                }
+
+                .div-3 {
+                    margin-top: 15px;
+                    margin-bottom: 15px;
+                    grid-area: item-3;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+
+                    p {
+                        padding: 10px;
+                        text-align: justify;
+                        color: black;
+                        font-size: 1rem;
+                        line-height: 1.5;
+                        margin: 0;
+                        max-width: 100%;
+                        overflow-wrap: break-word;
+                    }
+
+                }
+            }
+
+            .grid-container6 {
+                display: none;
+            }
+
+        }
+
+        .footer-1 {
+            display: none;
+        }
+
+        .footer-2 {
+            border-top: 1px solid black;
+            padding-left: 10px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            background-color: grey;
+            display: flex;
+
+            #div4 {
+                margin-left: 35px;
+            }
+
+            #div5 {
+                margin-left: 25px;
+            }
+
+            img {
+                margin-left: 10px;
+                width: 45px;
+                height: 45px;
+            }
+        }
+
+    }
+
+}

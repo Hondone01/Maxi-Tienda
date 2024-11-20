@@ -1,0 +1,229 @@
+@use "../../utilities/mixin" as *;
+@use "../../utilities/variables" as *;
+@use "../../base/reset" as *;
+@use "../../layout/header" as *;
+@use "../../layout/footer" as *;
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    body {
+        @include header;
+
+        .grid-container10 {
+            width: 100%;
+            max-width: 1439px;
+            background-color: $color-fondo;
+            display: grid;
+            grid-template-columns: minmax(0, 0.5fr) minmax(0, 1fr);
+            grid-template-rows: repeat(5, auto);
+            grid-template-areas:
+                "item-1 item-1"
+                "item-5 item-2"
+                "item-5 item-3"
+                "item-5 item-3"
+                "item-4 item-4"
+            ;
+            justify-content: center;
+            max-width: 100%;
+
+            .div-1 {
+                padding-top: 30px;
+                padding-bottom: 60px;
+                grid-area: item-1;
+                border-radius: 5px;
+                display: flex;
+                justify-content: center;
+                max-width: 100%;
+
+                h2 {
+                    font-size: 3rem;
+                    line-height: 1.2;
+                    margin: 0;
+                    max-width: 100%;
+                    overflow-wrap: break-word;
+                    color: black !important;
+                }
+            }
+
+            .div-2 {
+                grid-area: item-2;
+                border-radius: 5px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                max-width: 100%;
+
+                h3 {
+                    font-size: 1.5rem;
+                    line-height: 1.2;
+                    margin: 0;
+                    max-width: 100%;
+                    overflow-wrap: break-word;
+                    color: black;
+                }
+
+                p {
+                    text-align: justify;
+                    margin-top: 15px;
+                    margin-bottom: 15px;
+                    font-size: 1.2rem;
+                    line-height: 1.2;
+                    width: 500px;
+                    overflow-wrap: break-word;
+                    color: black;
+                }
+
+                label {
+                    font-size: 1rem;
+                    color: black;
+                }
+
+                .foto {
+                    img {
+                        width: 150px;
+                        height: auto;
+                        border-radius: 5px;
+                    }
+                    
+                    img:hover {
+                        box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+                        -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+                        -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+                    }
+
+                    button {
+                        margin-top: -48px;
+                        margin-left: 180px;
+                        @include button;
+                        display: flex;
+                        flex-direction: row;
+                        max-width: 100%;
+                    }
+
+                    button:hover {
+                        background-image: radial-gradient(circle, rgb(190, 125, 156), rgb(212, 75, 98));
+                    }
+                }
+
+                form {
+                    width: 250px;
+                    margin-top: 25px;
+                    display: flex;
+                    flex-direction: column;
+                }
+
+                input {
+                    margin-bottom: 15px;
+                }
+
+                .genero {
+                    width: 500px;
+                    display: flex;
+
+                    form {
+                        margin-bottom: 15px;
+                        margin-top: 0px;
+                        margin-left: 400px;
+                    }
+                }
+
+                .idioma {
+                    width: 500px;
+                    display: flex;
+
+                    form {
+                        margin-top: 0px;
+                        margin-left: 400px;
+                    }
+                }
+
+            }
+
+            .div-3 {
+                grid-area: item-3;
+                border-radius: 5px;
+                display: flex;
+                flex-direction: column;
+                max-width: 100%;
+
+                .botones {
+                    margin-top: 15px;
+                    display: flex;
+                    max-width: 100%;
+
+                    button {
+                        margin-right: 5px;
+                        @include button;
+                        display: flex;
+                        max-width: 100%;
+                    }
+
+                    button:hover {
+                        background-image: radial-gradient(circle, rgb(190, 125, 156), rgb(212, 75, 98));
+                    }
+                }
+
+                .borrarcuenta {
+                    button {
+                        margin-left: 450px;
+                        padding: 10px;
+                        @include button;
+                        display: flex;
+                        max-width: 100%;
+                    }
+
+                    button:hover {
+                        background-image: radial-gradient(circle, rgb(190, 125, 156), rgb(212, 75, 98));
+                    }
+                }
+
+            }
+
+            .div-4 {
+                grid-area: item-4;
+                border-radius: 5px;
+                display: flex;
+                justify-content: center;
+                max-width: 100%;
+
+                p {
+                    width: 550px;
+                    padding: 10px;
+                    margin-bottom: 2px;
+                    text-align: justify;
+                }
+            }
+
+            .div-5 {
+                padding-left: 30px;
+                grid-area: item-5;
+                border-radius: 5px;
+                display: flex;
+                flex-direction: column;
+                max-width: 100%;
+
+                h3 {
+                    margin-bottom: 15px;
+                    font-size: 1.5rem;
+                    line-height: 1.2;
+                    max-width: 100%;
+                    overflow-wrap: break-word;
+                    color: black;
+                }
+
+                label {
+                    margin-bottom: 10px;
+                    font-size: 1rem;
+                    color: black;
+                }
+            }
+        }
+
+        @include footer;
+
+        .footer-2 {
+            display: none;
+        }
+
+    }
+
+}
