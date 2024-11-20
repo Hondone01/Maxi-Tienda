@@ -3899,6 +3899,11 @@ header h1 {
     display: block;
     border-radius: 5px;
   }
+  body .grid-container2 .caja-galeria .div-2 img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  }
   body .grid-container2 .caja-galeria .div-2 label {
     font-size: 1.5rem;
     color: #323232;
@@ -3915,6 +3920,11 @@ header h1 {
     height: auto;
     display: block;
     border-radius: 5px;
+  }
+  body .grid-container2 .caja-galeria .div-3 img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   }
   body .grid-container2 .caja-galeria .div-3 label {
     font-size: 1.5rem;
@@ -3933,6 +3943,11 @@ header h1 {
     display: block;
     border-radius: 5px;
   }
+  body .grid-container2 .caja-galeria .div-4 img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  }
   body .grid-container2 .caja-galeria .div-4 label {
     font-size: 1.5rem;
     color: #323232;
@@ -3948,6 +3963,11 @@ header h1 {
     height: auto;
     display: block;
     border-radius: 5px;
+  }
+  body .grid-container2 .caja-galeria .div-5 img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   }
   body .grid-container2 .caja-galeria .div-5 label {
     font-size: 1.5rem;
@@ -3998,6 +4018,11 @@ header h1 {
     display: block;
     border-radius: 5px;
   }
+  body .grid-container3 .caja-productos .div-2 img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  }
   body .grid-container3 .caja-productos .div-2 label {
     font-size: 1.5rem;
     color: #323232;
@@ -4014,6 +4039,11 @@ header h1 {
     height: auto;
     display: block;
     border-radius: 5px;
+  }
+  body .grid-container3 .caja-productos .div-3 img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   }
   body .grid-container3 .caja-productos .div-3 label {
     font-size: 1.5rem;
@@ -4032,6 +4062,11 @@ header h1 {
     display: block;
     border-radius: 5px;
   }
+  body .grid-container3 .caja-productos .div-4 img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  }
   body .grid-container3 .caja-productos .div-4 label {
     font-size: 1.5rem;
     color: #323232;
@@ -4049,6 +4084,11 @@ header h1 {
     display: block;
     border-radius: 5px;
   }
+  body .grid-container3 .caja-productos .div-5 img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  }
   body .grid-container3 .caja-productos .div-5 label {
     font-size: 1.5rem;
     color: #323232;
@@ -4065,6 +4105,11 @@ header h1 {
     height: auto;
     display: block;
     border-radius: 5px;
+  }
+  body .grid-container3 .caja-productos .div-6 img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   }
   body .grid-container3 .caja-productos .div-6 label {
     font-size: 1.5rem;
@@ -4125,6 +4170,11 @@ header h1 {
     display: block;
     border-radius: 5px;
   }
+  body .grid-container4 .caja-promos .div-3 img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  }
   body .grid-container4 .caja-promos .div-4 {
     grid-area: item-4;
     display: flex;
@@ -4141,6 +4191,11 @@ header h1 {
     height: auto;
     display: block;
     border-radius: 5px;
+  }
+  body .grid-container4 .caja-promos .div-4 img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   }
   body .grid-container5 {
     padding-top: 25px;
@@ -4185,6 +4240,11 @@ header h1 {
     height: auto;
     display: block;
     border-radius: 5px;
+  }
+  body .grid-container5 .div-2 img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   }
   body .grid-container5 .div-3 {
     grid-area: item-3;
@@ -4240,7 +4300,7 @@ header h1 {
     align-items: center;
   }
   body .grid-container6 .div-2 img {
-    width: 100px;
+    width: 150px;
     height: auto;
     display: block;
     border-radius: 5px;
@@ -4264,7 +4324,7 @@ header h1 {
     align-items: center;
   }
   body .grid-container6 .caja-calificacion .div-3 img {
-    width: 100px;
+    width: 150px;
     height: auto;
     display: block;
     border-radius: 5px;
@@ -4281,7 +4341,7 @@ header h1 {
     align-items: center;
   }
   body .grid-container6 .caja-calificacion .div-4 img {
-    width: 100px;
+    width: 150px;
     height: auto;
     display: block;
     border-radius: 5px;
@@ -4298,7 +4358,7 @@ header h1 {
     align-items: center;
   }
   body .grid-container6 .caja-calificacion .div-5 img {
-    width: 100px;
+    width: 150px;
     height: auto;
     display: block;
     border-radius: 5px;
@@ -5935,7 +5995,7 @@ header h1 {
     align-items: center;
   }
   body .grid-container6 .div-2 img {
-    width: 100px;
+    width: 150px;
     height: auto;
     display: block;
     border-radius: 5px;
@@ -5958,7 +6018,7 @@ header h1 {
     align-items: center;
   }
   body .grid-container6 .caja-calificacion .div-3 img {
-    width: 100px;
+    width: 150px;
     height: auto;
     display: block;
     border-radius: 5px;
@@ -5974,7 +6034,7 @@ header h1 {
     align-items: center;
   }
   body .grid-container6 .caja-calificacion .div-4 img {
-    width: 100px;
+    width: 150px;
     height: auto;
     display: block;
     border-radius: 5px;
@@ -5990,7 +6050,7 @@ header h1 {
     align-items: center;
   }
   body .grid-container6 .caja-calificacion .div-5 img {
-    width: 100px;
+    width: 150px;
     height: auto;
     display: block;
     border-radius: 5px;
@@ -7290,6 +7350,11 @@ header h1 {
     display: block;
     border-radius: 5px;
   }
+  body .grid-container2 .caja-galeria .div-2 img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  }
   body .grid-container2 .caja-galeria .div-2 label {
     font-size: 1.5rem;
     color: #323232;
@@ -7306,6 +7371,11 @@ header h1 {
     height: auto;
     display: block;
     border-radius: 5px;
+  }
+  body .grid-container2 .caja-galeria .div-3 img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   }
   body .grid-container2 .caja-galeria .div-3 label {
     font-size: 1.5rem;
@@ -7324,6 +7394,11 @@ header h1 {
     display: block;
     border-radius: 5px;
   }
+  body .grid-container2 .caja-galeria .div-4 img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  }
   body .grid-container2 .caja-galeria .div-4 label {
     font-size: 1.5rem;
     color: #323232;
@@ -7339,6 +7414,11 @@ header h1 {
     height: auto;
     display: block;
     border-radius: 5px;
+  }
+  body .grid-container2 .caja-galeria .div-5 img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   }
   body .grid-container2 .caja-galeria .div-5 label {
     font-size: 1.5rem;
@@ -7389,6 +7469,11 @@ header h1 {
     display: block;
     border-radius: 5px;
   }
+  body .grid-container3 .caja-productos .div-2 img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  }
   body .grid-container3 .caja-productos .div-2 label {
     font-size: 1.5rem;
     color: #323232;
@@ -7405,6 +7490,11 @@ header h1 {
     height: auto;
     display: block;
     border-radius: 5px;
+  }
+  body .grid-container3 .caja-productos .div-3 img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   }
   body .grid-container3 .caja-productos .div-3 label {
     font-size: 1.5rem;
@@ -7423,6 +7513,11 @@ header h1 {
     display: block;
     border-radius: 5px;
   }
+  body .grid-container3 .caja-productos .div-4 img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  }
   body .grid-container3 .caja-productos .div-4 label {
     font-size: 1.5rem;
     color: #323232;
@@ -7440,6 +7535,11 @@ header h1 {
     display: block;
     border-radius: 5px;
   }
+  body .grid-container3 .caja-productos .div-5 img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  }
   body .grid-container3 .caja-productos .div-5 label {
     font-size: 1.5rem;
     color: #323232;
@@ -7456,6 +7556,11 @@ header h1 {
     height: auto;
     display: block;
     border-radius: 5px;
+  }
+  body .grid-container3 .caja-productos .div-6 img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   }
   body .grid-container3 .caja-productos .div-6 label {
     font-size: 1.5rem;
@@ -7516,6 +7621,11 @@ header h1 {
     display: block;
     border-radius: 5px;
   }
+  body .grid-container4 .caja-promos .div-3 img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  }
   body .grid-container4 .caja-promos .div-4 {
     grid-area: item-4;
     display: flex;
@@ -7532,6 +7642,11 @@ header h1 {
     height: auto;
     display: block;
     border-radius: 5px;
+  }
+  body .grid-container4 .caja-promos .div-4 img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   }
   body .grid-container5 {
     padding-top: 25px;
@@ -7576,6 +7691,11 @@ header h1 {
     height: auto;
     display: block;
     border-radius: 5px;
+  }
+  body .grid-container5 .div-2 img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   }
   body .grid-container5 .div-3 {
     grid-area: item-3;
@@ -7631,10 +7751,15 @@ header h1 {
     align-items: center;
   }
   body .grid-container6 .div-2 img {
-    width: 100px;
+    width: 150px;
     height: auto;
     display: block;
     border-radius: 5px;
+  }
+  body .grid-container6 .div-2 img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   }
   body .grid-container6 .div-2 label {
     font-size: 1.5rem;
@@ -7655,7 +7780,7 @@ header h1 {
     align-items: center;
   }
   body .grid-container6 .caja-calificacion .div-3 img {
-    width: 100px;
+    width: 150px;
     height: auto;
     display: block;
     border-radius: 5px;
@@ -7672,7 +7797,7 @@ header h1 {
     align-items: center;
   }
   body .grid-container6 .caja-calificacion .div-4 img {
-    width: 100px;
+    width: 150px;
     height: auto;
     display: block;
     border-radius: 5px;
@@ -7689,7 +7814,7 @@ header h1 {
     align-items: center;
   }
   body .grid-container6 .caja-calificacion .div-5 img {
-    width: 100px;
+    width: 150px;
     height: auto;
     display: block;
     border-radius: 5px;
