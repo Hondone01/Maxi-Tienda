@@ -7831,7 +7831,7 @@ header h1 {
     margin-top: 20px;
     margin-bottom: 20px;
     border-radius: 5px;
-    max-width: 100%;
+    width: 400px;
     height: auto;
     display: block;
   }
@@ -7845,8 +7845,8 @@ header h1 {
     justify-content: space-around;
   }
   body .grid-container8 .div-3 img {
-    width: 280px;
-    height: 250px;
+    width: 400px;
+    height: 380px;
     border-radius: 5px;
     align-items: center;
     display: flex;
@@ -7861,8 +7861,8 @@ header h1 {
     justify-content: space-around;
   }
   body .grid-container8 .div-4 img {
-    width: 280px;
-    height: 250px;
+    width: 400px;
+    height: 380px;
     border-radius: 5px;
     align-items: center;
     display: flex;
