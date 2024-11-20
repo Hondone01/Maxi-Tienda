@@ -4512,6 +4512,11 @@ header h1 {
     height: auto;
     display: block;
   }
+  body .grid-container8 .div-2 img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  }
   body .grid-container8 .div-3 {
     width: 100%;
     max-width: 1439px;
@@ -4528,6 +4533,11 @@ header h1 {
     align-items: center;
     display: flex;
   }
+  body .grid-container8 .div-3 img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  }
   body .grid-container8 .div-4 {
     width: 100%;
     max-width: 1439px;
@@ -4543,6 +4553,11 @@ header h1 {
     border-radius: 5px;
     align-items: center;
     display: flex;
+  }
+  body .grid-container8 .div-4 img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   }
   body .grid-container8 .div-5 {
     padding-top: 25px;
@@ -4648,6 +4663,11 @@ header h1 {
     display: block;
     border-radius: 5px;
   }
+  body .grid-container9 .div-2 img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  }
   body .grid-container9 .div-3 {
     grid-area: item-3;
     border-radius: 5px;
@@ -4660,6 +4680,11 @@ header h1 {
     height: 200px;
     display: block;
     border-radius: 5px;
+  }
+  body .grid-container9 .div-3 img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   }
   body .grid-container9 .div-3 label {
     color: #323232;
@@ -4679,6 +4704,11 @@ header h1 {
     display: block;
     border-radius: 5px;
   }
+  body .grid-container9 .div-4 img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  }
   body .grid-container9 .div-4 label {
     color: #323232;
     font-size: 1rem;
@@ -4697,6 +4727,11 @@ header h1 {
     display: block;
     border-radius: 5px;
   }
+  body .grid-container9 .div-5 img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  }
   body .grid-container9 .div-5 label {
     color: #323232;
     font-size: 1rem;
@@ -4714,6 +4749,11 @@ header h1 {
     height: 200px;
     display: block;
     border-radius: 5px;
+  }
+  body .grid-container9 .div-6 img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   }
   body .grid-container9 .div-6 label {
     color: #323232;
@@ -4876,6 +4916,11 @@ header h1 {
     width: 150px;
     height: auto;
     border-radius: 5px;
+  }
+  body .grid-container10 .div-2 .foto img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   }
   body .grid-container10 .div-2 .foto button {
     margin-top: -48px;
@@ -5329,6 +5374,11 @@ header h1 {
     display: block;
     border-radius: 5px;
   }
+  body .grid-container7 .div-2 img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  }
   body .grid-container7 .div-3 {
     margin-left: -80px;
     margin-top: 100px;
@@ -5405,6 +5455,11 @@ header h1 {
     display: block;
     border-radius: 5px;
   }
+  body .grid-container7 .div-5 img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  }
   body .grid-container7 .div-6 {
     margin-left: -80px;
     padding-top: 30px;
@@ -5449,6 +5504,11 @@ header h1 {
     height: auto;
     display: block;
     border-radius: 5px;
+  }
+  body .grid-container7 .div-7 img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   }
   body .footer-1 {
     background-color: gray;
@@ -6204,6 +6264,11 @@ header h1 {
     height: auto;
     display: block;
   }
+  body .grid-container8 .div-2 img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  }
   body .grid-container8 .div-3 {
     width: 100%;
     max-width: 1919px;
@@ -6220,6 +6285,11 @@ header h1 {
     align-items: center;
     display: flex;
   }
+  body .grid-container8 .div-3 img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  }
   body .grid-container8 .div-4 {
     width: 100%;
     max-width: 1919px;
@@ -6235,6 +6305,11 @@ header h1 {
     border-radius: 5px;
     align-items: center;
     display: flex;
+  }
+  body .grid-container8 .div-4 img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   }
   body .grid-container8 .div-5 {
     padding-top: 25px;
@@ -6339,6 +6414,11 @@ header h1 {
     display: block;
     border-radius: 5px;
   }
+  body .grid-container9 .div-2 img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  }
   body .grid-container9 .div-3 {
     grid-area: item-3;
     border-radius: 5px;
@@ -6351,6 +6431,11 @@ header h1 {
     height: 200px;
     display: block;
     border-radius: 5px;
+  }
+  body .grid-container9 .div-3 img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   }
   body .grid-container9 .div-3 label {
     color: #323232;
@@ -6370,6 +6455,11 @@ header h1 {
     display: block;
     border-radius: 5px;
   }
+  body .grid-container9 .div-4 img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  }
   body .grid-container9 .div-4 label {
     color: #323232;
     font-size: 1rem;
@@ -6388,6 +6478,11 @@ header h1 {
     display: block;
     border-radius: 5px;
   }
+  body .grid-container9 .div-5 img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  }
   body .grid-container9 .div-5 label {
     color: #323232;
     font-size: 1rem;
@@ -6405,6 +6500,11 @@ header h1 {
     height: 200px;
     display: block;
     border-radius: 5px;
+  }
+  body .grid-container9 .div-6 img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   }
   body .grid-container9 .div-6 label {
     color: #323232;
@@ -6565,6 +6665,11 @@ header h1 {
     width: 150px;
     height: auto;
     border-radius: 5px;
+  }
+  body .grid-container10 .div-2 .foto img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   }
   body .grid-container10 .div-2 .foto button {
     margin-top: -48px;
@@ -7018,6 +7123,11 @@ header h1 {
     display: block;
     border-radius: 5px;
   }
+  body .grid-container7 .div-2 img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  }
   body .grid-container7 .div-3 {
     margin-left: -80px;
     margin-top: 100px;
@@ -7094,6 +7204,11 @@ header h1 {
     display: block;
     border-radius: 5px;
   }
+  body .grid-container7 .div-5 img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  }
   body .grid-container7 .div-6 {
     margin-left: -80px;
     padding-top: 30px;
@@ -7138,6 +7253,11 @@ header h1 {
     height: auto;
     display: block;
     border-radius: 5px;
+  }
+  body .grid-container7 .div-7 img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   }
   body .footer-1 {
     background-color: gray;
@@ -7968,6 +8088,11 @@ header h1 {
     height: auto;
     display: block;
   }
+  body .grid-container8 .div-2 img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  }
   body .grid-container8 .div-3 {
     width: 100%;
     max-width: 2559px;
@@ -7984,6 +8109,11 @@ header h1 {
     align-items: center;
     display: flex;
   }
+  body .grid-container8 .div-3 img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  }
   body .grid-container8 .div-4 {
     width: 100%;
     max-width: 2559px;
@@ -7999,6 +8129,11 @@ header h1 {
     border-radius: 5px;
     align-items: center;
     display: flex;
+  }
+  body .grid-container8 .div-4 img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   }
   body .grid-container8 .div-5 {
     padding-top: 25px;
@@ -8103,6 +8238,11 @@ header h1 {
     display: block;
     border-radius: 5px;
   }
+  body .grid-container9 .div-2 img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  }
   body .grid-container9 .div-3 {
     grid-area: item-3;
     border-radius: 5px;
@@ -8115,6 +8255,11 @@ header h1 {
     height: 200px;
     display: block;
     border-radius: 5px;
+  }
+  body .grid-container9 .div-3 img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   }
   body .grid-container9 .div-3 label {
     color: #323232;
@@ -8134,6 +8279,11 @@ header h1 {
     display: block;
     border-radius: 5px;
   }
+  body .grid-container9 .div-4 img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  }
   body .grid-container9 .div-4 label {
     color: #323232;
     font-size: 1rem;
@@ -8152,6 +8302,11 @@ header h1 {
     display: block;
     border-radius: 5px;
   }
+  body .grid-container9 .div-5 img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  }
   body .grid-container9 .div-5 label {
     color: #323232;
     font-size: 1rem;
@@ -8169,6 +8324,11 @@ header h1 {
     height: 200px;
     display: block;
     border-radius: 5px;
+  }
+  body .grid-container9 .div-6 img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   }
   body .grid-container9 .div-6 label {
     color: #323232;
@@ -8335,6 +8495,11 @@ header h1 {
     width: 150px;
     height: auto;
     border-radius: 5px;
+  }
+  body .grid-container10 .div-2 .foto img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   }
   body .grid-container10 .div-2 .foto button {
     margin-top: -48px;
@@ -8799,6 +8964,11 @@ header h1 {
     display: block;
     border-radius: 5px;
   }
+  body .grid-container7 .div-2 img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  }
   body .grid-container7 .div-3 {
     padding-bottom: 15px;
     margin-left: -80px;
@@ -8878,6 +9048,11 @@ header h1 {
     display: block;
     border-radius: 5px;
   }
+  body .grid-container7 .div-5 img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  }
   body .grid-container7 .div-6 {
     padding-bottom: 15px;
     margin-left: -80px;
@@ -8924,6 +9099,11 @@ header h1 {
     height: auto;
     display: block;
     border-radius: 5px;
+  }
+  body .grid-container7 .div-7 img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   }
   body .footer-1 {
     background-color: gray;

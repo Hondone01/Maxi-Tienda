@@ -71,6 +71,12 @@
                     display: block;
                 }
 
+                img:hover {
+                    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+                    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+                    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+                }
+
             }
 
             .div-3 {
@@ -89,6 +95,12 @@
                     align-items: center;
                     display: flex;
                 }
+
+                img:hover {
+                    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+                    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+                    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+                }
             }
 
             .div-4 {
@@ -106,6 +118,12 @@
                     border-radius: 5px;
                     align-items: center;
                     display: flex;
+                }
+
+                img:hover {
+                    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+                    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+                    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
                 }
             }
 
@@ -218,6 +236,12 @@
                     @include imgs-tienda;
                 }
 
+                img:hover {
+                    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+                    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+                    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+                }
+
             }
 
             .div-3 {
@@ -226,6 +250,12 @@
 
                 img {
                     @include imgs-tienda;
+                }
+
+                img:hover {
+                    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+                    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+                    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
                 }
 
                 label {
@@ -241,6 +271,12 @@
 
                 img {
                     @include imgs-tienda;
+                }
+
+                img:hover {
+                    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+                    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+                    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
                 }
 
                 label {
@@ -259,6 +295,12 @@
                     @include imgs-tienda;
                 }
 
+                img:hover {
+                    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+                    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+                    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+                }
+
                 label {
                     color: #323232;
                     font-size: 1rem;
@@ -272,6 +314,12 @@
 
                 img {
                     @include imgs-tienda;
+                }
+
+                img:hover {
+                    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+                    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+                    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
                 }
 
                 label {
