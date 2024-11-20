@@ -614,12 +614,7 @@ header h1 {
     margin-top: 20px;
     width: 200px;
     height: 130px;
-    grid-area: item-3;
     border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
   }
   body main .grid-container8 .div-4 {
     grid-area: item-4;
@@ -632,13 +627,9 @@ header h1 {
     padding-top: 10px;
   }
   body main .grid-container8 .div-4 img {
-    /* padding-top: 10px;*/
-    grid-area: item-3;
+    width: 200px;
+    height: 130px;
     border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
   }
   body main .grid-container8 .div-5 {
     padding-top: 20px;
@@ -1862,15 +1853,9 @@ header h1 {
     justify-content: center;
   }
   body main .grid-container8 .div-3 img {
-    margin-top: 20px;
-    width: 200px;
-    height: 130px;
-    grid-area: item-3;
+    width: 250px;
+    height: 140px;
     border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
   }
   body main .grid-container8 .div-4 {
     grid-area: item-4;
@@ -1885,12 +1870,7 @@ header h1 {
   body main .grid-container8 .div-4 img {
     width: 250px;
     height: 140px;
-    grid-area: item-3;
     border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
   }
   body main .grid-container8 .div-5 {
     padding-top: 20px;
@@ -3084,14 +3064,9 @@ header h1 {
   }
   body main .grid-container8 .div-3 img {
     margin-top: 20px;
-    width: 200px;
-    height: 130px;
-    grid-area: item-3;
+    width: 250px;
+    height: 140px;
     border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
   }
   body main .grid-container8 .div-4 {
     grid-area: item-4;
@@ -3106,12 +3081,7 @@ header h1 {
   body main .grid-container8 .div-4 img {
     width: 250px;
     height: 140px;
-    grid-area: item-3;
     border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
   }
   body main .grid-container8 .div-5 {
     padding-top: 20px;
