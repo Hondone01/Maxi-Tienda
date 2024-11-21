@@ -556,6 +556,14 @@
             background-color: grey;
             display: flex;
             justify-content: center;
+            
+            img{
+                margin-left: 10px;
+            }
+
+            label{
+                margin-left: 15px;
+            }
         }
 
     }

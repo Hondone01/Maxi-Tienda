@@ -225,6 +225,14 @@
             align-items: center;
             justify-content: center;
             justify-content: space-around;
+
+            img{
+                margin-left: 10px;
+            }
+
+            label{
+                margin-left: 30px;
+            }
           }
     }
 }
